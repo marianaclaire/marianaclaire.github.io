@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<!--
+	Designed by GOLDENRATIPHI
+
+       ,(&@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+    @          @@@@     #@     @@@    @@                                                      @
+    @       @@          %@        @@  @&                                                      @
+    @    @@@            ,@          @ @(                                                      @
+    @   @@               @           @@.                                                      @
+    @ @@                 @            @                                                       @
+    @@@                  @            @                                                      @@
+    @@                   @####@@      @                                                      @@
+    @,                   @    @       @                                                     @@@
+    @                    @@@  @     @@@                                                     @ @
+    @                    @  @@@@  @@@ @                                                    @  @
+    @                                 @                                                   @.  @
+    @                                 @                                                  @@   @
+    @                                 @                                                 @@    @
+    @                                 @                                                @@     @
+    @@                                @                                               @       @
+    @@                                @                                             @@        @
+    @ @                               @                                            @@         @
+    @  @                              @                                          @@           @
+    @   @                             @                                        @@             @
+    @    @                            @                                      @@               @
+    @     @@                          @                                    @@                 @
+    @       @                         @                                 @@                    @
+    @         @                       @                              @@                       @
+    @           @@                    @(                         #@@                          @
+    @              @@                 @@                     @@@                              @
+    @                 @@@             @@               @@@@                                   @
+    @                     *@@@@@      @@      @@@@@@@                                         @
+																	@ ytixu.github.io/HTMLdump
+	IZQ CN QNG HJZVS DQ LVUPGVPZ?
+	FVUUV EGTLC HYGUUTUP FZEHTYZ YNPZYIZR?
+	PZY TU YNGWI VY PNLCZURVYTNZHJ@PDVTL.WND
+
+-->
+<html ng:app="app" lang="en">
+	<head>
+		<title>Mariana Claire</title>
+		<!-- jQuery -->
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<!-- Angular -->
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular.min.js" ng:autobind></script>
+		<!-- Google font -->
+		<link href='https://fonts.googleapis.com/css?family=Calligraffitti' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Poiret+One:100,400' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+		<!-- Bootstrap -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+		<!-- Icons -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+		<!-- My style :3 -->
+		<link rel="stylesheet" href="assets/css/style.css">
+		<link rel="stylesheet" href="assets/css/portfolio.css">
+
+		<style type="text/css">
+			/*[data-sr] { visibility: hidden; }*/
+		</style>
+	</head>
+	<body>
+		<div id="splash-bg-container"></div>
+		<div id="side-menu">
+			<a data-id="services" class="menu-slide-btn"><div id="splash2">Services</div></a>
+			<a data-id="drawings" class="menu-slide-btn"><div id="splash3">Drawings</div></a>
+			<a data-id="contact" class="menu-slide-btn"><div id="splash5">About Me</div></a>
+			<a data-id="testimonials" class="menu-slide-btn"><div id="splash6">Testimonials</div></a>
+			<!-- <a href="https://medium.com/@MarianaClaire" target="_blank"><div>Blog</div></a> -->
+			<a><div class="book-toggle-btn">Book Service</div></a>
+		</div>
+		<div id="splash-content-container">
+			<div class="splash-div full-height" data-id="splash1" data-image="assets/images/1.jpg">
+				<div id="splash-title" class="full-center">
+					<span id="form-hide">
+						Mariana Claire
+						<div class="splash-subtitle">
+							a step into divinity and full healing
+							<br><br>
+							<button type="button" class="btn btn-trans btn-trans-default book-toggle-btn"><strong>BOOK A SESSION</strong></button>
+						</div>
+					</span>
+					<div id="bookingForm-display" class="splash-subtitle">
+						<form id="bookingForm">
+							<div class="row">
+								<label class="col-md-2 text-right">Name:</label>
+								<input class="col-md-9" type="text" name="name" required>
+							</div>
+							<div class="row">
+								<label class="col-md-2 text-right">Message:</label>
+								<textarea class="col-md-9" name="message" placeholder="Tell me about the service that you would like to have and the time you would like to have it." required></textarea>
+							</div>
+							<div class="row">
+								<label class="col-md-2 text-right">Contact:</label>
+								<textarea class="col-md-9" name="contact" maxlength="55" placeholder="Your email, skype username or any other means to get back to you." required></textarea>
+							</div><br>
+							<input type="submit" value="CONFIRM" id="send-book-btn" class="btn btn-trans btn-trans-default" style="font-weight:bold;">
+							<button type="button" id="cancel-book-btn" class="btn btn-trans btn-trans-default"><strong>CANCEL</strong></button>
+						</form>
+					</div>
+					<div id="success-message" class="splash-subtitle">
+						Thanks for booking my service! I will get back to you soon.<br><br>
+					</div>
+				</div>
+			</div>
+
+			<a name="services"></a>
+			<div class="splash-div min-full-height" data-id="splash2" data-image="assets/images/2.jpg">
+				<div class="row color-black" ng-controller="viewCtrl" style="margin:0;">
+					<div class="col-lg-3 col-md-5 col-sm-12">
+						<div class="subtitle">Services</div>
+						<div class="row">
+							<div class="col-md-12">I offer many different types of readings including: telepathic readings, oracle readings, soul drawings, reiki healing, sound healing and I also facilitate the aura alchemy process. I can help you determine what will be most beneficial. Most times it's a combination in the same session.
+							</div>
+						</div>
+						<br>
+						<div class="row">
+							<div class="col-lg-12 col-md-4 col-sm-4 col-xs-4 text-md-right">
+								<strong>Language</strong></div>
+							<div class="col-lg-12 col-md-8 col-sm-8 col-xs-8">Available in English, French and Spanish</div>
+						</div>
+						<br>
+						<div class="row">
+							<div class="col-lg-12 col-md-4 col-sm-4 col-xs-4 text-md-right">
+								<strong>Location</strong></div>
+							<div class="col-lg-12 col-md-8 col-sm-8 col-xs-8">
+								Skype or in person if you live in Calgary</div>
+						</div>
+						<br>
+						<div class="row">
+							<div class="col-lg-12 col-md-4 col-sm-4 col-xs-4 text-md-right">
+								<strong>Payment</strong></div>
+							<div class="col-lg-12 col-md-8 col-sm-8 col-xs-8"><i class="fa fa-paypal"></i> Paypal to my email: marianaclaireinfo@gmail.com
+								<ul>
+									<li>45$ for 30 mins</li>
+									<li>67$ for 45 mins</li>
+									<li>89$ for 1 hour</li>
+									<li>112$ for 75 mins</li>
+									<li>135$ for 90 mins</li>
+									<li>and 60$ for a soul drawing + shipping</li>
+								</ul>
+							</div>
+						</div>
+ 						<div class="subtitle"><button type="button" class="btn btn-trans btn-trans-default book-toggle-btn"><strong>BOOK A SESSION</strong></button></div>
+					</div>
+					<div class="col-lg-9 col-md-7 col-sm-12">
+						<div class="row">
+							<div class="col-lg-2 col-md-4 col-sm-4 col-xs-6 backlight" ng-repeat="s in services" data-color="{{s.color}}">
+								<div class="service-icon-sub"><i class="fa {{s.faIconBase}}"></i></div>
+								<div class="service-icon"><i class="fa {{s.faIcon}}"></i></div>
+								<h3>{{s.name}}</h3>
+								<p ng-bind-html="s.description | to_trusted"></p>
+							</div>
+						</div>
+					</div>
+					<br>
+				</div>
+			</div>
+			<div style="margin:5%"></div>
+
+			<a name="drawings"></a>
+			<div class="splash-div" data-id="splash3" data-image="assets/images/3.jpg">
+				<div class="portfolio" ng-controller="viewCtrl">
+					<div class="portfolio-title color-black">
+						<div class="portfolio-buttom-align">Sample<br>Drawings</div>
+					</div>
+					<div class="portfolio-image" ng-repeat="d in drawings"
+						ng-init="$last ? refresh() : null" data-image="{{d.image}}">
+						<div class="portfolio-image-toggle">
+							<div class="portfolio-image-title">{{d.name}}</div>
+							<div class="portfolio-image-description">{{d.description}}</div>
+						</div>
+					</div>
+					<div class="portfolio-last color-black">
+						<br>
+						<p>Soul Drawings are drawings of either your higher self or aspects of you, it could be your guides or one of your past life.</p>
+						<div class="subtitle"><button type="button" class="btn btn-trans btn-trans-default book-toggle-btn"><strong>PURCHASE A DRAWING</strong></button></div>
+					</div>
+				</div>
+			</div>
+
+			<a name="contact"></a>
+			<div class="splash-div" data-id="splash5" data-image="assets/images/4.jpg">
+				<div style="margin:5%"></div>
+				<div class="container color-black">
+					<div class="subtitle">About Me</div>
+					<div class="row">
+						<div class="col-md-4">
+							<center><img class="circle-image" src="assets/images/profile.jpg"></center>
+							<h3></h3>
+							<div class="contact-links">
+								<a href="https://www.facebook.com/Mariana-Claire-1484113901885029/" target="_blank"><i class="fa fa-facebook-official"></i></a>
+								<a href="skype:Marianas521?userinfo" title="Marianas521"><i class="fa fa-skype"></i></a>
+								<a href="mailto:marianaclaireinfo@gmail.com" title="marianaclaireinfo@gmail.com"><i class="fa fa-envelope"></i></a>
+							</div>
+							<h3>Coming Soon</h3>
+							<p>I will start writing blog and posting videos. Subscribe now to be the first one to know when the first entries are up.
+							<div class="contact-links">
+								<a href="https://medium.com/@MarianaClaire" target="_blank"><i class="fa fa-medium"></i></a>
+								<a href="https://www.youtube.com/channel/UCECj3HY7vZ1-oAdtYjU1U-Q" target="_blank"><i class="fa fa-youtube"></i></a>
+							</div>
+						</div>
+						<div class="col-md-8" ng-controller="viewCtrl">
+							<h3>Bibliography</h3>
+							<p>I was born seeing auras and entities. At the age of 3, I remember speaking with my guides and other entities. At the age of 5, I blocked this ability when I was introduced to the school system like most of us do. I was raised in Lima, Peru and from a young age, I expressed myself through drawing, singing, and writing. I have always loved to help, advise, and heal people. It wasn't until later in life that I realized I was doing healings and readings from a very young age without even knowing I was doing them.</p>
+							<p>About 2 years ago, I became more aware of my abilities when I made a conscious decision to start developing them. The critical shift began when I met my spiritual teachers: Pamela Aaralyn, Teal Swan and Dwaine Hartman. I remembered who I was and my purpose in this life. This is the first life that I have decided to live humbly and unlock my gifts one by one. This was so that I could experience being fully human in order to reach out to others and to understand them better.</p>
+							<p>In terms of academics, I am currently majoring in Psychology and this has allowed me to understand people at a deeper level.</p>
+							<p>So far I have unlocked my channeling and healing abilities, clairsentience, clairvoyance, clairaudience, clairscent and clairempathy. I am currently working on unlocking even more gifts but I know that patience and flow are my main purposes in this life so they will come one by one. </p>
+							<p>During the 2015 shift, I had another awakening experience that inspired me to learn reiki and become a vegan. Most importantly, I stepped into the public eye to share my abilities with others.</p>
+							<p>My goal right now is to help people to remember who they are and to awaken to their personal power. I believe that we can all do this if we do the work and that that it's actually the reason we incarnated at this time. So let's do this!</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<a name="testimonials"></a>
+			<div class="splash-div" data-id="splash5" data-image="assets/images/4.jpg">
+				<div class="container color-black">
+					<div class="row">
+						<div class="col-md-8">
+							<div class="subtitle">Testimonials</div>
+							<div id="testimonial-display">
+								<span class="current"></span>/<span class="total"></span>
+								<blockquote>
+
+								</blockquote>
+								<div class="text-right">
+									~ by <span class="author"></span> - <span class="time"></span>
+								</div>
+							</div>
+							<div class="subtitle"><button type="button" id="more-test-btn" class="btn btn-trans btn-trans-default"><strong>READ ANOTHER ONE</strong></button></div>
+						</div>
+						<div class="col-md-4">
+							<div class="fb-page" data-href="https://www.facebook.com/Mariana-Claire-1484113901885029/timeline/" data-width="100%" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" data-show-posts="true"></div>
+							<div id="fb-root"></div>
+							<h3>Write a Testimonial</h3>
+							<p>If you would like to write a testiminial after recieving one of my service, please post it on the <a href="https://www.facebook.com/Mariana-Claire-1484113901885029/" target="_blank">facebook page</a>.</p>
+						</div>
+					</div>
+				</div>
+				<div style="margin:10%"> </div>
+				<div class="container">
+					<div class="credit">&copy;Goldenrati&Phi; | 2015</div>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script>(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5";
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
+	<!-- My script :3 -->
+	<script src="assets/scripts/services.js"> </script>
+	<script src="assets/scripts/drawings.js"> </script>
+	<script src="assets/scripts/test.js"> </script>
+	<script src="assets/scripts/backlight.js"> </script>
+	<script src="assets/scripts/portfolio.js"> </script>
+	<script src="assets/scripts/script.js"> </script>
+</html>

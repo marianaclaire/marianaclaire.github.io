@@ -279,13 +279,20 @@ td{
 	padding:10px;
 }
 
-.text-md-right{
+.text-lg-right, .text-xs-right{
 	margin-left:10px;
 }
 
 @media screen and (max-width: 1200px) {
-	.text-md-right{
+	.text-lg-right{
 		text-align: right;
 		margin-left:0;
+	}
+}
+
+@media screen and (max-width: 720px) {
+	.text-xs-right{
+		text-align: left;
+		margin-left:10px;
 	}
 }

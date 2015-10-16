@@ -2,6 +2,10 @@ var testimonials = {
 	index: -1,
 	length: 0,
 	data: [{
+		user: 'Nicole Estrella',
+		message:'I just had my first appointment with Mariana and it was incredible. I am speechless. It truly was amazing and I am so grateful. Thank you so much and I promise I will keep practicing and put myself out there. <3 highly suggest scheduling time with her. Try out some Aura Alchemy and get a reading!',
+		date: '10/15/2015',
+	},{
 		user: 'L. Jewell Johnson',
 		message: 'I love your validation that "all I need to do is remember" Mariana Claire! and all the wonderful source aspect, life purpose, negative imprint clarifications for me to explore and connect with an integrate into my authentic being.. infinite divine love, light and blessings to you precious on.',
 		date: '10/11/2015',

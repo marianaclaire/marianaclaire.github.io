@@ -83,7 +83,7 @@ function viewCtrl($scope) {
 
 	$scope.changeService = function(slug) {
 		$('.splash-bg').hide();
-		window.location.href = "../services#"+slug;
+		window.location.href = "../services/index.html#"+slug;
 		window.location.reload();
 	}
 

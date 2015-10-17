@@ -22,7 +22,7 @@ var services = [
 		color: "#33CC33"//"#CCCC00"
 	},{
 		name: "Aura Alchemy Process",
-		description: "I am a facilitator of Pamela Aaralyn's Aura Alchemy process. This is a process of integration that transmutes the negative imprints of a person into more positive and empowering feelings. <a href='http://www.aurareader.com/1/post/2015/03/walking-in-the-light-of-the-shadow-body-aura-alchemy-process.html' target='_blank'>Read more about Aura Alchemy process.</a>.",
+		description: "I am a facilitator of Pamela Aaralyn's Aura Alchemy process. This is a process of integration that transmutes the negative imprints of a person into more positive and empowering feelings.",
 		faIcon: "fa-diamond",
 		faIconBase: "fa-sun-o",
 		slug: "alchemy",

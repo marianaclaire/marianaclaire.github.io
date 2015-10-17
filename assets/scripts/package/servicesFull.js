@@ -55,6 +55,47 @@ var services = {
 	}
 };
 
+var servicesSlugs = [
+	{
+		name: "Readings",
+		faIcon: "fa-eye",
+		faIconBase: "fa-sun-o",
+		color: "#FF6666",
+		slug: "readings",
+	},{
+		name: "Soul Drawings",
+		faIcon: "fa-pencil",
+		faIconBase: "fa-user",
+		color: "#FF9933",
+		slug: "drawings",
+	},{
+		name: "Soul Paintings",
+		faIcon: "fa-paint-brush ",
+		faIconBase: "fa-user",
+		color: "#33CC33",//"#CCCC00",
+		slug: "paintings",
+	},{
+		name: "Aura Alchemy Process",
+		faIcon: "fa-diamond",
+		faIconBase: "fa-sun-o",
+		color: "#33CCCC",
+		slug: "alchemy",
+	},{
+		name: "Sound Healing",
+		faIcon: "fa-music",
+		faIconBase: "fa-heartbeat",
+		color: "#3366FF",
+		slug: "healing",
+	},{
+		name: "Reiki",
+		faIcon: "fa-hand-paper-o",
+		faIconBase: "fa-sun-o",
+		color: "#9966FF",
+		slug: "reiki",
+	}
+];
+
+
 function parseService(){
 	var url = window.location.href;
 	var args = url.split('#');
@@ -79,7 +120,7 @@ angular.module('app')
 
 function viewCtrl($scope) {
 	$scope.service = services[service];
-	$scope.services = services;
+	$scope.services = servicesSlugs;
 
 	$scope.changeService = function(slug) {
 		$('.splash-bg').hide();

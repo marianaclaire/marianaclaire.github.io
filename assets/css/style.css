@@ -104,6 +104,14 @@ body{
 	line-height: 70px;
 }
 
+#title{
+	color: rgba(204, 102, 255, 0.6);
+	text-align: center;
+	font-size:420%;
+	width:100%;
+	font-family: 'Calligraffitti', cursive;
+}
+
 .splash-subtitle{
 	color:rgba(225,225,225, 0.8);
 	text-align: center;
@@ -260,6 +268,10 @@ button:focus{
 
 .row{
 	margin:0;
+}
+
+a.subtle, a.subtle:focus, a.subtle:active{
+	opacity:0.5;
 }
 
 a, a:focus, a:active{

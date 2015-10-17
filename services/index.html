@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<!--
+	Designed by GOLDENRATIPHI
+
+       ,(&@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+    @          @@@@     #@     @@@    @@                                                      @
+    @       @@          %@        @@  @&                                                      @
+    @    @@@            ,@          @ @(                                                      @
+    @   @@               @           @@.                                                      @
+    @ @@                 @            @                                                       @
+    @@@                  @            @                                                      @@
+    @@                   @####@@      @                                                      @@
+    @,                   @    @       @                                                     @@@
+    @                    @@@  @     @@@                                                     @ @
+    @                    @  @@@@  @@@ @                                                    @  @
+    @                                 @                                                   @.  @
+    @                                 @                                                  @@   @
+    @                                 @                                                 @@    @
+    @                                 @                                                @@     @
+    @@                                @                                               @       @
+    @@                                @                                             @@        @
+    @ @                               @                                            @@         @
+    @  @                              @                                          @@           @
+    @   @                             @                                        @@             @
+    @    @                            @                                      @@               @
+    @     @@                          @                                    @@                 @
+    @       @                         @                                 @@                    @
+    @         @                       @                              @@                       @
+    @           @@                    @(                         #@@                          @
+    @              @@                 @@                     @@@                              @
+    @                 @@@             @@               @@@@                                   @
+    @                     *@@@@@      @@      @@@@@@@                                         @
+																	@ ytixu.github.io/HTMLdump
+	IZQ CN QNG HJZVS DQ LVUPGVPZ?
+	FVUUV EGTLC HYGUUTUP FZEHTYZ YNPZYIZR?
+	PZY TU YNGWI VY PNLCZURVYTNZHJ@PDVTL.WND
+
+-->
+
+<html ng:app="app" lang="en">
+    <head>
+        <title>Mariana Claire</title>
+        <!-- jQuery -->
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <!-- Angular -->
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular.min.js" ng:autobind></script>
+        <!-- Google font -->
+        <link href='https://fonts.googleapis.com/css?family=Calligraffitti' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Poiret+One:100,400' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+        <!-- Icons -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+        <!-- My style :3 -->
+        <link rel="stylesheet" href="../assets/css/style.css">
+    </head>
+    <body>
+        <div id="splash-bg-container">
+            <div class="splash-bg"></div>
+        </div>
+        <div id="splash-content-container">
+            <div style="margin:10%"> </div>
+            <div class="container color-black" ng-controller="viewCtrl">
+                <a href="../" class="subtle">
+                    <i class="fa fa-chevron-left"></i> Back
+                </a>
+                <div class="service-icon-sub"><i class="fa {{service.faIconBase}}" style="color:{{service.color}};opacity:0.5;"></i></div>
+                <div class="service-icon"><i class="fa {{service.faIcon}}" style="color:{{service.color}};"></i></div>
+
+                <div id="title" ng-bind-html="service.name | to_trusted"></div>
+                <div ng-bind-html="service.description | to_trusted"></div>
+
+            </div>
+        </div>
+    </body>
+    <script type="text/javascript" src="../assets/scripts/package/servicesFull.js"></script>
+</html>

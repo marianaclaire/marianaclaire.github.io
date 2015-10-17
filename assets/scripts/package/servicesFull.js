@@ -5,6 +5,7 @@ var services = {
 		faIcon: "fa-eye",
 		faIconBase: "fa-sun-o",
 		color: "#FF6666",
+		slug: "readings",
 		image:"r.jpg"
 	},
 	drawings: {
@@ -13,6 +14,7 @@ var services = {
 		faIcon: "fa-pencil",
 		faIconBase: "fa-user",
 		color: "#FF9933",
+		slug: "drawings",
 		image:"y.jpg"
 	},
 	paintings: {
@@ -21,6 +23,7 @@ var services = {
 		faIcon: "fa-paint-brush ",
 		faIconBase: "fa-user",
 		color: "#33CC33",//"#CCCC00",
+		slug: "paintings",
 		image:"g.jpg"
 	},
 	alchemy: {
@@ -29,6 +32,7 @@ var services = {
 		faIcon: "fa-diamond",
 		faIconBase: "fa-sun-o",
 		color: "#33CCCC",
+		slug: "alchemy",
 		image:"i.jpg"
 	},
 	healing: {
@@ -37,6 +41,7 @@ var services = {
 		faIcon: "fa-music",
 		faIconBase: "fa-heartbeat",
 		color: "#3366FF",
+		slug: "healing",
 		image:"b.jpg"
 	},
 	reiki: {
@@ -45,20 +50,22 @@ var services = {
 		faIcon: "fa-hand-paper-o",
 		faIconBase: "fa-sun-o",
 		color: "#9966FF",
+		slug: "reiki",
 		image:"p.jpg"
 	}
 };
 
-
-var service = function() {
+function parseService(){
 	var url = window.location.href;
 	var args = url.split('#');
-	if (args.length > 1){
+	if (args.length > 1 && services[args[1]]){
 		return args[1];
 	}
 	// redirect
 	window.location.href = "../index.html#services";
-}();
+}
+
+var service = parseService();
 
 // angular
 var app = angular.module('app', []);
@@ -72,19 +79,33 @@ angular.module('app')
 
 function viewCtrl($scope) {
 	$scope.service = services[service];
+	$scope.services = services;
+
+	$scope.changeService = function(slug) {
+		window.service = slug;
+		$scope.$apply(function(){
+			$scope.service = window.services[window.service];
+			}
+		);
+		setBg();
+	}
 
 	$scope.refresh = function() {
 		window.setTimeout(function(){
-			// initBacklight();
-			// initPortfolio();
-			// $('#side-menu').slideDown('slow');
+			initBacklight({
+				type: 'text'
+			});
 		}, 500);
 	};
 }
 
-(function(){
+function setBg(){
 	$div = $('.splash-bg');
 	$div.hide();
 	$div.css('background-image','url("../assets/images/services/'+services[service].image+'")');
 	$div.fadeIn('fast');
+}
+
+(function(){
+	setBg();
 }());

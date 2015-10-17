@@ -41,9 +41,9 @@
     <head>
         <title>Mariana Claire</title>
         <!-- jQuery -->
-        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
         <!-- Angular -->
-        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular.min.js" ng:autobind></script>
+        <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular.min.js" ng:autobind></script>
         <!-- Google font -->
         <link href='https://fonts.googleapis.com/css?family=Calligraffitti' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=Poiret+One:100,400' rel='stylesheet' type='text/css'>
@@ -72,8 +72,17 @@
                 <div id="title" ng-bind-html="service.name | to_trusted"></div>
                 <div ng-bind-html="service.description | to_trusted"></div>
 
+                <div style="margin:10%"> </div>
+
+                <div class="row">
+                    <div class="col-lg-2 col-md-4 col-sm-4 col-xs-12 backlight text-center" ng-repeat="s in services" data-color="{{s.color}}" ng-init="$last ? refresh() : null" >
+                        <a href="../services/index.html#{{s.slug}}"
+                        ng-click="changeService(s.slug)"><i class="fa {{s.faIcon}}"></i><br>{{s.name}}</a>
+                    </div>
+                </div>
             </div>
         </div>
     </body>
     <script type="text/javascript" src="../assets/scripts/package/servicesFull.js"></script>
+    <script type="text/javascript" src="../assets/scripts/backlight.js"></script>
 </html>

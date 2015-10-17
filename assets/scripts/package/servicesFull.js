@@ -1,4 +1,4 @@
-var services = {
+var servicesFull = {
 	readings: {
 		name: "Readings",
 		description: "Readings are done using my channeling abilities via video call, so I would ask your higher self, guides or the archangels for information about you to answer to your questions. I can also go into your Akashic records if you would like to know about your past lives and I also like to pick up tarot and oracle cards sometimes. ",
@@ -55,51 +55,10 @@ var services = {
 	}
 };
 
-var servicesSlugs = [
-	{
-		name: "Readings",
-		faIcon: "fa-eye",
-		faIconBase: "fa-sun-o",
-		color: "#FF6666",
-		slug: "readings",
-	},{
-		name: "Soul Drawings",
-		faIcon: "fa-pencil",
-		faIconBase: "fa-user",
-		color: "#FF9933",
-		slug: "drawings",
-	},{
-		name: "Soul Paintings",
-		faIcon: "fa-paint-brush ",
-		faIconBase: "fa-user",
-		color: "#33CC33",//"#CCCC00",
-		slug: "paintings",
-	},{
-		name: "Aura Alchemy Process",
-		faIcon: "fa-diamond",
-		faIconBase: "fa-sun-o",
-		color: "#33CCCC",
-		slug: "alchemy",
-	},{
-		name: "Sound Healing",
-		faIcon: "fa-music",
-		faIconBase: "fa-heartbeat",
-		color: "#3366FF",
-		slug: "healing",
-	},{
-		name: "Reiki",
-		faIcon: "fa-hand-paper-o",
-		faIconBase: "fa-sun-o",
-		color: "#9966FF",
-		slug: "reiki",
-	}
-];
-
-
 function parseService(){
 	var url = window.location.href;
 	var args = url.split('#');
-	if (args.length > 1 && services[args[1]]){
+	if (args.length > 1 && servicesFull[args[1]]){
 		return args[1];
 	}
 	// redirect
@@ -119,8 +78,8 @@ angular.module('app')
     }]);
 
 function viewCtrl($scope) {
-	$scope.service = services[service];
-	$scope.services = servicesSlugs;
+	$scope.service = servicesFull[service];
+	$scope.services = services;
 
 	$scope.changeService = function(slug) {
 		$('.splash-bg').hide();
@@ -140,7 +99,7 @@ function viewCtrl($scope) {
 function setBg(){
 	$div = $('.splash-bg');
 	$div.hide();
-	$div.css('background-image','url("../assets/images/services/'+services[service].image+'")');
+	$div.css('background-image','url("../assets/images/services/'+servicesFull[service].image+'")');
 	$div.fadeIn('fast');
 }
 

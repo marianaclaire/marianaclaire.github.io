@@ -146,7 +146,7 @@
 							<div class="col-lg-2 col-md-4 col-sm-4 col-xs-12 backlight" ng-repeat="s in services" data-color="{{s.color}}">
 								<div class="service-icon-sub"><i class="fa {{s.faIconBase}}"></i></div>
 								<div class="service-icon"><i class="fa {{s.faIcon}}"></i></div>
-								<h3>{{s.name}}</h3>
+								<a href="services#{{s.slug}}"><h3>{{s.name}}</h3></a>
 								<p ng-bind-html="s.description | to_trusted"></p>
 							</div>
 						</div>

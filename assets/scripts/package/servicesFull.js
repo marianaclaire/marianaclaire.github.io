@@ -82,12 +82,9 @@ function viewCtrl($scope) {
 	$scope.services = services;
 
 	$scope.changeService = function(slug) {
-		window.service = slug;
-		$scope.$apply(function(){
-			$scope.service = window.services[window.service];
-			}
-		);
-		setBg();
+		$('.splash-bg').hide();
+		window.location.href = "index.html#"+slug;
+		window.location.reload();
 	}
 
 	$scope.refresh = function() {

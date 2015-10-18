@@ -61,12 +61,32 @@
 	<body ng-controller="viewCtrl">
 		<div id="splash-bg-container"></div>
 		<div id="side-menu">
-			<a data-id="services" class="menu-slide-btn"><div id="splash2">Services</div></a>
-			<a data-id="drawings" class="menu-slide-btn"><div id="splash3">Drawings</div></a>
-			<a data-id="contact" class="menu-slide-btn"><div id="splash5">About Me</div></a>
-			<a data-id="testimonials" class="menu-slide-btn"><div id="splash6">Testimonials</div></a>
+			<a data-id="services" class="menu-slide-btn"><div id="splash2">
+				<span class="lang-ENG">Services</span>
+				<span class="lang-FREN">Services</span>
+				<span class="lang-ESP">Servicios</span>
+			</div></a>
+			<a data-id="drawings" class="menu-slide-btn"><div id="splash3">
+				<span class="lang-ENG">Drawings</span>
+				<span class="lang-FREN">Dessin</span>
+				<span class="lang-ESP">Dibujos</span>
+			</div></a>
+			<a data-id="contact" class="menu-slide-btn"><div id="splash5">
+				<span class="lang-ENG">About Me</span>
+				<span class="lang-FREN">About Me</span>
+				<span class="lang-ESP">About Me</span>
+			</div></a>
+			<a data-id="testimonials" class="menu-slide-btn"><div id="splash6">
+				<span class="lang-ENG">Testimonials</span>
+				<span class="lang-FREN">Témoignages</span>
+				<span class="lang-ESP">Testimonios</span>
+			</div></a>
 			<!-- <a href="https://medium.com/@MarianaClaire" target="_blank"><div>Blog</div></a> -->
-			<a><div class="book-toggle-btn">Book Service</div></a>
+			<a><div class="book-toggle-btn">
+				<span class="lang-ENG">Book Service</span>
+				<span class="lang-FREN">Réservez une session</span>
+				<span class="lang-ESP">Reserve una sesión</span>
+			</div></a>
 		</div>
 		<div id="splash-content-container">
 			<div class="splash-div full-height" data-id="splash1" data-image="assets/images/1.jpg">
@@ -74,27 +94,52 @@
 					<span id="form-hide">
 						Mariana Claire
 						<div class="splash-subtitle">
-							a step into divinity and full healing
+							<span class="lang-ENG">a step into divinity and full healing</span>
+							<span class="lang-FREN">un pas vers la divinité et la guérison spirituelle</span>
+							<span class="lang-ESP">un paso hacia su poder interior</span>
 							<br><br>
-							<button type="button" class="btn btn-trans btn-trans-default book-toggle-btn"><strong>BOOK A SESSION</strong></button>
+							<button type="button" class="btn btn-trans btn-trans-default book-toggle-btn all-cap"><strong>
+								<span class="lang-ENG">Book a Session</span>
+								<span class="lang-FREN">Réservez une session</span>
+								<span class="lang-ESP">Reserve una sesión</span>
+							</strong></button>
 						</div>
 					</span>
 					<div id="bookingForm-display" class="splash-subtitle">
 						<form id="bookingForm">
 							<div class="row">
-								<label class="col-md-2 text-right">Name:</label>
+								<label class="col-md-2 text-right">
+									<span class="lang-ENG">Name:</span>
+									<span class="lang-FREN">Nom:</span>
+									<span class="lang-ESP">Nombre:</span></label>
 								<input class="col-md-9" type="text" name="name" required>
 							</div>
 							<div class="row">
-								<label class="col-md-2 text-right">Message:</label>
-								<textarea class="col-md-9" name="message" placeholder="Tell me about the service that you would like to have and the time you would like to have it." required></textarea>
+								<label class="col-md-2 text-right">
+									<span class="lang-ENG">Message:</span>
+									<span class="lang-FREN">Message:</span>
+									<span class="lang-ESP">Mensaje:</span></label>
+								<textarea class="col-md-9 lang-ENG" name="message" placeholder="Tell me about the service that you would like to have and the time you would like to have it." required></textarea>
+								<textarea class="col-md-9 lang-FREN" name="message" placeholder="Quel service aimerez-vous réserver et vers quelle heure?" required></textarea>
+								<textarea class="col-md-9 lang-ESP" name="message" placeholder="Qué servicio le gustaría reservar y a qué hora le gustaría reservarlo?" required></textarea>
 							</div>
 							<div class="row">
-								<label class="col-md-2 text-right">Contact:</label>
-								<textarea class="col-md-9" name="contact" maxlength="55" placeholder="Your email, skype username or any other means to get back to you." required></textarea>
+								<label class="col-md-2 text-right">
+									<span class="lang-ENG">Contact:</span>
+									<span class="lang-FREN">Contact:</span>
+									<span class="lang-ESP">Contacto:</span></label>
+								<textarea class="col-md-9 lang-ENG" name="contact" maxlength="55" placeholder="Your email, skype username or any other means to get back to you." required></textarea>
+								<textarea class="col-md-9 lang-FREN" name="contact" maxlength="55" placeholder="Votre email, votre nom de Skype ou un autre moyen où je pourrais vous contacter." required></textarea>
+								<textarea class="col-md-9 lang-ESP" name="contact" maxlength="55" placeholder="Su email, su nombre de usuario de Skype u otro medio por donde podría contactarlo." required></textarea>
 							</div><br>
-							<input type="submit" value="CONFIRM" id="send-book-btn" class="btn btn-trans btn-trans-default" style="font-weight:bold;">
-							<button type="button" id="cancel-book-btn" class="btn btn-trans btn-trans-default"><strong>CANCEL</strong></button>
+							<input type="submit" value="CONFIRM" id="send-book-btn" class="btn btn-trans btn-trans-default lang-ENG" style="font-weight:bold;">
+							<input type="submit" value="CONFIRMER" id="send-book-btn" class="btn btn-trans btn-trans-default lang-FREN" style="font-weight:bold;">
+							<input type="submit" value="CONFIRMAR" id="send-book-btn" class="btn btn-trans btn-trans-default lang-ESP" style="font-weight:bold;">
+							<button type="button" id="cancel-book-btn" class="btn btn-trans btn-trans-default">
+								<strong class="lang-ENG">CANCEL</strong>
+								<strong class="lang-FREN">ANNULER</strong>
+								<strong class="lang-ESP">CANCELAR</strong>
+							</button>
 						</form>
 					</div>
 					<div id="success-message" class="splash-subtitle">
@@ -111,28 +156,34 @@
 						<div class="col-lg-3 col-md-5 col-sm-12">
 							<div class="subtitle">Services</div>
 							<div class="row">
-								<div class="col-md-12">I offer many different types of readings including: telepathic readings, oracle readings, soul drawings, reiki healing, sound healing and I also facilitate the aura alchemy process. I can help you determine what will be most beneficial. Most times it's a combination in the same session.
+								<div class="col-md-12">{{ serviceText[languageOpt] }}</div>
+							</div>
+							<br>
+							<div class="row">
+								<div class="col-lg-12 col-md-4 col-sm-4 col-xs-12 text-lg-right text-xs-right">
+									<strong class="lang-ENG">Languages</strong>
+									<strong class="lang-FREN">Langues</strong>
 								</div>
+								<div class="col-lg-12 col-md-8 col-sm-8 col-xs-12 lang-ENG">Available in English, French and Spanish</div>
+								<div class="col-lg-12 col-md-8 col-sm-8 col-xs-12 lang-FREN">Disponible en Anglais, Français and Expagnol</div>
 							</div>
 							<br>
 							<div class="row">
 								<div class="col-lg-12 col-md-4 col-sm-4 col-xs-12 text-lg-right text-xs-right">
-									<strong>Language</strong></div>
-								<div class="col-lg-12 col-md-8 col-sm-8 col-xs-12">Available in English, French and Spanish</div>
-							</div>
-							<br>
-							<div class="row">
-								<div class="col-lg-12 col-md-4 col-sm-4 col-xs-12 text-lg-right text-xs-right">
-									<strong>Location</strong></div>
-								<div class="col-lg-12 col-md-8 col-sm-8 col-xs-12">
+									<strong class="lang-ENG">Location</strong>
+									<strong class="lang-ENG">Lieu</strong>
+								</div>
+								<div class="col-lg-12 col-md-8 col-sm-8 col-xs-12 lang-ENG">
 									Skype, Google Hangouts, Facebook messenger or in person if you live in Calgary</div>
+								<div class="col-lg-12 col-md-8 col-sm-8 col-xs-12 lang-FREN">
+									Skype, Google Hangouts, Facebook messenger ou en personne si vous habitez à Calgary</div>
 							</div>
 							<br>
 						</div>
 						<div class="col-lg-9 col-md-7 col-sm-12">
 							<div class="row">
 								<div class="backlight col-lg-1 col-md-3 col-sm-2 col-xs-3" ng-repeat="s in services" data-color="{{s.color}}">
-									<a class="subtle" href="services/index.html#{{s.slug}}">
+									<a class="subtle" href="services/index.html#{{s.slug[languageOpt]}}">
 										<div class="service-icon-sub"><i class="fa {{s.faIconBase}}"></i></div>
 										<div class="service-icon"><i class="fa {{s.faIcon}}"></i></div>
 										<h3 class="rotate">{{s.name[languageOpt]}}</h3>

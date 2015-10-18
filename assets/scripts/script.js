@@ -7,6 +7,7 @@ function parseURL(){
 	}
 	return "ENG";
 }
+var currentLang = parseURL();
 
 // angular
 var app = angular.module('app', []);
@@ -19,10 +20,11 @@ angular.module('app')
     }]);
 
 function viewCtrl($scope) {
-	$scope.languageOpt = parseURL();
+	$scope.languageOpt = currentLang;
 	$scope.services = services;
 	$scope.drawings = drawingsDB.drawings;
 	$scope.story = story;
+	$scope.serviceText = serviceText;
 
 	$scope.refresh = function() {
 		window.setTimeout(function(){
@@ -143,6 +145,10 @@ $(function(){
 	$('#side-menu').hide();
 	populateBG();
 	populateCache();
+	//language 
+	$('.lang-'+currentLang).css({
+		'display': 'inline-block'
+	});
 
 	//slide btn
 	$('.menu-slide-btn').each(function(){

@@ -23,3 +23,9 @@ var story = {
 		]
 	}
 }
+
+var serviceText = {
+	ENG: "I offer many different types of readings including: telepathic readings, oracle readings, soul drawings, reiki healing, sound healing and I also facilitate the aura alchemy process. I can help you determine what will be most beneficial. Most times it's a combination in the same session.",
+	FREN: "J'offre plusieurs types de services psychiques comme les lectures télépathiques, les lectures avec les cartes de tarot ou d'oracle, les dessins de l'âme, du reiki, la guérison par le son et le processus d'alchimie aurique. Je peux aussi vous aider à déterminer quel genre de service serait le plus convenable pour vous. La plupart du temps, pendant les sessions j'utilise une combinaison de la plupart de ses services."
+
+}

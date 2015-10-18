@@ -7,7 +7,10 @@ var services = [
 		// description: "Readings are done via video call. I use my channeling abilities to channel your higher self, guides, angels and other humans. I can also go into your Akashic records if you would like to know about your past lives and I also like to pick up tarot and oracle cards.",
 		faIcon: "fa-eye",
 		faIconBase: "fa-sun-o",
-		slug: "readings",
+		slug: {
+			ENG:"readings",
+			FREN:"lectures"
+			},
 		color: "#FF6666"
 	},{
 		name: {
@@ -27,7 +30,10 @@ var services = [
 		// description: "Soul drawings contain messages from your higher self or guides. I will also include a report that will explain how to use the drawing to meditate and heal yourself and about how to interpret them. Its presence is healing to you because of its high frequency and colors.",
 		faIcon: "fa-pencil",
 		faIconBase: "fa-user",
-		slug: "drawings",
+		slug: {
+			ENG:"drawings",
+			FREN:"dessins"
+			},
 		color: "#FF9933"
 	},{
 		name: {
@@ -37,7 +43,10 @@ var services = [
 		// description: "Soul paintings differ from soul drawings because they are more detailed and because the painting takes more time to complete. Soul drawings are drawings of your aura field. I will draw your higher self, guides and the symbols, colors and messages that they want you to see. I will also include a report.",
 		faIcon: "fa-paint-brush ",
 		faIconBase: "fa-user",
-		slug: "paintings",
+		slug: {
+			ENG:"paintings",
+			FREN:"peintures"
+			},
 		color: "#33CC33"//"#CCCC00"
 	},{
 		name: {
@@ -47,7 +56,10 @@ var services = [
 		// description: "I am a facilitator of Pamela Aaralyn's Aura Alchemy process. This is a process of integration that transmutes the negative imprints of a person into more positive and empowering feelings.",
 		faIcon: "fa-diamond",
 		faIconBase: "fa-sun-o",
-		slug: "alchemy",
+		slug: {
+			ENG:"alchemy",
+			FREN:"alchimie"
+			},
 		color: "#33CCCC"
 	},{
 		name: {
@@ -57,7 +69,10 @@ var services = [
 		// description: "I will sing and use chants during this session and I will combine this with color alchemy. \"Sound healing is the therapeutic application of sound frequencies to the body/mind of a person with the intention of bringing them into a state of harmony and health.\"",
 		faIcon: "fa-music",
 		faIconBase: "fa-heartbeat",
-		slug: "healing",
+		slug: {
+			ENG:"healing",
+			FREN:"healing",
+			},
 		color: "#3366FF"
 	},{
 	// 	name: "Chat Healing",
@@ -73,7 +88,10 @@ var services = [
 		// description: "I am currently a second degree Reiki practitioner. I offer traditional Usui Reiki sessions. I can do Reiki sessions in person if you live in Calgary or by distance using skype. My lineage is passed from Madame Hawayo Takata.",
 		faIcon: "fa-hand-paper-o",
 		faIconBase: "fa-sun-o",
-		slug: "reiki",
+		slug: {
+			ENG:"reiki",
+			FREN:"reiki"
+			},
 		color: "#9966FF"
 	}
 ];

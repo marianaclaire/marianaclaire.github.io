@@ -35,8 +35,7 @@ function viewCtrl($scope) {
 	};
 
 	$scope.changeLang = function(lang){
-		console.log(lang);
-		window.location.href = "./index.html#"+lang;
+		// window.location.href = "./#"+lang;
 		window.location.reload();
 	}
 }

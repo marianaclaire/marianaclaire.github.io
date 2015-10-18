@@ -33,6 +33,12 @@ function viewCtrl($scope) {
 			$('#side-menu').slideDown('slow');
 		}, 500);
 	};
+
+	$scope.changeLang = function(lang){
+		console.log(lang);
+		window.location.href = "./index.html#"+lang;
+		window.location.reload();
+	}
 }
 
 

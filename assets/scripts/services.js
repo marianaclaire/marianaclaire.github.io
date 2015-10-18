@@ -47,5 +47,12 @@ var services = [
 		faIconBase: "fa-sun-o",
 		slug: "reiki",
 		color: "#9966FF"
+	},{
+		name: "Psychic Coaching",
+		description: "During this session I will teach you techniques that will help you develop your psychic abilities. We will practice seeing auras, origins, using telepathy and channeling, reading cards, opening the third eye, etc.",
+		faIcon: "fa-graduation-cap ",
+		faIconBase: "fa-sun-o",
+		slug: "coaching",
+		color: "#FF66CC"
 	}
 ];

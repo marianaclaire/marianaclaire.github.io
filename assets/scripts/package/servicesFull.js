@@ -10,7 +10,8 @@ var servicesFull = {
 	},
 	drawings: {
 		name: "Soul Drawings",
-		description: "Soul drawings contain messages from your higher self or guides. It holds information of a past life and of this life. I will use colors, symbols or phrases that would be beneficial to you to know at that moment. I will also include a detailed report with the drawing so you would know how to use it to meditate and heal yourself and about how to interpret them. Its presence is healing to you because of its high frequency and colors.",
+		// description: "Soul drawings contain messages from your higher self or guides. It holds information of a past life and of this life. I will use colors, symbols or phrases that would be beneficial to you to know at that moment. I will also include a detailed report with the drawing so you would know how to use it to meditate and heal yourself and about how to interpret them. Its presence is healing to you because of its high frequency and colors.",
+		description: "I will draw your higher self, guides, angels, ascended masters, aura color and soul aspects in this drawing. I will use the symbols and colors that would be the most healing to you in your current situation. I can also include a report that will explain how to use the drawing to meditate and heal yourself and about how to interpret them. Its presence is healing to you because of its high frequency and colors.",
 		faIcon: "fa-pencil",
 		faIconBase: "fa-user",
 		color: "#FF9933",
@@ -19,7 +20,8 @@ var servicesFull = {
 	},
 	paintings: {
 		name: "Soul Paintings",
-		description: "Soul paintings differ from soul drawings because I will use Photoshop to paint them. On average a soul painting will take around 6 hours to complete and will be very detailed. It will contain messages from your higher self or guides. It holds information of a past life and of this life. I will use colors, symbols or phrases that would be beneficial to you to know at that moment. I will also include a detailed report with the drawing so you would know how to use it to meditate and heal yourself and about how to interpret them. Its presence is healing to you because of its high frequency and colors.",
+		// description: "Soul paintings differ from soul drawings because I will use Photoshop to paint them. On average a soul painting will take around 6 hours to complete and will be very detailed. It will contain messages from your higher self or guides. It holds information of a past life and of this life. I will use colors, symbols or phrases that would be beneficial to you to know at that moment. I will also include a detailed report with the drawing so you would know how to use it to meditate and heal yourself and about how to interpret them. Its presence is healing to you because of its high frequency and colors.",
+		description: "Soul paintings differ from soul drawings because they are more detailed and because the painting takes more time to complete. Soul drawings are drawings of your aura field. I will draw your higher self, guides and the symbols, colors and messages that they want you to see. I can also include a report that will explain how to use the drawing to meditate and heal yourself and about how to interpret them.",
 		faIcon: "fa-paint-brush ",
 		faIconBase: "fa-user",
 		color: "#33CC33",//"#CCCC00",
@@ -52,6 +54,15 @@ var servicesFull = {
 		color: "#9966FF",
 		slug: "reiki",
 		image:"p.jpg"
+	},
+	coaching: {
+		name: "Psychic Coaching",
+		description: "During this session I will teach you techniques that will help you develop your psychic abilities. We will practice seeing auras, origins, using telepathy and channeling, reading cards, opening the third eye, etc.",
+		faIcon: "fa-graduation-cap ",
+		faIconBase: "fa-sun-o",
+		slug: "coaching",
+		color: "#FF66CC",
+		image:"f.jpg"
 	}
 };
 

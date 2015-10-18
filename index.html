@@ -135,26 +135,33 @@
 									<li>89$ for 1 hour</li>
 									<li>112$ for 75 mins</li>
 									<li>135$ for 90 mins</li>
-									<li>and 60$ for a soul drawing + shipping</li>
+									<li>60$ for a soul drawing</li>
+									<li>85$ for a soul drawing + report</li>
+									<li>100$ for a soul painting</li>
+									<li>125$ for a soul painting + report</li>
 								</ul>
 							</div>
 						</div>
  						<div class="subtitle"><button type="button" class="btn btn-trans btn-trans-default book-toggle-btn"><strong>BOOK A SESSION</strong></button></div>
 					</div>
 					<div class="col-lg-9 col-md-7 col-sm-12">
-						<div class="row">
-							<div class="col-lg-2 col-md-4 col-sm-4 col-xs-12 backlight" ng-repeat="s in services" data-color="{{s.color}}">
-								<div class="service-icon-sub"><i class="fa {{s.faIconBase}}"></i></div>
-								<div class="service-icon"><i class="fa {{s.faIcon}}"></i></div>
-								<h3>{{s.name}}</h3>
-								<p ng-bind-html="s.description | to_trusted"></p>
-								<div class="text-right">
-									<a class="subtle" href="services/index.html#{{s.slug}}">more <i class="fa fa-chevron-right"></i></a>
+						<div class="backlight" ng-repeat="s in services" data-color="{{s.color}}">
+							<div class="row">
+								<div class="col-xs-2 text-right">
+									<div class="service-icon-sub"><i class="fa {{s.faIconBase}}"></i></div>
+									<div class="service-icon"><i class="fa {{s.faIcon}}"></i></div>
+								</div>
+								<div class="col-xs-10">
+									<h3>{{s.name}}</h3>
+									<p ng-bind-html="s.description | to_trusted"></p>
+									<div class="text-right">
+										<a class="subtle" href="services/index.html#{{s.slug}}">more <i class="fa fa-chevron-right"></i></a>
+									</div>
 								</div>
 							</div>
 						</div>
+						<br>
 					</div>
-					<br>
 				</div>
 			</div>
 			<div style="margin:5%"></div>

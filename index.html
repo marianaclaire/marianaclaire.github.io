@@ -38,6 +38,7 @@
 -->
 <html ng:app="app" lang="en">
 	<head>
+		<meta charset="utf-8">
 		<title>Mariana Claire</title>
 		<!-- jQuery -->
 		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
@@ -57,15 +58,34 @@
 		<link rel="stylesheet" href="assets/css/portfolio.css">
 
 	</head>
-	<body>
+	<body ng-controller="viewCtrl">
 		<div id="splash-bg-container"></div>
 		<div id="side-menu">
-			<a data-id="services" class="menu-slide-btn"><div id="splash2">Services</div></a>
-			<a data-id="drawings" class="menu-slide-btn"><div id="splash3">Drawings</div></a>
-			<a data-id="contact" class="menu-slide-btn"><div id="splash5">About Me</div></a>
-			<a data-id="testimonials" class="menu-slide-btn"><div id="splash6">Testimonials</div></a>
+			<a data-id="services" class="menu-slide-btn"><div id="splash2">
+				<span class="lang-ENG lang-FREN">Services</span>
+				<span class="lang-ESP">Servicios</span>
+			</div></a>
+			<a data-id="drawings" class="menu-slide-btn"><div id="splash3">
+				<span class="lang-ENG">Drawings</span>
+				<span class="lang-FREN">Dessin</span>
+				<span class="lang-ESP">Dibujos</span>
+			</div></a>
+			<a data-id="contact" class="menu-slide-btn"><div id="splash5">
+				<span class="lang-ENG">About Me</span>
+				<span class="lang-FREN">À propos</span>
+				<span class="lang-ESP">Sobre mi</span>
+			</div></a>
+			<a data-id="testimonials" class="menu-slide-btn"><div id="splash6">
+				<span class="lang-ENG">Testimonials</span>
+				<span class="lang-FREN">Témoignages</span>
+				<span class="lang-ESP">Testimonios</span>
+			</div></a>
 			<!-- <a href="https://medium.com/@MarianaClaire" target="_blank"><div>Blog</div></a> -->
-			<a><div class="book-toggle-btn">Book Service</div></a>
+			<a><div class="book-toggle-btn">
+				<span class="lang-ENG">Book Service</span>
+				<span class="lang-FREN">Réservez une session</span>
+				<span class="lang-ESP">Reserve una sesión</span>
+			</div></a>
 		</div>
 		<div id="splash-content-container">
 			<div class="splash-div full-height" data-id="splash1" data-image="assets/images/1.jpg">
@@ -73,91 +93,165 @@
 					<span id="form-hide">
 						Mariana Claire
 						<div class="splash-subtitle">
-							a step into divinity and full healing
+							<span class="lang-ENG">a step into divinity and full healing</span>
+							<span class="lang-FREN">un pas vers la divinité et la guérison spirituelle</span>
+							<span class="lang-ESP">un paso hacia su poder interior</span>
 							<br><br>
-							<button type="button" class="btn btn-trans btn-trans-default book-toggle-btn"><strong>BOOK A SESSION</strong></button>
+							<button type="button" class="btn btn-trans btn-trans-default book-toggle-btn all-cap"><strong>
+								<span class="lang-ENG">Book a Session</span>
+								<span class="lang-FREN">Réservez une session</span>
+								<span class="lang-ESP">Reserve una sesión</span>
+							</strong></button>
+							<div style="padding:2%"> </div>
+							<a class="lang-ESP lang-FREN" ng-click="changeLang('ENG')">English</a>
+							<a class="lang-ENG lang-FREN" ng-click="changeLang('ESP')">Español</a>
+							<a class="lang-ENG lang-ESP" ng-click="changeLang('FREN')">Français</a>
 						</div>
 					</span>
 					<div id="bookingForm-display" class="splash-subtitle">
 						<form id="bookingForm">
 							<div class="row">
-								<label class="col-md-2 text-right">Name:</label>
+								<label class="col-md-2 text-right">
+									<span class="lang-ENG">Name:</span>
+									<span class="lang-FREN">Nom:</span>
+									<span class="lang-ESP">Nombre:</span></label>
 								<input class="col-md-9" type="text" name="name" required>
 							</div>
 							<div class="row">
-								<label class="col-md-2 text-right">Message:</label>
-								<textarea class="col-md-9" name="message" placeholder="Tell me about the service that you would like to have and the time you would like to have it." required></textarea>
+								<label class="col-md-2 text-right">
+									<span class="lang-ENG">Message:</span>
+									<span class="lang-FREN">Message:</span>
+									<span class="lang-ESP">Mensaje:</span></label>
+								<textarea class="col-md-9 lang-ENG" name="message" placeholder="Tell me about the service that you would like to have and the time you would like to have it." required></textarea>
+								<textarea class="col-md-9 lang-FREN" name="message" placeholder="Quel service aimerez-vous réserver et vers quelle heure?" required></textarea>
+								<textarea class="col-md-9 lang-ESP" name="message" placeholder="Qué servicio le gustaría reservar y a qué hora le gustaría reservarlo?" required></textarea>
 							</div>
 							<div class="row">
-								<label class="col-md-2 text-right">Contact:</label>
-								<textarea class="col-md-9" name="contact" maxlength="55" placeholder="Your email, skype username or any other means to get back to you." required></textarea>
+								<label class="col-md-2 text-right">
+									<span class="lang-ENG">Contact:</span>
+									<span class="lang-FREN">Contact:</span>
+									<span class="lang-ESP">Contacto:</span></label>
+								<textarea class="col-md-9 lang-ENG" name="contact" maxlength="55" placeholder="Your email, skype username or any other means to get back to you." required></textarea>
+								<textarea class="col-md-9 lang-FREN" name="contact" maxlength="55" placeholder="Votre email, votre nom de Skype ou un autre moyen où je pourrais vous contacter." required></textarea>
+								<textarea class="col-md-9 lang-ESP" name="contact" maxlength="55" placeholder="Su email, su nombre de usuario de Skype u otro medio por donde podría contactarlo." required></textarea>
 							</div><br>
-							<input type="submit" value="CONFIRM" id="send-book-btn" class="btn btn-trans btn-trans-default" style="font-weight:bold;">
-							<button type="button" id="cancel-book-btn" class="btn btn-trans btn-trans-default"><strong>CANCEL</strong></button>
+							<input type="submit" value="CONFIRM" id="send-book-btn" class="btn btn-trans btn-trans-default lang-ENG" style="font-weight:bold;">
+							<input type="submit" value="CONFIRMER" id="send-book-btn" class="btn btn-trans btn-trans-default lang-FREN" style="font-weight:bold;">
+							<input type="submit" value="CONFIRMAR" id="send-book-btn" class="btn btn-trans btn-trans-default lang-ESP" style="font-weight:bold;">
+							<button type="button" id="cancel-book-btn" class="btn btn-trans btn-trans-default">
+								<strong class="lang-ENG">CANCEL</strong>
+								<strong class="lang-FREN">ANNULER</strong>
+								<strong class="lang-ESP">CANCELAR</strong>
+							</button>
 						</form>
 					</div>
 					<div id="success-message" class="splash-subtitle">
-						Thanks for booking my service! I will get back to you soon.<br><br>
+						<span class="lang-ENG">Thanks for booking my service! I will get back to you soon.</span>
+						<span class="lang-FREN">Merci d'avoir réservé un de mes services, je vous contacterais dès que je peux.</span>
+						<span class="lang-ESP">Gracias por reservar uno de mis servicios, lo contactare apenas pueda.</span>
+						<br><br>
 					</div>
 				</div>
 			</div>
 
-			<a name="services"></a>
 			<div class="splash-div" data-id="splash2" data-image="assets/images/2.jpg">
-				<div class="color-black" ng-controller="viewCtrl" style="margin:0;">
+				<a name="services"></a>
+				<div class="color-black" style="margin:0;">
 					<div style="padding:2%"> </div>
 					<div class="row">
 						<div class="col-lg-3 col-md-5 col-sm-12">
-							<div class="subtitle">Services</div>
+							<div class="subtitle">
+								<span class="lang-ENG lang-FREN">Services</span>
+								<span class="lang-ESP">Servicios</span>
+							</div>
 							<div class="row">
-								<div class="col-md-12">I offer many different types of readings including: telepathic readings, oracle readings, soul drawings, reiki healing, sound healing and I also facilitate the aura alchemy process. I can help you determine what will be most beneficial. Most times it's a combination in the same session.
+								<div class="col-md-12">{{ serviceText[languageOpt] }}</div>
+							</div>
+							<br>
+							<div class="row">
+								<div class="col-lg-12 col-md-4 col-sm-4 col-xs-12 text-lg-right text-xs-right">
+									<strong class="lang-ENG">Language</strong>
+									<strong class="lang-FREN">Langue</strong>
+									<strong class="lang-ESP">Lenguage</strong>
 								</div>
+								<div class="col-lg-12 col-md-8 col-sm-8 col-xs-12 lang-ENG">Available in English, French and Spanish</div>
+								<div class="col-lg-12 col-md-8 col-sm-8 col-xs-12 lang-FREN">J'offre tous mes services en anglais, français et espagnol</div>
+								<div class="col-lg-12 col-md-8 col-sm-8 col-xs-12 lang-ESP">Ofrezco todos mis servicios en inglés, español y francés</div>
 							</div>
 							<br>
 							<div class="row">
 								<div class="col-lg-12 col-md-4 col-sm-4 col-xs-12 text-lg-right text-xs-right">
-									<strong>Language</strong></div>
-								<div class="col-lg-12 col-md-8 col-sm-8 col-xs-12">Available in English, French and Spanish</div>
-							</div>
-							<br>
-							<div class="row">
-								<div class="col-lg-12 col-md-4 col-sm-4 col-xs-12 text-lg-right text-xs-right">
-									<strong>Location</strong></div>
-								<div class="col-lg-12 col-md-8 col-sm-8 col-xs-12">
+									<strong class="lang-ENG">Location</strong>
+									<strong class="lang-FREN">Lieu</strong>
+									<strong class="lang-ESP">Localización</strong>
+								</div>
+								<div class="col-lg-12 col-md-8 col-sm-8 col-xs-12 lang-ENG">
 									Skype, Google Hangouts, Facebook messenger or in person if you live in Calgary</div>
+								<div class="col-lg-12 col-md-8 col-sm-8 col-xs-12 lang-FREN">
+									Skype, Google Hangouts, Facebook messenger ou en personne si vous habitez à Calgary</div>
+								<div class="col-lg-12 col-md-8 col-sm-8 col-xs-12 lang-ESP">
+									Skype, Google Hangouts, Facebook messenger o en persona si vive en Calgary</div>
 							</div>
 							<br>
 						</div>
 						<div class="col-lg-9 col-md-7 col-sm-12">
 							<div class="row">
-								<div class="backlight col-lg-1 col-md-3 col-sm-3 col-xs-3" ng-repeat="s in services" data-color="{{s.color}}">
-									<a class="subtle" href="services/index.html#{{s.slug}}">
+								<div class="backlight col-lg-1 col-md-3 col-sm-2 col-xs-3" ng-repeat="s in services" data-color="{{s.color}}">
+									<a class="subtle" href="services/index.html#{{s.slug[languageOpt]}}">
 										<div class="service-icon-sub"><i class="fa {{s.faIconBase}}"></i></div>
 										<div class="service-icon"><i class="fa {{s.faIcon}}"></i></div>
-										<h3 class="rotate">{{s.name}}</h3>
+										<h3 class="rotate">{{s.name[languageOpt]}}</h3>
 									</a>
 										<!-- <p ng-bind-html="s.description | to_trusted"></p> -->
 								</div>
-								<div class="col-lg-5 col-md-12 col-sm-12 col-xs-12">
+								<div class="col-lg-5 col-md-12 col-sm-10 col-xs-12">
 									<br><br>
 									<div class="row">
 										<div class="col-lg-12 col-md-4 col-sm-4 col-xs-12 text-lg-right text-xs-right">
-											<strong>Payment</strong></div>
-										<div class="col-lg-12 col-md-8 col-sm-8 col-xs-12"><i class="fa fa-paypal"></i> Paypal to my email: marianaclaireinfo@gmail.com
+											<strong class="lang-ENG">Payment</strong>
+											<strong class="lang-FREN">Paiment</strong>
+											<strong class="lang-ESP">Pago</strong></div>
+										<div class="col-lg-12 col-md-8 col-sm-8 col-xs-12"><i class="fa fa-paypal"></i>
+											<span class="lang-ENG">Paypal to my email</span>
+											<span class="lang-FREN">Paypal à mon email</span>
+											<span class="lang-ESP">Paypal a mi email</span>: marianaclaireinfo@gmail.com
 											<ul>
-												<li>45$ for 30 mins</li>
-												<li>67$ for 45 mins</li>
-												<li>89$ for 1 hour</li>
-												<li>112$ for 75 mins</li>
-												<li>135$ for 90 mins</li>
-												<li>60$ for a soul drawing</li>
-												<li>85$ for a soul drawing + report</li>
-												<li>100$ for a soul painting</li>
-												<li>125$ for a soul painting + report</li>
+												<li>45$ <span class="lang-ENG">for</span>
+													<span class="lang-FREN">pour</span>
+													<span class="lang-ESP">por</span>
+													 30 mins</li>
+												<li>67$ <span class="lang-ENG">for</span>
+													<span class="lang-FREN">pour</span>
+													<span class="lang-ESP">por</span> 45 mins</li>
+												<li>89$ <span class="lang-ENG">for</span>
+													<span class="lang-FREN">pour</span>
+													<span class="lang-ESP">por</span> 1 hour</li>
+												<li>112$ <span class="lang-ENG">for</span>
+													<span class="lang-FREN">pour</span>
+													<span class="lang-ESP">por</span> 75 mins</li>
+												<li>135$ <span class="lang-ENG">for</span>
+													<span class="lang-FREN">pour</span>
+													<span class="lang-ESP">por</span> 90 mins</li>
+												<li>60$ <span class="lang-ENG">for a soul drawing</span>
+													<span class="lang-FREN">pour dessin de l'âme</span>
+													<span class="lang-ESP">por dibujo del alma</span></li>
+												<li>85$ <span class="lang-ENG">for a soul drawing + report</span>
+													<span class="lang-FREN">pour dessin de l'âme + rapport</span>
+													<span class="lang-ESP">por dibujo del alma + reporte</span></li>
+												<li>100$ <span class="lang-ENG">for a soul painting</span>
+													<span class="lang-FREN">pour peinture de l'âme</span>
+													<span class="lang-ESP">por pintura del alma</span></li>
+												<li>125$ <span class="lang-ENG">for a soul painting + report</span>
+													<span class="lang-FREN">pour peinture de l'âme + rapport</span>
+													<span class="lang-ESP">por pintura del alma + reporte</span></li>
 											</ul>
 										</div>
 									</div>
-			 						<div class="subtitle"><button type="button" class="btn btn-trans btn-trans-default book-toggle-btn"><strong>BOOK A SESSION</strong></button></div>
+			 						<div class="subtitle"><button type="button" class="btn btn-trans btn-trans-default book-toggle-btn all-cap">
+					 					<strong class="lang-ENG">Book a Session</strong>
+										<strong class="lang-FREN">Réservez une session</strong>
+										<strong class="lang-ESP">Reserve una sesión</strong>
+									</button></div>
 								</div>
 							</div>
 						</div>
@@ -169,9 +263,13 @@
 
 			<a name="drawings"></a>
 			<div class="splash-div" data-id="splash3" data-image="assets/images/3.jpg">
-				<div class="portfolio" ng-controller="viewCtrl">
+				<div class="portfolio">
 					<div class="portfolio-title color-black">
-						<div class="portfolio-buttom-align">Sample<br>Drawings</div>
+						<div class="portfolio-buttom-align">
+							<span class="lang-ENG">Sample<br>Drawings</span>
+							<span class="lang-FREN"><br>Dessins</span>
+							<span class="lang-ESP">Ejemplos<br>de Dibujos</span>
+						</div>
 					</div>
 					<div class="portfolio-image" ng-repeat="d in drawings"
 						ng-init="$last ? refresh() : null" data-image="{{d.image}}">
@@ -183,7 +281,11 @@
 					<div class="portfolio-last color-black">
 						<br>
 						<p>Soul Drawings are drawings of either your higher self or aspects of you, it could be your guides or one of your past life.</p>
-						<div class="subtitle"><button type="button" class="btn btn-trans btn-trans-default book-toggle-btn"><strong>PURCHASE A DRAWING</strong></button></div>
+						<div class="subtitle"><button type="button" class="btn btn-trans btn-trans-default book-toggle-btn all-cap">
+		 					<strong class="lang-ENG">Purchase a drawing</strong>
+							<strong class="lang-FREN">Acheter un dessin</strong>
+							<strong class="lang-ESP">Compre un dibujo</strong>
+						</button></div>
 					</div>
 				</div>
 			</div>
@@ -192,7 +294,11 @@
 			<div class="splash-div" data-id="splash5" data-image="assets/images/4.jpg">
 				<div style="margin:5%"></div>
 				<div class="container color-black">
-					<div class="subtitle">About Me</div>
+					<div class="subtitle">
+						<span class="lang-ENG">About Me</span>
+						<span class="lang-FREN">À propos</span>
+						<span class="lang-ESP">Sobre mi</span>
+					</div>
 					<div class="row">
 						<div class="col-md-4">
 							<center><img class="circle-image" src="assets/images/profile.jpg"></center>
@@ -202,21 +308,23 @@
 								<a href="skype:Marianas521?userinfo" title="Marianas521"><i class="fa fa-skype"></i></a>
 								<a href="mailto:marianaclaireinfo@gmail.com" title="marianaclaireinfo@gmail.com"><i class="fa fa-envelope"></i></a>
 							</div>
-							<h3>Coming Soon</h3>
-							<p>I will start writing blog and posting videos. Subscribe now to be the first one to know when the first entries are up.
+							<h3 class="lang-ENG">Coming Soon</h3>
+							<h3 class="lang-FREN">À venir</h3>
+							<h3 class="lang-ESP">En los proximos dias</h3>
+							<p class="lang-ENG">I will start writing blog and posting videos. Subscribe now to be the first one to know when the first entries are up.</p>
+							<p class="lang-FREN">Je vais bientôt faire des vidéos sur ma chaîne de youtube. N’oubliez pas de vous souscrire pour être le premier à écouter mes vidéos.</p>
+							<p class="lang-ESP">Empezare a subir videos en español en mi canal de youtube. Suscríbase ahora para ser el primero en ver mis próximos videos.</p>
 							<div class="contact-links">
 								<a href="https://medium.com/@MarianaClaire" target="_blank"><i class="fa fa-medium"></i></a>
-								<a href="https://www.youtube.com/channel/UCECj3HY7vZ1-oAdtYjU1U-Q" target="_blank"><i class="fa fa-youtube"></i></a>
+								<a href="https://www.youtube.com/channel/UCECj3HY7vZ1-oAdtYjU1U-Q" target="_blank" class="lang-ENG lang-FREN"><i class="fa fa-youtube"></i></a>
+								<a href="https://www.youtube.com/channel/UCf6E45-GT_KuFr_ucu8bmQw/feed" target="_blank" class="lang-ESP"><i class="fa fa-youtube"></i></a>
 							</div>
 						</div>
-						<div class="col-md-8" ng-controller="viewCtrl">
-							<h3>My Story</h3>
-							<p>I was born seeing auras and entities. I remember at the age of 3, speaking with my guides and other spirits. Around the age of 5, I blocked this ability when I was introduced to the school system, like most of us do. I was raised in Lima, Peru and from a young age, I expressed myself through drawing, singing, and writing. I have always loved to help, advice, and heal people. It was not until later in life that I realized I was doing healings and readings from a very young age without even knowing I was doing them.</p>
-							<p>At the age of 18, I became more aware of my abilities as I made a conscious decision to start developing my gifts. I remembered who I was and my purpose in this life. This is the first life that I have decided to live humbly and unlock my gifts one by one. It is so that I could experience being fully human, enabling me to reach out to others and to understand them better.</p>
-							<p>In terms of academics, I am currently majoring in Psychology and this has allowed me to understand people at a deeper level.</p>
-							<p>So far I have unlocked my channeling and healing abilities, clairsentience, clairvoyance, clairaudience, clairscent and clairempathy. I am currently working on unlocking even more gifts but I know that patience and flow are my main purposes in this life so the abilities will come one by one.</p>
-							<p>During the 2015 shift, I had another awakening experience that inspired me to learn reiki and become a vegetarian. More importantly, I stepped into the public eye to share my abilities with others.</p>
-							<p>My goal right now is to help people to remember who they are and to awaken to their personal power. I believe that we can all do this if we do the work and that that it's actually the reason we have incarnated at this time!</p>
+						<div class="col-md-8">
+							<h3>{{ story.title[languageOpt] }}</h3>
+							<p ng-repeat="s in story.content[languageOpt]">
+								{{s}}
+							</p>
 						</div>
 					</div>
 				</div>
@@ -226,23 +334,34 @@
 				<div class="container color-black">
 					<div class="row">
 						<div class="col-md-8">
-							<div class="subtitle">Testimonials</div>
+							<div class="subtitle">
+								<span class="lang-ENG">Testimonials</span>
+								<span class="lang-FREN">Temoignages</span>
+								<span class="lang-ESP">Testimonios</span></div>
 							<div id="testimonial-display">
 								<span class="current"></span>/<span class="total"></span>
 								<blockquote>
 
 								</blockquote>
 								<div class="text-right">
-									~ by <span class="author"></span> - <span class="time"></span>
+									~ <span class="author"></span> - <span class="time"></span>
 								</div>
 							</div>
-							<div class="subtitle"><button type="button" id="more-test-btn" class="btn btn-trans btn-trans-default"><strong>READ ANOTHER ONE</strong></button></div>
+							<div class="subtitle"><button type="button" id="more-test-btn" class="btn btn-trans btn-trans-default all-cap"><strong>
+								<span class="lang-ENG">Read another one</span>
+								<span class="lang-FREN">lire un autren</span>
+								<span class="lang-ESP">leer otro</span>
+							</strong></button></div>
 						</div>
 						<div class="col-md-4">
 							<div class="fb-page" data-href="https://www.facebook.com/Mariana-Claire-1484113901885029/timeline/" data-width="100%" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" data-show-posts="true"></div>
 							<div id="fb-root"></div>
-							<h3>Write a Testimonial</h3>
-							<p>If you would like to write a testiminial after recieving one of my service, please post it on the <a href="https://www.facebook.com/Mariana-Claire-1484113901885029/" target="_blank">facebook page</a>.</p>
+							<h3 class="lang-ENG">Write a Testimonial</h3>
+							<h3 class="lang-FREN">Écrire un temoignage</h3>
+							<h3 class="lang-ESP">Escribir un testimonio</h3>
+							<p  class="lang-ENG">If you would like to write a testimonial after receiving one of my services, please post it on the <a href="https://www.facebook.com/Mariana-Claire-1484113901885029/" target="_blank">facebook page</a>.</p>
+							<p class="lang-FREN">Si vous aimerez écrire un témoignage après d’avoir reçu un de mes services, s’il-vous-plaît l’écrire sur ma <a href="https://www.facebook.com/Mariana-Claire-1484113901885029/" target="_blank">page de facebook</a>.</p>
+							<p class="lang-ESP">Si le gustaría escribir un testimonio después de recibir alguno de mis servicios, por favor escríbalo en mi <a href="https://www.facebook.com/Mariana-Claire-1484113901885029/" target="_blank">pagina de facebook</a>.</p>
 						</div>
 					</div>
 				</div>
@@ -264,6 +383,7 @@
 	<script src="assets/scripts/services.js"> </script>
 	<script src="assets/scripts/drawings.js"> </script>
 	<script src="assets/scripts/test.js"> </script>
+	<script src="assets/scripts/data.js"> </script>
 	<script src="assets/scripts/backlight.js"> </script>
 	<script src="assets/scripts/portfolio.js"> </script>
 	<script src="assets/scripts/script.js"> </script>

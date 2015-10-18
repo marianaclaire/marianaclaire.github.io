@@ -35,7 +35,7 @@ function viewCtrl($scope) {
 	};
 
 	$scope.changeLang = function(lang){
-		// window.location.href = "./#"+lang;
+		window.location.href = "./#"+lang;
 		window.location.reload();
 	}
 }
@@ -150,7 +150,7 @@ $(function(){
 	$('#side-menu').hide();
 	populateBG();
 	populateCache();
-	//language 
+	//language
 	$('.lang-'+currentLang).css({
 		'display': 'inline-block'
 	});

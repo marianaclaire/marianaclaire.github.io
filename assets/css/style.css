@@ -246,7 +246,8 @@ button:focus{
 	text-align: right;
 }
 
-#bookingForm input[type=text], #bookingForm textarea {
+#bookingForm input[type=text], #bookingForm textarea ,
+.form-tran input, .form-tran select{
     background-color: transparent;
     padding: 15px;
     border:0;
@@ -257,9 +258,14 @@ button:focus{
     font-size: 20px;
 }
 
-#bookingForm input[type=text]:focus, #bookingForm textarea:focus {
+#bookingForm input[type=text]:focus, #bookingForm textarea:focus,
+.form-tran input:focus, .form-tran select:focus{
 	outline: 0;
 	background-color: transparent;
+}
+
+.form-tran option{
+	background-color: rgba(0,0,0,0.8);
 }
 
 #bookingForm-display, #success-message{

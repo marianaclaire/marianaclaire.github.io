@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<!--
+    Designed by GOLDENRATIPHI
+
+       ,(&@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+    @          @@@@     #@     @@@    @@                                                      @
+    @       @@          %@        @@  @&                                                      @
+    @    @@@            ,@          @ @(                                                      @
+    @   @@               @           @@.                                                      @
+    @ @@                 @            @                                                       @
+    @@@                  @            @                                                      @@
+    @@                   @####@@      @                                                      @@
+    @,                   @    @       @                                                     @@@
+    @                    @@@  @     @@@                                                     @ @
+    @                    @  @@@@  @@@ @                                                    @  @
+    @                                 @                                                   @.  @
+    @                                 @                                                  @@   @
+    @                                 @                                                 @@    @
+    @                                 @                                                @@     @
+    @@                                @                                               @       @
+    @@                                @                                             @@        @
+    @ @                               @                                            @@         @
+    @  @                              @                                          @@           @
+    @   @                             @                                        @@             @
+    @    @                            @                                      @@               @
+    @     @@                          @                                    @@                 @
+    @       @                         @                                 @@                    @
+    @         @                       @                              @@                       @
+    @           @@                    @(                         #@@                          @
+    @              @@                 @@                     @@@                              @
+    @                 @@@             @@               @@@@                                   @
+    @                     *@@@@@      @@      @@@@@@@                                         @
+                                                                    @ ytixu.github.io/HTMLdump
+    IZQ CN QNG HJZVS DQ LVUPGVPZ?
+    FVUUV EGTLC HYGUUTUP FZEHTYZ YNPZYIZR?
+    PZY TU YNGWI VY PNLCZURVYTNZHJ@PDVTL.WND
+
+-->
+
+<html lang="en">
+    <head>
+        <title>Mariana Claire: Payment Checkout</title>
+        <!-- jQuery -->
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <!-- Google font -->
+        <link href='https://fonts.googleapis.com/css?family=Calligraffitti' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Poiret+One:100,400' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+        <!-- Icons -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+        <!-- My style :3 -->
+        <link rel="stylesheet" href="../assets/css/style.css">
+        <style>
+            #title{
+                margin-top: 50px;
+                line-height: 30px;
+            }
+
+            select {
+              margin: 0;
+              line-height: 1.5em;
+              padding: 0.5em 3.5em 0.5em 1em !important;
+              -webkit-box-sizing: border-box;
+              -moz-box-sizing: border-box;
+              box-sizing: border-box;
+              -webkit-appearance: none;
+              -moz-appearance: none;
+              border:solid gray 1px !important;
+            }
+
+            select.minimal {
+              background-image:
+                linear-gradient(45deg, transparent 50%, gray 50%),
+                linear-gradient(135deg, gray 50%, transparent 50%),
+                linear-gradient(to right, #ccc, #ccc);
+              background-position:
+                calc(100% - 20px) calc(1em + 2px),
+                calc(100% - 15px) calc(1em + 2px),
+                calc(100% - 2.5em) 0.5em;
+              background-size:
+                5px 5px,
+                5px 5px,
+                1px 1.5em;
+              background-repeat: no-repeat;
+            }
+
+            select.minimal:focus {
+              background-image:
+                linear-gradient(45deg, transparent 50%, white 50%),
+                linear-gradient(135deg, white 50%, transparent 50%),
+                linear-gradient(to right, #fff, #fff);
+              background-position:
+                calc(100% - 20px) calc(1em + 2px),
+                calc(100% - 15px) calc(1em + 2px),
+                calc(100% - 2.5em) 0.5em;
+              background-size:
+                5px 5px,
+                5px 5px,
+                1px 1.5em;
+              background-repeat: no-repeat;
+              border-color: white;
+              outline: 0;
+            }
+
+
+            select:-moz-focusring {
+              color: transparent;
+              text-shadow: 0 0 0 #000;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="splash-bg-container">
+            <div class="splash-bg"></div>
+        </div>
+        <div id="splash-content-container">
+            <div style="margin:10%"> </div>
+            <div class="container color-black">
+                <div id="title">Booking a Session
+                    <h3>with Mariana Claire</h3></div>
+
+                    <form class="form-tran" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <table>
+                    <tr><td><input type="hidden" name="on0" value="Book a session">Please choose the session you would like to book</td></tr><tr><td>
+                    <select class="minimal" name="os0" required>
+                    <option value="" disabled selected> -- select an option -- </option>
+                    <option value="30 mins">30 mins $45.00 USD</option>
+                    <option value="45 mins">45 mins $67.00 USD</option>
+                    <option value="60 mins">60 mins $89.00 USD</option>
+                    <option value="75 mins">75 mins $112.00 USD</option>
+                    <option value="90 mins">90 mins $135.00 USD</option>
+                    <option value="Soul drawing">Soul drawing $60.00 USD</option>
+                    <option value="Soul drawing + report">Soul drawing + report $85.00 USD</option>
+                    <option value="Soul painting">Soul painting $100.00 USD</option>
+                    <option value="Soul painting + report">Soul painting + report $125.00 USD</option>
+                    </select> </td></tr>
+                    </table>
+                    <i class="fa fa-paypal"></i> Process with Paypall</br>
+                    <input type="hidden" name="currency_code" value="USD">
+                    <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
+                    ">
+                    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                    <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                    </form>
+                <div style="margin:5%"> </div>
+            </div>
+        </div>
+    </body>
+    <script>
+        (function(){
+            $div = $('.splash-bg');
+            $div.hide();
+            $div.css('background-image','url("../assets/images/1.jpg")');
+            $div.fadeIn('fast');
+        }());
+    </script>
+</html>

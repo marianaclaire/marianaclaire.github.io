@@ -1,3 +1,13 @@
+// parse URL to get language
+var validLangs = ["ENG", "FREN", "ESP"]
+function parseURL(){
+	var args = window.location.href.split('#');
+	if (args.length > 1 && validLangs.indexOf(args[1]) > 0){
+		return args[1];
+	}
+	return "ENG";
+}
+
 // angular
 var app = angular.module('app', []);
 
@@ -9,8 +19,10 @@ angular.module('app')
     }]);
 
 function viewCtrl($scope) {
+	$scope.languageOpt = parseURL();
 	$scope.services = services;
 	$scope.drawings = drawingsDB.drawings;
+	$scope.story = story;
 
 	$scope.refresh = function() {
 		window.setTimeout(function(){

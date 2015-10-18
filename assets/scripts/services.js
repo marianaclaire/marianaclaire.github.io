@@ -7,6 +7,13 @@ var services = [
 		slug: "readings",
 		color: "#FF6666"
 	},{
+		name: "Psychic Coaching",
+		description: "During this session I will teach you techniques that will help you develop your psychic abilities. We will practice seeing auras, origins, using telepathy and channeling, reading cards, opening the third eye, etc.",
+		faIcon: "fa-graduation-cap ",
+		faIconBase: "fa-sun-o",
+		slug: "coaching",
+		color: "#FF66CC"
+	},{
 		name: "Soul Drawings",
 		description: "Soul drawings contain messages from your higher self or guides. I will also include a report that will explain how to use the drawing to meditate and heal yourself and about how to interpret them. Its presence is healing to you because of its high frequency and colors.",
 		faIcon: "fa-pencil",
@@ -47,12 +54,5 @@ var services = [
 		faIconBase: "fa-sun-o",
 		slug: "reiki",
 		color: "#9966FF"
-	},{
-		name: "Psychic Coaching",
-		description: "During this session I will teach you techniques that will help you develop your psychic abilities. We will practice seeing auras, origins, using telepathy and channeling, reading cards, opening the third eye, etc.",
-		faIcon: "fa-graduation-cap ",
-		faIconBase: "fa-sun-o",
-		slug: "coaching",
-		color: "#FF66CC"
 	}
 ];

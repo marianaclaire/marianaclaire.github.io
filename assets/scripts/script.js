@@ -36,8 +36,8 @@ function viewCtrl($scope) {
 
 	$scope.changeLang = function(lang){
 		// window.location.href = "./#"+lang;
-		// window.location.reload();
 		window.open('./#'+lang, "_parent");
+		window.location.reload();
 	}
 }
 

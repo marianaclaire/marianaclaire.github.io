@@ -39,6 +39,7 @@
 
 <html ng:app="app" lang="en">
     <head>
+        <meta charset="utf-8">
         <title>Mariana Claire</title>
         <!-- jQuery -->
         <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
@@ -63,23 +64,24 @@
         <div id="splash-content-container">
             <div style="margin:10%"> </div>
             <div class="container color-black" ng-controller="viewCtrl">
-                <a href="../" class="subtle">
-                    <i class="fa fa-chevron-left"></i> Back
+                <a href="../#{{languageOpt}}" class="subtle">
+                    <i class="fa fa-chevron-left"></i> <span class="lang-ENG">Back</span>
+                    <span class="lang-FREN">Returner</span>
+                    <span class="lang-ESP">Atrás</span>
                 </a>
                 <div class="row">
                     <div class="col-md-8">
                         <div class="service-icon-sub"><i class="fa {{service.faIconBase}}" style="color:{{service.color}};opacity:0.5;"></i></div>
                         <div class="service-icon"><i class="fa {{service.faIcon}}" style="color:{{service.color}};"></i></div>
 
-                        <div id="title" ng-bind-html="service.name | to_trusted"></div>
-                        <div ng-bind-html="service.description | to_trusted"></div>
+                        <div id="title" ng-bind-html="service.name[languageOpt] | to_trusted"></div>
+                        <div ng-bind-html="service.description[languageOpt] | to_trusted"></div>
                     </div>
                     <div class="col-md-4">
                         <div style="margin:5%"> </div>
-                        Services List
                         <div class="backlight" ng-repeat="s in services" data-color="{{s.color}}" ng-init="$last ? refresh() : null" >
-                            <div ng-click="changeService(s.slug)" style="cursor:pointer;">
-                                <i class="fa {{s.faIcon}}"></i> {{s.name}}
+                            <div ng-click="changeService(s.slug[languageOpt])" style="cursor:pointer;">
+                                <i class="fa {{s.faIcon}}"></i> {{s.name[languageOpt]}}
                             </div>
                         </div>
                     </div>

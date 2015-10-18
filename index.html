@@ -103,65 +103,66 @@
 			</div>
 
 			<a name="services"></a>
-			<div class="splash-div min-full-height" data-id="splash2" data-image="assets/images/2.jpg">
-				<div class="row color-black" ng-controller="viewCtrl" style="margin:0;">
-					<div class="col-lg-3 col-md-5 col-sm-12">
-						<div class="subtitle">Services</div>
-						<div class="row">
-							<div class="col-md-12">I offer many different types of readings including: telepathic readings, oracle readings, soul drawings, reiki healing, sound healing and I also facilitate the aura alchemy process. I can help you determine what will be most beneficial. Most times it's a combination in the same session.
-							</div>
-						</div>
-						<br>
-						<div class="row">
-							<div class="col-lg-12 col-md-4 col-sm-4 col-xs-12 text-lg-right text-xs-right">
-								<strong>Language</strong></div>
-							<div class="col-lg-12 col-md-8 col-sm-8 col-xs-12">Available in English, French and Spanish</div>
-						</div>
-						<br>
-						<div class="row">
-							<div class="col-lg-12 col-md-4 col-sm-4 col-xs-12 text-lg-right text-xs-right">
-								<strong>Location</strong></div>
-							<div class="col-lg-12 col-md-8 col-sm-8 col-xs-12">
-								Skype or in person if you live in Calgary</div>
-						</div>
-						<br>
-						<div class="row">
-							<div class="col-lg-12 col-md-4 col-sm-4 col-xs-12 text-lg-right text-xs-right">
-								<strong>Payment</strong></div>
-							<div class="col-lg-12 col-md-8 col-sm-8 col-xs-12"><i class="fa fa-paypal"></i> Paypal to my email: marianaclaireinfo@gmail.com
-								<ul>
-									<li>45$ for 30 mins</li>
-									<li>67$ for 45 mins</li>
-									<li>89$ for 1 hour</li>
-									<li>112$ for 75 mins</li>
-									<li>135$ for 90 mins</li>
-									<li>60$ for a soul drawing</li>
-									<li>85$ for a soul drawing + report</li>
-									<li>100$ for a soul painting</li>
-									<li>125$ for a soul painting + report</li>
-								</ul>
-							</div>
-						</div>
- 						<div class="subtitle"><button type="button" class="btn btn-trans btn-trans-default book-toggle-btn"><strong>BOOK A SESSION</strong></button></div>
-					</div>
-					<div class="col-lg-9 col-md-7 col-sm-12">
-						<div class="backlight" ng-repeat="s in services" data-color="{{s.color}}">
+			<div class="splash-div" data-id="splash2" data-image="assets/images/2.jpg">
+				<div class="color-black" ng-controller="viewCtrl" style="margin:0;">
+					<div style="padding:2%"> </div>
+					<div class="row">
+						<div class="col-lg-3 col-md-5 col-sm-12">
+							<div class="subtitle">Services</div>
 							<div class="row">
-								<div class="col-xs-2 text-right">
-									<div class="service-icon-sub"><i class="fa {{s.faIconBase}}"></i></div>
-									<div class="service-icon"><i class="fa {{s.faIcon}}"></i></div>
+								<div class="col-md-12">I offer many different types of readings including: telepathic readings, oracle readings, soul drawings, reiki healing, sound healing and I also facilitate the aura alchemy process. I can help you determine what will be most beneficial. Most times it's a combination in the same session.
 								</div>
-								<div class="col-xs-10">
-									<h3>{{s.name}}</h3>
-									<p ng-bind-html="s.description | to_trusted"></p>
-									<div class="text-right">
-										<a class="subtle" href="services/index.html#{{s.slug}}">more <i class="fa fa-chevron-right"></i></a>
+							</div>
+							<br>
+							<div class="row">
+								<div class="col-lg-12 col-md-4 col-sm-4 col-xs-12 text-lg-right text-xs-right">
+									<strong>Language</strong></div>
+								<div class="col-lg-12 col-md-8 col-sm-8 col-xs-12">Available in English, French and Spanish</div>
+							</div>
+							<br>
+							<div class="row">
+								<div class="col-lg-12 col-md-4 col-sm-4 col-xs-12 text-lg-right text-xs-right">
+									<strong>Location</strong></div>
+								<div class="col-lg-12 col-md-8 col-sm-8 col-xs-12">
+									Skype, Google Hangouts, Facebook messenger or in person if you live in Calgary</div>
+							</div>
+							<br>
+						</div>
+						<div class="col-lg-9 col-md-7 col-sm-12">
+							<div class="row">
+								<div class="backlight col-lg-1 col-md-3 col-sm-3 col-xs-3" ng-repeat="s in services" data-color="{{s.color}}">
+									<!-- <a class="subtle" href="services/index.html#{{s.slug}}"> -->
+										<div class="service-icon-sub"><i class="fa {{s.faIconBase}}"></i></div>
+										<div class="service-icon"><i class="fa {{s.faIcon}}"></i></div>
+										<h3 class="rotate">{{s.name}}</h3>
+									<!-- </a> -->
+										<!-- <p ng-bind-html="s.description | to_trusted"></p> -->
+								</div>
+								<div class="col-lg-5 col-md-12 col-sm-12 col-xs-12">
+									<br><br>
+									<div class="row">
+										<div class="col-lg-12 col-md-4 col-sm-4 col-xs-12 text-lg-right text-xs-right">
+											<strong>Payment</strong></div>
+										<div class="col-lg-12 col-md-8 col-sm-8 col-xs-12"><i class="fa fa-paypal"></i> Paypal to my email: marianaclaireinfo@gmail.com
+											<ul>
+												<li>45$ for 30 mins</li>
+												<li>67$ for 45 mins</li>
+												<li>89$ for 1 hour</li>
+												<li>112$ for 75 mins</li>
+												<li>135$ for 90 mins</li>
+												<li>60$ for a soul drawing</li>
+												<li>85$ for a soul drawing + report</li>
+												<li>100$ for a soul painting</li>
+												<li>125$ for a soul painting + report</li>
+											</ul>
+										</div>
 									</div>
+			 						<div class="subtitle"><button type="button" class="btn btn-trans btn-trans-default book-toggle-btn"><strong>BOOK A SESSION</strong></button></div>
 								</div>
 							</div>
 						</div>
-						<br>
 					</div>
+					<div style="padding:2%"> </div>
 				</div>
 			</div>
 			<div style="margin:5%"></div>

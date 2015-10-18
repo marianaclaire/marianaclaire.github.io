@@ -301,6 +301,17 @@ td{
 	margin-left:10px;
 }
 
+.rotate {
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+	padding-left:50px;
+	margin-bottom:300px;
+	white-space: nowrap;
+}
+
 @media screen and (max-width: 1200px) {
 	.text-lg-right{
 		text-align: right;
@@ -314,3 +325,4 @@ td{
 		margin-left:10px;
 	}
 }
+

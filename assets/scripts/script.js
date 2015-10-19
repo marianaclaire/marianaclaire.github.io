@@ -25,6 +25,7 @@ function viewCtrl($scope) {
 	$scope.drawings = drawingsDB.drawings;
 	$scope.story = story;
 	$scope.serviceText = serviceText;
+	$scope.sampleDrawing = sampleDrawing;
 
 	$scope.refresh = function() {
 		window.setTimeout(function(){

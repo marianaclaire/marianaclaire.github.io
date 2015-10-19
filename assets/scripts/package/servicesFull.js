@@ -87,12 +87,12 @@ var servicesFull = {
 	healing: {
 		name: {
 			ENG:"Sound Healing",
-			FREN:"Curaison avec le son",
+			FREN:"Guérison avec les sons",
 			ESP:"Sanación de sonido",
 			},
 		slug: {
 			ENG:"healing",
-			FREN:"curaison",
+			FREN:"guérison",
 			ESP:"sanación",
 			},
 		color: "#9966FF",
@@ -158,7 +158,7 @@ var validLangsServices = {
 		dessins:"drawings",
 		lectures:"readings",
 		'reiki-f':"reiki",
-		curaison:"healing"
+		'guérison':"healing"
 	},
 	ESP:{
 		entrenamiento:"coaching",
@@ -234,7 +234,7 @@ function setBg(){
 
 (function(){
 	setBg();
-	//language 
+	//language
 	$('.lang-'+currentLang).css({
 		'display': 'inline-block'
 	});

@@ -92,12 +92,12 @@ var services = [
 	},{
 		name: {
 			ENG:"Sound Healing",
-			FREN:"Curaison avec le son",
+			FREN:"Guérison avec les sons",
 			ESP:"Sanación de sonido",
 			},
 		slug: {
 			ENG:"healing",
-			FREN:"curaison",
+			FREN:"guérison",
 			ESP:"sanación",
 			},
 		color: "#9966FF",

@@ -36,3 +36,7 @@ var serviceText = {
 	ESP: "Ofrezco diferentes tipos de lecturas psíquicas incluyendo las lecturas telepáticas, lecturas de tarot, oráculo, dibujos de alma, sanación Reiki, sanación del sonido, y procesos de curación usando integración y alquimia. También puedo ayudar a determinar qué servicio sería más beneficioso para cada persona, y por lo general en una sesión se hace una combinación de varios servicios."
 
 }
+
+var drawings = {
+
+}

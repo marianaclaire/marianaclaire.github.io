@@ -26,6 +26,7 @@ function viewCtrl($scope) {
 	$scope.story = story;
 	$scope.serviceText = serviceText;
 	$scope.sampleDrawing = sampleDrawing;
+	$scope.formValues = formValues;
 
 	$scope.refresh = function() {
 		window.setTimeout(function(){
@@ -126,11 +127,13 @@ window.onresize = function(){
 var formShowing = false;
 
 function postBooking(data, callback){
+	console.log(data)
 	$.ajax({
        type: "POST",
        url: "https://sheetsu.com/apis/0bfdda88",
        data: data })
     .done(function(res) {
+    	console.log(res);
 		callback();
 	})
 	.fail(function(res) {

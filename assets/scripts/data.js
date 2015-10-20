@@ -42,3 +42,21 @@ var sampleDrawing = {
 	FREN:"Les dessins de l’âme sont des dessins de spécifiques de votre ou des dessins intuitives qui vont vous aider à vous guérir vous-même et qui peuvent être utilisés pour méditer ou pour se connaître soi-même.",
 	ESP:"Los dibujos del alma son dibujos intuitivos o específicos de su aura que lo ayudaran a meditar y que pueden ser usados para curarse y aprender más de sí mismo."
 }
+
+var formValues = {
+	message:{
+		ENG:"Tell me about the service that you would like to have and the time you would like to have it.",
+		FREN:"Quel service aimerez-vous réserver et vers quelle heure?",
+		ESP:"Qué servicio le gustaría reservar y a qué hora le gustaría reservarlo?"
+	},
+	concact:{
+		ENG:"Your email, skype username or any other means to get back to you.",
+		FREN:"Votre email, votre nom de Skype ou un autre moyen où je pourrais vous contacter.",
+		ESP:"Su email, su nombre de usuario de Skype u otro medio por donde podría contactarlo."
+	},
+	submit:{
+		ENG:"CONFIRM",
+		FREN:"CONFIRMER",
+		ESP:"CONFIRMAR"
+	}
+}

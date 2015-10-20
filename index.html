@@ -123,22 +123,16 @@
 									<span class="lang-ENG">Message:</span>
 									<span class="lang-FREN">Message:</span>
 									<span class="lang-ESP">Mensaje:</span></label>
-								<textarea class="col-md-9 lang-ENG" name="message" placeholder="Tell me about the service that you would like to have and the time you would like to have it." required></textarea>
-								<textarea class="col-md-9 lang-FREN" name="message" placeholder="Quel service aimerez-vous réserver et vers quelle heure?" required></textarea>
-								<textarea class="col-md-9 lang-ESP" name="message" placeholder="Qué servicio le gustaría reservar y a qué hora le gustaría reservarlo?" required></textarea>
+								<textarea class="col-md-9" name="message" placeholder="{{formValues.message[languageOpt]}}" required></textarea>
 							</div>
 							<div class="row">
 								<label class="col-md-2 text-right">
 									<span class="lang-ENG">Contact:</span>
 									<span class="lang-FREN">Contact:</span>
 									<span class="lang-ESP">Contacto:</span></label>
-								<textarea class="col-md-9 lang-ENG" name="contact" maxlength="55" placeholder="Your email, skype username or any other means to get back to you." required></textarea>
-								<textarea class="col-md-9 lang-FREN" name="contact" maxlength="55" placeholder="Votre email, votre nom de Skype ou un autre moyen où je pourrais vous contacter." required></textarea>
-								<textarea class="col-md-9 lang-ESP" name="contact" maxlength="55" placeholder="Su email, su nombre de usuario de Skype u otro medio por donde podría contactarlo." required></textarea>
+								<textarea class="col-md-9" name="contact" maxlength="55" placeholder="{{formValues.concact[languageOpt]}}" required></textarea>
 							</div><br>
-							<input type="submit" value="CONFIRM" id="send-book-btn" class="btn btn-trans btn-trans-default lang-ENG" style="font-weight:bold;">
-							<input type="submit" value="CONFIRMER" id="send-book-btn" class="btn btn-trans btn-trans-default lang-FREN" style="font-weight:bold;">
-							<input type="submit" value="CONFIRMAR" id="send-book-btn" class="btn btn-trans btn-trans-default lang-ESP" style="font-weight:bold;">
+							<input type="submit" value="{{formValues.submit[languageOpt]}}" id="send-book-btn" class="btn btn-trans btn-trans-default" style="font-weight:bold;">
 							<button type="button" id="cancel-book-btn" class="btn btn-trans btn-trans-default">
 								<strong class="lang-ENG">CANCEL</strong>
 								<strong class="lang-FREN">ANNULER</strong>

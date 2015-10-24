@@ -27,6 +27,7 @@ function viewCtrl($scope) {
 	$scope.serviceText = serviceText;
 	$scope.sampleDrawing = sampleDrawing;
 	$scope.formValues = formValues;
+	$scope.titles = titles;
 
 	$scope.refresh = function() {
 		window.setTimeout(function(){

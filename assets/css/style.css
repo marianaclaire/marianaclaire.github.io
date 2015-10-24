@@ -276,6 +276,14 @@ button:focus{
 	display:none;
 }
 
+#bookingForm-display{
+	position:absolute;
+	top:0;
+	left:0;
+	height:100%;
+	width: 100%;
+}
+
 .row{
 	margin:0;
 }
@@ -335,4 +343,21 @@ td{
 
 .lang-ENG, .lang-FREN, .lang-ESP{
 	display:none;
+}
+
+#typeform-widget{
+	display:none;
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	z-index: 100;
+}
+
+#typeform-widget .cancel{
+	position:absolute;
+	bottom:10px;
+	left:10px;
+	z-index:101;
 }

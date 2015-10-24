@@ -44,19 +44,19 @@ var sampleDrawing = {
 }
 
 var formValues = {
-	message:{
-		ENG:"Tell me about the service that you would like to have and the time you would like to have it.",
-		FREN:"Quel service aimerez-vous réserver et vers quelle heure?",
-		ESP:"Qué servicio le gustaría reservar y a qué hora le gustaría reservarlo?"
+	form:{
+		ENG:"MuuMII",
+		FREN:"asvkeD",
+		ESP:""
 	},
-	concact:{
-		ENG:"Your email, skype username or any other means to get back to you.",
-		FREN:"Votre email, votre nom de Skype ou un autre moyen où je pourrais vous contacter.",
-		ESP:"Su email, su nombre de usuario de Skype u otro medio por donde podría contactarlo."
+	cancel:{
+		ENG:"BACK",
+		FREN:"RETURNER",
+		ESP:"ATRÁS"
 	},
-	submit:{
-		ENG:"CONFIRM",
-		FREN:"CONFIRMER",
-		ESP:"CONFIRMAR"
+	language:{
+		ENG:"English",
+		FREN:"Français",
+		ESP:""
 	}
 }

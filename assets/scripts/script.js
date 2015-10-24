@@ -171,20 +171,21 @@ $(function(){
 	// form
 	$('.book-toggle-btn').each(function(){
 		$(this).click(function(){
-			$("html, body").animate({ scrollTop: "0px" }, 300, function(){
-				if(!formShowing){
-					formShowing = true;
-					$('#form-hide').fadeOut('fast', function(){
-						$('#bookingForm-display').fadeIn('fast');
-					});
-				}
-			});
+
+			if(!formShowing){
+				formShowing = true;
+				$("html, body").css({'overflow-y' : 'hidden'});
+				$('#form-hide').fadeOut('fast', function(){
+					$('#typeform-widget').fadeIn('fast');
+				});
+			}
 		})
 	});
 	$('#cancel-book-btn').click(function(){
 		if(formShowing){
 			formShowing = false;
-			$('#bookingForm-display').fadeOut('fast', function(){
+			$("html, body").css({'overflow-y' : 'scroll'});
+			$('#typeform-widget').fadeOut('fast', function(){
 				$('#form-hide').fadeIn('fast');
 			});
 		}
@@ -194,7 +195,7 @@ $(function(){
 		$(this).attr('disabled','disabled');
 		var data = $('#bookingForm').serialize() + '&created_at='+getCurrentDateTime();
 		postBooking(data, function(){
-			$('#bookingForm-display').fadeOut('fast', function(){
+			$('#typeform-widget').fadeOut('fast', function(){
 				$("#success-message").fadeIn('fast');
 				$('#send-book-btn').removeAttr('disabled');
 				window.setTimeout(function(){

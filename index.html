@@ -51,6 +51,7 @@
 		<link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
 		<!-- Bootstrap -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 		<!-- Icons -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
@@ -63,29 +64,20 @@
 		<div id="splash-bg-container"></div>
 		<div id="side-menu">
 			<a data-id="services" class="menu-slide-btn"><div id="splash2">
-				<span class="lang-ENG lang-FREN">Services</span>
-				<span class="lang-ESP">Servicios</span>
+				<span>{{ titles.service[languageOpt] }}</span>
 			</div></a>
 			<a data-id="drawings" class="menu-slide-btn"><div id="splash3">
-				<span class="lang-ENG">Drawings</span>
-				<span class="lang-FREN">Dessin</span>
-				<span class="lang-ESP">Dibujos</span>
+				<span>{{ titles.drawing[languageOpt] }}</span>
 			</div></a>
 			<a data-id="contact" class="menu-slide-btn"><div id="splash5">
-				<span class="lang-ENG">About Me</span>
-				<span class="lang-FREN">À propos</span>
-				<span class="lang-ESP">Sobre mí</span>
+				<span>{{ titles.about[languageOpt] }}</span>
 			</div></a>
 			<a data-id="testimonials" class="menu-slide-btn"><div id="splash6">
-				<span class="lang-ENG">Testimonials</span>
-				<span class="lang-FREN">Témoignages</span>
-				<span class="lang-ESP">Testimonios</span>
+				<span>{{ titles.test[languageOpt] }}</span>
 			</div></a>
 			<!-- <a href="https://medium.com/@MarianaClaire" target="_blank"><div>Blog</div></a> -->
 			<a><div class="book-toggle-btn">
-				<span class="lang-ENG">Book Service</span>
-				<span class="lang-FREN">Réservez une session</span>
-				<span class="lang-ESP">Reserve una sesión</span>
+				<span>{{ titles.book[languageOpt] }}</span>
 			</div></a>
 		</div>
 		<div id="splash-content-container">
@@ -120,106 +112,75 @@
 
 			<div class="splash-div" data-id="splash2" data-image="assets/images/2.jpg">
 				<a name="services"></a>
-				<div class="color-black" style="margin:0;">
+				<div class="color-black" style="margin-top:50px;">
 					<div style="padding:2%"> </div>
 					<div class="row">
-						<div class="col-lg-3 col-md-5 col-sm-12">
-							<div class="subtitle">
-								<span class="lang-ENG lang-FREN">Services</span>
-								<span class="lang-ESP">Servicios</span>
-							</div>
+						<div class="col-lg-2 col-md-0"></div>
+						<div class="col-lg-8 col-md-12">
 							<div class="row">
-								<div class="col-md-12">{{ serviceText[languageOpt] }}</div>
-							</div>
-							<br>
-							<div class="row">
-								<div class="col-lg-12 col-md-4 col-sm-4 col-xs-12 text-lg-right text-xs-right">
-									<strong class="lang-ENG">Language</strong>
-									<strong class="lang-FREN">Langue</strong>
-									<strong class="lang-ESP">Lenguage</strong>
-								</div>
-								<div class="col-lg-12 col-md-8 col-sm-8 col-xs-12 lang-ENG">Available in English, French and Spanish</div>
-								<div class="col-lg-12 col-md-8 col-sm-8 col-xs-12 lang-FREN">J'offre tous mes services en anglais, français et espagnol</div>
-								<div class="col-lg-12 col-md-8 col-sm-8 col-xs-12 lang-ESP">Ofrezco todos mis servicios en inglés, español y francés</div>
-							</div>
-							<br>
-							<div class="row">
-								<div class="col-lg-12 col-md-4 col-sm-4 col-xs-12 text-lg-right text-xs-right">
-									<strong class="lang-ENG">Location</strong>
-									<strong class="lang-FREN">Lieu</strong>
-									<strong class="lang-ESP">Localización</strong>
-								</div>
-								<div class="col-lg-12 col-md-8 col-sm-8 col-xs-12 lang-ENG">
-									Skype, Google Hangouts, Facebook messenger or in person if you live in Calgary</div>
-								<div class="col-lg-12 col-md-8 col-sm-8 col-xs-12 lang-FREN">
-									Skype, Google Hangouts, Facebook messenger ou en personne si vous habitez à Calgary</div>
-								<div class="col-lg-12 col-md-8 col-sm-8 col-xs-12 lang-ESP">
-									Skype, Google Hangouts, Facebook messenger o en persona si vive en Calgary</div>
-							</div>
-							<br>
-						</div>
-						<div class="col-lg-9 col-md-7 col-sm-12">
-							<div class="row">
-								<div class="backlight col-lg-1 col-md-3 col-sm-2 col-xs-3" ng-repeat="s in services" data-color="{{s.color}}">
-									<a class="subtle" href="services/index.html#{{s.slug[languageOpt]}}">
-										<div class="service-icon-sub"><i class="fa {{s.faIconBase}}"></i></div>
-										<div class="service-icon"><i class="fa {{s.faIcon}}"></i></div>
-										<h3 class="rotate">{{s.name[languageOpt]}}</h3>
-									</a>
-										<!-- <p ng-bind-html="s.description | to_trusted"></p> -->
-								</div>
-								<div class="col-lg-5 col-md-12 col-sm-10 col-xs-12">
-									<br><br>
+								<div class="col-lg-6 col-md-6 col-sm-12">
+									<div class="subtitle">
+										<span>{{ titles.service[languageOpt] }}</span>
+									</div>
+									<div class="row">
+										<div class="col-md-12">{{ serviceText[languageOpt] }}</div>
+									</div>
+									<br>
 									<div class="row">
 										<div class="col-lg-12 col-md-4 col-sm-4 col-xs-12 text-lg-right text-xs-right">
-											<strong class="lang-ENG">Payment</strong>
-											<strong class="lang-FREN">Paiment</strong>
-											<strong class="lang-ESP">Pago</strong></div>
+											<strong>{{ serviceText.details.language.title[languageOpt] }}</strong>
+										</div>
+										<div class="col-lg-12 col-md-8 col-sm-8 col-xs-12">
+											{{ serviceText.details.language.desc[languageOpt] }}
+										</div>
+									</div>
+									<br>
+									<div class="row">
+										<div class="col-lg-12 col-md-4 col-sm-4 col-xs-12 text-lg-right text-xs-right">
+											<strong>{{ serviceText.details.location.title[languageOpt] }}</strong>
+										</div>
+										<div class="col-lg-12 col-md-8 col-sm-8 col-xs-12">
+											{{ serviceText.details.location.desc[languageOpt] }}
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-6 col-md-6 col-sm-12">
+									<div class="row">
+										<br>
+										<div class="col-lg-12 col-md-4 col-sm-4 col-xs-12 text-lg-right text-xs-right">
+											<strong>{{serviceText.payment.title[languageOpt]}}</strong>
+										</div>
 										<div class="col-lg-12 col-md-8 col-sm-8 col-xs-12"><i class="fa fa-paypal"></i>
-											<span class="lang-ENG">Paypal to my email</span>
-											<span class="lang-FREN">Paypal à mon email</span>
-											<span class="lang-ESP">Paypal a mi email</span>: marianaclaireinfo@gmail.com
+											{{ serviceText.payment.desc[languageOpt] }}: marianaclaireinfo@gmail.com
 											<ul>
-												<li>45$ <span class="lang-ENG">for</span>
-													<span class="lang-FREN">pour</span>
-													<span class="lang-ESP">por</span>
-													 30 mins</li>
-												<li>67$ <span class="lang-ENG">for</span>
-													<span class="lang-FREN">pour</span>
-													<span class="lang-ESP">por</span> 45 mins</li>
-												<li>89$ <span class="lang-ENG">for</span>
-													<span class="lang-FREN">pour</span>
-													<span class="lang-ESP">por</span> 1 <span class="lang-ENG">hour</span>
-													<span class="lang-FREN">heure</span>
-													<span class="lang-ESP">hora</span></li>
-												<li>112$ <span class="lang-ENG">for</span>
-													<span class="lang-FREN">pour</span>
-													<span class="lang-ESP">por</span> 75 mins</li>
-												<li>135$ <span class="lang-ENG">for</span>
-													<span class="lang-FREN">pour</span>
-													<span class="lang-ESP">por</span> 90 mins</li>
-												<li>60$ <span class="lang-ENG">for a soul drawing</span>
-													<span class="lang-FREN">pour un dessin de l'âme</span>
-													<span class="lang-ESP">por un dibujo del alma</span></li>
-												<li>85$ <span class="lang-ENG">for a soul drawing + report</span>
-													<span class="lang-FREN">pour un dessin de l'âme + rapport</span>
-													<span class="lang-ESP">por un dibujo del alma + reporte</span></li>
-												<li>100$ <span class="lang-ENG">for a soul painting</span>
-													<span class="lang-FREN">pour une peinture de l'âme</span>
-													<span class="lang-ESP">por una pintura del alma</span></li>
-												<li>125$ <span class="lang-ENG">for a soul painting + report</span>
-													<span class="lang-FREN">pour une peinture de l'âme + rapport</span>
-													<span class="lang-ESP">por una pintura del alma + reporte</span></li>
+												<li ng-repeat="p in serviceText.payment.prices[languageOpt]">
+													{{p}}
+												</li>
 											</ul>
 										</div>
 									</div>
-			 						<div class="subtitle"><button type="button" class="btn btn-trans btn-trans-default book-toggle-btn all-cap">
-					 					<strong class="lang-ENG">Book a Session</strong>
-										<strong class="lang-FREN">Réservez une session</strong>
-										<strong class="lang-ESP">Reserve una sesión</strong>
-									</button></div>
+			 						<div class="subtitle">
+			 							<button type="button" class="btn btn-trans btn-trans-default book-toggle-btn all-cap">
+					 					<strong>{{ titles.book[languageOpt] }}</strong>
+										</button>
+									</div>
 								</div>
 							</div>
+							<br>
+							<div class="row">
+								<div class="backlight col-lg-1 col-md-1 col-sm-3 col-xs-3" ng-repeat="s in services" data-color="{{s.color}}" data-toggle="{{ s.name[languageOpt] }}">
+									<a class="subtle" href="services/index.html#{{s.slug[languageOpt]}}">
+										<div class="service-icon-sub"><i class="fa {{s.faIconBase}}"></i></div>
+										<div class="service-icon"><i class="fa {{s.faIcon}}"></i></div>
+										<br>
+									</a>
+								</div>
+								<div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
+									<br>
+									<h2 class="backlight-toggle-target text-right"></h2>
+								</div>
+							</div>
+
 						</div>
 					</div>
 					<div style="padding:2%"> </div>
@@ -261,9 +222,7 @@
 				<div style="margin:5%"></div>
 				<div class="container color-black">
 					<div class="subtitle">
-						<span class="lang-ENG">About Me</span>
-						<span class="lang-FREN">À propos</span>
-						<span class="lang-ESP">Sobre mí</span>
+						<span>{{ titles.about[languageOpt] }}</span>
 					</div>
 					<div class="row">
 						<div class="col-md-4">
@@ -304,9 +263,7 @@
 					<div class="row">
 						<div class="col-md-8">
 							<div class="subtitle">
-								<span class="lang-ENG">Testimonials</span>
-								<span class="lang-FREN">Temoignages</span>
-								<span class="lang-ESP">Testimonios</span></div>
+								<span>{{ titles.test[languageOpt] }}</span></div>
 							<div id="testimonial-display">
 								<span class="current"></span>/<span class="total"></span>
 								<blockquote>

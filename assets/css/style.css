@@ -237,7 +237,7 @@ button:focus{
 }
 
 .service-icon-sub{
-	margin-top:20px;
+	margin-top:5px;
 	margin-right:4px;
 	text-align: center;
 	font-size: 60px;
@@ -250,39 +250,10 @@ button:focus{
 	text-align: right;
 }
 
-#bookingForm input[type=text], #bookingForm textarea ,
-.form-tran input, .form-tran select{
-    background-color: transparent;
-    padding: 15px;
-    border:0;
-    border-bottom: solid rgba(255,255,255,0.4) 1px;
-    padding: 2px 5px;
-    font-family: 'Raleway';
-    color:white;
-    font-size: 20px;
-}
-
-#bookingForm input[type=text]:focus, #bookingForm textarea:focus,
-.form-tran input:focus, .form-tran select:focus{
-	outline: 0;
-	background-color: transparent;
-}
-
-.form-tran option{
-	background-color: rgba(0,0,0,0.8);
-}
-
-#bookingForm-display, #success-message{
+#success-message{
 	display:none;
 }
 
-#bookingForm-display{
-	position:absolute;
-	top:0;
-	left:0;
-	height:100%;
-	width: 100%;
-}
 
 .row{
 	margin:0;
@@ -325,20 +296,6 @@ td{
 	white-space: nowrap;
 }
 
-@media screen and (max-width: 1200px) {
-	.text-lg-right{
-		text-align: right;
-		margin-left:0;
-	}
-}
-
-@media screen and (max-width: 720px) {
-	.text-xs-right{
-		text-align: left;
-		margin-left:10px;
-	}
-}
-
 /* languages */
 
 .lang-ENG, .lang-FREN, .lang-ESP{
@@ -357,7 +314,21 @@ td{
 
 #typeform-widget .cancel{
 	position:absolute;
-	bottom:10px;
-	left:10px;
+	bottom:70px;
+	right:30px;
 	z-index:101;
+
+@media screen and (max-width: 1200px) {
+	.text-lg-right{
+		text-align: right;
+		margin-left:0;
+	}
+}
+
+@media screen and (max-width: 720px) {
+	.text-xs-right{
+		text-align: left;
+		margin-left:10px;
+	}
+}
 }

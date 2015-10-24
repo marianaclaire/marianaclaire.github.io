@@ -27,6 +27,7 @@ function viewCtrl($scope) {
 	$scope.serviceText = serviceText;
 	$scope.sampleDrawing = sampleDrawing;
 	$scope.formValues = formValues;
+	$scope.titles = titles;
 
 	$scope.refresh = function() {
 		window.setTimeout(function(){
@@ -63,6 +64,7 @@ function populateBG(){
 			$(div).fadeIn('slow');
 		}
 	});
+	console.log(cachePosition);
 }
 
 function populateCache(){

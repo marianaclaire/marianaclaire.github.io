@@ -33,8 +33,82 @@ var story = {
 var serviceText = {
 	ENG: "I offer many different types of readings including: telepathic readings, oracle readings, soul drawings, reiki healing, sound healing and I also facilitate the aura alchemy process. I can help you determine what will be most beneficial. Most times it's a combination in the same session.",
 	FREN: "J'offre plusieurs types de services psychiques comme les lectures télépathiques, les lectures avec les cartes de tarot ou d'oracle, les dessins de l'âme, du reiki, la guérison par le son et le processus d'alchimie aurique. Je peux aussi vous aider à déterminer quel genre de service serait le plus convenable pour vous. La plupart du temps, pendant les sessions j'utilise une combinaison de la plupart de ses services.",
-	ESP: "Ofrezco diferentes tipos de lecturas psíquicas incluyendo las lecturas telepáticas, lecturas de tarot, oráculo, dibujos de alma, sanación Reiki, sanación del sonido, y procesos de curación usando integración y alquimia. También puedo ayudar a determinar qué servicio sería más beneficioso para cada persona, y por lo general en una sesión se hace una combinación de varios servicios."
+	ESP: "Ofrezco diferentes tipos de lecturas psíquicas incluyendo las lecturas telepáticas, lecturas de tarot, oráculo, dibujos de alma, sanación Reiki, sanación del sonido, y procesos de curación usando integración y alquimia. También puedo ayudar a determinar qué servicio sería más beneficioso para cada persona, y por lo general en una sesión se hace una combinación de varios servicios.",
 
+	details: {
+		language: {
+			title: {
+				ENG: "Language",
+				FREN: "Langue",
+				ESP: "Lenguage"
+			},
+			desc :{
+				ENG: "Available in English, French and Spanish",
+				FREN: "J'offre tous mes services en anglais, français et espagnoll",
+				ESP: "Ofrezco todos mis servicios en inglés, español y francés"
+			},
+		},
+		location: {
+			title: {
+				ENG: "Location",
+				FREN: "Lieu",
+				ESP: "Localización"
+			},
+			desc :{
+				ENG: "Skype, Google Hangouts, Facebook messenger or in person if you live in Calgary",
+				FREN: "Skype, Google Hangouts, Facebook messenger ou en personne si vous habitez à Calgary",
+				ESP: "Skype, Google Hangouts, Facebook messenger o en persona si vive en Calgary"
+			},
+		}
+	},
+
+	payment: {
+		title: {
+			ENG: "Payment",
+			FREN: "Paiment",
+			ESP: "Pago"
+		},
+		desc :{
+			ENG: "Paypal to my email",
+			FREN: "Paypal à mon email",
+			ESP: "Paypal a mi email"
+		},
+		prices: {
+			ENG: [
+				"45 for 30 min",
+				"67 for 45 min",
+				"89 for 1 hour",
+				"112$ for 75 mins",
+				"135$ for 90 mins",
+				"60$ for a soul drawing",
+				"85$ for a soul drawing + report",
+				"100$ for a soul painting",
+				"125$ for a soul painting + report"
+			],
+			FREN: [
+				"45$ pour 30 mins",
+				"67$ pour 45 mins",
+				"89$ pour 1 heure",
+				"112$ pour 75 mins",
+				"135$ pour 90 mins",
+				"60$ pour un dessin de l'âme",
+				"85$ pour un dessin de l'âme + rapport",
+				"100$ pour une peinture de l'âme",
+				"125$ pour une peinture de l'âme + rapport"
+			],
+			ESP: [
+				"45$ por 30 mins",
+				"67$ por 45 mins",
+				"89$ por 1 hora",
+				"112$ por 75 mins",
+				"135$ por 90 mins",
+				"60$ por un dibujo del alma",
+				"85$ por un dibujo del alma + reporte",
+				"100$ por una pintura del alma",
+				"125$ por una pintura del alma + reporte"
+			]
+		}
+	}
 }
 
 var sampleDrawing = {
@@ -58,5 +132,33 @@ var formValues = {
 		ENG:"English",
 		FREN:"Français",
 		ESP:""
+	}
+}
+
+var titles = {
+	service : {
+		ENG: "Services",
+		FREN: "Services",
+		ESP:"Servicios"
+	},
+	drawing : {
+		ENG: "Drawings",
+		FREN: "Dessin",
+		ESP: "Dibujos",
+	},
+	about : {
+		ENG: "About Me",
+		FREN: "À propos",
+		ESP: "Sobre mí",
+	},
+	test : {
+		ENG: "Testimonials",
+		FREN: "Témoignages",
+		ESP: "Testimonios",
+	},
+	book :{
+		ENG: "Book Service",
+		FREN: "Réservez une session",
+		ESP: "Reserve una sesión",
 	}
 }

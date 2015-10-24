@@ -28,6 +28,11 @@
 	width:40%;
 }
 
+.sm-padded{
+	height: 200px;
+	width:25%;
+}
+
 .portfolio-title{
 	padding:10px;
 	color:white;

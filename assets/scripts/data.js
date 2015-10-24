@@ -162,3 +162,123 @@ var titles = {
 		ESP: "Reserve una sesión",
 	}
 }
+
+var contact = {
+	links: [
+		{
+			category: "Facebook",
+			faIcon: "fa-facebook-official",
+			links: [
+				{
+					name: {
+						ENG: "Mariana Claire",
+						FREN: "Mariana Claire",
+						ESP: "Mariana Claire"
+					},
+					desc: {
+						ENG: "Facebook fan page, the previous online headquarter, the start of everything",
+						FREN: "",
+						ESP: ""
+					},
+					url: "https://www.facebook.com/Mariana-Claire-1484113901885029/"
+				},{
+					name: {
+						ENG: "Mariana Claire, Spiritual Family (English)",
+						FREN: "Mariana Claire, Spiritual Family (Anglais)",
+						ESP: "Mariana Claire, Spiritual Family (Inglés)",
+					},
+					desc: {
+						ENG: "Facebook group",
+						FREN: "",
+						ESP: ""
+					},
+					url: "https://www.facebook.com/groups/427017564155786/"
+				},{
+					name: {
+						ENG: "Mariana Claire, Familia Espiritual (Spanish)",
+						FREN: "Mariana Claire, Familia Espiritual (Espagnol)",
+						ESP: "Mariana Claire, Familia Espiritual (Español)",
+					},
+					desc: {
+						ENG: "Facebook group",
+						FREN: "",
+						ESP: ""
+					},
+					url: "https://www.facebook.com/groups/427017564155786/"
+				}
+			]
+		},{
+			category: "YouTube",
+			faIcon: "fa-youtube",
+			links: [
+				{
+					name: {
+						ENG: "Mariana Claire (English)",
+						FREN: "Mariana Claire (Anglais)",
+						ESP: "Mariana Claire (Inglés)"
+					},
+					desc: {
+						ENG: "English YouTube chanel",
+						FREN: "",
+						ESP: ""
+					},
+					url: "https://www.youtube.com/channel/UCECj3HY7vZ1-oAdtYjU1U-Q"
+				},{
+					name: {
+						ENG: "Mariana Claire (Spanish)",
+						FREN: "Mariana Claire (Espagnol)",
+						ESP: "Mariana Claire (Español)"
+					},
+					desc: {
+						ENG: "Spanish YouTube chanel",
+						FREN: "",
+						ESP: ""
+					},
+					url: "https://www.youtube.com/channel/UCf6E45-GT_KuFr_ucu8bmQw"
+				}
+			]
+		},{
+			category: "Medium",
+			faIcon: "fa-medium",
+			links: [
+				{
+					name: {
+						ENG: "Mariana Claire (English)",
+						FREN: "Mariana Claire (Anglais)",
+						ESP: "Mariana Claire (Inglés)"
+					},
+					desc: {
+						ENG: "English Medium blog",
+						FREN: "",
+						ESP: ""
+					},
+					url: "https://medium.com/@MarianaClaire"
+				}
+				// ,{
+				// 	name: {
+				// 		ENG: "Mariana Claire (Spanish)",
+				// 		FREN: "Mariana Claire (Espagnol)",
+				// 		ESP: "Mariana Claire (Español)"
+				// 	},
+				// 	desc: {
+				// 		ENG: "Official Spanish YouTube chanel",
+				// 		FREN: "",
+				// 		ESP: ""
+				// 	},
+				// 	url: "https://medium.com/@MarianaClaire"
+				// }
+			]
+		}
+	],
+	pictures: [
+		'assets/images/self/1.jpg',
+		'assets/images/self/2.jpg',
+		'assets/images/self/3.jpg',
+		'assets/images/self/4.jpg',
+	],
+	button: {
+		ENG: "Find Out More",
+		FREN: "En savoir plus",
+		ESP: "Obtenga más información"
+	}
+}

@@ -64,6 +64,7 @@ function populateBG(){
 			$(div).fadeIn('slow');
 		}
 	});
+	console.log(cachePosition);
 }
 
 function populateCache(){

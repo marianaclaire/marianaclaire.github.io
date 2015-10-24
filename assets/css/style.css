@@ -250,7 +250,7 @@ button:focus{
 	text-align: right;
 }
 
-#success-message{
+#success-message, #more-about-me{
 	display:none;
 }
 

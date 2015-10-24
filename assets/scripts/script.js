@@ -28,6 +28,7 @@ function viewCtrl($scope) {
 	$scope.sampleDrawing = sampleDrawing;
 	$scope.formValues = formValues;
 	$scope.titles = titles;
+	$scope.contact = contact;
 
 	$scope.refresh = function() {
 		window.setTimeout(function(){
@@ -210,5 +211,20 @@ $(function(){
 				}, 1500);
 			});
 		});
+	});
+
+	// toggle for more about me section
+	$('.toggle-more-about-me').click(function(){
+		$('#more-about-me').finish().slideDown('fast');
+		$(this).finish().fadeOut('fast');
+		window.setTimeout(function(){
+			$('.splash-div').click(function(e){
+				if( e.target != this )
+       				return;
+				$('.splash-div').off("click");
+				$('#more-about-me').finish().slideUp('fast');
+				$('.toggle-more-about-me').finish().fadeIn('fast');
+			});
+		}, 1000);
 	});
 }());

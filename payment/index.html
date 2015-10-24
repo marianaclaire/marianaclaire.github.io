@@ -42,6 +42,7 @@
         <title>Mariana Claire: Payment Checkout</title>
         <!-- jQuery -->
         <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-url-parser/2.3.1/purl.min.js"></script>
         <!-- Google font -->
         <link href='https://fonts.googleapis.com/css?family=Calligraffitti' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=Poiret+One:100,400' rel='stylesheet' type='text/css'>
@@ -110,6 +111,10 @@
               color: transparent;
               text-shadow: 0 0 0 #000;
             }
+
+            .currency-USD, .currency-CAD{
+                display:none;
+            }
         </style>
     </head>
     <body>
@@ -122,7 +127,7 @@
                 <div id="title">Booking a Session
                     <h3>with Mariana Claire</h3></div>
 
-                    <form class="form-tran" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                    <form class="form-tran currency-USD" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
                     <input type="hidden" name="cmd" value="_s-xclick">
                     <table>
                     <tr><td><input type="hidden" name="on0" value="Book a session">Please choose a service</td></tr><tr><td>
@@ -146,6 +151,32 @@
                     <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
                     <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
                     </form>
+
+                    <!-- Canadian -->
+                    <form class="form-tran currency-CAD" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <table>
+                    <tr><td><input type="hidden" name="on0" value="Book a session">Please choose a service</td></tr><tr><td>
+                    <select class="minimal" name="os0" required>
+                    <option value="" disabled selected> -- select an option -- </option>
+                    <option value="30 mins">30 mins $45.00 CAD</option>
+                    <option value="45 mins">45 mins $67.00 CAD</option>
+                    <option value="60 mins">60 mins $89.00 CAD</option>
+                    <option value="75 mins">75 mins $112.00 CAD</option>
+                    <option value="90 mins">90 mins $135.00 CAD</option>
+                    <option value="Soul drawing">Soul drawing $60.00 CAD</option>
+                    <option value="Soul drawing + report">Soul drawing + report $85.00 CAD</option>
+                    <option value="Soul painting">Soul painting $100.00 CAD</option>
+                    <option value="Soul painting + report">Soul painting + report $125.00 CAD</option>
+                    </select> </td></tr>
+                    </table>
+                    <i class="fa fa-paypal"></i> Process with Paypall</br>
+                    <input type="hidden" name="currency_code" value="CAD">
+                    <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
+                    ">
+                    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                    <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                    </form>
                 <div style="margin:5%"> </div>
                 <div class="text-right">
                     <a href="../" class="subtle"><i class="fa fa-chevron-left"></i>  Back to Homapage</a>
@@ -159,6 +190,11 @@
             $div.hide();
             $div.css('background-image','url("../assets/images/1.jpg")');
             $div.fadeIn('fast');
+
+            var currency = purl(window.location.href).param('currency');
+            $('.currency-'+currency).css({
+                'display':'block'
+            });
         }());
     </script>
 </html>

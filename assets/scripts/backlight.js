@@ -42,8 +42,19 @@ function initBacklight(args){
 		    +',1)';
 		$(this).hover(function(){
 			$(this).css(hoverCss(rgbaCol, color).on[type]);
+			if($(this).data('toggle')){
+				$('.backlight-toggle-target').data('val', $(this).data('toggle'));
+				$('.backlight-toggle-target').finish().fadeOut('fast', function(){
+					$('.backlight-toggle-target').html($(this).data('val'));
+					$('.backlight-toggle-target').fadeIn('fast');
+				});
+
+			}
 		}, function(){
 			$(this).css(hoverCss(rgbaCol, color).off[type]);
+			if($(this).data('toggle')){
+				$('.backlight-toggle-target').finish().fadeOut('fast');
+			}
 		});
 	});
 }

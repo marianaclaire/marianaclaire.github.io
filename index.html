@@ -51,6 +51,7 @@
 		<link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
 		<!-- Bootstrap -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 		<!-- Icons -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
@@ -111,49 +112,41 @@
 
 			<div class="splash-div" data-id="splash2" data-image="assets/images/2.jpg">
 				<a name="services"></a>
-				<div class="color-black" style="margin:0;">
+				<div class="color-black" style="margin-top:50px;">
 					<div style="padding:2%"> </div>
 					<div class="row">
-						<div class="col-lg-3 col-md-5 col-sm-12">
-							<div class="subtitle">
-								<span>{{ titles.service[languageOpt] }}</span>
-							</div>
+						<div class="col-lg-2 col-md-0"></div>
+						<div class="col-lg-8 col-md-12">
 							<div class="row">
-								<div class="col-md-12">{{ serviceText[languageOpt] }}</div>
-							</div>
-							<br>
-							<div class="row">
-								<div class="col-lg-12 col-md-4 col-sm-4 col-xs-12 text-lg-right text-xs-right">
-									<strong>{{ serviceText.details.language.title[languageOpt] }}</strong>
-								</div>
-								<div class="col-lg-12 col-md-8 col-sm-8 col-xs-12">
-									{{ serviceText.details.language.desc[languageOpt] }}
-								</div>
-							</div>
-							<br>
-							<div class="row">
-								<div class="col-lg-12 col-md-4 col-sm-4 col-xs-12 text-lg-right text-xs-right">
-									<strong>{{ serviceText.details.location.title[languageOpt] }}</strong>
-								</div>
-								<div class="col-lg-12 col-md-8 col-sm-8 col-xs-12">
-									{{ serviceText.details.location.desc[languageOpt] }}
-								</div>
-							</div>
-							<br>
-						</div>
-						<div class="col-lg-9 col-md-7 col-sm-12">
-							<div class="row">
-								<div class="backlight col-lg-1 col-md-3 col-sm-2 col-xs-3" ng-repeat="s in services" data-color="{{s.color}}">
-									<a class="subtle" href="services/index.html#{{s.slug[languageOpt]}}">
-										<div class="service-icon-sub"><i class="fa {{s.faIconBase}}"></i></div>
-										<div class="service-icon"><i class="fa {{s.faIcon}}"></i></div>
-										<h3 class="rotate">{{ s.name[languageOpt] }}</h3>
-									</a>
-										<!-- <p ng-bind-html="s.description | to_trusted"></p> -->
-								</div>
-								<div class="col-lg-5 col-md-12 col-sm-10 col-xs-12">
-									<br><br>
+								<div class="col-lg-6 col-md-6 col-sm-12">
+									<div class="subtitle">
+										<span>{{ titles.service[languageOpt] }}</span>
+									</div>
 									<div class="row">
+										<div class="col-md-12">{{ serviceText[languageOpt] }}</div>
+									</div>
+									<br>
+									<div class="row">
+										<div class="col-lg-12 col-md-4 col-sm-4 col-xs-12 text-lg-right text-xs-right">
+											<strong>{{ serviceText.details.language.title[languageOpt] }}</strong>
+										</div>
+										<div class="col-lg-12 col-md-8 col-sm-8 col-xs-12">
+											{{ serviceText.details.language.desc[languageOpt] }}
+										</div>
+									</div>
+									<br>
+									<div class="row">
+										<div class="col-lg-12 col-md-4 col-sm-4 col-xs-12 text-lg-right text-xs-right">
+											<strong>{{ serviceText.details.location.title[languageOpt] }}</strong>
+										</div>
+										<div class="col-lg-12 col-md-8 col-sm-8 col-xs-12">
+											{{ serviceText.details.location.desc[languageOpt] }}
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-6 col-md-6 col-sm-12">
+									<div class="row">
+										<br>
 										<div class="col-lg-12 col-md-4 col-sm-4 col-xs-12 text-lg-right text-xs-right">
 											<strong>{{serviceText.payment.title[languageOpt]}}</strong>
 										</div>
@@ -173,6 +166,21 @@
 									</div>
 								</div>
 							</div>
+							<br>
+							<div class="row">
+								<div class="backlight col-lg-1 col-md-1 col-sm-3 col-xs-3" ng-repeat="s in services" data-color="{{s.color}}" data-toggle="{{ s.name[languageOpt] }}">
+									<a class="subtle" href="services/index.html#{{s.slug[languageOpt]}}">
+										<div class="service-icon-sub"><i class="fa {{s.faIconBase}}"></i></div>
+										<div class="service-icon"><i class="fa {{s.faIcon}}"></i></div>
+										<br>
+									</a>
+								</div>
+								<div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
+									<br>
+									<h2 class="backlight-toggle-target text-right"></h2>
+								</div>
+							</div>
+
 						</div>
 					</div>
 					<div style="padding:2%"> </div>

@@ -207,3 +207,14 @@ $(function(){
 		});
 	});
 }());
+/*Start of pop up prompt*/
+function sendMail() {
+    var link = "mailto:mariana@xyz.com"
+             + "?cc=ccAddress@example.com"
+             + "&subject=" + escape("Subject")
+             + "&body=" + escape(document.getElementById('myText').value)
+    ;
+
+    window.location.href = link;
+}
+/*End of startup prompt*/

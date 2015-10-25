@@ -124,10 +124,15 @@ var formValues = {
 		FREN:"asvkeD",
 		ESP:"DWzIS6"
 	},
-	cancel:{
+	back:{
 		ENG:"BACK",
 		FREN:"RETURNER",
 		ESP:"ATRÁS"
+	},
+	cancel:{
+		ENG:"CANCEL",
+		FREN:"ANNULER",
+		ESP:"CANCELAR"
 	},
 	language:{
 		ENG:"English",
@@ -148,6 +153,11 @@ var formValues = {
 		ENG:"Email",
 		FREN:"Courriel",
 		ESP:"Correo"
+	},
+	requiredIndice: {
+		ENG:"indicates required",
+		FREN:"indique champ exigé",
+		ESP:"se requiere indicación"
 	}
 }
 
@@ -301,5 +311,69 @@ var contact = {
 		ENG: "Find Out More",
 		FREN: "En savoir plus",
 		ESP: "Obtenga más información"
+	}
+}
+
+var support = {
+	preTitle: {
+		ENG:"Like Mariana Claire?",
+		FREN:"Aimez-vous Mariana Claire?",
+		ESP:"Le gusta Mariana Claire?",
+	},
+	title: {
+		ENG:"Subscribe and Support!",
+		FREN:"Abonnez-vous et Appuyez-moi!",
+		ESP:"Suscríbase y Apoyeme!"
+	},
+	content:{
+		ENG: [
+			"With your help, the spiritual community will bloom and together we can awaken Earth.<br>Let's join force to help people understanding their deepest inner self and change the world!",
+			"<strong>Subcribe</strong> to my newletters to learn more about psychics<br>and to recieve exclusive Mariana Claire offers.",
+			"<strong>Donate</strong> to Mariana Claire support and grow this service."
+		],
+		FREN: [
+			"Avec votre aide, on peut aider à grandir la communauté spirituelle et nous aider les uns l'es autres.",
+			"<strong>Abonnez-vous</strong> à mon bulletin d'informations pour recevoir de mes nouvelles, blogs et offres.",
+			"<strong>Appuyez-moi</strong> à aider les gens à se connaître plus eux-mêmes et leurs dons."
+		],
+		ESP: [
+			"Con su ayuda, la comunidad espiritual  crecerá y juntos podemos ayudar a despertar  la humanidad.",
+			"<strong>Suscríbase</strong> a mi boletín informativo para recibir mis noticias, blogs y mis ofertas.",
+			"<strong>Apoyeme</strong> para ayudar a las personas a conocerse mas a si mismas y crecer en su camino espiritual."
+		]
+	},
+	subscribe: {
+		button:{
+			ENG:"Subscribe",
+			FREN:"S'abonner",
+			ESP:"Suscríbase"
+		},
+		content:{
+			ENG: "",
+			FREN: "",
+			ESP: ""
+		},
+		title:{
+			ENG:"Subscribe to the Newsletter List",
+			FREN:"Abonnez-vous à la liste d'envoi",
+			ESP:"Suscríbase a la lista de noticias"
+		}
+	},
+	donate: {
+		button:{
+			ENG:"Donate",
+			FREN:"Donation",
+			ESP:"Donar"
+		},
+		content:{
+			ENG: "Proceed a donate with paypal <i class='fa fa-paypal'></i>.<br>All amount are appreciated!",
+			FREN:"Passez un don avec paypal <i class='fa fa-paypal'></i>.<br>Tous les montants sont appréciés !",
+			ESP:"Proceda una donación con PayPal <i class='fa fa-paypal'></i>.<br>Toda cantidad se aprecian!"
+		},
+		title:{
+			ENG: "Donate to Mariana Claire to support her.",
+			FREN:"Faites un don à Mariana Claire pour l'appuyer.",
+			ESP:"Done a Mariana Claire para hacer crecer este servicio."
+		}
 	}
 }

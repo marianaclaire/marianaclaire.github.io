@@ -69,9 +69,9 @@ var serviceText = {
 			ESP: "Pago"
 		},
 		desc :{
-			ENG: "Paypal to my email",
-			FREN: "Paypal à mon email",
-			ESP: "Paypal a mi email"
+			ENG: "Paypal to my email: marianaclaireinfo@gmail.com<br>To pay via Mastercard or Visa please message me to send you the payment link.",
+			FREN: "Paypal à mon email: marianaclaireinfo@gmail.com<br>Pour payer avec la carte Mastercard ou Visa s'il-vous-plaît m'envoyer un message pour vous envoyer la page pour payer en ligne.",
+			ESP: "Paypal a mi email: marianaclaireinfo@gmail.com<br>Para pagar con tarjeta Mastercard o Visa por favor enviarme un mensaje para mandarles la pagina de pago."
 		},
 		prices: {
 			ENG: [

@@ -149,7 +149,7 @@
 											<strong>{{serviceText.payment.title[languageOpt]}}</strong>
 										</div>
 										<div class="col-lg-12 col-md-8 col-sm-8 col-xs-12"><i class="fa fa-paypal"></i>
-											{{ serviceText.payment.desc[languageOpt] }}: marianaclaireinfo@gmail.com
+											<span ng-bind-html="serviceText.payment.desc[languageOpt] | to_trusted"></span>
 											<ul>
 												<li ng-repeat="p in serviceText.payment.prices[languageOpt]">
 													{{p}}

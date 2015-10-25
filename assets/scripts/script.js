@@ -29,6 +29,7 @@ function viewCtrl($scope) {
 	$scope.formValues = formValues;
 	$scope.titles = titles;
 	$scope.contact = contact;
+	$scope.support = support;
 
 	$scope.refresh = function() {
 		window.setTimeout(function(){

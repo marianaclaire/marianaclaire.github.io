@@ -227,4 +227,9 @@ $(function(){
 			});
 		}, 1000);
 	});
+
+	// toggle for subscription
+	$('#subscribe-btn').click(function(){
+		$('#mc_embed_signup').slideDown();
+	})
 }());

@@ -145,7 +145,7 @@ var formValues = {
 		ESP:"Nombre de pila"
 	},
 	lastName:{
-		ENG:"Lost Name",
+		ENG:"Last Name",
 		FREN:"Nom de famille",
 		ESP:"Apellido"
 	},

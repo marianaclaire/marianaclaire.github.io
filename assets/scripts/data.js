@@ -75,9 +75,9 @@ var serviceText = {
 		},
 		prices: {
 			ENG: [
-				"45 for 30 min",
-				"67 for 45 min",
-				"89 for 1 hour",
+				"45$ for 30 min",
+				"67$ for 45 min",
+				"89$ for 1 hour",
 				"112$ for 75 mins",
 				"135$ for 90 mins",
 				"60$ for a soul drawing",

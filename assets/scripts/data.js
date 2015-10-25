@@ -329,7 +329,7 @@ var support = {
 		ENG: [
 			// "With your help, the spiritual community will bloom and together we can help awaken Humanity.<br>Let's join forces to help people look within and understand their deepest inner self.",
 			"<strong>Subcribe</strong> to my newsletters to learn more about me and to receive exclusive Mariana Claire offers and blogs.",
-			"<strong>Donate</strong> to Mariana Claire to support her work and her services.."
+			"<strong>Donate</strong> to Mariana Claire to support her work and her services."
 		],
 		FREN: [
 			"Avec votre aide, on peut aider à grandir la communauté spirituelle et nous aider les uns l'es autres.",

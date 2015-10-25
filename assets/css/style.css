@@ -224,7 +224,7 @@ button:focus{
 	color:rgba(225,225,225, 0.8) !important;
 }
 
-.portfolio-title, .portfolio-image-title{
+.portfolio-title, .portfolio-image-title, #popupPortfolio h1{
 	font-family: 'Poiret One', cursive;
 }
 
@@ -250,7 +250,7 @@ button:focus{
 	text-align: right;
 }
 
-#success-message, #more-about-me, #mc_embed_signup{
+.success-message, #more-about-me, #mc_embed_signup, #paypal-donate-form{
 	display:none;
 }
 

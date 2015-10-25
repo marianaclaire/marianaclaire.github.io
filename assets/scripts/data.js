@@ -65,7 +65,7 @@ var serviceText = {
 	payment: {
 		title: {
 			ENG: "Payment",
-			FREN: "Paiment",
+			FREN: "Paiement",
 			ESP: "Pago"
 		},
 		desc :{

@@ -231,5 +231,34 @@ $(function(){
 	// toggle for subscription
 	$('#subscribe-btn').click(function(){
 		$('#mc_embed_signup').slideDown();
+		$(this).fadeOut('fast');
+		$('.subscription.success-message').fadeOut('fast');
+		$('.donation.success-message').fadeOut('fast');
+	});
+	$('#subscribe-btn-cancel').click(function(){
+		$('#mc_embed_signup').slideUp();
+		$('#subscribe-btn').fadeIn('fast');
+	});
+	$('#subscribe-btn-submit').click(function(){
+		$('#mc_embed_signup').slideUp();
+		$('#subscribe-btn').fadeIn('fast');
+		$('.subscription.success-message').fadeIn('fast');
+	})
+
+	//donatin
+	$('#donate-btn').click(function(){
+		$('#paypal-donate-form').slideDown();
+		$(this).fadeOut('fast');
+		$('.subscription.success-message').fadeOut('fast');
+		$('.donation.success-message').fadeOut('fast');
+	});
+	$('#donate-btn-cancel').click(function(){
+		$('#paypal-donate-form').slideUp();
+		$('#donate-btn').fadeIn('fast');
+	});
+	$('#donate-btn-submit').click(function(){
+		$('#paypal-donate-form').slideUp();
+		$('#donate-btn').fadeIn('fast');
+		$('.donation.success-message').fadeIn('fast');
 	})
 }());

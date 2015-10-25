@@ -121,7 +121,7 @@ var formValues = {
 	form:{
 		ENG:"MuuMII",
 		FREN:"asvkeD",
-		ESP:""
+		ESP:"DWzIS6"
 	},
 	cancel:{
 		ENG:"BACK",
@@ -131,7 +131,7 @@ var formValues = {
 	language:{
 		ENG:"English",
 		FREN:"Français",
-		ESP:""
+		ESP:"Spanish"
 	}
 }
 
@@ -254,19 +254,19 @@ var contact = {
 					},
 					url: "https://medium.com/@MarianaClaire"
 				}
-				// ,{
-				// 	name: {
-				// 		ENG: "Mariana Claire (Spanish)",
-				// 		FREN: "Mariana Claire (Espagnol)",
-				// 		ESP: "Mariana Claire (Español)"
-				// 	},
-				// 	desc: {
-				// 		ENG: "Official Spanish YouTube chanel",
-				// 		FREN: "",
-				// 		ESP: ""
-				// 	},
-				// 	url: "https://medium.com/@MarianaClaire"
-				// }
+				,{
+					name: {
+						ENG: "Mariana Claire (Spanish)",
+						FREN: "Mariana Claire (Espagnol)",
+						ESP: "Mariana Claire (Español)"
+					},
+					desc: {
+						ENG: "Spanish Medium blog",
+						FREN: "",
+						ESP: ""
+					},
+					url: "https://medium.com/@marianaclairesp"
+				}
 			]
 		}
 	],

@@ -231,17 +231,17 @@ $(function(){
 
 	// toggle for subscription
 	$('#subscribe-btn').click(function(){
-		$('#mc_embed_signup').slideDown();
+		$('#mc_embed_signup.'+currentLang).slideDown();
 		$(this).fadeOut('fast');
 		$('.subscription.success-message').fadeOut('fast');
 		$('.donation.success-message').fadeOut('fast');
 	});
-	$('#subscribe-btn-cancel').click(function(){
-		$('#mc_embed_signup').slideUp();
+	$('.subscribe-btn-cancel').click(function(){
+		$('#mc_embed_signup.'+currentLang).slideUp();
 		$('#subscribe-btn').fadeIn('fast');
 	});
-	$('#subscribe-btn-submit').click(function(){
-		$('#mc_embed_signup').slideUp();
+	$('.subscribe-btn-submit').click(function(){
+		$('#mc_embed_signup.'+currentLang).slideUp();
 		$('#subscribe-btn').fadeIn('fast');
 		$('.subscription.success-message').fadeIn('fast');
 	})

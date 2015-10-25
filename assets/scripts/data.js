@@ -126,7 +126,7 @@ var formValues = {
 	},
 	back:{
 		ENG:"BACK",
-		FREN:"RETURNER",
+		FREN:"RETOURNER",
 		ESP:"ATRÁS"
 	},
 	cancel:{
@@ -357,6 +357,11 @@ var support = {
 			ENG:"Subscribe to the Newsletter List",
 			FREN:"Abonnez-vous à la liste d'envoi",
 			ESP:"Suscríbase a la lista de noticias"
+		},
+		formId:{
+			ENG:"2f65f215a0",
+			FREN:"2f65f215a0",
+			ESP:"a6c1c28b7d"
 		}
 	},
 	donate: {

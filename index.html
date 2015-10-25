@@ -334,7 +334,7 @@
 				    </h3>
 				    <br>
 					<!-- MailChimp here yo! -->
-					<div id="mc_embed_signup">
+					<div id="mc_embed_signup" class="ENG FREN">
 						<form action="https://github.us12.list-manage.com/subscribe/post?u=86b2f11129f62b83a657c5839&amp;id=2f65f215a0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate form-tran" target="_blank" novalidate>
 						    <div id="mc_embed_signup_scroll">
 								<h2>{{ support.subscribe.title[languageOpt] }}</h2>
@@ -358,8 +358,39 @@
 								</div>
 							    <div style="position: absolute; left: -5000px;"><input type="text" name="b_86b2f11129f62b83a657c5839_2f65f215a0" tabindex="-1" value=""></div>
 							    <h3>
-							    	<button type="submit" id="subscribe-btn-submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-trans btn-trans-default all-cap"><strong>{{ support.subscribe.button[languageOpt] }}</strong></button>
-							    	<button type="button" id="subscribe-btn-cancel" class="btn btn-trans btn-trans-default all-cap"><strong>{{ formValues.cancel[languageOpt] }}</strong></button>
+							    	<button type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-trans btn-trans-default all-cap subscribe-btn-submit"><strong>{{ support.subscribe.button[languageOpt] }}</strong></button>
+							    	<button type="button" class="btn btn-trans btn-trans-default all-cap subscribe-btn-cancel"><strong>{{ formValues.cancel[languageOpt] }}</strong></button>
+							    </h3>
+							 </div>
+						</form>
+						<br>
+					</div>
+					<div id="mc_embed_signup" class="ESP">
+						<form action="https://github.us12.list-manage.com/subscribe/post?u=86b2f11129f62b83a657c5839&amp;id=a6c1c28b7d" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate form-tran" target="_blank" novalidate>
+						    <div id="mc_embed_signup_scroll">
+								<h2>{{ support.subscribe.title[languageOpt] }}</h2>
+								<div class="indicates-required"><span class="asterisk">*</span> {{ formValues.requiredIndice[languageOpt] }}</div>
+								<div class="mc-field-group">
+									<label for="mce-EMAIL">{{ formValues.email[languageOpt]}}  <span class="asterisk">*</span>
+								</label>
+									<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+								</div>
+								<div class="mc-field-group">
+									<label for="mce-FNAME">{{ formValues.firstName[languageOpt] }} </label>
+									<input type="text" value="" name="FNAME" class="" id="mce-FNAME">
+								</div>
+								<div class="mc-field-group">
+									<label for="mce-LNAME">{{ formValues.lastName[languageOpt] }}  </label>
+									<input type="text" value="" name="LNAME" class="" id="mce-LNAME">
+								</div>
+								<div id="mce-responses" class="clear">
+									<div class="response" id="mce-error-response" style="display:none"></div>
+									<div class="response" id="mce-success-response" style="display:none"></div>
+								</div>
+							    <div style="position: absolute; left: -5000px;"><input type="text" name="b_86b2f11129f62b83a657c5839_a6c1c28b7d" tabindex="-1" value=""></div>
+							    <h3>
+							    	<button type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-trans btn-trans-default all-cap subscribe-btn-submit"><strong>{{ support.subscribe.button[languageOpt] }}</strong></button>
+							    	<button type="button" class="btn btn-trans btn-trans-default all-cap subscribe-btn-cancel"><strong>{{ formValues.cancel[languageOpt] }}</strong></button>
 							    </h3>
 							 </div>
 						</form>
@@ -383,10 +414,14 @@
 					</div>
 
 					<div class="subscription success-message">
-						Thank you for subcribing to our newsletters!
+						<span class="lang-ENG">Thank you for subcribing to our newsletters!</span>
+						<span class="lang-FREN">Merci de vous abonner au bulletin d'informations !</span>
+						<span class="lang-ESP">Gracias por suscribirse a mi boletín de información!</span>
 					</div>
 					<div class="donation success-message">
-						Thank you for donating to Mariana Claire!
+						<span class="lang-ENG">Thank you for donating to Mariana Claire!</span>
+						<span class="lang-FREN">Merci de donner à Mariana Claire!</span>
+						<span class="lang-ESP">Gracias por su donación a Mariana Claire!</span>
 					</div>
 
 					<div style="padding:2%"> </div>

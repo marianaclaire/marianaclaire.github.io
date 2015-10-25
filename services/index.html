@@ -75,7 +75,7 @@
                         <div class="service-icon"><i class="fa {{service.faIcon}}" style="color:{{service.color}};"></i></div>
 
                         <div id="title" ng-bind-html="service.name[languageOpt] | to_trusted"></div>
-                        <div ng-bind-html="service.description[languageOpt] | to_trusted"></div>
+                        <p ng-repeat="d in service.description[languageOpt]" ng-bind-html="d | to_trusted"></p>
                     </div>
                     <div class="col-md-4">
                         <div style="margin:5%"> </div>

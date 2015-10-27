@@ -272,6 +272,7 @@ button:focus{
 	width:14%;
 	min-width:120px;
 	height:180px;
+	padding: 0 10px;
 }
 
 a.subtle, a.subtle:focus, a.subtle:active{

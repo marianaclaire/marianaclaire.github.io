@@ -259,8 +259,27 @@ button:focus{
 	margin:0;
 }
 
+.service-display{
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	justify-content:center;
+	align-items:flex-start;
+	align-content: flex-start;
+}
+
+.service-item{
+	width:14%;
+	min-width:120px;
+	height:180px;
+}
+
 a.subtle, a.subtle:focus, a.subtle:active{
 	opacity:0.8;
+}
+
+a.white, a.white:focus, a.white:active{
+	color:white !important;
 }
 
 a, a:focus, a:active{

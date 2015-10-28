@@ -78,9 +78,6 @@
 	.portfolio-title{
 		font-size: 400%
 	}
-	.portfolio-last{
-		width:100%;
-	}
 }
 
 @media screen and (max-width: 1000px) {
@@ -89,6 +86,9 @@
 	}
 	.portfolio-title{
 		width:50%;
+	}
+	.portfolio-last{
+		width:75%;
 	}
 }
 
@@ -100,6 +100,9 @@
 	.portfolio-title{
 		height: 200px;
 		font-size: 300%
+	}
+	.portfolio-last{
+		width:100%;
 	}
 }
 

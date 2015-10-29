@@ -17,6 +17,35 @@
 	height:300px;
 }
 
+.portfolio-separator{
+	width:20%;
+	height:300px;
+	padding:10px;
+	overflow:hidden;
+}
+
+.portfolio-separator-block{
+	display:block;
+	width:10%;
+	background-color:rgba(255,255,255,0.3);
+	content: "";
+	height: 600px;
+	position:relative;
+	top:-150px;
+	left:45%;
+	float:left;
+	-ms-transform: rotate(30deg);
+    -webkit-transform: rotate(30deg);
+    transform: rotate(30deg);
+    padding-top:55%;
+}
+.portfolio-separator-block h3{
+    position:relative;
+	font-size:35px !important;
+    opacity:0.5 !important;
+    margin-bottom:-300%;
+}
+
 .portfolio-image{
 	background-size: cover;
 	background-position: center;
@@ -24,7 +53,7 @@
 	cursor: pointer;
 }
 
-.portfolio-title, .portfolio-last{
+.portfolio-title{
 	width:40%;
 }
 
@@ -43,7 +72,8 @@
 }
 
 .portfolio-last{
-	padding:0 10% 2% 2%;
+	padding:20px;
+	width:100%;
 }
 
 .portfolio-buttom-align{
@@ -74,26 +104,46 @@
 	font-size:25px;
 }
 
+.portfolio-image-description{
+	margin:2%;
+	font-size:14px;
+}
+
+@media screen and (max-width: 1400px) {
+	.portfolio-separator-block h3{
+		padding-top:120%;
+		font-size:29px !important;
+	}
+}
+
 @media screen and (max-width: 1200px) {
 	.portfolio-title{
 		font-size: 400%
 	}
+	.portfolio-separator-block h3{
+		font-size:25px !important;
+		padding-top:280%;
+	}
 }
 
 @media screen and (max-width: 1000px) {
-	.portfolio-image {
+	.portfolio-image{
 		width: 25%;
 	}
-	.portfolio-title{
+	.portfolio-title, .portfolio-separator{
 		width:50%;
 	}
-	.portfolio-last{
-		width:75%;
+	.portfolio-separator-block h3{
+		font-size:35px !important;
+		padding-top:0;
+	}
+	.portfolio-separator-block{
+		padding-top:190px;
 	}
 }
 
 @media screen and (max-width: 700px) {
-	.portfolio-image {
+	.portfolio-image{
 		width: 50%;
 		height: 200px;
 	}
@@ -101,14 +151,27 @@
 		height: 200px;
 		font-size: 300%
 	}
-	.portfolio-last{
-		width:100%;
+	.portfolio-separator{
+		height:200px;
+	}
+	.portfolio-separator-block{
+		width:8%;
+		top:-200px;
+		padding-top:200px;
+	}
+	.portfolio-separator-block h3{
+		font-size:30px !important;
+		margin-bottom:-200px;
 	}
 }
 
 @media screen and (max-width: 500px) {
 	.portfolio-title{
-		font-size: 200%
+		font-size: 250%;
+	}
+	.portfolio-separator-block h3{
+		font-size:25px !important;
+		margin-bottom:-70px;
 	}
 }
 
@@ -123,10 +186,10 @@
 	background-color:rgba(0,0,0,0.8);
 	z-index:10;
 	text-align: center;
-	padding:5%;
+	padding:2%;
 }
 
 #popupPortfolio img{
 	max-width:100%;
-	max-height:100%;
+	max-height:82%;
 }

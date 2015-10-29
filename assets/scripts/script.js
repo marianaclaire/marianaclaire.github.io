@@ -22,7 +22,7 @@ angular.module('app')
 function viewCtrl($scope) {
 	$scope.languageOpt = currentLang;
 	$scope.services = services;
-	$scope.drawings = drawingsDB.drawings;
+	$scope.drawings = drawingsDB;
 	$scope.story = story;
 	$scope.serviceText = serviceText;
 	$scope.sampleDrawing = sampleDrawing;

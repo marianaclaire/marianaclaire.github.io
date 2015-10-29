@@ -156,7 +156,7 @@ var servicesFull = {
 				"Reiki: \"healing technique based on the principle that the therapist can channel energy into the patient by means of touch, to activate the natural healing processes of the patient's body and restore physical and emotional well-being.\""
 				],
 			FREN:[
-				"Je suis présentement praticienne de second degré reiki. J'offre des séances de reiki selon les enseignements Usui. Mes enseignements viennent directement de la lignée de Madame Hawayo Takata. Je peux offrir des guérisons reiki en personne si vous habitez à Calgary où à distance."
+				"Je suis présentement praticienne de second degré reiki. J'offre des séances de reiki selon les enseignements Usui. Mes enseignements viennent directement de la lignée de Madame Hawayo Takata. Je peux offrir des guérisons reiki en personne si vous habitez à Calgary où à distance.",
 				"Le Reiki est une thérapie manuelle qui apporte de l’énergie à votre corps. Le praticien joue le rôle du vaisseau par lequel, en posant ses mains, il envoie l’énergie de la source au patient. L’énergie va naturellement là où le corps en a besoin. Le Reiki nous permet aussi de débloquer les blocages  ou tensions énergétiques de nos chakras et de nous centrer.",
 				],
 			ESP:[

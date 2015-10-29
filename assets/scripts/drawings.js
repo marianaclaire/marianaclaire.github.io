@@ -1,5 +1,5 @@
 var drawingsDB = {
-	drawings: [
+	intuitive: [
 		{
 			name:{
 				ENG:"Third eye of Sirius",
@@ -88,6 +88,17 @@ var drawingsDB = {
 			},
 			description:"",
 			image:"assets/images/drawings/The-Sun-and-the-Moon.jpg",
+		}
+	],
+	auraField:[
+		{
+			name:{
+				ENG:"Sirian, lyran, draconian and lemurian",
+				FREN:"",
+				ESP:""
+			},
+			description:"",
+			image:"assets/images/drawings/sirian-lyran-draconian-and-lemurian.jpg"
 		}
 	]
 }

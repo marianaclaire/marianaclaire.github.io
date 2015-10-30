@@ -234,7 +234,7 @@ var contact = {
 						FREN: "",
 						ESP: ""
 					},
-					url: "https://www.facebook.com/groups/427017564155786/"
+					url: "https://www.facebook.com/groups/1692365837660599/"
 				}
 			]
 		},{

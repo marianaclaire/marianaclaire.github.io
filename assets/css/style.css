@@ -276,7 +276,7 @@ button:focus{
 
 .service-item{
 	width:14%;
-	min-width:120px;
+	min-width:150px;
 	height:180px;
 	padding: 0 10px;
 }

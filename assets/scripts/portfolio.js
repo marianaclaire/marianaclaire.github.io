@@ -2,7 +2,7 @@ function popupPortfolio(i){
 	$clicked = $('#portImage-'+i);
 	$('#popupPortfolio img').attr("src", $clicked.data('image'));
 	$('#popupPortfolio h1').html($('#portImage-'+i+' .portfolio-image-title').html());
-	// $('#popupPortfolio p').html($('#portImage-'+i+' .portfolio-image-description').html());
+	$('#popupPortfolio p').html($('#portImage-'+i+' .portfolio-image-description').html());
 	$('#popupPortfolio').fadeIn('fast');
 }
 

@@ -69,7 +69,14 @@
               box-sizing: border-box;
               -webkit-appearance: none;
               -moz-appearance: none;
+              appearance: none;
+              text-indent :0.01px;
+              text-overflow:'';
               border:solid gray 1px !important;
+            }
+
+            ::-ms-expand {
+                display: none;
             }
 
             select.minimal {
@@ -104,12 +111,6 @@
               background-repeat: no-repeat;
               border-color: white;
               outline: 0;
-            }
-
-
-            select:-moz-focusring {
-              color: transparent;
-              text-shadow: 0 0 0 #000;
             }
 
             .currency-USD, .currency-CAD{

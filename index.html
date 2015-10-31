@@ -161,9 +161,6 @@
 			 							<button type="button" class="btn btn-trans btn-trans-default book-toggle-btn all-cap">
 					 					<strong>{{ titles.book[languageOpt] }}</strong>
 										</button>
-			 							<a class="btn btn-trans btn-trans-default all-cap" href="./payment">
-					 					<strong>{{ titles.payment[languageOpt] }}</strong>
-										</a>
 									</div>
 								</div>
 							</div>
@@ -445,9 +442,17 @@
 
 	<!-- TypeForm here yo! -->
 	<div id="typeform-widget">
-		<button type="button" id="cancel-book-btn" class="cancel btn btn-trans btn-trans-default">
-			<strong>{{ formValues.back[languageOpt] }}</strong>
-		</button>
+		<div class="control-btn">
+			<button type="button" id="cancel-book-btn" class="btn btn-trans btn-trans-default">
+				<strong>{{ formValues.back[languageOpt] }}</strong>
+			</button>
+			<span class="lang-ENG">
+				<a class="btn btn-trans btn-trans-default" href="./payment">
+					<strong>{{ formValues.next[languageOpt] }}</strong>
+				</a>
+				<i class="fa fa-arrow-right"></i> {{ serviceText.payment.title[languageOpt] }}
+			</span>
+		</div>
 		<div class="typeform-widget" data-url="https://goldenratiphi.typeform.com/to/{{ formValues.form[languageOpt] }}" data-text="Mariana Claire" style="width:100%;height:100%;"></div>
 		    <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;">Powered by <a href="http://www.typeform.com/?utm_campaign=typeform_{{ formValues.cancel[languageOpt] }}&amp;utm_source=website&amp;utm_medium=typeform&amp;utm_content=typeform-embedded&amp;utm_term={{ formValues.language[languageOpt] }}" style="color: #999" target="_blank">Typeform</a></div>
 	</div>

@@ -128,6 +128,11 @@ var formValues = {
 		FREN:"RETOURNER",
 		ESP:"ATRÁS"
 	},
+	next:{
+		ENG:"NEXT",
+		FREN:"SUIVANT",
+		ESP:""
+	},
 	cancel:{
 		ENG:"CANCEL",
 		FREN:"ANNULER",
@@ -185,11 +190,6 @@ var titles = {
 		ENG: "Book Service",
 		FREN: "Réservez une session",
 		ESP: "Reserve una sesión",
-	},
-	payment :{
-		ENG: "Payment",
-		FREN: "Paiement",
-		ESP: "Pago"
 	}
 }
 

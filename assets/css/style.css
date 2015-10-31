@@ -356,7 +356,7 @@ td{
 	z-index: 100;
 }
 
-#typeform-widget .cancel{
+#typeform-widget .control-btn{
 	position:absolute;
 	bottom:70px;
 	right:30px;

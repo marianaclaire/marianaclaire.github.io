@@ -46,9 +46,9 @@ var services = [
 		faIconBase: "fa-sun-o",
 	},{
 		name: {
-			ENG:"Soul Drawings",
-			FREN:"Dessins de l'âme",
-			ESP:"Dibujos del alma"
+			ENG:"Aura Field/Intuitive Drawings",
+			FREN:"Dessins de l'aura/intuitive",
+			ESP:"Dibujos del aura/intuitiva"
 			},
 		slug: {
 			ENG:"drawings",
@@ -61,9 +61,9 @@ var services = [
 		faIconBase: "fa-user",
 	},{
 		name: {
-			ENG:"Soul Paintings",
-			FREN:"Peintures de l'âme",
-			ESP:"Pinturas del alma"
+			ENG:"Aura Field/Intuitive Painting",
+			FREN:"Peintures de l'aura/intuitive",
+			ESP:"Pinturas del aura/intuitiva"
 			},
 		slug: {
 			ENG:"paintings",

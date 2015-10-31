@@ -30,9 +30,9 @@ var servicesFull = {
 	},
 	drawings: {
 		name: {
-			ENG:"Soul Drawings",
-			FREN:"Dessins de l'âme",
-			ESP:"Dibujos del alma"
+			ENG:"Aura Field/Intuitive Drawings",
+			FREN:"Dessins de l'aura/intuitive",
+			ESP:"Dibujos del aura/intuitiva"
 			},
 		slug: {
 			ENG:"drawings",
@@ -41,9 +41,9 @@ var servicesFull = {
 			},
 		color: "#33CC33",
 		description: {
-			ENG:["I offer two types of soul drawings. The first type is a drawing of your aura field. This drawing is very specific. I will draw your higher self at the middle surrounded by your guides, angels and ascended masters. I will illustrate your aura color and soul aspects as well as use symbols that symbolize your soul. The second type of drawing is a more intuitive drawing, for this one I will use the symbols, messages and colors that would be the most healing to you in your current situation according to your guides and higher self. I can also include a report that will explain how to use the drawing to meditate and heal yourself and about how to interpret them. Its presence is healing to you because of its high frequency and colors."],
-			FREN:["J’offre deux types de dessin de l’âme. Le premier c’est un dessin de tout ce qui est dans votre aura. C’est dessin est très spécifique puisque je vais dessiner votre être supérieur au milieu entouré de vos guides, anges et maîtres ascensionnés qui vous entourent. Je vais aussi illustrer la couleur de votre aura et les symboles qui vous décrivent le mieux. Le deuxieme type de dessin c’est un dessin intuitif ou je vais dessiner des symboles, messages, esprits et des couleurs thérapeutiques spécifiques pour vous.  Je peux aussi inclure un rapport qui donne l’interprétation des dessins qui explique comment les utiliser pour méditer et s’auto guérir. Les dessins sont une source de guérisons à cause de la vibration élevée de leurs énergies."],
-			ESP:["Ofrezco dos tipos de dibujos del alma. El primer tipo de dibujo es un dibujo sobre todo lo que está dentro de su aura. Este dibujo es bastante específico. Dibujare a su “yo” superior al medio del dibujo rodeado de sus guías, ángeles y maestros ascendidos. Ilustraré su origen y color de aura y los símbolos que más lo simbolicen. El segundo tipo de dibujo es uno más intuitivo y libre. En este usare símbolos, mensajes y colores que sean beneficiosos y terapéuticos para usted en la situación en la que se encuentra. También puedo incluir un reporte que explique cómo usar el dibujo para meditar y sanarse a sí mismo. El reporte también explicaría como interpretar los dibujos y sus mensajes. Su presencia es terapéutica para usted debido a la alta frecuencia que tiene y sus colores."]
+			ENG:["I offer two types of drawings. The first type is a drawing of your aura field. This drawing is very specific. I will draw your higher self at the middle surrounded by your guides, angels and ascended masters. I will illustrate your aura color and soul aspects as well as use symbols that symbolize your soul. The second type of drawing is a more intuitive drawing, for this one I will use the symbols, messages and colors that would be the most healing to you in your current situation according to your guides and higher self. I can also include a report that will explain how to use the drawing to meditate and heal yourself and about how to interpret them. Its presence is healing to you because of its high frequency and colors."],
+			FREN:["J’offre deux types de dessin. Le premier c’est un dessin de tout ce qui est dans votre aura. C’est dessin est très spécifique puisque je vais dessiner votre être supérieur au milieu entouré de vos guides, anges et maîtres ascensionnés qui vous entourent. Je vais aussi illustrer la couleur de votre aura et les symboles qui vous décrivent le mieux. Le deuxieme type de dessin c’est un dessin intuitif ou je vais dessiner des symboles, messages, esprits et des couleurs thérapeutiques spécifiques pour vous.  Je peux aussi inclure un rapport qui donne l’interprétation des dessins qui explique comment les utiliser pour méditer et s’auto guérir. Les dessins sont une source de guérisons à cause de la vibration élevée de leurs énergies."],
+			ESP:["Ofrezco dos tipos de dibujos. El primer tipo de dibujo es un dibujo sobre todo lo que está dentro de su aura. Este dibujo es bastante específico. Dibujare a su “yo” superior al medio del dibujo rodeado de sus guías, ángeles y maestros ascendidos. Ilustraré su origen y color de aura y los símbolos que más lo simbolicen. El segundo tipo de dibujo es uno más intuitivo y libre. En este usare símbolos, mensajes y colores que sean beneficiosos y terapéuticos para usted en la situación en la que se encuentra. También puedo incluir un reporte que explique cómo usar el dibujo para meditar y sanarse a sí mismo. El reporte también explicaría como interpretar los dibujos y sus mensajes. Su presencia es terapéutica para usted debido a la alta frecuencia que tiene y sus colores."]
 			},
 		faIcon: "fa-pencil",
 		faIconBase: "fa-user",
@@ -51,9 +51,9 @@ var servicesFull = {
 	},
 	paintings: {
 		name: {
-			ENG:"Soul Paintings",
-			FREN:"Peintures de l'âme",
-			ESP:"Pinturas del alma"
+			ENG:"Aura Field/Intuitive Painting",
+			FREN:"Peintures de l'aura/intuitive",
+			ESP:"Pinturas del aura/intuitiva"
 			},
 		slug: {
 			ENG:"paintings",
@@ -63,19 +63,19 @@ var servicesFull = {
 		color: "#33CCCC",
 		description: {
 			ENG: [
-				"Soul paintings differ from soul drawings because they are more detailed and because the painting takes more time to complete.",
-				"There are two types of Soul Paintings. The first type is a painting of your aura field. This painting is very specific. I will paint your higher self at the middle surrounded by your guides, angels and ascended masters. I will illustrate your aura color and soul aspects as well as use symbols that symbolize your soul.",
-				"The second type of soul painting is a more intuitive painting, for this one I will use the symbols, messages and colors that would be the most healing to you in your current situation according to your guides and higher self.",
+				"Paintings differ from drawings because they are more detailed and because the painting takes more time to complete.",
+				"There are two types of paintings. The first type is a painting of your aura field. This painting is very specific. I will paint your higher self at the middle surrounded by your guides, angels and ascended masters. I will illustrate your aura color and soul aspects as well as use symbols that symbolize your soul.",
+				"The second type of aura field/intuitive painting is a more intuitive painting, for this one I will use the symbols, messages and colors that would be the most healing to you in your current situation according to your guides and higher self.",
 				"I can also include a report that will explain how to use the painting to meditate and heal yourself and about how to interpret them. Its presence is healing to you because of its high frequency and colors."
 				],
 			FREN: [
-				"Les peintures de l'âme diffèrent des dessins, car elles sont beaucoup plus détaillés et sont plus longs à faire.",
-				"J’offre deux types de peintures de l’âme. Le premier c’est une peinture de tout ce qui est dans votre aura. Cette peinture est très spécifique puisque je vais peinturer votre être supérieur au milieu entouré de vos guides, anges et les maîtres ascensionnés qui vous entourent. Je vais aussi illustrer la couleur de votre aura et les symboles qui vous décrivent le mieux.",
-				"Le deuxième type de peinture c’est une peinture intuitive où je vais peinturer des symboles, messages, esprits et des couleurs thérapeutiques spécifiques pour vous. Je peux aussi inclure un rapport qui donne l’interprétation de la peinture qui explique comment l’utiliser pour méditer et s’auto guérir. Les peintures de l’âme sont une source de guérison à cause de la vibration élevée de leurs énergies."
+				"Les peintures diffèrent des dessins, car elles sont beaucoup plus détaillés et sont plus longs à faire.",
+				"J’offre deux types de peintures. Le premier c’est une peinture de tout ce qui est dans votre aura. Cette peinture est très spécifique puisque je vais peinturer votre être supérieur au milieu entouré de vos guides, anges et les maîtres ascensionnés qui vous entourent. Je vais aussi illustrer la couleur de votre aura et les symboles qui vous décrivent le mieux.",
+				"Le deuxième type de peinture c’est une peinture intuitive où je vais peinturer des symboles, messages, esprits et des couleurs thérapeutiques spécifiques pour vous. Je peux aussi inclure un rapport qui donne l’interprétation de la peinture qui explique comment l’utiliser pour méditer et s’auto guérir. Les peintures de l'aura/intuitive sont une source de guérison à cause de la vibration élevée de leurs énergies."
 				],
 			ESP:[
-				"Las pinturas del alma se diferencian de los dibujos por los materiales usados y el tiempo invertido en hacerlas.",
-				"Ofrezco dos tipos de pintura del alma. El primer tipo es una pintura sobre todo lo que está dentro de su aura. Esta pintura es bastante específica. Pintare a su “yo” superior al medio de la pintura rodeado de sus guías, ángeles y maestros ascendidos. Ilustraré su origen y color de aura y los símbolos que más lo simbolicen.",
+				"Las pinturas se diferencian de los dibujos por los materiales usados y el tiempo invertido en hacerlas.",
+				"Ofrezco dos tipos de pintura. El primer tipo es una pintura sobre todo lo que está dentro de su aura. Esta pintura es bastante específica. Pintare a su “yo” superior al medio de la pintura rodeado de sus guías, ángeles y maestros ascendidos. Ilustraré su origen y color de aura y los símbolos que más lo simbolicen.",
 				"El segundo tipo de pintura es uno más intuitivo y libre. En este usare símbolos, mensajes y colores que sean beneficiosos y terapéuticos para usted en la situación en la que se encuentra.",
 				"También puedo incluir un reporte que explique cómo usar el dibujo para meditar y sanarse a sí mismo. El reporte también explicaría como interpretar la pintura y sus mensajes. Su presencia es terapéutica para usted debido a la alta frecuencia que tiene y sus colores."
 				]

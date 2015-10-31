@@ -37,12 +37,14 @@
 
 -->
 
-<html lang="en">
+<html ng:app="app">
     <head>
         <title>Mariana Claire: Payment Checkout</title>
         <!-- jQuery -->
         <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-url-parser/2.3.1/purl.min.js"></script>
+        <!-- Angular -->
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular.min.js" ng:autobind></script>
         <!-- Google font -->
         <link href='https://fonts.googleapis.com/css?family=Calligraffitti' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=Poiret+One:100,400' rel='stylesheet' type='text/css'>
@@ -57,7 +59,10 @@
         <style>
             #title{
                 margin-top: 50px;
-                line-height: 30px;
+                line-height: 100px;
+            }
+            #title h3{
+                margin-top: -20px;
             }
 
             select {
@@ -118,9 +123,18 @@
             .currency-USD, .currency-CAD{
                 display:none;
             }
+
+            .calendar{
+                border:solid gray 10px;
+                background-color:gray;
+                margin: 30px 0;
+            }
+            .content{
+                margin: 2% 5%;
+            }
         </style>
     </head>
-    <body>
+    <body ng-controller="viewCtrl">
         <div id="splash-bg-container">
             <div class="splash-bg"></div>
         </div>
@@ -130,61 +144,78 @@
                 <div id="title">Booking a Session
                     <h3>with Mariana Claire</h3></div>
 
-                    <form class="form-tran currency-USD" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-                    <input type="hidden" name="cmd" value="_s-xclick">
-                    <table>
-                    <tr><td>
-                        <input type="hidden" name="on0" value="Book a session">Please choose a service
-                    </td></tr><tr><td>
-                        <div class="select-wapper">
-                            <select class="minimal" name="os0" required>
-                            <option value="" disabled selected> -- select an option -- </option>
-                            <option value="30 mins">30 mins $45.00 USD</option>
-                            <option value="45 mins">45 mins $67.00 USD</option>
-                            <option value="60 mins">60 mins $89.00 USD</option>
-                            <option value="75 mins">75 mins $112.00 USD</option>
-                            <option value="90 mins">90 mins $135.00 USD</option>
-                            <option value="Soul drawing">Soul drawing $60.00 USD</option>
-                            <option value="Soul drawing + report">Soul drawing + report $85.00 USD</option>
-                            <option value="Soul painting">Soul painting $100.00 USD</option>
-                            <option value="Soul painting + report">Soul painting + report $125.00 USD</option>
-                            </select>
-                        </div>
-                    </td></tr>
-                    </table>
-                    <i class="fa fa-paypal"></i> Process with Paypall</br>
-                    <input type="hidden" name="currency_code" value="USD">
-                    <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
-                    ">
-                    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-                    <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-                    </form>
+                    <h2 class="text-left">Date and Time Available</h2>
+                    <div class="content">
+                        <p>Working hours</p>
+                        <ul>
+                            <li ng-repeat="t in data.workingTime">
+                                <strong>{{ t.day[languageOpt] }}:</strong> {{ t.time }}
+                            </li>
+                        </ul>
+                        <p>My availabily is displayed in the following calendar. Please choose a date and time that suit  you the best and confirm with me through Skype, Facebook messager or email.</p>
+                    </div>
+                    <div class="calendar">
+                        <iframe src="https://www.google.com/calendar/embed?src=udooeoq0aebhi2gp5ria0tand0%40group.calendar.google.com&ctz=America/New_York" style="border: 0" width="100%" height="600" frameborder="0" scrolling="no"></iframe>
+                    </div>
 
-                    <!-- Canadian -->
-                    <form class="form-tran currency-CAD" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-                    <input type="hidden" name="cmd" value="_s-xclick">
-                    <table>
-                    <tr><td><input type="hidden" name="on0" value="Book a session">Please choose a service</td></tr><tr><td>
-                    <select class="minimal" name="os0" required>
-                    <option value="" disabled selected> -- select an option -- </option>
-                    <option value="30 mins">30 mins $45.00 CAD</option>
-                    <option value="45 mins">45 mins $67.00 CAD</option>
-                    <option value="60 mins">60 mins $89.00 CAD</option>
-                    <option value="75 mins">75 mins $112.00 CAD</option>
-                    <option value="90 mins">90 mins $135.00 CAD</option>
-                    <option value="Soul drawing">Soul drawing $60.00 CAD</option>
-                    <option value="Soul drawing + report">Soul drawing + report $85.00 CAD</option>
-                    <option value="Soul painting">Soul painting $100.00 CAD</option>
-                    <option value="Soul painting + report">Soul painting + report $125.00 CAD</option>
-                    </select> </td></tr>
-                    </table>
-                    <i class="fa fa-paypal"></i> Process with Paypall</br>
-                    <input type="hidden" name="currency_code" value="CAD">
-                    <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
-                    ">
-                    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-                    <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-                    </form>
+                    <h2 class="text-left">Payment</h2>
+                    <div class="content">
+                        <form class="form-tran currency-USD" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                        <input type="hidden" name="cmd" value="_s-xclick">
+                        <table>
+                        <tr><td>
+                            <input type="hidden" name="on0" value="Book a session">Please choose a service
+                        </td></tr><tr><td>
+                            <div class="select-wapper">
+                                <select class="minimal" name="os0" required>
+                                <option value="" disabled selected> -- select an option -- </option>
+                                <option value="30 mins">30 mins $45.00 USD</option>
+                                <option value="45 mins">45 mins $67.00 USD</option>
+                                <option value="60 mins">60 mins $89.00 USD</option>
+                                <option value="75 mins">75 mins $112.00 USD</option>
+                                <option value="90 mins">90 mins $135.00 USD</option>
+                                <option value="Soul drawing">Soul drawing $60.00 USD</option>
+                                <option value="Soul drawing + report">Soul drawing + report $85.00 USD</option>
+                                <option value="Soul painting">Soul painting $100.00 USD</option>
+                                <option value="Soul painting + report">Soul painting + report $125.00 USD</option>
+                                </select>
+                            </div>
+                        </td></tr>
+                        </table>
+                        <i class="fa fa-paypal"></i> Process with Paypall</br>
+                        <input type="hidden" name="currency_code" value="USD">
+                        <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
+                        ">
+                        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                        </form>
+
+                        <!-- Canadian -->
+                        <form class="form-tran currency-CAD" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                        <input type="hidden" name="cmd" value="_s-xclick">
+                        <table>
+                        <tr><td><input type="hidden" name="on0" value="Book a session">Please choose a service</td></tr><tr><td>
+                        <select class="minimal" name="os0" required>
+                        <option value="" disabled selected> -- select an option -- </option>
+                        <option value="30 mins">30 mins $45.00 CAD</option>
+                        <option value="45 mins">45 mins $67.00 CAD</option>
+                        <option value="60 mins">60 mins $89.00 CAD</option>
+                        <option value="75 mins">75 mins $112.00 CAD</option>
+                        <option value="90 mins">90 mins $135.00 CAD</option>
+                        <option value="Soul drawing">Soul drawing $60.00 CAD</option>
+                        <option value="Soul drawing + report">Soul drawing + report $85.00 CAD</option>
+                        <option value="Soul painting">Soul painting $100.00 CAD</option>
+                        <option value="Soul painting + report">Soul painting + report $125.00 CAD</option>
+                        </select> </td></tr>
+                        </table>
+                        <i class="fa fa-paypal"></i> Process with Paypall</br>
+                        <input type="hidden" name="currency_code" value="CAD">
+                        <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
+                        ">
+                        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                        <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                        </form>
+                    </div>
                 <div style="margin:5%"> </div>
                 <div class="text-right">
                     <a href="../" class="subtle"><i class="fa fa-chevron-left"></i>  Back to Homapage</a>
@@ -193,6 +224,62 @@
         </div>
     </body>
     <script>
+        var data = {
+            workingTime:[
+                {
+                    day:{
+                        ENG:"Mon & Fri",
+                        ESP:""
+                    },
+                    time:"10AM - 2PM & 7PM - 9PM",
+                },{
+                    day:{
+                        ENG:"Tue - Thur",
+                        ESP:""
+                    },
+                    time:"7PM - 9PM"
+                },{
+                    day:{
+                        ENG:"Sat",
+                        ESP:""
+                    },
+                    time:"10AM - 6PM"
+                },{
+                    day:{
+                        ENG:"Sun",
+                        ESP:""
+                    },
+                    time:"2PM to 9PM"
+                }
+            ]
+        };
+        var currentLang = purl(window.location.href).param('lang');
+        if (!currentLang){
+            currentLang = 'ENG';
+        }
+
+        // angular
+        var app = angular.module('app', []);
+
+        angular.module('app')
+            .filter('to_trusted', ['$sce', function($sce){
+                return function(text) {
+                    return $sce.trustAsHtml(text);
+                };
+            }]);
+
+        function viewCtrl($scope) {
+            $scope.languageOpt = currentLang;
+            $scope.data = data;
+
+            $scope.refresh = function() {
+                window.setTimeout(function(){
+
+                }, 500);
+            };
+        }
+
+
         (function(){
             $div = $('.splash-bg');
             $div.hide();
@@ -200,6 +287,9 @@
             $div.fadeIn('fast');
 
             var currency = purl(window.location.href).param('currency');
+            if (!currency){
+                currency = "USD";
+            }
             $('.currency-'+currency).css({
                 'display':'block'
             });

@@ -298,7 +298,7 @@
 							<div class="row boxed" ng-repeat="c in contact.links">
 								<br>
 								<div class="col-md-4 text-right">
-									<h3  style="margin-top:0;"><i class="fa {{ c.faIcon }}"></i> {{c.category}}</h3>
+									<h3 style="margin-top:0;"><i class="fa {{ c.faIcon }}"></i> {{c.category}}</h3>
 								</div>
 								<div class="col-md-8">
 									<div ng-repeat="cc in c.links">
@@ -306,6 +306,7 @@
 											<strong>{{ cc.name[languageOpt] }}</strong>
 										</a><br>
 										{{ cc.desc[languageOpt] }}
+										<div style="margin:10px;"> </div>
 									</div>
 								</div>
 							</div>
@@ -484,7 +485,7 @@
 				<strong>{{ formValues.back[languageOpt] }}</strong>
 			</button>
 			<span>
-				<a class="btn btn-trans btn-trans-default" href="./payment?currency=USD&lang={{ languageOpt }}" target="_blank">
+				<a class="btn btn-trans btn-trans-default" href="./payment?lang={{ languageOpt }}" target="_blank">
 					<strong>{{ formValues.next[languageOpt] }}</strong>
 				</a>
 				<i class="fa fa-arrow-right"></i> {{ serviceText.payment.title[languageOpt] }}

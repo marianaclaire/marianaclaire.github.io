@@ -185,6 +185,11 @@ var titles = {
 		ENG: "Book Service",
 		FREN: "Réservez une session",
 		ESP: "Reserve una sesión",
+	},
+	payment :{
+		ENG: "Payment",
+		FREN: "Paiement",
+		ESP: "Pago"
 	}
 }
 

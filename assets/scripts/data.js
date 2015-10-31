@@ -74,37 +74,37 @@ var serviceText = {
 		},
 		prices: {
 			ENG: [
-				"45$ for 30 min",
-				"67$ for 45 min",
-				"89$ for 1 hour",
-				"112$ for 75 mins",
-				"135$ for 90 mins",
-				"60$ for a soul drawing",
-				"85$ for a soul drawing + report",
-				"100$ for a soul painting",
-				"125$ for a soul painting + report"
+				"48$ for 30 min",
+				"71$ for 45 min",
+				"94$ for 1 hour",
+				"117$ for 75 mins",
+				"140$ for 90 mins",
+				"65$ for a soul drawing",
+				"90$ for a soul drawing + report",
+				"115$ for a soul painting",
+				"140$ for a soul painting + report"
 			],
 			FREN: [
-				"45$ pour 30 mins",
-				"67$ pour 45 mins",
-				"89$ pour 1 heure",
-				"112$ pour 75 mins",
-				"135$ pour 90 mins",
-				"60$ pour un dessin de l'âme",
-				"85$ pour un dessin de l'âme + rapport",
-				"100$ pour une peinture de l'âme",
-				"125$ pour une peinture de l'âme + rapport"
+				"48$ pour 30 mins",
+				"71$ pour 45 mins",
+				"94$ pour 1 heure",
+				"117$ pour 75 mins",
+				"140$ pour 90 mins",
+				"65$ pour un dessin de l'âme",
+				"90$ pour un dessin de l'âme + rapport",
+				"115$ pour une peinture de l'âme",
+				"140$ pour une peinture de l'âme + rapport"
 			],
 			ESP: [
-				"45$ por 30 mins",
-				"67$ por 45 mins",
-				"89$ por 1 hora",
-				"112$ por 75 mins",
-				"135$ por 90 mins",
-				"60$ por un dibujo del alma",
-				"85$ por un dibujo del alma + reporte",
-				"100$ por una pintura del alma",
-				"125$ por una pintura del alma + reporte"
+				"48$ por 30 mins",
+				"71$ por 45 mins",
+				"94$ por 1 hora",
+				"117$ por 75 mins",
+				"140$ por 90 mins",
+				"65$ por un dibujo del alma",
+				"90$ por un dibujo del alma + reporte",
+				"115$ por una pintura del alma",
+				"140$ por una pintura del alma + reporte"
 			]
 		},
 		paypalDonate : "-----BEGIN PKCS7-----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-----END PKCS7-----"

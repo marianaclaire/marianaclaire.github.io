@@ -216,23 +216,28 @@
 
 			<a name="drawings"></a>
 			<div class="splash-div" data-id="splash3" data-image="assets/images/3.jpg">
-				<div class="portfolio">
-					<div class="portfolio-title color-black">
+				<div class="portfolio color-black">
+					<div class="portfolio-title">
 						<div class="portfolio-buttom-align">
 							<span class="lang-ENG">Sample<br>Drawings</span>
-							<span class="lang-FREN"><br>Dessins</span>
+							<span class="lang-FREN">Échantillon<br>de Dessins</span>
 							<span class="lang-ESP">Ejemplos<br>de Dibujos</span>
 						</div>
 					</div>
-					<div class="portfolio-image" ng-repeat="d in drawings" data-image="{{d.image}}">
+					<div class="portfolio-image" ng-repeat="d in drawings.intuitive.data" data-image="{{d.image}}">
 						<div class="portfolio-image-toggle">
 							<div class="portfolio-image-title">{{d.name[languageOpt]}}</div>
-							<div class="portfolio-image-description">{{d.description}}</div>
+							<div class="portfolio-image-description">{{drawings.intuitive.title[languageOpt]}}</div>
 						</div>
 					</div>
-					<div class="portfolio-last color-black">
-						<br>
-						<p>{{sampleDrawing[languageOpt]}}</p>
+					<div class="portfolio-image" ng-repeat="d in drawings.auraField.data" data-image="{{d.image}}">
+						<div class="portfolio-image-toggle">
+							<div class="portfolio-image-title">{{d.name[languageOpt]}}</div>
+							<div class="portfolio-image-description">{{drawings.auraField.title[languageOpt]}}</div>
+						</div>
+					</div>
+					<div class="portfolio-last">
+						<span>{{sampleDrawing[languageOpt]}}</span>
 						<div class="subtitle"><button type="button" class="btn btn-trans btn-trans-default book-toggle-btn all-cap">
 		 					<strong class="lang-ENG">Purchase a drawing</strong>
 							<strong class="lang-FREN">Acheter un dessin</strong>

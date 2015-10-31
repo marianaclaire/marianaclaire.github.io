@@ -1,7 +1,12 @@
 var testimonials = {
 	index: -1,
 	length: 0,
-	data: [{
+	data: [
+	{
+		user: 'Rebecca Elizabeth Anne',
+		message: 'Within my reading with Mariana, she proved herself to be a truly gifted extrasensory reader. Mariana was spot on with everything she intuited and provided a safe place for me to express my emotions and to clarify helpful insight that would assist me in processing them and in moving forwards. I highly recommend Mariana to all!',
+		date: '26/10/2015'
+	},{
 		user: 'Nicole Estrella',
 		message:'I just had my first appointment with Mariana and it was incredible. I am speechless. It truly was amazing and I am so grateful. Thank you so much and I promise I will keep practicing and put myself out there. <3 highly suggest scheduling time with her. Try out some Aura Alchemy and get a reading!',
 		date: '10/15/2015',

@@ -37,12 +37,14 @@
 
 -->
 
-<html lang="en">
+<html ng:app="app">
     <head>
         <title>Mariana Claire: Payment Checkout</title>
         <!-- jQuery -->
         <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-url-parser/2.3.1/purl.min.js"></script>
+        <!-- Angular -->
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular.min.js" ng:autobind></script>
         <!-- Google font -->
         <link href='https://fonts.googleapis.com/css?family=Calligraffitti' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=Poiret+One:100,400' rel='stylesheet' type='text/css'>
@@ -132,7 +134,7 @@
             }
         </style>
     </head>
-    <body>
+    <body ng-controller="viewCtrl">
         <div id="splash-bg-container">
             <div class="splash-bg"></div>
         </div>
@@ -146,8 +148,9 @@
                     <div class="content">
                         <p>Working hours</p>
                         <ul>
-                            <li>Mon-Fri 5PM - 10PM</li>
-                            <li>Sat-Sun 8AM - 10PM</li>
+                            <li ng-repeat="t in data.workingTime">
+                                <strong>{{ t.day[languageOpt] }}:</strong> {{ t.time }}
+                            </li>
                         </ul>
                         <p>My availabily is displayed in the following calendar. Please choose a date and time that suit  you the best and confirm with me through Skype, Facebook messager or email.</p>
                     </div>
@@ -221,6 +224,62 @@
         </div>
     </body>
     <script>
+        var data = {
+            workingTime:[
+                {
+                    day:{
+                        ENG:"Mon & Fri",
+                        ESP:""
+                    },
+                    time:"10AM - 2PM & 7PM - 9PM",
+                },{
+                    day:{
+                        ENG:"Tue - Thur",
+                        ESP:""
+                    },
+                    time:"7PM - 9PM"
+                },{
+                    day:{
+                        ENG:"Sat",
+                        ESP:""
+                    },
+                    time:"10AM - 6PM"
+                },{
+                    day:{
+                        ENG:"Sun",
+                        ESP:""
+                    },
+                    time:"2PM to 9PM"
+                }
+            ]
+        };
+        var currentLang = purl(window.location.href).param('lang');
+        if (!currentLang){
+            currentLang = 'ENG';
+        }
+
+        // angular
+        var app = angular.module('app', []);
+
+        angular.module('app')
+            .filter('to_trusted', ['$sce', function($sce){
+                return function(text) {
+                    return $sce.trustAsHtml(text);
+                };
+            }]);
+
+        function viewCtrl($scope) {
+            $scope.languageOpt = currentLang;
+            $scope.data = data;
+
+            $scope.refresh = function() {
+                window.setTimeout(function(){
+
+                }, 500);
+            };
+        }
+
+
         (function(){
             $div = $('.splash-bg');
             $div.hide();
@@ -228,6 +287,9 @@
             $div.fadeIn('fast');
 
             var currency = purl(window.location.href).param('currency');
+            if (!currency){
+                currency = "USD";
+            }
             $('.currency-'+currency).css({
                 'display':'block'
             });

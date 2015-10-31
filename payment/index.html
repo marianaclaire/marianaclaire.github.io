@@ -70,13 +70,14 @@
               -webkit-appearance: none;
               -moz-appearance: none;
               appearance: none;
-              text-indent :0.01px;
-              text-overflow:'';
-              border:solid gray 1px !important;
+              border: none;
             }
 
-            ::-ms-expand {
-                display: none;
+            .select-wapper{
+                border:solid gray 1px !important;
+                width:420px;
+                overflow: hidden;
+                border-radius: 5px;
             }
 
             select.minimal {
@@ -85,25 +86,26 @@
                 linear-gradient(135deg, gray 50%, transparent 50%),
                 linear-gradient(to right, #ccc, #ccc);
               background-position:
-                calc(100% - 20px) calc(1em + 2px),
-                calc(100% - 15px) calc(1em + 2px),
-                calc(100% - 2.5em) 0.5em;
+                calc(100% - 50px) calc(1em + 2px),
+                calc(100% - 45px) calc(1em + 2px),
+                calc(100% - 3.5em) 0.5em;
               background-size:
                 5px 5px,
                 5px 5px,
                 1px 1.5em;
               background-repeat: no-repeat;
+              width:450px;
             }
 
             select.minimal:focus {
               background-image:
-                linear-gradient(45deg, transparent 50%, white 50%),
-                linear-gradient(135deg, white 50%, transparent 50%),
-                linear-gradient(to right, #fff, #fff);
+                linear-gradient(45deg, transparent 50%, gray 50%),
+                linear-gradient(135deg, gray 50%, transparent 50%),
+                linear-gradient(to right, #ccc, #ccc);
               background-position:
-                calc(100% - 20px) calc(1em + 2px),
-                calc(100% - 15px) calc(1em + 2px),
-                calc(100% - 2.5em) 0.5em;
+                calc(100% - 50px) calc(1em + 2px),
+                calc(100% - 45px) calc(1em + 2px),
+                calc(100% - 3.5em) 0.5em;
               background-size:
                 5px 5px,
                 5px 5px,
@@ -131,19 +133,24 @@
                     <form class="form-tran currency-USD" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
                     <input type="hidden" name="cmd" value="_s-xclick">
                     <table>
-                    <tr><td><input type="hidden" name="on0" value="Book a session">Please choose a service</td></tr><tr><td>
-                    <select class="minimal" name="os0" required>
-                    <option value="" disabled selected> -- select an option -- </option>
-                    <option value="30 mins">30 mins $45.00 USD</option>
-                    <option value="45 mins">45 mins $67.00 USD</option>
-                    <option value="60 mins">60 mins $89.00 USD</option>
-                    <option value="75 mins">75 mins $112.00 USD</option>
-                    <option value="90 mins">90 mins $135.00 USD</option>
-                    <option value="Soul drawing">Soul drawing $60.00 USD</option>
-                    <option value="Soul drawing + report">Soul drawing + report $85.00 USD</option>
-                    <option value="Soul painting">Soul painting $100.00 USD</option>
-                    <option value="Soul painting + report">Soul painting + report $125.00 USD</option>
-                    </select> </td></tr>
+                    <tr><td>
+                        <input type="hidden" name="on0" value="Book a session">Please choose a service
+                    </td></tr><tr><td>
+                        <div class="select-wapper">
+                            <select class="minimal" name="os0" required>
+                            <option value="" disabled selected> -- select an option -- </option>
+                            <option value="30 mins">30 mins $45.00 USD</option>
+                            <option value="45 mins">45 mins $67.00 USD</option>
+                            <option value="60 mins">60 mins $89.00 USD</option>
+                            <option value="75 mins">75 mins $112.00 USD</option>
+                            <option value="90 mins">90 mins $135.00 USD</option>
+                            <option value="Soul drawing">Soul drawing $60.00 USD</option>
+                            <option value="Soul drawing + report">Soul drawing + report $85.00 USD</option>
+                            <option value="Soul painting">Soul painting $100.00 USD</option>
+                            <option value="Soul painting + report">Soul painting + report $125.00 USD</option>
+                            </select>
+                        </div>
+                    </td></tr>
                     </table>
                     <i class="fa fa-paypal"></i> Process with Paypall</br>
                     <input type="hidden" name="currency_code" value="USD">

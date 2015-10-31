@@ -131,7 +131,7 @@ var formValues = {
 	next:{
 		ENG:"NEXT",
 		FREN:"SUIVANT",
-		ESP:"SIGUIENTE"
+		ESP:"CONTINUAR"
 	},
 	cancel:{
 		ENG:"CANCEL",

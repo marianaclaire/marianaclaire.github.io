@@ -1,9 +1,9 @@
 var drawingsDB = {
 	intuitive: {
 		title: {
-			ENG:"Intuitive Drawings",
-			FREN: "",
-			ESP: ""
+			ENG:"Intuitive drawing",
+			FREN: "Dessins intuitive",
+			ESP: "Dibujos intuitivos"
 		},
 		data:[
 			{
@@ -99,16 +99,17 @@ var drawingsDB = {
 	},
 	auraField:{
 		title: {
-			ENG:"Anra Field Drawing",
-			FREN: "",
-			ESP: ""
+			ENG:"Aura field drawing",
+			FREN:"Dessins de spécifiques de l'aura",
+			ESP:"Dibujos específicos del aura"
 		},
 		data: [
 			{
 				name:{
 					ENG:"Sirian, lyran, draconian and lemurian",
-					FREN:"",
-					ESP:""
+					FREN: "Sirius, de la Lyre, draconienne et lemurian",
+					ESP: "Sirio, Lira, draconiano et lemurian"
+
 				},
 				description:"",
 				image:"assets/images/drawings/sirian-lyran-draconian-and-lemurian.jpg"

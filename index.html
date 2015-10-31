@@ -483,8 +483,8 @@
 			<button type="button" id="cancel-book-btn" class="btn btn-trans btn-trans-default">
 				<strong>{{ formValues.back[languageOpt] }}</strong>
 			</button>
-			<span class="lang-ENG">
-				<a class="btn btn-trans btn-trans-default" href="./payment">
+			<span>
+				<a class="btn btn-trans btn-trans-default" href="./payment?currency=USD&lang={{ languageOpt }}" target="_blank">
 					<strong>{{ formValues.next[languageOpt] }}</strong>
 				</a>
 				<i class="fa fa-arrow-right"></i> {{ serviceText.payment.title[languageOpt] }}

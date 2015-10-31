@@ -131,7 +131,7 @@ var formValues = {
 	next:{
 		ENG:"NEXT",
 		FREN:"SUIVANT",
-		ESP:""
+		ESP:"SIGUIENTE"
 	},
 	cancel:{
 		ENG:"CANCEL",
@@ -197,7 +197,7 @@ var contact = {
 	title: {
 		ENG: "Find Me on Social Media",
 		FREN: "Retrouvez-moi sur les médias sociaux",
-		ESP: "Encuentreme en las redes sociales"
+		ESP: "Encuéntrame en las redes sociales"
 	},
 	links: [
 		{

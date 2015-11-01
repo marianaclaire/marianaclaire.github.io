@@ -57,7 +57,9 @@ function viewCtrl($scope) {
 
 			$('.init').fadeOut('fast', function(){
 				$('.init').remove();
-				$('.body-content').fadeIn('slow',function(){
+				$('#splash-content-container').fadeIn('slow',function(){
+					populateBG();
+					populateCache();
 					window.setTimeout(function(){
 						$('#side-menu').slideDown('slow');
 					}, 200);
@@ -184,8 +186,6 @@ function getCurrentDateTime(){
 
 $(function(){
 	$('#side-menu').hide();
-	populateBG();
-	populateCache();
 	//language
 	$('.lang-'+currentLang).css({
 		'display': 'inline-block'
@@ -240,19 +240,19 @@ $(function(){
 	});
 
 	// toggle for more about me section
-	$('.toggle-more-about-me').click(function(){
-		$('#more-about-me').finish().slideDown('fast');
-		$(this).finish().fadeOut('fast');
-		window.setTimeout(function(){
-			$('.splash-div').click(function(e){
-				if( e.target != this )
-       				return;
-				$('.splash-div').off("click");
-				$('#more-about-me').finish().slideUp('fast');
-				$('.toggle-more-about-me').finish().fadeIn('fast');
-			});
-		}, 1000);
-	});
+	// $('.toggle-more-about-me').click(function(){
+	// 	$('#more-about-me').finish().slideDown('fast');
+	// 	$(this).finish().fadeOut('fast');
+	// 	window.setTimeout(function(){
+	// 		$('.splash-div').click(function(e){
+	// 			if( e.target != this )
+ //       				return;
+	// 			$('.splash-div').off("click");
+	// 			$('#more-about-me').finish().slideUp('fast');
+	// 			$('.toggle-more-about-me').finish().fadeIn('fast');
+	// 		});
+	// 	}, 1000);
+	// });
 
 	// toggle for subscription
 	$('#subscribe-btn').click(function(){

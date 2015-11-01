@@ -226,13 +226,13 @@
 							<span class="lang-ESP">Ejemplos<br>de Dibujos</span>
 						</div>
 					</div>
-					<div class="portfolio-image" ng-repeat="d in drawings.intuitive.data" data-image="{{d.image}}">
+					<div class="portfolio-image lazy" ng-repeat="d in drawings.intuitive.data" data-original="{{d.image}}">
 						<div class="portfolio-image-toggle">
 							<div class="portfolio-image-title">{{d.name[languageOpt]}}</div>
 							<div class="portfolio-image-description">{{drawings.intuitive.title[languageOpt]}}</div>
 						</div>
 					</div>
-					<div class="portfolio-image" ng-repeat="d in drawings.auraField.data" data-image="{{d.image}}">
+					<div class="portfolio-image lazy" ng-repeat="d in drawings.auraField.data" data-original="{{d.image}}">
 						<div class="portfolio-image-toggle">
 							<div class="portfolio-image-title">{{d.name[languageOpt]}}</div>
 							<div class="portfolio-image-description">{{drawings.auraField.title[languageOpt]}}</div>
@@ -315,8 +315,8 @@
 						</div>
 						<br>
 						<div class="portfolio">
-							<div class="portfolio-image sm-padded" ng-repeat="i in contact.pictures"
-								data-image="{{i}}">
+							<div class="portfolio-image sm-padded lazy" ng-repeat="i in contact.pictures"
+								data-original="{{i}}">
 								<div class="portfolio-image-toggle">
 									<div class="portfolio-image-title"></div>
 									<div class="portfolio-image-description"></div>
@@ -507,6 +507,7 @@
 	  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5";
 	  fjs.parentNode.insertBefore(js, fjs);
 	}(document, 'script', 'facebook-jssdk'));</script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazyload/1.9.1/jquery.lazyload.min.js"></script>
 	<!-- My script :3 -->
 	<script src="assets/scripts/services.js"> </script>
 	<script src="assets/scripts/drawings.js"> </script>

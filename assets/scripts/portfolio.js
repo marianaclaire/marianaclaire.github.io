@@ -10,7 +10,6 @@ function initPortfolio(){
 	$('body').append('<div id="popupPortfolio"><img><h1></h1><p></p></div>');
 	$('.portfolio-image').each(function(i){
 		var image = $(this).data('image');
-		console.log(image);
 		$(this).css({'background-image': 'url('+image+')'});
 		$(this).data('index', i);
 		$(this).attr('id','portImage-'+i);

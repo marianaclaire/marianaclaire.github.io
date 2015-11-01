@@ -364,6 +364,17 @@ td{
 	text-align: center;
 }
 
+.body-content{
+	display:none;
+}
+
+.init{
+	position:absolute;
+	font-size:40px;
+	left:calc(50% - 20px);
+	top:calc(50% - 20px);
+}
+
 @media screen and (max-width: 1200px) {
 	.text-lg-right{
 		text-align: right;

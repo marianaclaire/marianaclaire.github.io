@@ -481,7 +481,7 @@
 	<!-- TypeForm here yo! -->
 	<div id="typeform-widget">
 		<div class="control-btn">
-			<p ng-bind-html="mobileTab"></p>
+			<div ng-bind-html="mobileTab[languageOpt] | to_trusted"></div>
 			<button type="button" id="cancel-book-btn" class="btn btn-trans btn-trans-default">
 				<strong>{{ formValues.back[languageOpt] }}</strong>
 			</button>

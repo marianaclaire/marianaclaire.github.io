@@ -6,8 +6,8 @@ var isMobile = {
 if( screen.width <= 480 ) {
     // assume it's mobile..
 	var isMobile = {
-		ENG: "Please click on the hand<br>to proceed booking.<hr>",
-		FREN: "Tappez sur la main<br>pour continuer la reservation.<hr>",
+		ENG: "Please click on the hand to proceed booking.<hr>",
+		FREN: "Tappez sur la main pour continuer la reservation.<hr>",
 		ESP: ""
 	};
 }

@@ -1,6 +1,6 @@
 function popupPortfolio(i){
 	$clicked = $('#portImage-'+i);
-	$('#popupPortfolio img').attr("src", $clicked.data('image'));
+	$('#popupPortfolio img').attr("src", $clicked.data('original'));
 	$('#popupPortfolio h1').html($('#portImage-'+i+' .portfolio-image-title').html());
 	$('#popupPortfolio p').html($('#portImage-'+i+' .portfolio-image-description').html());
 	$('#popupPortfolio').fadeIn('fast');
@@ -9,8 +9,9 @@ function popupPortfolio(i){
 function initPortfolio(){
 	$('body').append('<div id="popupPortfolio"><img><h1></h1><p></p></div>');
 	$('.portfolio-image').each(function(i){
-		var image = $(this).data('image');
-		$(this).css({'background-image': 'url('+image+')'});
+		// using lazy so no need of this
+		// var image = $(this).data('original');
+		// $(this).css({'background-image': 'url('+image+')'});
 		$(this).data('index', i);
 		$(this).attr('id','portImage-'+i);
 		$(this).click(function(){

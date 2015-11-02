@@ -33,6 +33,7 @@ body{
     -o-transition: background-color 100ms linear;
     -ms-transition: background-color 100ms linear;
     transition: background-color 100ms linear;
+    display:none;
 
 }
 
@@ -258,6 +259,11 @@ button:focus{
 
 .row{
 	margin:0;
+}
+
+.flush-right{
+	display:inline-block;
+	float:right;
 }
 
 .service-display{

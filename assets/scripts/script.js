@@ -57,6 +57,7 @@ function viewCtrl($scope) {
 
 			$('.init').fadeOut('fast', function(){
 				$('.init').remove();
+				$('#side-menu').fadeIn('slow');
 				$('#splash-content-container').fadeIn('slow',function(){
 					populateBG();
 					populateCache();

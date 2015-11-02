@@ -225,6 +225,16 @@
 							<span class="lang-ESP">Ejemplos<br>de Dibujos</span>
 						</div>
 					</div>
+					<div class="portfolio-last one">
+						<div class="portfolio-buttom-align portfolio-description">{{sampleDrawing[languageOpt]}}</div>
+					</div>
+					<div class="portfolio-last two">
+						<div class="subtitle portfolio-buttom-align"><button type="button" class="btn btn-trans btn-trans-default book-toggle-btn all-cap">
+		 					<strong class="lang-ENG">Purchase a drawing</strong>
+							<strong class="lang-FREN">Acheter un dessin</strong>
+							<strong class="lang-ESP">Compre un dibujo</strong>
+						</button></div>
+					</div>
 					<div class="portfolio-image lazy" ng-repeat="d in drawings.intuitive.data" data-original="{{d.image}}">
 						<div class="portfolio-image-toggle">
 							<div class="portfolio-image-title">{{d.name[languageOpt]}}</div>
@@ -236,14 +246,6 @@
 							<div class="portfolio-image-title">{{d.name[languageOpt]}}</div>
 							<div class="portfolio-image-description">{{drawings.auraField.title[languageOpt]}}</div>
 						</div>
-					</div>
-					<div class="portfolio-last">
-						<span>{{sampleDrawing[languageOpt]}}</span>
-						<div class="subtitle"><button type="button" class="btn btn-trans btn-trans-default book-toggle-btn all-cap">
-		 					<strong class="lang-ENG">Purchase a drawing</strong>
-							<strong class="lang-FREN">Acheter un dessin</strong>
-							<strong class="lang-ESP">Compre un dibujo</strong>
-						</button></div>
 					</div>
 				</div>
 			</div>

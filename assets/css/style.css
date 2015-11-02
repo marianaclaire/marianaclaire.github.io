@@ -33,7 +33,7 @@ body{
     -o-transition: background-color 100ms linear;
     -ms-transition: background-color 100ms linear;
     transition: background-color 100ms linear;
-
+    display:none;
 }
 
 #side-menu.active {

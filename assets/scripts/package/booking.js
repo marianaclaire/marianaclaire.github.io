@@ -23,7 +23,7 @@ var data = {
         reservationForm:{
             ENG:"Reservation Form",
             FREN:"Formulaire de réservation",
-            ESP:".",
+            ESP:"Formulario para reservar",
         },
         selectDefault:{
             ENG:"please choose a service",
@@ -43,7 +43,7 @@ var data = {
         begin:{
             ENG:"Begin",
             FREN:"Commencer",
-            ESP:".",
+            ESP:"Empezar",
         }
     },
     workingTime:[
@@ -78,9 +78,9 @@ var data = {
         }
     ],
     availability:{
-        ENG:"My availability is displayed as <strong>empty white slots</strong> in the following calendar in <strong>Mountain time zone</strong>. Please choose a date and time that suit you the best and confirm your choice the form on the last section.",
+        ENG:"My availability is displayed as <strong>empty white slots</strong> in the following calendar in <strong>Mountain time zone</strong>. Please choose a date and time that suit you the best and confirm your choice in the form on the last section.",
         FREN:"Mes disponibilités sont sur les <strong>caisses blanches</strong> sur ce calendrier qui est avec le <strong>fuseau horaire Mountain</strong>. Pour réserver une session juste choisissez l'heure et la date qui est mieux pour vous et confirmer votre choix dans la dernière section.",
-        ESP:"Mi disponibilidad esta en las <strong>casillas blancas</strong> en este calendario que esta en la <strong>zona de tiempo Mountain</strong>. Porfavor escoja la hora y el día que mas le convenga y mandemelos por email (marianaclairesp@gmail.com) o por mensaje de Facebook o Skype para confirmar."
+        ESP:"Mi disponibilidad esta en las <strong>casillas blancas</strong> en este calendario que esta en la <strong>zona de tiempo Mountain</strong>. Porfavor escoja la hora y el día que mas le convenga y porfavor confirmelo en el formulario de reservación."
     },
     cad:{
         ENG:"<strong>*Note</strong> that if you are from canada please email me before making a payment.",
@@ -89,8 +89,8 @@ var data = {
     },
     bookingNotes:{
         ENG:"Click on <storng>BEGIN</strong> to open the booking form. Make sure you have a <strong>date</strong> and <strong>time</strong> in mind for your session. Note that if you are on a mobile device, we will redirect you to another page.",
-        FREN:"",
-        ESP:""
+        FREN:"S.V.P. faire click sur <strong>COMMENCER</strong> pour soumettre votre information de contact. Prenez note que si vous visitez le siteweb sur un cellulaire, cela va vous amener sur une autre page.",
+        ESP:"Llenar su información de contacto para reservar: Haga click en <strong>Empezar</strong> para llenar su información de contacto. Note que si esta utilizando el sitioweb desde un telefono lo llebara a otra pagina."
     }
 };
 

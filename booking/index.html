@@ -198,35 +198,6 @@
             </div>
 
 
-            <div id="form-section" class="container color-black">
-                <h2 class="text-left">{{ data.subtitles.reservationForm[languageOpt] }}</h2>
-                <div class="content">
-                    <p ng-bind-html="data.bookingNotes[languageOpt] | to_trusted"></p>
-                    <div style="margin:5%"> </div>
-                    <center><button type="button" class="btn btn-trans btn-trans-default book-toggle-btn all-cap"><strong>
-                        {{ data.subtitles.begin[languageOpt] }}
-                    </strong></button></center>
-                </div>
-
-                <!-- TypeForm here yo! -->
-                <div id="typeform-widget" class="color-black">
-                    <div class="control-btn">
-                        <div ng-bind-html="mobileTab[languageOpt] | to_trusted"></div>
-                        <button type="button" id="cancel-book-btn" class="btn btn-trans btn-trans-default">
-                            <strong>{{ formValues.back[languageOpt] }}</strong>
-                        </button>
-                       <!--  <span>
-                            <a class="btn btn-trans btn-trans-default" href="./payment?lang={{ languageOpt }}" target="_blank">
-                                <strong>{{ formValues.next[languageOpt] }}</strong>
-                            </a>
-                            <i class="fa fa-arrow-right"></i> {{ data.subtitles.payment[languageOpt] }}
-                        </span> -->
-                    </div>
-                    <div class="typeform-widget" data-url="https://goldenratiphi.typeform.com/to/{{ formValues.form[languageOpt] }}" data-text="Mariana Claire" style="width:100%;height:100%;"></div>
-                        <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;">Powered by <a href="http://www.typeform.com/?utm_campaign=typeform_{{ formValues.cancel[languageOpt] }}&amp;utm_source=website&amp;utm_medium=typeform&amp;utm_content=typeform-embedded&amp;utm_term={{ formValues.language[languageOpt] }}" style="color: #999" target="_blank">Typeform</a></div>
-                </div>
-            </div>
-
             <a name="payment"></a>
             <div id="payement-section" class="container color-black">
                 <h2 class="text-left">{{ data.subtitles.payment[languageOpt] }}</h2>
@@ -350,9 +321,49 @@
                     <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
                     </form>
                 </div>
+            </div>
+
+            <div id="form-section" class="container color-black">
+                <h2 class="text-left">{{ data.subtitles.reservationForm[languageOpt] }}</h2>
+                <div class="content">
+                    <p ng-bind-html="data.bookingNotes[languageOpt] | to_trusted"></p>
+                    <div style="margin:5%"> </div>
+                    <center><button type="button" class="btn btn-trans btn-trans-default book-toggle-btn all-cap"><strong>
+                        {{ data.subtitles.begin[languageOpt] }}
+                    </strong></button></center>
+                </div>
+
+                <!-- TypeForm here yo! -->
+                <div id="typeform-widget" class="color-black">
+                    <div class="control-btn">
+                        <div ng-bind-html="mobileTab[languageOpt] | to_trusted"></div>
+                        <button type="button" id="cancel-book-btn" class="btn btn-trans btn-trans-default">
+                            <strong>{{ formValues.back[languageOpt] }}</strong>
+                        </button>
+                       <!--  <span>
+                            <a class="btn btn-trans btn-trans-default" href="./payment?lang={{ languageOpt }}" target="_blank">
+                                <strong>{{ formValues.next[languageOpt] }}</strong>
+                            </a>
+                            <i class="fa fa-arrow-right"></i> {{ data.subtitles.payment[languageOpt] }}
+                        </span> -->
+                    </div>
+                    <div class="typeform-widget" data-url="https://goldenratiphi.typeform.com/to/{{ formValues.form[languageOpt] }}" data-text="Mariana Claire" style="width:100%;height:100%;"></div>
+                        <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;">Powered by <a href="http://www.typeform.com/?utm_campaign=typeform_{{ formValues.cancel[languageOpt] }}&amp;utm_source=website&amp;utm_medium=typeform&amp;utm_content=typeform-embedded&amp;utm_term={{ formValues.language[languageOpt] }}" style="color: #999" target="_blank">Typeform</a></div>
+                </div>
                 <div style="margin:5%"> </div>
                 <div class="text-right">
                     <a href="../#{{ languageOpt }}" class="subtle"><i class="fa fa-chevron-left"></i> {{ data.subtitles.backHome[languageOpt] }}</a>
+                </div>
+            </div>
+            <div style="margin:10%"> </div>
+            <div class="container" style="margin-bottom:0;">
+                <div class="row">
+                    <div class="col-xs-6">
+                        <span class="credit">&copy;Mariana Claire | 2015</span>
+                    </div>
+                    <div class="col-xs-6 text-right">
+                        <span class="credit">designed by&nbsp;</span><h3 style="margin-top:0;float:right;"><a href="http://ytixu.github.io/HTMLdump" target="_blank">Goldenrati&Phi;</a></h3>
+                    </div>
                 </div>
             </div>
         </div>

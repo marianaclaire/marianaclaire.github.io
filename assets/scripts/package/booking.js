@@ -78,8 +78,8 @@ var data = {
         }
     ],
     availability:{
-        ENG:"My availability is displayed as <strong>empty white slots</strong> in the following calendar in <strong>Mountain time zone</strong>. Please choose a date and time that suit you the best and confirm your choice the form on the next section.",
-        FREN:"Mes disponibilités sont sur les <strong>caisses blanches</strong> sur ce calendrier qui est avec le <strong>fuseau horaire Mountain</strong>. Pour réserver une session juste choisissez l'heure et la date qui est mieux pour vous et confirmer votre choix dans la prochaine section.",
+        ENG:"My availability is displayed as <strong>empty white slots</strong> in the following calendar in <strong>Mountain time zone</strong>. Please choose a date and time that suit you the best and confirm your choice the form on the last section.",
+        FREN:"Mes disponibilités sont sur les <strong>caisses blanches</strong> sur ce calendrier qui est avec le <strong>fuseau horaire Mountain</strong>. Pour réserver une session juste choisissez l'heure et la date qui est mieux pour vous et confirmer votre choix dans la dernière section.",
         ESP:"Mi disponibilidad esta en las <strong>casillas blancas</strong> en este calendario que esta en la <strong>zona de tiempo Mountain</strong>. Porfavor escoja la hora y el día que mas le convenga y mandemelos por email (marianaclairesp@gmail.com) o por mensaje de Facebook o Skype para confirmar."
     },
     cad:{
@@ -88,7 +88,7 @@ var data = {
         ESP:"<strong>*Nota:</strong> si vives en Canada porfavor enviame un mensaje antes de hacer el pago."
     },
     bookingNotes:{
-        ENG:"Click on <storng>BEGIN</strong> to open the booking form. Note that if you are on a mobile device, we will redirect you to another page. Please make sure to come back to complete your payment.",
+        ENG:"Click on <storng>BEGIN</strong> to open the booking form. Make sure you have a <strong>date</strong> and <strong>time</strong> in mind for your session. Note that if you are on a mobile device, we will redirect you to another page.",
         FREN:"",
         ESP:""
     }

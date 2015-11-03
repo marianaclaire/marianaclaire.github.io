@@ -1,17 +1,3 @@
-var isMobile = {
-	ENG: "",
-	FREN: "",
-	ESP: ""
-};
-if( screen.width <= 480 ) {
-    // assume it's mobile..
-	var isMobile = {
-		ENG: "Please click on the hand to proceed booking.<hr>",
-		FREN: "Tappez sur la main pour continuer la reservation.<hr>",
-		ESP: ""
-	};
-}
-
 // parse URL to get language
 var validLangs = ["ENG", "FREN", "ESP"]
 function parseURL(){
@@ -44,13 +30,12 @@ function viewCtrl($scope) {
 	$scope.titles = titles;
 	$scope.contact = contact;
 	$scope.support = support;
-	$scope.mobileTab = isMobile;
+	// $scope.mobileTab = isMobile;
 
 	$scope.refresh = function() {
 		window.setTimeout(function(){
 			initBacklight();
 			initPortfolio();
-			var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'widget.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}
 			$(".lazy").lazyload({
 				effect : "fadeIn"
 			});
@@ -158,32 +143,7 @@ window.onresize = function(){
 	refreashMenuHighlight();
 }
 
-var formShowing = false;
-
-function postBooking(data, callback){
-	console.log(data)
-	$.ajax({
-       type: "POST",
-       url: "https://sheetsu.com/apis/0bfdda88",
-       data: data })
-    .done(function(res) {
-    	console.log(res);
-		callback();
-	})
-	.fail(function(res) {
-		alert("Service Error. Please contact me by email or Skype for your booking.");
-	});
-}
-
-function getCurrentDateTime(){
-	var currentdate = new Date();
-	return  currentdate.getDate() + "/"
-            + (currentdate.getMonth()+1)  + "/"
-            + currentdate.getFullYear() + " "
-            + currentdate.getHours() + ":"
-            + currentdate.getMinutes() + ":"
-            + currentdate.getSeconds();
-}
+// var formShowing = false;
 
 $(function(){
 	$('#side-menu').hide();
@@ -203,41 +163,8 @@ $(function(){
 	// form
 	$('.book-toggle-btn').each(function(){
 		$(this).click(function(){
-
-			if(!formShowing){
-				formShowing = true;
-				$("html, body").css({'overflow-y' : 'hidden'});
-				$('#form-hide').fadeOut('fast', function(){
-					$('#typeform-widget').fadeIn('fast');
-				});
-			}
+			window.location.assign("./booking?lang="+currentLang);
 		})
-	});
-	$('#cancel-book-btn').click(function(){
-		if(formShowing){
-			formShowing = false;
-			$("html, body").css({'overflow-y' : 'scroll'});
-			$('#typeform-widget').fadeOut('fast', function(){
-				$('#form-hide').fadeIn('fast');
-			});
-		}
-	});
-
-	$('#bookingForm').submit(function(){
-		$(this).attr('disabled','disabled');
-		var data = $('#bookingForm').serialize() + '&created_at='+getCurrentDateTime();
-		postBooking(data, function(){
-			$('#typeform-widget').fadeOut('fast', function(){
-				$("#success-message").fadeIn('fast');
-				$('#send-book-btn').removeAttr('disabled');
-				window.setTimeout(function(){
-					$("#success-message").fadeOut('fast', function(){
-						$('#form-hide').fadeIn('fast');
-						formShowing = false;
-					});
-				}, 1500);
-			});
-		});
 	});
 
 	// toggle for more about me section

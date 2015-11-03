@@ -17,13 +17,13 @@ var data = {
         },
         payment:{
             ENG:"Payment",
-            ESP:"Paiement",
-            FREN:"Pago",
+            FREN:"Paiement",
+            ESP:"Pago",
         },
         reservationForm:{
             ENG:"Reservation Form",
-            ESP:"Formulaire de réservation",
-            FREN:".",
+            FREN:"Formulaire de réservation",
+            ESP:".",
         },
         selectDefault:{
             ENG:"please choose a service",
@@ -122,6 +122,8 @@ var formValues = {
     }
 }
 
+var validLangs = ["ENG", "FREN", "ESP"]
+
 var isMobile = {
     ENG: "",
     FREN: "",
@@ -137,7 +139,7 @@ if( screen.width <= 480 ) {
 }
 
 var currentLang = purl(window.location.href).param('lang');
-if (!currentLang){
+if (!currentLang || validLangs.indexOf(currentLang) < 0){
     currentLang = 'ENG';
 }
 

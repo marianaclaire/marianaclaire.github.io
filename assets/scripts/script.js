@@ -30,7 +30,6 @@ function viewCtrl($scope) {
 	$scope.titles = titles;
 	$scope.contact = contact;
 	$scope.support = support;
-	// $scope.mobileTab = isMobile;
 
 	$scope.refresh = function() {
 		window.setTimeout(function(){
@@ -56,7 +55,6 @@ function viewCtrl($scope) {
 	};
 
 	$scope.changeLang = function(lang){
-		// window.location.href = "./#"+lang;
 		window.open('./#'+lang, "_parent");
 		window.location.reload();
 	}
@@ -143,8 +141,6 @@ window.onresize = function(){
 	refreashMenuHighlight();
 }
 
-// var formShowing = false;
-
 $(function(){
 	$('#side-menu').hide();
 	//language
@@ -199,7 +195,7 @@ $(function(){
 		$('.subscription.success-message').fadeIn('fast');
 	})
 
-	//donatin
+	//donation
 	$('#donate-btn').click(function(){
 		$('#paypal-donate-form').slideDown();
 		$(this).fadeOut('fast');

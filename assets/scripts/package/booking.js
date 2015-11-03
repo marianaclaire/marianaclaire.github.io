@@ -1,6 +1,6 @@
 var data = {
     title:{
-        ENG:"Booking a Session<h3>with Mariana Claire</h3>",
+        ENG:"Book a Session<h3>with Mariana Claire</h3>",
         FREN:"Réservez une session<h3>avec Mariana Claire</h3>",
         ESP:"Reserve una sesión<h3>con Mariana Claire</h3>"
     },

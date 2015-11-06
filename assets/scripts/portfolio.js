@@ -19,8 +19,8 @@ function initPortfolio(){
 		});
 	});
 	$('#popupPortfolio').click(function(e){
-		if( e.target != this )
-       		return;
+		// if( e.target != this )
+  //      		return;
 		$(this).fadeOut('fast');
 	});
 }

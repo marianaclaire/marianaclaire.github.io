@@ -89,8 +89,8 @@ var data = {
     },
     bookingNotes:{
         ENG:"Click on <storng>BEGIN</strong> to open the booking form. Make sure you have a <strong>date</strong> and <strong>time</strong> in mind for your session. Note that if you are on a mobile device, we will redirect you to another page. Once your are done, please proceed to <a class='inline-menu-btn' role='button' data-id='payment'>payment</a> in the next section.",
-        FREN:"S.V.P. faire click sur <strong>COMMENCER</strong> pour soumettre votre information de contact. Prenez note que si vous visitez le siteweb sur un cellulaire, cela va vous amener sur une autre page.",
-        ESP:"Llenar su información de contacto para reservar: Haga click en <strong>Empezar</strong> para llenar su información de contacto. Note que si esta utilizando el sitioweb desde un telefono lo llebara a otra pagina."
+        FREN:"S.V.P. faire click sur <strong>COMMENCER</strong> pour soumettre votre information de contact. Prenez note que si vous visitez le siteweb sur un cellulaire, cela va vous amener sur une autre page. Après avoir fini avec le formulaire, s.v.p. procéder au <a class='inline-menu-btn' role='button' data-id='payment'>paiement</a> dans la section suivante.",
+        ESP:"Llenar su información de contacto para reservar: Haga click en <strong>Empezar</strong> para llenar su información de contacto. Note que si esta utilizando el sitioweb desde un telefono lo llebara a otra pagina. Una vez que termine con el formulario porfavor continuar con el <a class='inline-menu-btn' role='button' data-id='payment'>pago</a> en la siguiente sección."
     },
     progress:{
         ENG:'STEP 1: Time & Date > STEP 2: Fill Form > STEP 3: Checkout',

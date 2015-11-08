@@ -79,8 +79,8 @@ var data = {
     ],
     availability:{
         ENG:"My availability is displayed as <strong>empty white slots</strong> in the following calendar in <strong>Mountain time zone</strong>. Please choose a date and time that suit you the best and confirm your choice in the <a class='inline-menu-btn' role='button' data-id='reservation'>reservation form</a> on the next section.",
-        FREN:"Mes disponibilités sont sur les <strong>caisses blanches</strong> sur ce calendrier qui est avec le <strong>fuseau horaire Mountain</strong>. Pour réserver une session juste choisissez l'heure et la date qui est mieux pour vous et confirmer votre choix dans la dernière section.",
-        ESP:"Mi disponibilidad esta en las <strong>casillas blancas</strong> en este calendario que esta en la <strong>zona de tiempo Mountain</strong>. Porfavor escoja la hora y el día que mas le convenga y porfavor confirmelo en el formulario de reservación."
+        FREN:"Mes disponibilités sont sur les <strong>caisses blanches</strong> sur ce calendrier qui est avec le <strong>fuseau horaire Mountain</strong>. Pour réserver une session juste choisissez l'heure et la date qui est mieux pour vous et confirmer votre choix dans la section du <a class='inline-menu-btn' role='button' data-id='reservation'>formulaire de réservation</a>.",
+        ESP:"Mi disponibilidad esta en las <strong>casillas blancas</strong> en este calendario que esta en la <strong>zona de tiempo Mountain</strong>. Porfavor escoja la hora y el día que mas le convenga y porfavor confirmelo en el <a class='inline-menu-btn' role='button' data-id='reservation'>formulario de reservación</a>."
     },
     cad:{
         ENG:"<strong>*Note</strong> that if you are from canada please email me before making a payment.",

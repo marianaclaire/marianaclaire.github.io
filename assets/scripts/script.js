@@ -122,11 +122,13 @@ function refreashMenuHighlight(){
 				if (j==i) continue;
 				$('#'+j).removeClass('active');
 				$('#bg-'+j).fadeOut('slow');
+				$('div#'+i).removeClass('active');
 			}
 			$('#'+i).addClass('active');
 			if($('#bg-'+i).attr('id') != currentSplash){
 				currentSplash = $('#bg-'+i).attr('id');
 				$('#bg-'+i).fadeIn('slow');
+				$('div#'+i).addClass('active');
 			}
 		}
 	}

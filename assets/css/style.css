@@ -50,6 +50,7 @@ body{
 }
 
 #side-menu div.active{
+    border-bottom: solid white 10px;
 	/*background-color:rgb(255,132,183);*/
 	/*color:black;*/
 	/*border-bottom-color: white;

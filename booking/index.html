@@ -168,6 +168,35 @@
                 z-index:101;
                 text-align: center;
             }
+
+            #progress-bar{
+                position:fixed;
+                z-index: 10;
+                bottom:0;
+                left: 0;
+                width:100%;
+                background-color: black;
+                /*padding-bottom:calc(2% + 10px);*/
+            }
+            #progress-bar .content-bar{
+                width:100%;
+                height:100%;
+                padding:10px;
+            }
+            #progress-bar div.btn{
+                float:right;
+            }
+             #progress-bar div.title{
+                margin-left:10%;
+            }
+            #progress-bar .bar{
+                display:block;
+                content:'';
+                height:10px;
+                width:0px;
+                background-color: #CC66FF;
+                margin-top:-10px;
+            }
         </style>
     </head>
     <body ng-controller="viewCtrl">
@@ -176,13 +205,14 @@
         </div>
         <div id="splash-content-container">
             <div style="margin:10%"> </div>
+            <a name="calendar"></a>
             <div id="calendar-section" class="container color-black">
                 <div id="title" ng-bind-html="data.title[languageOpt] | to_trusted"></div>
                 <div class="text-right">
                     <a href="../#{{ languageOpt }}" class="subtle"><i class="fa fa-chevron-left"></i> {{ data.subtitles.backHome[languageOpt] }}</a>
                 </div>
 
-                <h2 class="text-left">{{ data.subtitles.dateTime[languageOpt] }}</h2>
+                <h2 class="text-left">1. {{ data.subtitles.dateTime[languageOpt] }}</h2>
                 <div class="content">
                     <p>{{ data.subtitles.workingTime[languageOpt] }}</p>
                     <ul>
@@ -198,9 +228,40 @@
             </div>
 
 
+            <a name="reservation"></a>
+            <div id="form-section" class="container color-black">
+                <h2 class="text-left">2. {{ data.subtitles.reservationForm[languageOpt] }}</h2>
+                <div class="content">
+                    <p ng-bind-html="data.bookingNotes[languageOpt] | to_trusted"></p>
+                    <div style="margin:5%"> </div>
+                    <center><button type="button" class="btn btn-trans btn-trans-default book-toggle-btn all-cap"><strong>
+                        {{ data.subtitles.begin[languageOpt] }}
+                    </strong></button></center>
+                </div>
+
+                <!-- TypeForm here yo! -->
+                <div id="typeform-widget" class="color-black">
+                    <div class="control-btn">
+                        <div ng-bind-html="mobileTab[languageOpt] | to_trusted"></div>
+                        <button type="button" id="cancel-book-btn" class="btn btn-trans btn-trans-default">
+                            <strong>{{ formValues.back[languageOpt] }}</strong>
+                        </button>
+                       <!--  <span>
+                            <a class="btn btn-trans btn-trans-default" href="./payment?lang={{ languageOpt }}" target="_blank">
+                                <strong>{{ formValues.next[languageOpt] }}</strong>
+                            </a>
+                            <i class="fa fa-arrow-right"></i> {{ data.subtitles.payment[languageOpt] }}
+                        </span> -->
+                    </div>
+                    <div class="typeform-widget" data-url="https://goldenratiphi.typeform.com/to/{{ formValues.form[languageOpt] }}" data-text="Mariana Claire" style="width:100%;height:100%;"></div>
+                        <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;">Powered by <a href="http://www.typeform.com/?utm_campaign=typeform_{{ formValues.cancel[languageOpt] }}&amp;utm_source=website&amp;utm_medium=typeform&amp;utm_content=typeform-embedded&amp;utm_term={{ formValues.language[languageOpt] }}" style="color: #999" target="_blank">Typeform</a>
+                    </div>
+                </div>
+            </div>
+
             <a name="payment"></a>
             <div id="payement-section" class="container color-black">
-                <h2 class="text-left">{{ data.subtitles.payment[languageOpt] }}</h2>
+                <h2 class="text-left">3. {{ data.subtitles.payment[languageOpt] }}</h2>
                 <br>
                 <i ng-bind-html="data.cad[languageOpt] | to_trusted"></i>
                 <div class="content">
@@ -321,42 +382,13 @@
                     <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
                     </form>
                 </div>
-            </div>
-
-            <div id="form-section" class="container color-black">
-                <h2 class="text-left">{{ data.subtitles.reservationForm[languageOpt] }}</h2>
-                <div class="content">
-                    <p ng-bind-html="data.bookingNotes[languageOpt] | to_trusted"></p>
-                    <div style="margin:5%"> </div>
-                    <center><button type="button" class="btn btn-trans btn-trans-default book-toggle-btn all-cap"><strong>
-                        {{ data.subtitles.begin[languageOpt] }}
-                    </strong></button></center>
-                </div>
-
-                <!-- TypeForm here yo! -->
-                <div id="typeform-widget" class="color-black">
-                    <div class="control-btn">
-                        <div ng-bind-html="mobileTab[languageOpt] | to_trusted"></div>
-                        <button type="button" id="cancel-book-btn" class="btn btn-trans btn-trans-default">
-                            <strong>{{ formValues.back[languageOpt] }}</strong>
-                        </button>
-                       <!--  <span>
-                            <a class="btn btn-trans btn-trans-default" href="./payment?lang={{ languageOpt }}" target="_blank">
-                                <strong>{{ formValues.next[languageOpt] }}</strong>
-                            </a>
-                            <i class="fa fa-arrow-right"></i> {{ data.subtitles.payment[languageOpt] }}
-                        </span> -->
-                    </div>
-                    <div class="typeform-widget" data-url="https://goldenratiphi.typeform.com/to/{{ formValues.form[languageOpt] }}" data-text="Mariana Claire" style="width:100%;height:100%;"></div>
-                        <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;">Powered by <a href="http://www.typeform.com/?utm_campaign=typeform_{{ formValues.cancel[languageOpt] }}&amp;utm_source=website&amp;utm_medium=typeform&amp;utm_content=typeform-embedded&amp;utm_term={{ formValues.language[languageOpt] }}" style="color: #999" target="_blank">Typeform</a></div>
-                </div>
                 <div style="margin:5%"> </div>
                 <div class="text-right">
                     <a href="../#{{ languageOpt }}" class="subtle"><i class="fa fa-chevron-left"></i> {{ data.subtitles.backHome[languageOpt] }}</a>
                 </div>
             </div>
             <div style="margin:10%"> </div>
-            <div class="container" style="margin-bottom:0;">
+            <div class="container" style="margin-bottom:100px;">
                 <div class="row">
                     <div class="col-xs-6">
                         <span class="credit">&copy;Mariana Claire | 2015</span>
@@ -366,6 +398,23 @@
                     </div>
                 </div>
             </div>
+        </div>
+
+        <div id="progress-bar">
+            <div class="bar">&nbsp;</div>
+            <!-- <div class="content-bar"> -->
+                <!-- <div class="color-black"><i class="fa fa-circle-o"></i><span>2</span> Fill reservation form</div>
+                <div class="color-black"><i class="fa fa-circle-o"></i><span>3</span> Choose service and checkout</div> -->
+               <!--  <div class="btn">
+                    <button type="button" id="back-book-btn" class="btn btn-trans btn-trans-default">
+                        <strong><i class="fa fa-angle-left"></i> {{ formValues.back[languageOpt] }}</strong>
+                    </button>
+                    <button type="button" id="next-book-btn" class="btn btn-trans btn-trans-default">
+                            <strong>{{ formValues.next[languageOpt] }} <i class="fa fa-angle-right"></i></strong>
+                    </button>
+                </div> -->
+                <!-- <div class="title">{{ data.progress[languageOpt] }}</div> -->
+            <!-- </div> -->
         </div>
         <i ng-init="refresh()"></i>
     </body>

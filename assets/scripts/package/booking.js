@@ -78,9 +78,9 @@ var data = {
         }
     ],
     availability:{
-        ENG:"My availability is displayed as <strong>empty white slots</strong> in the following calendar in <strong>Mountain time zone</strong>. Please choose a date and time that suit you the best and confirm your choice in the form on the last section.",
-        FREN:"Mes disponibilités sont sur les <strong>caisses blanches</strong> sur ce calendrier qui est avec le <strong>fuseau horaire Mountain</strong>. Pour réserver une session juste choisissez l'heure et la date qui est mieux pour vous et confirmer votre choix dans la dernière section.",
-        ESP:"Mi disponibilidad esta en las <strong>casillas blancas</strong> en este calendario que esta en la <strong>zona de tiempo Mountain</strong>. Porfavor escoja la hora y el día que mas le convenga y porfavor confirmelo en el formulario de reservación."
+        ENG:"My availability is displayed as <strong>empty white slots</strong> in the following calendar in <strong>Mountain time zone</strong>. Please choose a date and time that suit you the best and confirm your choice in the <a class='inline-menu-btn' role='button' data-id='reservation'>reservation form</a> on the next section.",
+        FREN:"Mes disponibilités sont sur les <strong>caisses blanches</strong> sur ce calendrier qui est avec le <strong>fuseau horaire Mountain</strong>. Pour réserver une session juste choisissez l'heure et la date qui est mieux pour vous et confirmer votre choix dans la section du <a class='inline-menu-btn' role='button' data-id='reservation'>formulaire de réservation</a>.",
+        ESP:"Mi disponibilidad esta en las <strong>casillas blancas</strong> en este calendario que esta en la <strong>zona de tiempo Mountain</strong>. Porfavor escoja la hora y el día que mas le convenga y porfavor confirmelo en el <a class='inline-menu-btn' role='button' data-id='reservation'>formulario de reservación</a>."
     },
     cad:{
         ENG:"<strong>*Note</strong> that if you are from canada please email me before making a payment.",
@@ -88,10 +88,16 @@ var data = {
         ESP:"<strong>*Nota:</strong> si vives en Canada porfavor enviame un mensaje antes de hacer el pago."
     },
     bookingNotes:{
-        ENG:"Click on <storng>BEGIN</strong> to open the booking form. Make sure you have a <strong>date</strong> and <strong>time</strong> in mind for your session. Note that if you are on a mobile device, we will redirect you to another page.",
+        ENG:"Click on <storng>BEGIN</strong> to open the booking form. Make sure you have a <strong>date</strong> and <strong>time</strong> in mind for your session. Note that if you are on a mobile device, we will redirect you to another page. Once your are done, please proceed to <a class='inline-menu-btn' role='button' data-id='payment'>payment</a> in the next section.",
         FREN:"S.V.P. faire click sur <strong>COMMENCER</strong> pour soumettre votre information de contact. Prenez note que si vous visitez le siteweb sur un cellulaire, cela va vous amener sur une autre page.",
         ESP:"Llenar su información de contacto para reservar: Haga click en <strong>Empezar</strong> para llenar su información de contacto. Note que si esta utilizando el sitioweb desde un telefono lo llebara a otra pagina."
+    },
+    progress:{
+        ENG:'STEP 1: Time & Date > STEP 2: Fill Form > STEP 3: Checkout',
+        FREN:'',
+        ESP:''
     }
+
 };
 
 var formValues = {
@@ -162,12 +168,59 @@ function viewCtrl($scope) {
     $scope.refresh = function() {
         window.setTimeout(function(){
             var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'widget.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}
+
+            initAnchors();
+            // computeAnchorPos();
         }, 500);
     };
 }
 
 var formShowing = false;
 
+function initAnchors(){
+    $('.inline-menu-btn').each(function(){
+        $(this).click(function(){
+            var top = $('a[name="'+$(this).data('id')+'"]').position().top - 100;
+            $("html, body").animate({ scrollTop: top+"px" }, 300);
+        });
+    });
+
+    window.progessBarRatio = 100/($(document).height()-$(window).height());
+
+    $(window).scroll(function(){
+        $('#progress-bar .bar').stop();
+        var width = window.pageYOffset*progessBarRatio;
+        $('#progress-bar .bar').animate({
+            'width' : width + '%'
+        }, 200);
+
+        // var temp = cachePos.map(function(e){
+        //     console.log(window.pageYOffset);
+        //     console.log(e);
+        //     console.log(Math.abs(window.pageYOffset - e));
+        //     return Math.abs(window.pageYOffset - e);
+        // });
+        // var index = temp.indexOf(Math.min.apply(Math, temp));
+        // if(currentAnchor != index){
+        //     $('#progress-bar .title').html(data.progress[index][currentLang]);
+        //     currentAnchor = index;
+        // }
+    });
+}
+
+var anchors = ['calendar', 'reservation', 'payment'];
+// var cachePos = [];
+var currentAnchor = 0;
+
+// function computeAnchorPos(){
+//     var temp = anchors.map(function(id){
+//         return $('a[name="'+id+'"]').position().top;
+//     });
+//     for(var i = 0; i<temp.length-1; i++){
+//         cachePos[i] = (temp[i]+temp[i+1])/2;
+//     }
+//     cachePos.push((temp[i]+$(document).height())/2);
+// }
 
 (function(){
     $div = $('.splash-bg');
@@ -197,6 +250,7 @@ var formShowing = false;
             if(!formShowing){
                 formShowing = true;
                 $("html, body").css({'overflow-y' : 'hidden'});
+                $('#progress-bar').fadeOut('fast');
                 $('#typeform-widget').fadeIn('fast');
             }
         })
@@ -205,6 +259,7 @@ var formShowing = false;
         if(formShowing){
             formShowing = false;
             $("html, body").css({'overflow-y' : 'scroll'});
+            $('#progress-bar').fadeIn('fast');
             $('#typeform-widget').fadeOut('fast');
         }
     });

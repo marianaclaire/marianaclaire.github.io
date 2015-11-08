@@ -3,6 +3,10 @@ var testimonials = {
 	length: 0,
 	data: [
 	{
+		user:'Jodie Lynne',
+		message:'I had a reading and drawing done by Mariana. Both her gifts and talent in art make an amazing and inspirational combination. She was able to connect with my guides in a detailed way and help facilitate their messages accurately. Since meeting Mariana my inner flame has been stoked in a way that inspires and motivates me to do my best. Even though much younger in physical age, her gifts and wisdom are ancient. I am grateful to call her my friend and so blessed to receive her wisdom',
+		date:'07/11/2015'
+	},{
 		user: 'Rebecca Elizabeth Anne',
 		message: 'Within my reading with Mariana, she proved herself to be a truly gifted extrasensory reader. Mariana was spot on with everything she intuited and provided a safe place for me to express my emotions and to clarify helpful insight that would assist me in processing them and in moving forwards. I highly recommend Mariana to all!',
 		date: '26/10/2015'

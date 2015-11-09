@@ -390,5 +390,8 @@ td{
 		border-bottom: none;
 		border-right: solid white 4px;
 	}
+	#side-menu{
+		padding-bottom: 5px;
+	}
 }
 

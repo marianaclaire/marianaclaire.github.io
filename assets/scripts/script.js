@@ -96,7 +96,12 @@ function populateCache(){
 	});
 }
 
+function checkIsMobile(){
+	return $(window).width() <= 720;
+}
 var menuDown = false;
+var menuToggle = false;
+var isMobile = checkIsMobile();
 
 function showMenuColor(top){
 	var thr = $(window).height()*0.618;
@@ -122,13 +127,13 @@ function refreashMenuHighlight(){
 				if (j==i) continue;
 				$('#'+j).removeClass('active');
 				$('#bg-'+j).fadeOut('slow');
-				$('div#'+i).removeClass('active');
+				$('.menu-slide-btn#'+i).removeClass('active');
 			}
 			$('#'+i).addClass('active');
 			if($('#bg-'+i).attr('id') != currentSplash){
 				currentSplash = $('#bg-'+i).attr('id');
 				$('#bg-'+i).fadeIn('slow');
-				$('div#'+i).addClass('active');
+				$('.menu-slide-btn#'+i).addClass('active');
 			}
 		}
 	}
@@ -213,6 +218,41 @@ $(function(){
 		$('#donate-btn').fadeIn('fast');
 		$('.donation.success-message').fadeIn('fast');
 	})
+	$('.mobile-menu-btn').click(function(){
+		if (!menuToggle){
+			menuToggle = true;
+			$('.menu-slide-btn').css('display', 'block');
+			$('.menu-slide-btn').finish().animate({
+				'opacity':'1'
+			}, 200);
+		}else{
+			menuToggle = false;
+			$('.menu-slide-btn').finish().animate({
+				'opacity':'0'
+			}, 200, function(){
+				$('.menu-slide-btn').css('display', 'none');
+			});
+		}
+	});
+	$( window ).resize(function() {
+		var temp = checkIsMobile();
+		console.log(temp);
+		if (isMobile != temp){
+			isMobile = temp
+			if (isMobile){
+				$('.menu-slide-btn').css('display', 'none');
+				$('.menu-slide-btn').finish().animate({
+					'opacity':'0'
+				}, 200);
+			}else{
+				menuToggle = false;
+				$('.menu-slide-btn').css('display', 'inline-block');
+				$('.menu-slide-btn').finish().animate({
+					'opacity':'1'
+				}, 200);
+			}
+		}
+	});
 }());
 
 // GA

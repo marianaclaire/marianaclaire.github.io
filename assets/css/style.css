@@ -34,30 +34,35 @@ body{
     -ms-transition: background-color 100ms linear;
     transition: background-color 100ms linear;
     display:none;
+	padding:5px 10px 0 10px;
 }
 
 #side-menu.active {
     background-color: #CC66FF;
 }
 
-#side-menu div{
-	margin: 0 2% -2px 2%;
-	padding: 5px 0;
-	display:inline-block;
-	border-radius: 2px;
+.menu-slide-btn, #side-menu .book-toggle-btn{
+	padding: 0 2%;
+}
+
+#side-menu.active a:hover{
 	color:white;
+	opacity: 0.6;
 }
 
-#side-menu div.active{
-    /*border-bottom: solid white 10px;*/
-	/*background-color:rgb(255,132,183);*/
-	/*color:black;*/
-	/*border-bottom-color: white;
-	font-weight: 400;*/
+.menu-slide-btn{
+    white-space: nowrap;
+	display:inline-block;
+	margin-bottom:-2px;
 }
 
-.menu-slide-btn .active{
+.menu-slide-btn.active{
     border-bottom: solid white 4px;
+}
+
+.mobile-menu-btn{
+	display:none;
+	float:left;
 }
 
 .splash-div{
@@ -374,5 +379,16 @@ td{
 		text-align: left;
 		margin-left:10px;
 	}
+	.menu-slide-btn{
+		display: none;
+		opacity:0;
+	}
+	.mobile-menu-btn{
+		display:inline-block;
+	}
+	.menu-slide-btn.active{
+		border-bottom: none;
+		border-right: solid white 4px;
+	}
 }
-}
+

@@ -7,7 +7,7 @@ function popupPortfolio(i){
 }
 
 function initPortfolio(){
-	$('body').append('<div id="popupPortfolio"><img><h1></h1><p></p></div>');
+	$('body').append('<div id="popupPortfolio"><div class="centered"><img><div><h1></h1><p></p></div></div></div>');
 	$('.portfolio-image').each(function(i){
 		// using lazy so no need of this
 		// var image = $(this).data('original');

@@ -218,6 +218,27 @@ $(function(){
 		$('#donate-btn').fadeIn('fast');
 		$('.donation.success-message').fadeIn('fast');
 	})
+	$('#story-next').click(function(){
+		var i = parseInt($(this).data('index'));
+		var oldBlock = $('#story-'+(i-1));
+		var block = $('#story-'+i);
+		if (block.length == 0){
+			i = 0;
+			$(this).data('index', i);
+			$('#story-next strong').html(story.next[currentLang]);
+		}else{
+			var nextBlock = $('#story-'+(i+1));
+			if (nextBlock.length == 0)
+				$('#story-next strong').html(formValues.back[currentLang]);
+		}
+		$(oldBlock).fadeOut('fast', function(){
+			var i = parseInt($('#story-next').data('index'));
+		console.log(i+1);
+			$('#story-'+i).fadeIn();
+			$('#story-next').data('index', i+1);
+		});
+
+	});
 	$('.mobile-menu-btn').click(function(){
 		if (!menuToggle){
 			menuToggle = true;

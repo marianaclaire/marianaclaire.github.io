@@ -121,6 +121,14 @@ var drawingsDB = {
 				},
 				description:"",
 				image:"assets/images/drawings/hyadian-lemurian-fairy-aspects-and-hindu-guide.jpg",
+			},{
+				name:{
+					ENG:"Sirian, Hyadian, Lemurian and Pleidian source aspects, Archangel Michael and, Kiwi and Blue Heron animal guides",
+					FREN:"Sirian, Hyadian, Lemurian and Pleidian source aspects, Archangel Michael and, Kiwi and Blue Heron animal guides",
+					ESP:"Aspectos de Sirian, Hyadian, Lemurian and Pleidian, Miguel Archangel y guias animales Kiwi y Heron azul"
+				},
+				description:"",
+				image:"assets/images/drawings/Sirian-Hyadian-Lemurian-and-Pleidian-source-aspects.jpg",
 			}
 		]
 	}

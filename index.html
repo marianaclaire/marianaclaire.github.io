@@ -132,12 +132,12 @@
 							<a href="#FREN" class="lang-ENG lang-ESP" ng-click="changeLang('FREN')">Français</a>
 						</div>
 					</span>
-					<div class="splash-subtitle success-message">
+					<!-- <div class="splash-subtitle success-message">
 						<span class="lang-ENG">Thanks for booking my service! I will get back to you soon.</span>
 						<span class="lang-FREN">Merci d'avoir réservé un de mes services, je vous contacterais dès que je peux.</span>
 						<span class="lang-ESP">Gracias por reservar uno de mis servicios, lo contactare apenas pueda.</span>
 						<br><br>
-					</div>
+					</div> -->
 				</div>
 				<div class="contact-links">
 					<a href="https://www.facebook.com/Mariana-Claire-1484113901885029/" target="_blank"><i class="fa fa-facebook-official"></i></a>
@@ -234,16 +234,16 @@
 							<span class="lang-ESP">Ejemplos<br>de Dibujos</span>
 						</div>
 					</div>
-					<div class="portfolio-image lazy" ng-repeat="d in drawings.intuitive.data" data-original="{{d.image}}">
-						<div class="portfolio-image-toggle">
-							<div class="portfolio-image-title">{{d.name[languageOpt]}}</div>
-							<div class="portfolio-image-description">{{drawings.intuitive.title[languageOpt]}}</div>
-						</div>
-					</div>
 					<div class="portfolio-image lazy" ng-repeat="d in drawings.auraField.data" data-original="{{d.image}}">
 						<div class="portfolio-image-toggle">
 							<div class="portfolio-image-title">{{d.name[languageOpt]}}</div>
 							<div class="portfolio-image-description">{{drawings.auraField.title[languageOpt]}}</div>
+						</div>
+					</div>
+					<div class="portfolio-image lazy" ng-repeat="d in drawings.intuitive.data" data-original="{{d.image}}">
+						<div class="portfolio-image-toggle">
+							<div class="portfolio-image-title">{{d.name[languageOpt]}}</div>
+							<div class="portfolio-image-description">{{drawings.intuitive.title[languageOpt]}}</div>
 						</div>
 					</div>
 					<div class="portfolio-last">

@@ -114,9 +114,9 @@ var serviceText = {
 }
 
 var sampleDrawing = {
-	ENG:"Soul drawings are either a drawing of your aura field or intuitive drawings that will serve your highest good and healing.",
-	FREN:"Les dessins de l’âme sont des dessins de spécifiques de votre aura ou des dessins intuitives qui vont vous aider à vous guérir vous-même et qui peuvent être utilisés pour méditer ou pour se connaître soi-même.",
-	ESP:"Los dibujos del alma son dibujos intuitivos o específicos de su aura que lo ayudaran a meditar y que pueden ser usados para curarse y aprender más de sí mismo."
+	ENG:"Soul drawings are either a drawing of your aura field or intuitive drawings that will serve your highest good and healing. Drawings are 14 × 17 inches.",
+	FREN:"Les dessins de l’âme sont des dessins de spécifiques de votre aura ou des dessins intuitives qui vont vous aider à vous guérir vous-même et qui peuvent être utilisés pour méditer ou pour se connaître soi-même. Les dessins sont de 14 × 17 pouces.",
+	ESP:"Los dibujos del alma son dibujos intuitivos o específicos de su aura que lo ayudaran a meditar y que pueden ser usados para curarse y aprender más de sí mismo. Los dibujos son de 14 × 17 pulgadas."
 }
 
 var formValues = {

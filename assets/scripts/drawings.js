@@ -113,6 +113,14 @@ var drawingsDB = {
 				},
 				description:"",
 				image:"assets/images/drawings/sirian-lyran-draconian-and-lemurian.jpg"
+			},{
+				name:{
+					ENG:"Hyadian, Lemurian, Fairy aspects and Hindu guide",
+					FREN:"Hyadian, Lemurian, Fairy aspects and Hindu guide",
+					ESP:"Aspectos de hada, hyadian, lemurian y una guia hindu"
+				},
+				description:"",
+				image:"assets/images/drawings/hyadian-lemurian-fairy-aspects-and-hindu-guide.jpg",
 			}
 		]
 	}

@@ -106,13 +106,12 @@ var drawingsDB = {
 		data: [
 			{
 				name:{
-					ENG:"Sirian, lyran, draconian and lemurian",
-					FREN: "Sirius, de la Lyre, draconienne et lemurian",
-					ESP: "Sirio, Lira, draconiano et lemurian"
-
+					ENG:"Sirian, Hyadian, Lemurian and Pleidian source aspects, Archangel Michael and, Kiwi and Blue Heron animal guides",
+					FREN:"Sirian, Hyadian, Lemurian and Pleidian source aspects, Archangel Michael and, Kiwi and Blue Heron animal guides",
+					ESP:"Aspectos de Sirian, Hyadian, Lemurian and Pleidian, Miguel Archangel y guias animales Kiwi y Heron azul"
 				},
 				description:"",
-				image:"assets/images/drawings/sirian-lyran-draconian-and-lemurian.jpg"
+				image:"assets/images/drawings/Sirian-Hyadian-Lemurian-and-Pleidian-source-aspects.jpg",
 			},{
 				name:{
 					ENG:"Hyadian, Lemurian, Fairy aspects and Hindu guide",
@@ -123,12 +122,13 @@ var drawingsDB = {
 				image:"assets/images/drawings/hyadian-lemurian-fairy-aspects-and-hindu-guide.jpg",
 			},{
 				name:{
-					ENG:"Sirian, Hyadian, Lemurian and Pleidian source aspects, Archangel Michael and, Kiwi and Blue Heron animal guides",
-					FREN:"Sirian, Hyadian, Lemurian and Pleidian source aspects, Archangel Michael and, Kiwi and Blue Heron animal guides",
-					ESP:"Aspectos de Sirian, Hyadian, Lemurian and Pleidian, Miguel Archangel y guias animales Kiwi y Heron azul"
+					ENG:"Sirian, lyran, draconian and lemurian",
+					FREN: "Sirius, de la Lyre, draconienne et lemurian",
+					ESP: "Sirio, Lira, draconiano et lemurian"
+
 				},
 				description:"",
-				image:"assets/images/drawings/Sirian-Hyadian-Lemurian-and-Pleidian-source-aspects.jpg",
+				image:"assets/images/drawings/sirian-lyran-draconian-and-lemurian.jpg"
 			}
 		]
 	}

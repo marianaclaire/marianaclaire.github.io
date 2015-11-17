@@ -3,6 +3,10 @@ var testimonials = {
 	length: 0,
 	data: [
 	{
+		user:'Ajok Adiang',
+		message:' had a reading with Mariana Claire and it went really great! She told me and taught me things about myself that I never could never have imagined which helped me a lot! I loved every moment of it! She is awesome!',
+		date:'16/11/2015'
+	},{
 		user:'Liam Gall',
 		message:'I had the most wonderful soul origins / guides session with Mariana the other day! Her heart is so full of gentleness! She spoke with my guides, asked their names and told me all about their purpose in my life and their negative imprint. Everything she said vibrated inside me - it really was an eye-opening experience! Even with our 8-hour time zone difference, she found a way to schedule our Skype session and a few days later I\'m still buzzing with butterflies inside me :) Thank you so much Mariana for a wonderful experience that has knocked me way out of my usually safe little mindspace - my heart feels soothed, my body feels more alive and my soul is dancing!',
 		date:'11/09/2015'

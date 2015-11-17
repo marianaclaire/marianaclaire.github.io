@@ -70,9 +70,9 @@ var serviceText = {
 			ESP: "Pago"
 		},
 		desc :{
-			ENG: "Paypal to my email: marianaclaireinfo@gmail.com<br>To pay via Mastercard or Visa please message me to send you the payment link.",
-			FREN: "Paypal à mon email: marianaclaireinfo@gmail.com<br>Pour payer avec la carte Mastercard ou Visa s'il-vous-plaît m'envoyer un message pour vous envoyer la page pour payer en ligne.",
-			ESP: "Paypal a mi email: marianaclaireinfo@gmail.com<br>Para pagar con tarjeta Mastercard o Visa por favor enviarme un mensaje para mandarles la pagina de pago."
+			ENG: "",//Paypal to my email: marianaclaireinfo@gmail.com<br>To pay via Mastercard or Visa please message me to send you the payment link.",
+			FREN: "",//"Paypal à mon email: marianaclaireinfo@gmail.com<br>Pour payer avec la carte Mastercard ou Visa s'il-vous-plaît m'envoyer un message pour vous envoyer la page pour payer en ligne.",
+			ESP: ""//"Paypal a mi email: marianaclaireinfo@gmail.com<br>Para pagar con tarjeta Mastercard o Visa por favor enviarme un mensaje para mandarles la pagina de pago."
 		},
 		prices: {
 			ENG: [
@@ -114,9 +114,9 @@ var serviceText = {
 }
 
 var sampleDrawing = {
-	ENG:"Soul drawings are either a drawing of your aura field or intuitive drawings that will serve your highest good and healing. Drawings are 14 × 17 inches.",
-	FREN:"Les dessins de l’âme sont des dessins de spécifiques de votre aura ou des dessins intuitives qui vont vous aider à vous guérir vous-même et qui peuvent être utilisés pour méditer ou pour se connaître soi-même. Les dessins sont de 14 × 17 pouces.",
-	ESP:"Los dibujos del alma son dibujos intuitivos o específicos de su aura que lo ayudaran a meditar y que pueden ser usados para curarse y aprender más de sí mismo. Los dibujos son de 14 × 17 pulgadas."
+	ENG:"Soul drawings are either a drawing of your aura field or intuitive drawings that will serve your highest good and healing. The drawing dimensions are 14 inches × 17 inches. The original copy of the drawing or painting will be shipped to your address.",
+	FREN:"Les dessins de l’âme sont des dessins de spécifiques de votre aura ou des dessins intuitives qui vont vous aider à vous guérir vous-même et qui peuvent être utilisés pour méditer ou pour se connaître soi-même. Le dessin mesure 14 puces × 17 puces. Le dessin et peinture originel sera envoyé à votre adresse.",
+	ESP:"Los dibujos del alma son dibujos intuitivos o específicos de su aura que lo ayudaran a meditar y que pueden ser usados para curarse y aprender más de sí mismo. El tamaño del dibujo es 14 pulgadas × 17 pulgadas. La copia original del dibujo sera enviada a su casa. La pintura original sera enviada a su casa."
 }
 
 var formValues = {

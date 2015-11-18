@@ -241,7 +241,7 @@
 							<div class="portfolio-image-description">{{drawings.auraField.title[languageOpt]}}</div>
 						</div>
 					</div>
-					<div class="portfolio-image lazy" ng-repeat="d in drawings.intuitive.data" data-original="{{d.image}}">
+					<div class="portfolio-image lazy" ng-repeat="d in drawings.intuitive.data" data-original="{{d.image}}" ng-if="$index < 7">
 						<div class="portfolio-image-toggle">
 							<div class="portfolio-image-title">{{d.name[languageOpt]}}</div>
 							<div class="portfolio-image-description">{{drawings.intuitive.title[languageOpt]}}</div>
@@ -285,8 +285,9 @@
 
 						</div>
 						<div class="col-md-8">
-							<p><i class="fa fa-envelope"></i> Email: marianaclaireinfo@gmail.com</p>
+							<h3>{{ contact.contact[languageOpt] }}</h3>
 							<p><i class="fa fa-skype"></i> Skype: Marianas521</p>
+							<p><i class="fa fa-envelope"></i> Email: marianaclaireinfo@gmail.com</p>
 
 							<h3>{{ story.title[languageOpt] }}</h3>
 							<span ng-repeat="s in story.content[languageOpt]" id="story-{{$index}}" style="display:{{ $index == 0 ? 'block' : 'none'}}">

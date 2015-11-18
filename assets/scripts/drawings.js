@@ -8,6 +8,22 @@ var drawingsDB = {
 		data:[
 			{
 				name:{
+					ENG:"Elsa the warrior fairy",
+					FREN:"Elsa la fée guerrière",
+					ESP:"Elsa el hada guerrera"
+				},
+				description:"",
+				image:"assets/images/drawings/Elsa-the-warrior-light-fairy.jpg",
+			},{
+				name:{
+					ENG:"Kim the flower fairy",
+					FREN:"Kim la fée d'une fleur",
+					ESP:"Kim el hada de una flor"
+				},
+				description:"",
+				image:"assets/images/drawings/Kim-the-flower-fairy.jpg",
+			},{
+				name:{
 					ENG:"Third eye of Sirius",
 					FREN:"Le troième oeil de Sirius",
 					ESP:"El tercer ojo de Sirius"
@@ -40,14 +56,6 @@ var drawingsDB = {
 				image:"assets/images/drawings/Crystal.jpg",
 			},{
 				name:{
-					ENG:"Elsa the warrior fairy",
-					FREN:"Elsa la fée guerrière",
-					ESP:"Elsa el hada guerrera"
-				},
-				description:"",
-				image:"assets/images/drawings/Elsa-the-warrior-light-fairy.jpg",
-			},{
-				name:{
 					ENG:"Gaia, Mother Earth",
 					FREN:"Gaia, la Mère Nature",
 					ESP:"Gaia, la Madre Naturaleza"
@@ -62,14 +70,6 @@ var drawingsDB = {
 				},
 				description:"",
 				image:"assets/images/drawings/Kaguya-the-moon-goddess.jpg",
-			},{
-				name:{
-					ENG:"Kim the flower fairy",
-					FREN:"Kim la fée d'une fleur",
-					ESP:"Kim el hada de una flor"
-				},
-				description:"",
-				image:"assets/images/drawings/Kim-the-flower-fairy.jpg",
 			},{
 				name:{
 					ENG:"Lemuria",
@@ -105,6 +105,14 @@ var drawingsDB = {
 		},
 		data: [
 			{
+				name:{
+					ENG:"Mermaid higher self, hyadian, sirian and lemurian aspects, bee and whale guides",
+					FREN:"Mermaid higher self, hyadian, sirian and lemurian aspects, bee and whale guides",
+					ESP:"Alma de sirena, aspectos hyadian, sirian y lemurian, guias de abeja y ballena"
+				},
+				description:"",
+				image:"assets/images/drawings/Mermaid-higher-self-hyadian-sirian-and-lemurian.jpg",
+			},{
 				name:{
 					ENG:"Sirian, Hyadian, Lemurian and Pleidian source aspects, Archangel Michael and, Kiwi and Blue Heron animal guides",
 					FREN:"Sirian, Hyadian, Lemurian and Pleidian source aspects, Archangel Michael and, Kiwi and Blue Heron animal guides",

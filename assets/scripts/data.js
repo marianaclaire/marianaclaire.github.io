@@ -317,6 +317,11 @@ var contact = {
 		ENG: "Find Out More",
 		FREN: "En savoir plus",
 		ESP: "Obtenga más información"
+	},
+	contact:{
+		ENG: "Contact",
+		FREN: "Contacte",
+		ESP: "Contacto"
 	}
 }
 

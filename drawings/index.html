@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<!--
+    Designed by GOLDENRATIPHI
+
+       ,(&@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+    @          @@@@     #@     @@@    @@                                                      @
+    @       @@          %@        @@  @&                                                      @
+    @    @@@            ,@          @ @(                                                      @
+    @   @@               @           @@.                                                      @
+    @ @@                 @            @                                                       @
+    @@@                  @            @                                                      @@
+    @@                   @####@@      @                                                      @@
+    @,                   @    @       @                                                     @@@
+    @                    @@@  @     @@@                                                     @ @
+    @                    @  @@@@  @@@ @                                                    @  @
+    @                                 @                                                   @.  @
+    @                                 @                                                  @@   @
+    @                                 @                                                 @@    @
+    @                                 @                                                @@     @
+    @@                                @                                               @       @
+    @@                                @                                             @@        @
+    @ @                               @                                            @@         @
+    @  @                              @                                          @@           @
+    @   @                             @                                        @@             @
+    @    @                            @                                      @@               @
+    @     @@                          @                                    @@                 @
+    @       @                         @                                 @@                    @
+    @         @                       @                              @@                       @
+    @           @@                    @(                         #@@                          @
+    @              @@                 @@                     @@@                              @
+    @                 @@@             @@               @@@@                                   @
+    @                     *@@@@@      @@      @@@@@@@                                         @
+                                                                    @ ytixu.github.io/HTMLdump
+    IZQ CN QNG HJZVS DQ LVUPGVPZ?
+    FVUUV EGTLC HYGUUTUP FZEHTYZ YNPZYIZR?
+    PZY TU YNGWI VY PNLCZURVYTNZHJ@PDVTL.WND
+
+-->
+
+<html ng:app="app">
+    <head>
+        <meta charset="utf-8">
+        <title>Mariana Claire: Payment Checkout</title>
+        <link rel="apple-touch-icon" sizes="57x57" href="../favicon/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="../favicon/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="../favicon/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="../favicon/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="../favicon/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="../favicon/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="../favicon/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="../favicon/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="../favicon/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="../favicon/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="../favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="../favicon/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="../favicon/favicon-16x16.png">
+        <link rel="manifest" href="../favicon/manifest.json">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="../favicon/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+
+        <!-- jQuery -->
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-url-parser/2.3.1/purl.min.js"></script>
+        <!-- Angular -->
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular.min.js" ng:autobind></script>
+        <!-- Google font -->
+        <link href='https://fonts.googleapis.com/css?family=Calligraffitti' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Poiret+One:100,400' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+        <!-- Icons -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+        <!-- My style :3 -->
+		<link rel="stylesheet" href="http://ytixu.github.io/goldenratiphi-your-webpage/portpholio/portpholio.css">
+        <link rel="stylesheet" href="../assets/css/style.css">
+        <style>
+        	.color-black{
+        		background-color: rgba(0,0,0,0.3);
+        	}
+        </style>
+ </head>
+    <body ng-controller="viewCtrl">
+        <div id="splash-bg-container">
+            <div class="splash-bg"></div>
+        </div>
+        <div id="splash-content-container">
+			<div class="portpholio color-black">
+
+				<div class="portpholio-title">
+					<div class="portpholio-buttom-align">
+						<H2 class="portpholio-title-big text-right">
+							<span class="lang-ENG">Sample<br>Drawings</span>
+							<span class="lang-FREN">Échantillon<br>de Dessins</span>
+							<span class="lang-ESP">Ejemplos<br>de Dibujos</span>
+						</H2>
+						<p></p>
+					</div>
+				</div>
+
+				<div class="portpholio-image lazy" ng-repeat="d in drawings.auraField.data" data-original="../{{d.image}}" data-cat="{{drawings.auraField.title[languageOpt]}}">
+					<div class="portpholio-image-toggle">
+						<div class="portpholio-image-title">{{d.name[languageOpt]}}</div>
+						<div class="portpholio-image-description"></div>
+					</div>
+				</div>
+
+				<div class="portpholio-image lazy" ng-repeat="d in drawings.intuitive.data" data-original="../{{d.image}}" data-cat="{{drawings.intuitive.title[languageOpt]}}">
+					<div class="portpholio-image-toggle">
+						<div class="portpholio-image-title">{{d.name[languageOpt]}}</div>
+						<div class="portpholio-image-description"></div>
+					</div>
+				</div>
+				<div class="portpholio-last">
+					<!-- <span>{{sampleDrawing[languageOpt]}}</span> -->
+					<div class="subtitle"><button type="button" class="btn btn-trans btn-trans-default book-toggle-btn all-cap">
+	 					<strong class="lang-ENG">Purchase a drawing</strong>
+						<strong class="lang-FREN">Acheter un dessin</strong>
+						<strong class="lang-ESP">Compre un dibujo</strong>
+					</button></div>
+				</div>
+			</div>
+		</div>
+		<i ng-init="refresh()"></i>
+	</body>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazyload/1.9.1/jquery.lazyload.min.js"></script>
+	<script src="../assets/scripts/drawings.js"> </script>
+	<script src="http://ytixu.github.io/goldenratiphi-your-webpage/portpholio/portpholio.js"> </script>
+	<script>
+		var validLangs = ["ENG", "FREN", "ESP"]
+		function parseURL(){
+			var args = window.location.href.split('#');
+			if (args.length > 1 && validLangs.indexOf(args[1]) > 0){
+				return args[1];
+			}
+			return "ENG";
+		}
+		var currentLang = parseURL();
+
+		var app = angular.module('app', []);
+		angular.module('app')
+		    .filter('to_trusted', ['$sce', function($sce){
+		        return function(text) {
+		            return $sce.trustAsHtml(text);
+		        };
+		    }]);
+
+		function viewCtrl($scope) {
+			$scope.languageOpt = currentLang;
+			$scope.drawings = drawingsDB;
+
+			$scope.refresh = function() {
+				window.setTimeout(function(){
+					Portpholio({
+						'lazy' : true
+					});
+					$('.lang-'+currentLang).css({
+						'display': 'inline-block'
+					});
+					$('#splash-content-container').fadeIn('slow', function(){
+						$(".lazy").lazyload({
+							effect : "fadeIn"
+						});
+					});
+				}, 500);
+			};
+		}
+		(function(){
+		    $div = $('.splash-bg');
+		    $div.hide();
+		    $div.css('background-image','url("../assets/images/1.jpg")');
+		    $div.fadeIn('fast');
+		 }());
+
+		// GA
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		ga('create', 'UA-69806378-1', 'auto');
+		ga('send', 'pageview');
+	</script>
+</html>

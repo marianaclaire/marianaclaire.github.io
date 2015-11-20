@@ -312,7 +312,11 @@ a, a:focus, a:active{
 	cursor: pointer;
 }
 
-a:hover{
+a .stack-base{
+	color:#aaa;
+}
+
+a:hover, a:hover .stack-base{
 	text-decoration: none;
 	color:#CC66FF;
 }

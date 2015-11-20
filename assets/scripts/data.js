@@ -387,3 +387,39 @@ var support = {
 		}
 	}
 }
+
+var certificate = {
+	title:{
+		ENG:"My Certificates",
+		FREN:"Mes certificats",
+		ESP:"Mis certificados"
+	},
+	files:[
+		{
+			name:{
+				ENG:"Aura Alchemy Process",
+				FREN:"Processus d'alchimie aurique",
+				ESP:"Proceso alquimista áurico"
+			},
+			url:'assets/images/certificate/alchemy1.jpg',
+			faIcon: "fa-diamond"
+		},{
+			name:{
+				ENG:"Reiki First Degree",
+				FREN:"Reiki premier degré",
+				ESP:"Reiki primer grado"
+			},
+			url:'assets/images/certificate/reiki1.jpg',
+			faIcon: "fa-hand-paper-o",
+		},{
+			name:{
+				ENG:"Reiki Second Degree",
+				FREN:"Reiki second degré",
+				ESP:"Reiki segundo grado"
+			},
+			url:'assets/images/certificate/reiki2.jpg',
+			faIcon: "fa-hand-paper-o",
+		}
+
+	]
+}

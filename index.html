@@ -291,8 +291,22 @@
 						</div>
 					</div>
 					<br>
-					<div> <!-- id="more-about-me" -->
-						<div style="padding:0 20px;">
+					<div style="padding: 0 20px;"> <!-- id="more-about-me" -->
+						<div style="padding: 20px;">
+							<h2>{{ certificate.title[languageOpt] }}</h2>
+							<div class="row" style="padding:20px 0;">
+								<a ng-repeat="c in certificate.files" href="./{{ c.url }}" target="_blank">
+									<div class="col-md-4 text-center">
+										<span class="fa-stack fa-lg">
+										  <i class="fa fa-certificate fa-stack-2x stack-base"></i>
+										  <i class="fa {{c.faIcon}} fa-stack-1x fa-inverse"></i>
+										</span>
+										{{ c.name[languageOpt] }}
+									</div>
+								</a>
+							</div>
+						</div>
+						<div style="padding: 20px;">
 							<h2>{{ contact.title[languageOpt] }}</h2>
 							<div class="row boxed" ng-repeat="c in contact.links">
 								<br>

@@ -241,7 +241,7 @@
 							<div class="portfolio-image-description">{{drawings.auraField.title[languageOpt]}}</div>
 						</div>
 					</div>
-					<div class="portfolio-image lazy" ng-repeat="d in drawings.intuitive.data" data-original="{{d.image}}">
+					<div class="portfolio-image lazy" ng-repeat="d in drawings.intuitive.data" data-original="{{d.image}}" ng-if="$index < 7">
 						<div class="portfolio-image-toggle">
 							<div class="portfolio-image-title">{{d.name[languageOpt]}}</div>
 							<div class="portfolio-image-description">{{drawings.intuitive.title[languageOpt]}}</div>
@@ -249,11 +249,18 @@
 					</div>
 					<div class="portfolio-last">
 						<span>{{sampleDrawing[languageOpt]}}</span>
-						<div class="subtitle"><button type="button" class="btn btn-trans btn-trans-default book-toggle-btn all-cap">
-		 					<strong class="lang-ENG">Purchase a drawing</strong>
-							<strong class="lang-FREN">Acheter un dessin</strong>
-							<strong class="lang-ESP">Compre un dibujo</strong>
-						</button></div>
+						<div class="subtitle">
+							<button type="button" class="btn btn-trans btn-trans-default book-toggle-btn all-cap">
+			 					<strong class="lang-ENG">Purchase a drawing</strong>
+								<strong class="lang-FREN">Acheter un dessin</strong>
+								<strong class="lang-ESP">Compre un dibujo</strong>
+							</button>
+							<a href="./drawings#{{languageOpt}}" class="btn btn-trans btn-trans-default all-cap">
+			 					<strong class="lang-ENG">View More Drawings</strong>
+								<strong class="lang-FREN">Pour en voir plus</strong>
+								<strong class="lang-ESP">Ver más dibujos</strong>
+							</a>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -269,24 +276,11 @@
 						<div class="col-md-4">
 							<center><img class="circle-image" src="assets/images/profile.jpg"></center>
 							<h3></h3>
-							<!-- <h3 class="lang-ENG">Coming Soon</h3>
-							<h3 class="lang-FREN">À venir</h3>
-							<h3 class="lang-ESP">En los próximos días</h3>
-							<p class="lang-ENG">I will start writing blog and posting videos. Subscribe now to be the first one to know when the first entries are up.</p>
-							<p class="lang-FREN">Je vais bientôt faire des vidéos sur ma chaîne de youtube et écrire des blogs sur ma page de medium. N’oubliez pas de vous souscrire pour être le premier à écouter mes vidéos.</p>
-							<p class="lang-ESP">Empezare a subir videos en español en mi canal de youtube y a escribir blogs en mi página de medium. Suscríbase ahora para ser el primero en ver mis próximos videos.</p>
-							<div class="contact-links">
-							</div>
-							<div class="text-right subtitle">
-								<button type="button" class="btn btn-trans btn-trans-default all-cap toggle-more-about-me">
-				 					<strong>{{ contact.button[languageOpt] }}</strong>
-								</button>
-							</div> -->
-
 						</div>
 						<div class="col-md-8">
-							<p><i class="fa fa-envelope"></i> Email: marianaclaireinfo@gmail.com</p>
+							<h3>{{ contact.contact[languageOpt] }}</h3>
 							<p><i class="fa fa-skype"></i> Skype: Marianas521</p>
+							<p><i class="fa fa-envelope"></i> Email: marianaclaireinfo@gmail.com</p>
 
 							<h3>{{ story.title[languageOpt] }}</h3>
 							<span ng-repeat="s in story.content[languageOpt]" id="story-{{$index}}" style="display:{{ $index == 0 ? 'block' : 'none'}}">

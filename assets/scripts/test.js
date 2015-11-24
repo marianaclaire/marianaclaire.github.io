@@ -3,6 +3,10 @@ var testimonials = {
 	length: 0,
 	data: [
 	{
+		user:'Amber Flavia',
+		message:'I can not express how absolutely amazing Mariana is at what she does. I can not recommend her highly enough. Her energy, love and true compassion is incredibly healing and empowering.',
+		date:'17/11/2015'
+	},{
 		user:'Ajok Adiang',
 		message:' had a reading with Mariana Claire and it went really great! She told me and taught me things about myself that I never could never have imagined which helped me a lot! I loved every moment of it! She is awesome!',
 		date:'16/11/2015'

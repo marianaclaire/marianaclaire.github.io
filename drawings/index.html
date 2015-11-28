@@ -102,18 +102,23 @@
 					<span class="lang-FREN">Échantillon de Dessins</span>
 					<span class="lang-ESP">Ejemplos de Dibujos</span>
 				</div>
-        		{{sampleDrawing[languageOpt]}}
-				<div class="subtitle"><a href="../booking?lang={{languageOpt}}" class="btn btn-trans btn-trans-default book-toggle-btn all-cap">
- 					<strong class="lang-ENG">Purchase a drawing</strong>
+				<div class="text-right">
+					<a href="../#{{languageOpt}}" class="subtle">
+                		<i class="fa fa-chevron-left"></i>
+                		<span class="lang-ENG">Back to Homepage</span>
+                		<span class="lang-FREN">Retourner à la page principale</span>
+                		<span class="lang-ESP">Regresar al menu principal</span>
+            		</a>
+            	</div>
+            	<br>
+        		<p>{{sampleDrawing[languageOpt]}}</p>
+
+        		 <div class="subtitle"><center><button type="button" class="btn btn-trans btn-trans-default book-toggle-btn all-cap"><strong>
+					<strong class="lang-ENG">Purchase a drawing</strong>
 					<strong class="lang-FREN">Acheter un dessin</strong>
-					<strong class="lang-ESP">Compre un dibujo</strong>
-				</a>
-				</div>
-				<a href="../#{{languageOpt}}" class="subtle">
-                	<i class="fa fa-chevron-left"></i> <span class="lang-ENG">Back to Homepage</span>
-                	<span class="lang-FREN">Retourner à la page principale</span>
-                	<span class="lang-ESP">Regresar al menu principal</span>
-            	</a>
+					<strong class="lang-ESP">Compre un dibujo</strong>                    </strong>
+				</button></center></div>
+
             </div>
 
 			<div class="portpholio color-black">

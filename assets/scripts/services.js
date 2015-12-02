@@ -29,9 +29,9 @@ var services = [
 		faIconBase: "fa-sun-o",
 	},{
 		name: {
-			ENG:"Aura Alchemy Process",
-			FREN:"Processus d'alchimie aurique",
-			ESP:"Proceso alquimista áurico"
+			ENG:"Alchemical Integration Process",
+			FREN:"Processus d’intégration alchimique",
+			ESP:"Proceso alquimico de integración"
 			},
 		slug: {
 			ENG:"alchemy",

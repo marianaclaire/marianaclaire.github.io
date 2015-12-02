@@ -121,51 +121,26 @@
 
             </div>
 
-			<div class="portpholio color-black">
-				<div class="portpholio-title">
-					<div class="portpholio-buttom-align">
-						<H2 class="portpholio-title-big text-right">
-							{{drawings.auraField.title[languageOpt]}}
-						</H2>
-						<p></p>
+            <div ng-repeat="p in drawings" style="width:100%;">
+				<div class="portpholio color-black">
+					<div class="portpholio-title">
+						<div class="portpholio-buttom-align">
+							<H2 class="portpholio-title-big text-right">
+								{{p.title[languageOpt]}}
+							</H2>
+							<p></p>
+						</div>
 					</div>
-				</div>
 
-				<div class="portpholio-image" ng-repeat="d in drawings.auraField.data" data-original="../{{d.image}}" data-cat="{{drawings.auraField.title[languageOpt]}}">
-					<div class="portpholio-image-toggle">
-						<div class="portpholio-image-title">{{d.name[languageOpt]}}</div>
-						<div class="portpholio-image-description"></div>
+					<div class="portpholio-image" ng-repeat="d in p.data" data-original="../{{d.image}}" data-cat="{{p.title[languageOpt]}}">
+						<div class="portpholio-image-toggle">
+							<div class="portpholio-image-title">{{d.name[languageOpt]}}</div>
+							<div class="portpholio-image-description"></div>
+						</div>
 					</div>
+					<!-- <div class="portpholio-last"></div> -->
 				</div>
-
-			<!-- 	<div class="portpholio-last">
-
-				</div> -->
-			</div>
-			<br><br>
-			<div class="portpholio color-black">
-				<div class="portpholio-title">
-					<div class="portpholio-buttom-align">
-						<H2 class="portpholio-title-big text-right">
-							{{drawings.intuitive.title[languageOpt]}}
-						</H2>
-						<p></p>
-					</div>
-				</div>
-
-				<div class="portpholio-image" ng-repeat="d in drawings.intuitive.data" data-original="../{{d.image}}" data-cat="{{drawings.intuitive.title[languageOpt]}}">
-					<div class="portpholio-image-toggle">
-						<div class="portpholio-image-title">{{d.name[languageOpt]}}</div>
-						<div class="portpholio-image-description"></div>
-					</div>
-				</div>
-				<!-- <div class="portpholio-last">
-
-				</div> -->
-
-			<!-- 	<div class="portpholio-category">
-					<div ng-repeat="c in drawings">{{c.title[languageOpt]}}</div>
-				</div> -->
+				<br><br>
 			</div>
 
 			<div style="margin:10%"> </div>

@@ -134,6 +134,7 @@ var servicesFull = {
 			"After they have sat with the feeling, we then go into the memories or feelings together and gently find out what is truly needed.",
 			"An alternative to this is to be present with current feelings or trigger/s and be completely present with the feelings that arise.",
 			"At times people may have no cognitive awareness, or memories, but they/we may feel it within us, and some people just know. Having cognitive awareness or memories is not important here, following the feeling/s will allow the person, or yourself, to access what is needed. Once they have expressed themselves, this is when we would integrate them/ourselves with the younger self.",
+			"<h3>Pamela Aaralyn's Aura Alchemy Process</h3>",
 			"The second part of the process is the Aura Alchemy. In this process we transmute the negative imprints of a person into the feelings that her inner child would like to feel instead using aura alchemy. To learn more about this process please read <a href='http://www.aurareader.com/1/post/2015/03/walking-in-the-light-of-the-shadow-body-aura-alchemy-process.html' target='_blank'>Pamela's blog</a>.",
 			"<h2>My Certificates</h2>",
 			"<a target='_blank' href='../assets/images/certificate/alchemy1.jpg'>Aura Alchemy Process</a>"
@@ -143,15 +144,18 @@ var servicesFull = {
 			"La première partie du processus est l’intégration des aspects fragmentés. ",
 			"<h3>Processus d’intégration à Amber Flavia</h3>",
 			"Pour commencer on demande à la personne de visualiser un environnement sécure. On visualise l’environnement sécure en détail.  Après on commence à visualiser les empruntes négatives, les troubles émotionnelles et problèmes que la personne en a. On commence à discuter les émotions qui viennent avec les empruntes négatives et les sensations physiques.",
-			"Après avoir senti les empruntes négatives pour un moment et les avoir intégrées on demande à l’enfant en nous de nous dire qu’est-ce qu’il en a besoin. ",
+			"Après avoir senti les empruntes négatives pour un moment et les avoir intégrées on demande à l’enfant en nous de nous dire qu’est-ce qu’il en a besoin.",
+			"<h3>Processus d'alchimie aurique par Pamela Aaralyn</h3>"
 			"La deuxième partie de ce procès c’est l’alchimie aurique de Pamela Aaralyn. C'est un processus qui permet d'intégrer et de transcender les empruntes négatives qui sont en nous et les transformer en des émotions plus positives et motivantes en utilisant l’alchimie. Visitez le <a href='http://www.aurareader.com/1/post/2015/03/walking-in-the-light-of-the-shadow-body-aura-alchemy-process.html' target='_blank'>blog de Pamela</a> pour en savoir plus.",
 			"<h2>Mes certificats</h2>",
 			"<a target='_blank' href='../assets/images/certificate/alchemy1.jpg'>Processus d'alchimie aurique</a>",
 				],
 			ESP:[
 			"La primera parte de este proceso es la integración de los aspectos fragmentados del alma utilizando el Proceso de Sanación interior e Integración de Amber Flavia.",
+			"<h3>Proceso de Sanación interior e Integración de Amber Flavia</h3>",
 			"Para empezar este proceso se guía a la persona a visualizar su lugar seguro. Primero se crea en detalle el lugar seguro mental a través de una visualización guiada. Una vez creado, empezamos a ir a las impresiones negativas, problemas o desencadenantes emocionales  que la persona tiene.",
 			"De ahí se discuten las emociones y sensaciones físicas que vienen con las impresiones negativas. Una vez que la persona ha pasado un rato con las impresiones negativas y las ha integrado, le preguntamos al niño interior que necesita ahora para sentirse mejor.",
+			"<h3>Proceso de Alquimia aurica por Pamela Aaralyn</h3>",
 			"La segunda parte de este proceso es la alquimia áurica. Este es un proceso le preguntamos al niño interior en que le gustaría transformar las impresiones negativas. De ahí invocamos al “yo soy” en nosotros para transmutar las impresiones negativas en sentimientos más positivos utilizando alquimia áurica. Visita el <a href='http://www.aurareader.com/1/post/2015/03/walking-in-the-light-of-the-shadow-body-aura-alchemy-process.html' target='_blank'>blog de Pamela</a> pour en savoir plus. para aprender más.",
 				"<h2>Mis certificados</h2>",
 				"<a target='_blank' href='../assets/images/certificate/alchemy1.jpg'>Proceso alquimista áurico</a>"

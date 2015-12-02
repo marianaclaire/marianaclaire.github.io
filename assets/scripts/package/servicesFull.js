@@ -145,7 +145,7 @@ var servicesFull = {
 			"<h3>Processus d’intégration à Amber Flavia</h3>",
 			"Pour commencer on demande à la personne de visualiser un environnement sécure. On visualise l’environnement sécure en détail.  Après on commence à visualiser les empruntes négatives, les troubles émotionnelles et problèmes que la personne en a. On commence à discuter les émotions qui viennent avec les empruntes négatives et les sensations physiques.",
 			"Après avoir senti les empruntes négatives pour un moment et les avoir intégrées on demande à l’enfant en nous de nous dire qu’est-ce qu’il en a besoin.",
-			"<h3>Processus d'alchimie aurique par Pamela Aaralyn</h3>"
+			"<h3>Processus d'alchimie aurique par Pamela Aaralyn</h3>",
 			"La deuxième partie de ce procès c’est l’alchimie aurique de Pamela Aaralyn. C'est un processus qui permet d'intégrer et de transcender les empruntes négatives qui sont en nous et les transformer en des émotions plus positives et motivantes en utilisant l’alchimie. Visitez le <a href='http://www.aurareader.com/1/post/2015/03/walking-in-the-light-of-the-shadow-body-aura-alchemy-process.html' target='_blank'>blog de Pamela</a> pour en savoir plus.",
 			"<h2>Mes certificats</h2>",
 			"<a target='_blank' href='../assets/images/certificate/alchemy1.jpg'>Processus d'alchimie aurique</a>",

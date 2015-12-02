@@ -8,19 +8,19 @@ var story = {
 		ENG: [
 			"I was born seeing auras and entities. I remember at the age of 3, speaking with my guides and other spirits. Around the age of 5, I blocked this ability when I was introduced to the school system, like most of us do. I was raised in Lima, Peru and from a young age, I expressed myself through drawing, singing, and writing. I have always loved to help, advice, and heal people. It was not until later in life that I realized I was doing healings and readings from a very young age without even knowing I was doing them.",
 			"At the age of 18, I became more aware of my abilities as I made a conscious decision to start developing my gifts. I remembered who I was and my purpose in this life. This is the first life that I have decided to live humbly and unlock my gifts one by one. It is so that I could experience being fully human, enabling me to reach out to others and to understand them better.</p><p>In terms of academics, I am currently majoring in Psychology and this has allowed me to understand people at a deeper level.",
-			"So far I have unlocked my channeling and healing abilities, clairsentience, clairvoyance, clairaudience, clairscent and clairempathy. I am currently working on unlocking even more gifts but I know that patience and flow are my main purposes in this life so the abilities will come one by one.</p><p>During the 2015 shift, I had another awakening experience that inspired me to learn reiki and become a vegetarian. More importantly, I stepped into the public eye to share my abilities with others.",
+			"So far I have unlocked my channeling and healing abilities, clairsentience, clairvoyance, clairaudience, clairscent and clairempathy. I am currently working on unlocking even more gifts but I know that patience and flow are my main purposes in this life so the abilities will come one by one.</p><p>During the 2015 shift, I had another awakening experience that inspired me to learn reiki and become a demi-vegetarian. More importantly, I stepped into the public eye to share my abilities with others.",
 			"My goal right now is to help people to remember who they are and to awaken to their personal power. I believe that we can all do this if we do the work and that that it's actually the reason we have incarnated at this time!<h3 class='text-right signature'>Mariana Claire</h3>"
 		],
 		FREN: [
 		"Je suis née avec la capacité de voir les auras et les êtres qui sont invisibles pour la plupart des gens. Je me souviens qu'à l'âge de 3 ans je parlais avec mes guides et les esprits qui m'entouraient. Vers l'âge de 5 ans au moment où j'ai commencé l'école, j'ai petit à petit bloqué mes sens et mes habiletés. J'ai grandi au Pérou et à partir d'un très jeune âge je me suis passionnée pour l'art : le dessin, le chant et l'écriture. Ce n'est que dès années plus tard que j'ai réalisé ce que je faisais lorsque je n'étais qu'une enfant; je guérissais les gens et j'obtenais des informations spirituelles sur eux sans même m'en rendre compte.",
 		"À l'âge de 18 ans, consciente de mes dons, j'ai pris la décision de les développer. Je me suis souvenue de l'enfant en moi et de mon but dans cette vie. Pour la première fois des vies successives, j'ai choisi de vivre humblement et de débloquer mes dons un à un. Tout cela pour me permettre d'avoir plus d'empathie envers l'humanité, me permettre de comprendre les gens plus facilement et me permettre de toucher un plus grand nombre de personnes.</p><p>Je suis présentement en voie de terminer mon baccalauréat en Psychologie, ces études mon permit de comprendre l'humain de manière profonde.",
-		"Présentement, j'ai développé mes sens et mes capacités de guérison, de clairvoyance, de clairaudience, d'empathie émotionnelle. Je peux aussi canaliser des informations personnelles sur les vies passées de mes clients et entrer en contact avec leurs guides et d'autres esprits. Je suis constamment en train de développer et de renforcer mes dons comme je sais que mon objectif dans cette vie est de cultiver la patience et la confiance.</p><p>Au changement énergétique du 2015, j'ai eu un éveil spiritual où j'ai été introduite au reiki et qui m'a inspiré à devenir végétarienne. C'est aussi à ce moment-là, que j'ai décidée de m'exposer au public et de partager mes habiletés avec les autres.",
+		"Présentement, j'ai développé mes sens et mes capacités de guérison, de clairvoyance, de clairaudience, d'empathie émotionnelle. Je peux aussi canaliser des informations personnelles sur les vies passées de mes clients et entrer en contact avec leurs guides et d'autres esprits. Je suis constamment en train de développer et de renforcer mes dons comme je sais que mon objectif dans cette vie est de cultiver la patience et la confiance.</p><p>Au changement énergétique du 2015, j'ai eu un éveil spiritual où j'ai été introduite au reiki et qui m'a inspiré à devenir demi-végétarienne. C'est aussi à ce moment-là, que j'ai décidée de m'exposer au public et de partager mes habiletés avec les autres.",
 		"J'ai pour objectif d'aider les gens à ce souvenir de qui ils sont et de les aider a réveillé leurs pouvoirs personnels et leurs dons. Je crois que nous pouvons tous développer nos habiletés et nos capacités oubliées. Je crois aussi que c'est une des raisons principales pour laquelle nous sommes sur terre en ce moment.<h3 class='text-right signature'>Mariana Claire</h3>",
 		],
 		ESP:[
 		"Nací con la habilidad de ver auras y espíritus y de poder comunicarme con ellos. Alrededor de los 5 años esta habilidad fue bloqueada después de que ingresara al sistema educativo, como ya nos pasa a muchos de nosotros. Crecí en la ciudad de Lima, Perú. Y desde muy pequeña me he expresado por medio de mis dibujos, mi voz, mis poesías, canciones y escritos. Siempre me ha encantado ayudar, aconsejar y sanar a las personas. Y no fue sino hasta años después en mi vida que me di cuenta de mis habilidades y las identifique.",
 		"A los 18 años tome la decisión de desarrollar mis dones y de utilizarlos para ayudar a las personas. Recordé quien era en mi pasado y con qué propósito vine a esta vida. En realidad, esta es la primera vida en la que decidí tomar un camino más difícil y humilde que en mis vidas pasadas, en el sentido de que experimentaría lo que es nacer con dones, bloquearlos y esforzarme en desbloquearlos de nuevo paso a paso con el propósito de luego poder entender a las personas que dejaron de creer en sí mismos y oprimieron sus habilidades. De esta manera podría ayudarlos a volver a recordar sus habilidades y como desarrollarlas de nuevo.</p><p>También decidí antes de nacer que en esta vida bloquearía mis dones al principio para poder experimentar lo que es ser un ser humano en todos sus aspectos.",
-		"En lo referente a mi educación, actualmente me encuentro estudiando un bachiller en psicología. Es algo que me ha permitido tener un mejor entendimiento de las personas a un nivel más profundo. Hasta ahora he logrado desbloquear mis dones de telepatía, sanación, clarividencia, clariestesia, clariaudiencia, postcognición y precognición. Actualmente me encuentro desarrollando más habilidades, pero estoy al tanto de que la paciencia y fluidez son unos de mis propósitos principales en esta vida y respeto mi decisión pre-natal de ir despacio y despertarlas una a una.</p><p>Durante el cambio de energía que ocurrió en el 2015 con la llegada de la luna roja, tuve otra experiencia con mi despertar espiritual que me inspiro a aprender Reiki y convertirme en vegetariana. Pero lo más importante de esta fase de mi vida es que tome la decisión de dar un paso hacia delante para compartir mis habilidades con otros públicamente.",
+		"En lo referente a mi educación, actualmente me encuentro estudiando un bachiller en psicología. Es algo que me ha permitido tener un mejor entendimiento de las personas a un nivel más profundo. Hasta ahora he logrado desbloquear mis dones de telepatía, sanación, clarividencia, clariestesia, clariaudiencia, postcognición y precognición. Actualmente me encuentro desarrollando más habilidades, pero estoy al tanto de que la paciencia y fluidez son unos de mis propósitos principales en esta vida y respeto mi decisión pre-natal de ir despacio y despertarlas una a una.</p><p>Durante el cambio de energía que ocurrió en el 2015 con la llegada de la luna roja, tuve otra experiencia con mi despertar espiritual que me inspiro a aprender Reiki y convertirme en demi-vegetariana. Pero lo más importante de esta fase de mi vida es que tome la decisión de dar un paso hacia delante para compartir mis habilidades con otros públicamente.",
 		"Mi objetivo es ayudar a las personas para que recuerden quienes son en realidad, y que despierten su poder personal. Yo considero que es algo que todos podemos hacer si nos comprometemos a hacer el trabajo necesario ya que es la razón principal del porque decidimos encarnar en esta vida.<h3 class='text-right signature'>Mariana Claire</h3>",
 		]
 	},
@@ -36,8 +36,8 @@ var serviceText = {
 	FREN: "J'offre plusieurs types de services psychiques comme les lectures télépathiques, les lectures avec les cartes de tarot ou d'oracle, les dessins de l'âme, du reiki, la guérison par le son et le processus d'alchimie aurique. Je peux aussi vous aider à déterminer quel genre de service serait le plus convenable pour vous. La plupart du temps, pendant les sessions j'utilise une combinaison de la plupart de ses services.",
 	ESP: "Ofrezco diferentes tipos de lecturas psíquicas incluyendo las lecturas telepáticas, lecturas de tarot, oráculo, dibujos de alma, sanación Reiki, sanación del sonido, y procesos de curación usando integración y alquimia. También puedo ayudar a determinar qué servicio sería más beneficioso para cada persona, y por lo general en una sesión se hace una combinación de varios servicios.",
 
-	details: {
-		language: {
+	details: [
+		{
 			title: {
 				ENG: "Language",
 				FREN: "Langue",
@@ -48,8 +48,7 @@ var serviceText = {
 				FREN: "J'offre tous mes services en anglais, français et espagnoll",
 				ESP: "Ofrezco todos mis servicios en inglés, español y francés"
 			},
-		},
-		location: {
+		},{
 			title: {
 				ENG: "Location",
 				FREN: "Lieu",
@@ -60,8 +59,19 @@ var serviceText = {
 				FREN: "Skype, Google Hangouts, Facebook messenger ou en personne si vous habitez à Calgary",
 				ESP: "Skype, Google Hangouts, Facebook messenger o en persona si vive en Calgary"
 			},
+		},{
+			title: {
+				ENG: "Shipping",
+				FREN: "Expédition",
+				ESP: "Envío"
+			},
+			desc :{
+				ENG: "If you have chosen any type of Soul Drawing, please enter the address where you would like me to ship it to you. The shipping fee is included. Take note that it will take around 2-3 weeks to receive the drawing after the day you made the payment.",
+				FREN: "Si vous voulez achèter un dessin spirituel S.V.P. me fournir l'adresse où je dois l'envoyer. Le prix du transport est inclus. Prenez note que vous allez recevoir le dessin 2 à 3 semaines après avoir effectué le paiement.",
+				ESP: "Si usted escogió un dibujo espiritual, por favor escribir la dirección donde deba enviarlo. El precio incluye el costo de transporte. Tomar nota que el dibujo le llegara dos o tres semanas después de haber efectuado el pago."
+			}
 		}
-	},
+	],
 
 	payment: {
 		title: {
@@ -69,44 +79,45 @@ var serviceText = {
 			FREN: "Paiement",
 			ESP: "Pago"
 		},
-		desc :{
-			ENG: "",//Paypal to my email: marianaclaireinfo@gmail.com<br>To pay via Mastercard or Visa please message me to send you the payment link.",
-			FREN: "",//"Paypal à mon email: marianaclaireinfo@gmail.com<br>Pour payer avec la carte Mastercard ou Visa s'il-vous-plaît m'envoyer un message pour vous envoyer la page pour payer en ligne.",
-			ESP: ""//"Paypal a mi email: marianaclaireinfo@gmail.com<br>Para pagar con tarjeta Mastercard o Visa por favor enviarme un mensaje para mandarles la pagina de pago."
-		},
 		prices: {
 			ENG: [
-				"48$ for 30 min",
-				"71$ for 45 min",
-				"94$ for 1 hour",
-				"117$ for 75 mins",
-				"140$ for 90 mins",
-				"65$ for an aura field/intuitive drawing",
-				"90$ for an aura field/intuitive drawing + report",
-				"115$ for an aura field/intuitive painting",
-				"140$ for an aura field/intuitive painting + report"
+				"$48 for 30 mins",
+				"$71 for 45 mins",
+				"$94 for 60 mins",
+				"$117 for 75 mins",
+				"$140 for 90 mins",
+				"$65 for a Soul Portrait",
+				"$65 for a Spirit Guide illustration",
+				"$65 for an Intuitive drawing",
+				"$95 for an Aura Field drawing",
+				"$189 for a Couple Aura Field drawing",
+				"$189 for a Past Life Comic Book"
 			],
 			FREN: [
 				"48$ pour 30 mins",
 				"71$ pour 45 mins",
-				"94$ pour 1 heure",
+				"94$ pour 60 mins",
 				"117$ pour 75 mins",
 				"140$ pour 90 mins",
-				"65$ pour un dessin de l'aura/intuitive",
-				"90$ pour un dessin de l'aura/intuitive + rapport",
-				"115$ pour une peinture de l'aura/intuitive",
-				"140$ pour une peinture de l'aura/intuitive + rapport"
+				"65$ pour une illustration de ton âme",
+				"65$ pour une illustration de ton guide",
+				"65$ pour un dessin intuitif",
+				"95$ pour une illustration du champ de l'aura",
+				"189$ pour un dessin du champ de l’aura d’un couple",
+				"189$ pour une bande-dessinée sur une vie passé"
 			],
 			ESP: [
 				"48$ por 30 mins",
 				"71$ por 45 mins",
-				"94$ por 1 hora",
+				"94$ por 60 mins",
 				"117$ por 75 mins",
 				"140$ por 90 mins",
-				"65$ por un dibujo del aura/intuitivo",
-				"90$ por un dibujo del aura/intuitivo + reporte",
-				"115$ por una pintura del aura/intuitivo",
-				"140$ por una pintura del aura/intuitivo + reporte"
+				"65$ por una ilustración de su alma",
+				"65$ por una ilustración de su espíritu guía",
+				"65$ por un dibujo intuitivo",
+				"95$ por una ilustración del campo del Aura",
+				"189$ por una ilustración del campo del Aura para parejas",
+				"189$ por un Comic de una vida pasada"
 			]
 		},
 		paypalDonate : "-----BEGIN PKCS7-----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-----END PKCS7-----"
@@ -388,38 +399,38 @@ var support = {
 	}
 }
 
-var certificate = {
-	title:{
-		ENG:"My Certificates",
-		FREN:"Mes certificats",
-		ESP:"Mis certificados"
-	},
-	files:[
-		{
-			name:{
-				ENG:"Aura Alchemy Process",
-				FREN:"Processus d'alchimie aurique",
-				ESP:"Proceso alquimista áurico"
-			},
-			url:'assets/images/certificate/alchemy1.jpg',
-			faIcon: "fa-diamond"
-		},{
-			name:{
-				ENG:"Reiki First Degree",
-				FREN:"Reiki premier degré",
-				ESP:"Reiki primer grado"
-			},
-			url:'assets/images/certificate/reiki1.jpg',
-			faIcon: "fa-hand-paper-o",
-		},{
-			name:{
-				ENG:"Reiki Second Degree",
-				FREN:"Reiki second degré",
-				ESP:"Reiki segundo grado"
-			},
-			url:'assets/images/certificate/reiki2.jpg',
-			faIcon: "fa-hand-paper-o",
-		}
+// var certificate = {
+// 	title:{
+// 		ENG:"My Certificates",
+// 		FREN:"Mes certificats",
+// 		ESP:"Mis certificados"
+// 	},
+// 	files:[
+// 		{
+// 			name:{
+// 				ENG:"Aura Alchemy Process",
+// 				FREN:"Processus d'alchimie aurique",
+// 				ESP:"Proceso alquimista áurico"
+// 			},
+// 			url:'assets/images/certificate/alchemy1.jpg',
+// 			faIcon: "fa-diamond"
+// 		},{
+// 			name:{
+// 				ENG:"Reiki First Degree",
+// 				FREN:"Reiki premier degré",
+// 				ESP:"Reiki primer grado"
+// 			},
+// 			url:'assets/images/certificate/reiki1.jpg',
+// 			faIcon: "fa-hand-paper-o",
+// 		},{
+// 			name:{
+// 				ENG:"Reiki Second Degree",
+// 				FREN:"Reiki second degré",
+// 				ESP:"Reiki segundo grado"
+// 			},
+// 			url:'assets/images/certificate/reiki2.jpg',
+// 			faIcon: "fa-hand-paper-o",
+// 		}
 
-	]
-}
+// 	]
+// }

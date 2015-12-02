@@ -165,21 +165,14 @@
 										<div class="col-md-12">{{ serviceText[languageOpt] }}</div>
 									</div>
 									<br>
-									<div class="row">
+									<div class="row" ng-repeat="d in serviceText.details">
 										<div class="col-lg-12 col-md-4 col-sm-4 col-xs-12 text-lg-right text-xs-right">
-											<strong>{{ serviceText.details.language.title[languageOpt] }}</strong>
+											<strong>{{ d.title[languageOpt] }}</strong>
 										</div>
 										<div class="col-lg-12 col-md-8 col-sm-8 col-xs-12">
-											{{ serviceText.details.language.desc[languageOpt] }}
-										</div>
-									</div>
-									<br>
-									<div class="row">
-										<div class="col-lg-12 col-md-4 col-sm-4 col-xs-12 text-lg-right text-xs-right">
-											<strong>{{ serviceText.details.location.title[languageOpt] }}</strong>
-										</div>
-										<div class="col-lg-12 col-md-8 col-sm-8 col-xs-12">
-											{{ serviceText.details.location.desc[languageOpt] }}
+											{{ d.desc[languageOpt] }}
+											<br>
+											<br>
 										</div>
 									</div>
 								</div>
@@ -235,20 +228,26 @@
 							<span class="lang-ESP">Ejemplos<br>de Dibujos</span>
 						</div>
 					</div>
-					<div class="portfolio-image lazy" ng-repeat="d in drawings.auraField.data" data-original="{{d.image}}">
+					<div class="portfolio-image lazy" ng-repeat="d in drawings[0].data" data-original="{{d.image}}" ng-if="$index < 5">
 						<div class="portfolio-image-toggle">
 							<div class="portfolio-image-title">{{d.name[languageOpt]}}</div>
 							<div class="portfolio-image-description">{{drawings.auraField.title[languageOpt]}}</div>
 						</div>
 					</div>
-					<div class="portfolio-image lazy" ng-repeat="d in drawings.intuitive.data" data-original="{{d.image}}" ng-if="$index < 7">
+					<div class="portfolio-image lazy" ng-repeat="d in drawings[1].data" data-original="{{d.image}}" ng-if="$index < 2">
+						<div class="portfolio-image-toggle">
+							<div class="portfolio-image-title">{{d.name[languageOpt]}}</div>
+							<div class="portfolio-image-description">{{drawings.auraField.title[languageOpt]}}</div>
+						</div>
+					</div>
+					<div class="portfolio-image lazy" ng-repeat="d in drawings[2].data" data-original="{{d.image}}" >
 						<div class="portfolio-image-toggle">
 							<div class="portfolio-image-title">{{d.name[languageOpt]}}</div>
 							<div class="portfolio-image-description">{{drawings.intuitive.title[languageOpt]}}</div>
 						</div>
 					</div>
 					<div class="portfolio-last">
-						<span>{{sampleDrawing[languageOpt]}}</span>
+						<span>{{sampleDrawing.shortDesc[languageOpt]}}</span>
 						<div class="subtitle">
 							<button type="button" class="btn btn-trans btn-trans-default book-toggle-btn all-cap">
 			 					<strong class="lang-ENG">Purchase a drawing</strong>
@@ -292,7 +291,7 @@
 					</div>
 					<br>
 					<div style="padding: 0 20px;"> <!-- id="more-about-me" -->
-						<div style="padding: 20px;">
+						<!-- <div style="padding: 20px;">
 							<h2>{{ certificate.title[languageOpt] }}</h2>
 							<div class="row" style="padding:20px 0;">
 								<a ng-repeat="c in certificate.files" href="./{{ c.url }}" target="_blank">
@@ -305,7 +304,7 @@
 									</div>
 								</a>
 							</div>
-						</div>
+						</div> -->
 						<div style="padding: 20px;">
 							<h2>{{ contact.title[languageOpt] }}</h2>
 							<div class="row boxed" ng-repeat="c in contact.links">

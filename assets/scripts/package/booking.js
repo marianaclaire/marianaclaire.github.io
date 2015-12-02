@@ -49,38 +49,38 @@ var data = {
     workingTime:[
         {
             day:{
-                ENG:"Mon & Fri",
-                FREN:"Lundi & Vendredi",
-                ESP:"Lunes & Viernes"
+                ENG:"Monday & Wed",
+                FREN:"Lundi & Mercredi",
+                ESP:"Lunes & Miércoles"
             },
-            time:"10AM - 2PM & 7PM - 9PM",
+            time:"7PM - 9PM",
         },{
             day:{
-                ENG:"Tue - Thur",
-                FREN:"Mardi- Jeudi",
-                ESP:"Martes-Jueves"
+                ENG:"Thursday & Friday",
+                FREN:"Jeudi & Vendredi",
+                ESP:"Jueves & Viernes"
             },
-            time:"7PM - 9PM"
+            time:"10AM - 2PM & 7PM - 9PM"
         },{
             day:{
-                ENG:"Sat",
+                ENG:"Saturday",
                 FREN:"Samedi",
                 ESP:"Sabado"
             },
-            time:"10AM - 6PM"
+            time:"1PM - 9PM"
         },{
             day:{
-                ENG:"Sun",
+                ENG:"Sunday",
                 FREN:"Dimanche",
                 ESP:"Domingo"
             },
-            time:"2PM to 9PM"
+            time:"10AM to 9PM"
         }
     ],
     availability:{
-        ENG:"My availability is displayed as <strong>empty white slots</strong> in the following calendar in <strong>Mountain time zone</strong>. Please choose a date and time that suit you the best and confirm your choice in the <a class='inline-menu-btn' role='button' data-id='reservation'>reservation form</a> on the next section.",
-        FREN:"Mes disponibilités sont sur les <strong>caisses blanches</strong> sur ce calendrier qui est avec le <strong>fuseau horaire Mountain</strong>. Pour réserver une session juste choisissez l'heure et la date qui est mieux pour vous et confirmer votre choix dans la section du <a class='inline-menu-btn' role='button' data-id='reservation'>formulaire de réservation</a>.",
-        ESP:"Mi disponibilidad esta en las <strong>casillas blancas</strong> en este calendario que esta en la <strong>zona de tiempo Mountain</strong>. Porfavor escoja la hora y el día que mas le convenga y porfavor confirmelo en el <a class='inline-menu-btn' role='button' data-id='reservation'>formulario de reservación</a>."
+        ENG:"My availability is displayed as <strong>empty white slots</strong> in the following calendar in <strong>Mountain time zone</strong>. Please choose a date and time that suit you the best and confirm your choice in the <a class='inline-menu-btn' role='button' data-id='reservation'>reservation form</a> on the next section.<br><br>This calendar is just for reference.",
+        FREN:"Mes disponibilités sont sur les <strong>caisses blanches</strong> sur ce calendrier qui est avec le <strong>fuseau horaire Mountain</strong>. Pour réserver une session juste choisissez l'heure et la date qui est mieux pour vous et confirmer votre choix dans la section du <a class='inline-menu-btn' role='button' data-id='reservation'>formulaire de réservation</a>.<br><br>Ce calendrier est juste pour référence.",
+        ESP:"Mi disponibilidad esta en las <strong>casillas blancas</strong> en este calendario que esta en la <strong>zona de tiempo Mountain</strong>. Porfavor escoja la hora y el día que mas le convenga y porfavor confirmelo en el <a class='inline-menu-btn' role='button' data-id='reservation'>formulario de reservación</a>.<br><br>Este calendario es sólo para referencia."
     },
     cad:{
         ENG:"<strong>*Note</strong> that if you are from canada please email me before making a payment.",
@@ -99,6 +99,94 @@ var data = {
     }
 
 };
+
+
+var prices =
+{
+    title:{
+        service:{
+            ENG:"Service",
+            FREN:"Service",
+            ESP:"Servicio"
+        },
+        drawing:{
+            ENG:"Drawing",
+            FREN:"Dessing",
+            ESP:"Dibujo"
+        }
+    },
+    services:[
+         {
+            ENG: "30 mins $48 USD",
+            FREN: "30 mins 48$ USD",
+            ESP: "30 mins 48$ USD",
+            value: "30 mins"
+        },
+         {
+            ENG: "45 mins $71 USD",
+            FREN: "45 mins 71$ USD",
+            ESP: "45 mins 71$ USD",
+            value: "45 mins"
+        },
+         {
+            ENG: "60 mins $94 USD",
+            FREN: "60 mins 94$ USD",
+            ESP: "60 mins 94$ USD",
+            value: "60 mins"
+        },
+        {
+            ENG: "75 mins $117 USD",
+            FREN: "75 mins 117$ USD",
+            ESP: "75 mins 117$ USD",
+            value: "75 mins"
+        },
+        {
+            ENG: "90 mins $140 USD",
+            FREN: "90 mins 140$ USD",
+            ESP: "90 mins 140$ USD",
+            value: "90 mins"
+        }
+    ],
+    drawings:[
+        {
+            ENG: "Soul Portrait $65 USD",
+            FREN: "Illustration de ton âme 65$ USD",
+            ESP: "Ilustración de su alma 65$ USD",
+            value: "Soul Portrait"
+        },
+        {
+            ENG: "Spirit Guide illustration $65 USD",
+            FREN: "Illustration de ton guide 65$ USD",
+            ESP: "Ilustración de su espíritu guía 65$ USD",
+            value: "Spirit Guide illustration"
+        },
+        {
+            ENG: "Intuitive drawing $65 USD",
+            FREN: "un dessin intuitif 65$ USD",
+            ESP: "un dibujo intuitivo 65$ USD",
+            value: "Intuitive drawing"
+        },
+        {
+            ENG: "Aura Field drawing $95 USD",
+            FREN: "Illustration du champ de l'aura 95$ USD",
+            ESP: "Ilustración del campo del Aura 95$ USD",
+            value: "Aura field illustration"
+        },
+        {
+            ENG: "Couple Aura Field drawing $189 USD",
+            FREN: "un dessin du champ de l’aura d’un couple 189$ USD",
+            ESP: "Ilustración del campo del Aura para parejas 189$ USD",
+            value: "Couple Aura field illustration"
+        },
+        {
+            ENG: "Past Life Comic Book $189 USD",
+            FREN: "Bande-dessinée sur une vie passé 189$ USD",
+            ESP: "Comic de una vida pasada 189$ USD",
+            value: "Past Life Comic Book"
+        }
+    ]
+};
+
 
 var formValues = {
     form:{
@@ -163,6 +251,7 @@ function viewCtrl($scope) {
     $scope.languageOpt = currentLang;
     $scope.data = data;
     $scope.formValues = formValues;
+    $scope.prices = prices;
     $scope.mobileTab = isMobile;
 
     $scope.refresh = function() {

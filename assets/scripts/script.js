@@ -30,7 +30,7 @@ function viewCtrl($scope) {
 	$scope.titles = titles;
 	$scope.contact = contact;
 	$scope.support = support;
-	$scope.certificate = certificate;
+	// $scope.certificate = certificate;
 
 	$scope.refresh = function() {
 		window.setTimeout(function(){

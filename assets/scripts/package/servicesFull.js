@@ -1,7 +1,7 @@
 var servicesFull = {
 	readings: {
 		name: {
-			ENG:"Readings",
+			ENG:"Extra-sensory Reading",
 			FREN:"Lectures Psychiques",
 			ESP:"Lecturas psíquicas"
 			},
@@ -12,16 +12,51 @@ var servicesFull = {
 			},
 		description: {
 			ENG:[
-				"Readings are done using my channeling abilities via video call, so I would ask your higher self, guides or the archangels for information about you to answer to your questions. I can also go into your Akashic records if you would like to know about your past lives and I also like to pick up tarot and oracle cards sometimes.",
-				"Readings are useful for remembering your life purpose, negative imprints, origin, aura color, past lives, your abilities, knowing more about your soulmates, twin flames, what career is more suited for you, communicating with love ones, deceased people, your guides, angels or your higher self.",
+			"Readings are done via video call or in person. I use my extra-sensory abilities in a reading: channeling, telepathy, clairvoyance, claircognizance, clairempathy, clairsentience, clairscent and clairaudience.",
+			"I only need to feel your energy or see a picture of you to know your aura color, if you have a secondary, transitional or overlay color. As well as your soul origin, source aspects, soul braids, spirit guides, life purposes, negatives imprints, pre-birth intentions, core beliefs, psychic abilities, health state, energy blockages, careers that are suited for you, about your relationships, twin flames and soulmates.",
+			"I am a <b>clear channel</b> so I can channel your higher self, spirit guides and loved ones for you if you would like the answers to come from them as well. My telepathy abilities allow me to communicate with angels, archangels, deceased people and other beings.",
+			"I also have access to the <b>Akashic records</b> and that would let me know about your soul origin, soul contracts, past lives and past events in this life.",
+			"Sometimes I like to pick <b>tarot</b> and <b>oracle</b> cards too.",
+			"I believe that this information is very valuable and <b>empowering</b> for people. I also believe that once you know your purposes, abilities and negative imprints it empowers you, because if you remember why you came here for and why you experienced the things you had to experienced, it enables you to retake control over your life. You then remember that you are an eternal being who came here with a purpose.  By knowing this information you can start working on the things that you need to heal in order to step into your purposes. In other words, you reclaim your power and freedom back. When people realize that they can heal themselves, they feel empowered and they start seeking the answers <b>within</b>. Then they begin sharing their gifts with others and empowering others. It is also important to mention that by being aware of your source aspects and braids you begin to step into their vibration and this is very powerful. From my perspective and personal experience, I believe this is one of the most liberating things that you can do. I would also work with you to help you manifest the life you want.",
+			"It is also important to mention that I am only <b>facilitating</b> your healing and empowerment by helping you reconnect to the vibration of your higher self and helping you remember who you are.  But in essence, it is you who is remembering who you are and it is you who is healing yourself. You don't need any books because all the information that you need has already been given to you, you just need to connect to it and remember it. I believe that all the answers and all the knowledge are within each person.",
+			"<h3><i class='fa fa-hashtag'></i> About questions about the future</h3>",
+			"Please keep in mind that the future is not fixed and that if a prediction about the future is made it is based on your alignment and vibration on the present moment. The future can change because energy is in movement and it is fluid. Sometimes even knowing the future can change the future. This is the reason why people can take responsibility over their lives and manifest the future they want in the first place.  In other words, it is in your hands.",
+			"<h3><i class='fa fa-hashtag'></i> About medical intuition questions</h3>",
+			"I can read your current health state using my extra-sensory abilities and I can also use reiki to help clear up energy blockages. However, please keep in mind that I am not a medical professional and I am not fully qualified to diagnose, treat or cure medical conditions. ",
+			"<h3><i class='fa fa-hashtag'></i> About ethical boundaries</h3>",
+			"Please consider that because of ethical boundaries, I will not answer questions about death or questions that are too intrusive or that can cause emotional or physical danger to another person."
 				],
 			FREN:[
-				"Les sessions de lecture psychique se font via vidéo-conférence. J'utilise mes capacités de canalisation et télépathie pour entrer en contact avec votre être supérieur, vos guides, vos vies passées et les anges qui vous entourent. Je peux donc vous donner de l'information sur vos vies passées et utiliser le tarot et les cartes d'oracle.",
-				"Les lectures psychiques sont utiles pour savoir plus de votre but dans la vie, vos empreintes négatives, vies passées, la couleur de votre aura, votre origine, savoir plus sur vos relations amoureuses, contrats d’âme, votre carrière, habilités, vous communiquer avec des êtres chers, des personnes décédées, vos guides, votre âme, les anges, ou pour simplement me poser une question."
+			"Les sessions de lecture psychique se font via vidéo-conférence. J’utilise toutes mes habilités dans une session : télépathie, canalisation, clairvoyance, Claircognizance, clairalience, clairsentience, clairempathie et clairaudience.",
+			"J’ai juste besoin de sentir votre énergie ou de regarder une photo de vous pour savoir sur vos objectifs de vie, vos empreintes négatives, la couleur de votre aura, votre origine, savoir plus sur vos relations amoureuses, contrats d’âme, votre carrière, habilités psychiques, état de santé et blocages énergétiques. ",
+			"Je suis un <b>canal clair</b>, ceci me permet de canaliser votre « je supérieur », vos guides, êtres aimés, personnes décédées, anges, archanges ou un autre être si vous aimeriez avoir vos questions répondues par eux directement. ",
+			"Je peux accéder les archives Akashiques en utilisant mes habilités extra-sensorielles. Ceci me permet de connaitre de l’information sur les vies passées, origine d’âme et contrats d’âme à mes clients.",
+			"Des fois j’aime aussi sortir quelques cartes du <b>tarot</b> ou d’<b>oracle</b>.",
+			"Je crois que ces informations sont très précieuses, habilitantes et <b>libératrices</b> pour les gens. Je crois aussi que quand les gens prennent conscience de leurs objectifs de vie, habilités et empruntes négatives, ça leur donne du pouvoir, parce que si vous pouvez vous rappeler de qui vous êtes et pourquoi vous êtes venu sur terrer vous pouvez reprendre le control de votre vie et commencer à manifester la vie dont vous vraiment désirez d’avoir. Vous vous rappelez que vous êtes un être éternel qui est venu sur terrer avec un but. En sachant cela vous pouvez déjà commencer à guérir vos empruntes négatives et travailler sur vos objectifs d’âme. En d’autres mots, récupérer votre pouvoir et liberté. Quand les gens se rendent compte qu’ils peuvent se guérir eux-mêmes ils se sentent libérés et forts. Ils commencent à chercher les réponses <b>à l’intérieur</b> d’eux. Après, ils partagent leurs habilités avec les autres et commencent à aider et guérir les autres. C’est aussi important de mentionner que juste en étant conscient de nos aspects de source et origine on commence déjà à marcher sur leur vibration et ceci est très puissant. Selon ma perspective c’est une des choses les plus libératrices que vous pouvez faire. ",
+			"C’est aussi important de signaler que je suis seulement entrain de faciliter votre guérison et libération par vous aidant à vous reconnecter avec la vibration de votre je supérieur et vous aidant à vous rappeler qui vous êtes. Mais, c’est vous qui se rappelle de votre identité et c’est vous qui vous guérissez vous-même. Vous n’avez pas besoin des livres ni de rien externe à vous parce que tout l’information dont vous avez besoin se trouve à l’intérieur de vous. Vous avez juste besoin de vous reconnecter et de vous rappeler. Je crois fortement que toutes les réponses et les connaissances se trouvent à l’intérieure de chaque personne. ",
+			"<h3><i class='fa fa-hashtag'></i> Est-ce que je peux vous poser des questions sur le future?</h3>",
+			"Oui vous pouvez mais rappelle-vous que le future n’est pas fixe. Les prédictions sur le future sont basées sur votre alignement et vibration du moment présent. Le future peux changer parce que l’énergie est fluide et toujours en mouvement. Des fois juste connaître le future est suffisant pour le changer. Voilà la raison principale pour laquelle les gens ont la capacité de manifester le future et la vie qu’ils veulent. En autres mots, votre future dépend de vous.  ",
+			"<h3><i class='fa fa-hashtag'></i> Est-ce que je peux vous poser des questions sur ma santé?</h3>",
+			"Je peux lire votre état de santé actuel en utilisant mes habilités extra-sensorielles et je peux aussi utiliser du Reiki pour balancer votre énergie. Cependant, SVP n’oubliez pas que je ne suis pas une docteure donc je ne suis pas qualifiée pour traiter, guérir ou diagnostiquer des conditions médicales. ",
+			"<h3><i class='fa fa-hashtag'></i> Quels sont vos limites étiques?</h3>",
+			"SVP n’oubliez pas que pour des raisons éthiques, je ne répondrai pas à des questions sur la mort ou à des questions un peu intrusives pour d’autres personnes ou qui mettent en danger émotionnel ou physique à d’autres personnes."
 				],
 			ESP:[
-				"Las lecturas psíquicas son hechas por media de llamadas audiovisuales, ya sea Skype, Hangouts o Facebook Messenger. Uso mis habilidades telepáticas para conectarme con su “yo” superior, guías, ángeles, y otros espíritus. También tengo acceso a sus registros akashicos (vidas pasadas). Si me lo piden también puedo usar las cartas de tarot u oráculo para las lecturas.",
-				"Las lecturas son útiles para averiguar cuál es su propósito en esta vida, cuáles son sus habilidades, que profesión sería mejor para usted, para saber su color de aura, origen, para saber sobre el amor, que tipo de relación tiene con una persona, porque le pasan ciertas cosas, que paso en sus vidas pasadas, para hacer preguntas sobre sus familiares, para hacer preguntas a personas fallecidas, si quiere comunicarse con sus guías, ángeles o “yo” superior o si simplemente quiere que responda a alguna pregunta."
+				"Las lecturas psíquicas son hechas por media de llamadas audiovisuales, ya sea Skype, Hangouts o Facebook Messenger. Uso todas mis habilidades extra-sensoriales en una sesión: canalización, telepatía, clarividencia, clariestesia, clariaudiencia, postcognición y precognición.",
+				"Solo necesito sentir su energía o ver una foto de usted para saber sobre su propósito en esta vida, cuáles son sus habilidades psíquicas, que profesión sería mejor para usted, su color de aura, origen, relaciones amorosas, porque le pasan ciertas cosas, estado de salud y bloqueos energéticos.",
+				"Soy un <b>canal claro</b> lo cual me permite canalizar a su “yo” superior, guías, ángeles, arcángeles, seres queridos, seres fallecidos u otros seres si prefieren que las respuestas a sus preguntas provengan directamente de ellos. ",
+				"También puedo acceder a tus registros Akashicos para obtener información sobre tus vidas pasadas, contratos de alma y origen, si me lo piden.",
+				"A veces también me gusta sacar cartas de <b>tarot</b> y de <b>oráculo</b>.",
+				"Creo que esta información es bastante preciosa y liberadora para las personas. También creo que una vez que las personas son conscientes de sus propósitos, habilidades e impresionas negativas eso las libera. Porque si puede recordar quien es y para que se reincarnó en esta vida, entonces puede retomar control sobre su vida y empezar a manifestar la vida que realmente desea.  Recordar que es un ser eterno que vino a este mundo con un propósito. Sabiendo esto puede empezar a sanar las impresiones negativas y empezar a trabajar en sus propósitos. En otras palabras, puede retomar su poder y libertad. ",
+				"Cuando las personas se dan cuenta de que pueden sanarse a sí mismas se sienten fortalecidas y empiezan a buscar las respuestas en su interior. Empiezan a compartir sus dones con los demás y a sanar y fortalecer a los demás. ",
+				"También es importante mencionar que solo con ser consciente de sus aspectos de alma y de su “yo superior” ya se empieza a entrar en su vibración y eso es muy poderoso. Según mi experiencia, una de las cosas más poderosas y <b>liberadoras</b> que uno puede hacer. ",
+				"También les recordare que yo solo estoy facilitando su sanación ayudando a reconectarlo con su “yo superior” y guías. El que recuerda quien es, es usted! el que se cura a sí mismo es usted. No necesita libros ni nada exterior porque toda la información que necesita ya está en <b>su interior</b>. Solo necesita reconectarse y recordar. Creo firmemente que todas las respuestas y conocimientos se encuentran al interior de las personas",
+				"<h3><i class='fa fa-hashtag'></i> Sobre las predicciones del futuro</h3>",
+				"Una predicción sobre el futuro está basada en su alineación y vibración en el momento presente. El futuro puede cambiar porque su vibración es energía que está en movimiento. A veces solo conocer el futuro es suficiente para cambiarlo. Esta es la principal razón por la cual las personas pueden manifestar el futuro en el que se enfocan consciente o inconscientemente. En otras palabras, el futuro está en sus manos. ",
+				"<h3><i class='fa fa-hashtag'></i> Sobre las preguntas de su salud</h3>",
+				"Puedo ver su estado de salud usando mis habilidades extra-sensoriales y también puedo usar Reiki para ayudarle a balancear su energía y sus bloqueos. Sin embargo, debe tener en cuenta que no soy una doctora y que no estoy cualificada para tratar, sanar o diagnosticar condiciones médicas. ",
+				"<h3><i class='fa fa-hashtag'></i> Sobre los límites de Ética</h3>",
+				"Por favor tener en cuenta que por razones de ética no responderé preguntas sobre la muerte o preguntas muy intrusivas o que pongan en peligro emocional o físico a otras personas."
 				]
 			},
 		faIcon: "fa-eye",
@@ -129,12 +164,12 @@ var servicesFull = {
 			ENG:[
 			"This process is a combination of Pamela Aaralyn’s Aura Alchemy Process with Amber Flavia’s Integration Process.",
 			"The first part of this process is the integration of the fragmented aspects.",
-			"<h3>Amber’s Flavia Inner Healing Integration Process</h3>",
+			"<h3><i class='fa fa-hashtag'></i> Amber’s Flavia Inner Healing Integration Process</h3>",
 			"To begin this process we guide clients/ourselves to visualize a safe environment, we go into detail about what is surrounding them in their safe space. We then delve into the core imprints, issues, triggers or concerns they may have. From here we go on to discuss the feelings that are coming up for them, and any feelings and sensations that may be present within the body and any other sensations.",
 			"After they have sat with the feeling, we then go into the memories or feelings together and gently find out what is truly needed.",
 			"An alternative to this is to be present with current feelings or trigger/s and be completely present with the feelings that arise.",
 			"At times people may have no cognitive awareness, or memories, but they/we may feel it within us, and some people just know. Having cognitive awareness or memories is not important here, following the feeling/s will allow the person, or yourself, to access what is needed. Once they have expressed themselves, this is when we would integrate them/ourselves with the younger self.",
-			"<h3>Pamela Aaralyn's Aura Alchemy Process</h3>",
+			"<h3><i class='fa fa-hashtag'></i> Pamela Aaralyn's Aura Alchemy Process</h3>",
 			"The second part of the process is the Aura Alchemy. In this process we transmute the negative imprints of a person into the feelings that her inner child would like to feel instead using aura alchemy. To learn more about this process please read <a href='http://www.aurareader.com/1/post/2015/03/walking-in-the-light-of-the-shadow-body-aura-alchemy-process.html' target='_blank'>Pamela's blog</a>.",
 			"<h2>My Certificates</h2>",
 			"<a target='_blank' href='../assets/images/certificate/alchemy1.jpg'>Aura Alchemy Process</a>"
@@ -142,10 +177,10 @@ var servicesFull = {
 			FREN:[
 			"Ce processus est une combinaison du processus d’alchimie aurique à Pamela Aaralyn’s avec le processus d’intégration à Amber Flavia.",
 			"La première partie du processus est l’intégration des aspects fragmentés. ",
-			"<h3>Processus d’intégration à Amber Flavia</h3>",
+			"<h3><i class='fa fa-hashtag'></i> Processus d’intégration à Amber Flavia</h3>",
 			"Pour commencer on demande à la personne de visualiser un environnement sécure. On visualise l’environnement sécure en détail.  Après on commence à visualiser les empruntes négatives, les troubles émotionnelles et problèmes que la personne en a. On commence à discuter les émotions qui viennent avec les empruntes négatives et les sensations physiques.",
 			"Après avoir senti les empruntes négatives pour un moment et les avoir intégrées on demande à l’enfant en nous de nous dire qu’est-ce qu’il en a besoin.",
-			"<h3>Processus d'alchimie aurique par Pamela Aaralyn</h3>",
+			"<h3><i class='fa fa-hashtag'></i> Processus d'alchimie aurique par Pamela Aaralyn</h3>",
 			"La deuxième partie de ce procès c’est l’alchimie aurique de Pamela Aaralyn. C'est un processus qui permet d'intégrer et de transcender les empruntes négatives qui sont en nous et les transformer en des émotions plus positives et motivantes en utilisant l’alchimie. Visitez le <a href='http://www.aurareader.com/1/post/2015/03/walking-in-the-light-of-the-shadow-body-aura-alchemy-process.html' target='_blank'>blog de Pamela</a> pour en savoir plus.",
 			"<h2>Mes certificats</h2>",
 			"<a target='_blank' href='../assets/images/certificate/alchemy1.jpg'>Processus d'alchimie aurique</a>",
@@ -245,16 +280,41 @@ var servicesFull = {
 		color: "#FF66CC",
 		description: {
 			ENG:[
-				"During this session I will teach you techniques that will help you develop your psychic abilities. We will practice seeing auras, origins, using telepathy and channeling, reading cards, opening the third eye and anything else that you would like to practice or learn related to spirituality.",
-				"Training your psychic abilities is useful to know more about yourself, communicate with your love ones and your guides, understanding people at a deeper level (with their permission), and helping others."
+			"During this session, I will use my extra-sensory abilities to know what <b>psychic abilities</b> are the most natural to you. Then, I will teach you <b>techniques</b> that will help you develop your abilities. We will practice seeing auras, origins, using telepathy and channeling, reading cards, opening the third eye and anything else that you would like to practice or learn related to spirituality.",
+			"Training your psychic abilities is useful to know more about yourself, communicate with your love ones and your guides, understanding people at a deeper level (with their permission), and helping others.",
+			"It is important to mention that it is true that some abilities are more natural in some people depending on their source aspects, braids, purposes and core beliefs. However, if we all do the work to heal those core beliefs and negative imprints and we become more integrated, we can still develop all of them step by step.",
+			"Please keep in mind that I am only <b>facilitating</b> your healing and empowerment by helping you reconnect to the vibration of your higher self and helping you remember who you are.  But in essence, it is you who is remembering who you are and it is you who is healing yourself. You don't need any books because all the information that you need has already been given to you, you just need to connect to it and remember it. I believe that all the answers and all the knowledge are within each person. I would also work with you to help you manifest the life you want.",
+			"<h3><i class='fa fa-hashtag'></i> About questions about the future</h3>",
+			"Please consider that the future is not fixed and that if a prediction about the future is made it is based on your alignment and vibration on the present moment. The future can change because energy is in movement and it is fluid. Sometimes even knowing the future can change the future. This is the reason why people can take responsibility over their lives and manifest the future they want in the first place.  In other words, the future is in your hands.",
+			"<h3><i class='fa fa-hashtag'></i> About ethical boundaries</h3>",
+			"Please keep in mind that because of ethical boundaries, I will not answer questions about death or questions that are too intrusive or that can cause emotional or physical danger to another person.",
+			"<h3><i class='fa fa-hashtag'></i> About medical intuition questions</h3>",
+			"I can read your current health state using my extra-sensory abilities and I can also use reiki to help clear up energy blockages. However, please keep in mind that I am not a medical professional and I am not fully qualified to diagnose, treat or cure medical conditions."
 				],
 			FREN:[
-				"Pendant ces sessions je vais vous montrer des techniques qui vont vous aider à développer vos dons psychiques. On va pratiquer lire les gens, les auras, les origines, les vies passées, se communiquer télépathiquement, ouvrir le troisième œil ou ce que vous aimeriez pratiquer.",
-				"Développer vos dons psychiques est utile pour connaître plus sur vous-même, connaître plus sur les autres (avec leur permission), vous communiquer télépathiquement avec vos êtres chers ou avec vos guides."
+			"Pendant cette session, je vais utiliser mes habilités extra-sensorielles pour connaitre les <b>habilités psychiques</b> qui sont les plus naturelles pour vous. Après, je vais vous montrer des <b>techniques</b> qui vous aideront à développer vos habilités. On pratiquera de la télépathie, de la canalisation, voir des auras, des esprits, ouvrir le troisième œil entre d’autres choses. ",
+			"Développer vos dons psychiques est utile pour connaître plus sur vous-même, connaître plus sur les autres (avec leur permission), vous communiquer télépathiquement avec vos êtres chers ou avec vos guides.",
+			"C’est important de mentionner que même si certaines habilités sont plus naturelles pour certains personnes à cause de leurs aspects de source, origine, empruntes et objectifs de vie, c’est comme vrai que si on fait le travail et on guérit toutes nos empruntes négatives et on est plus intégrés on a la capacité de développer toutes nos habilités une par une.  ",
+			"C’est aussi important de signaler que je suis seulement entrain de <b>faciliter</b> votre guérison et libération par vous aidant à vous reconnecter avec la vibration de votre je supérieur et vous aidant à vous rappeler qui vous êtes. Mais, c’est vous qui se rappelle de votre identité et c’est vous qui vous guérissez vous-même. Vous n’avez pas besoin des livres ni de rien externe à vous parce que tout l’information dont vous avez besoin se trouve à l’intérieur de vous. Vous avez juste besoin de vous reconnecter et de vous rappeler. Je crois fortement que toutes les réponses et les connaissances se trouvent à l’intérieure de chaque personne.",
+			"<h3><i class='fa fa-hashtag'></i> Est-ce que je peux vous poser des questions sur le future?</h3>",
+			"Oui vous pouvez mais rappelle-vous que le future n’est pas fixe. Les prédictions sur le future sont basées sur votre alignement et vibration du moment présent. Le future peux changer parce que l’énergie est fluide et toujours en mouvement. Des fois juste connaître le future est suffisant pour le changer. Voilà la raison principale pour laquelle les gens ont la capacité de manifester le future et la vie qu’ils veulent. En autres mots, votre future dépend de vous.  ",
+			"<h3><i class='fa fa-hashtag'></i> Est-ce que je peux vous poser des questions sur ma santé?</h3>",
+			"Je peux lire votre état de santé actuel en utilisant mes habilités extra-sensorielles et je peux aussi utiliser du Reiki pour balancer votre énergie. Cependant, SVP n’oubliez pas que je ne suis pas une docteure donc je ne suis pas qualifiée pour traiter, guérir ou diagnostiquer des conditions médicales. ",
+			"<h3><i class='fa fa-hashtag'></i> Quels sont vos limites étiques?</h3>",
+			"SVP n’oubliez pas que pour des raisons éthiques, je ne répondrai pas à des questions sur la mort ou à des questions un peu intrusives pour d’autres personnes ou qui mettent en danger émotionnel ou physique à d’autres personnes."
+
 				],
 			ESP:[
-				"En esta sesión le enseñare técnicas psíquicas que le ayudaran a desarrollar sus dones y practicaremos ver auras, origines, leer la mente, usar la telepatía, abrir el tercer ojo, leer cartas, recordar vidas pasadas o lo que usted desee practicar relacionado a la espiritualidad.",
-				"Entrenar sus habilidades psíquicas es importante para conocerse más a sí mismo, comunicarse con sus guías o seres queridos (con su permiso), entender mejor a las personas y poder ayudarlas."
+			"En esta sesión, utilizare mis habilidades extra-sensoriales para saber cuáles son las <b>habilidades psíquicas</b> más naturales para usted. Después le enseñare técnicas psíquicas que le ayudaran a desarrollar sus dones y practicaremos ver auras, origines, leer la mente, usar la telepatía, abrir el tercer ojo, leer cartas, recordar vidas pasadas o lo que usted desee practicar relacionado a la espiritualidad.",
+			"Entrenar sus habilidades psíquicas es importante para conocerse más a sí mismo, comunicarse con sus guías o seres queridos (con su permiso), entender mejor a las personas y poder ayudarlas.",
+			"Es importante mencionar que es cierto que algunas habilidades son más naturales en algunas personas dependiendo de sus aspectos de alma, contratos del alma, creencias, objetivos de vida e impresiones negativas. Sin embargo, en esencia, si hacemos el trabajo debido para integrar nuestras impresiones negativas y sanar nuestras heridas, podemos llegar a tener la capacidad de desarrollar todas las habilidades psíquicas que deseemos una por una, paso a paso. ",
+			"También les recordare que yo solo estoy facilitando su sanación ayudando a reconectarlo con su “yo superior” y guías. El que recuerda quien es, es usted! el que se cura a sí mismo es usted. No necesita libros ni nada exterior porque toda la información que necesita ya está en su interior. Solo necesita reconectarse y recordar. Creo firmemente que todas las respuestas y conocimientos se encuentran al interior de las personas",
+			"Sobre las predicciones del futuro",
+			"Una predicción sobre el futuro está basada en su alineación y vibración en el momento presente. El futuro puede cambiar porque su vibración es energía que está en movimiento. A veces solo conocer el futuro es suficiente para cambiarlo. Esta es la principal razón por la cual las personas pueden manifestar el futuro en el que se enfocan consciente o inconscientemente. En otras palabras, el futuro está en sus manos. ",
+			"<h3><i class='fa fa-hashtag'></i> Sobre las preguntas de su salud</h3>",
+			"Puedo ver su estado de salud usando mis habilidades extra-sensoriales y también puedo usar Reiki para ayudarle a balancear su energía y sus bloqueos. Sin embargo, debe tener en cuenta que no soy una doctora y que no estoy cualificada para tratar, sanar o diagnosticar condiciones médicas. ",
+			"<h3><i class='fa fa-hashtag'></i> Sobre los límites de Ética</h3>",
+			"Por favor tener en cuenta que por razones de ética no responderé preguntas sobre la muerte o preguntas muy intrusivas o que pongan en peligro emocional o físico a otras personas.",
 				]
 			},
 		faIcon: "fa-graduation-cap ",

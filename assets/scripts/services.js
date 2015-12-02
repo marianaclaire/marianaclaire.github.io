@@ -1,7 +1,7 @@
 var services = [
 	{
 		name: {
-			ENG:"Readings",
+			ENG:"Extra-sensory Reading",
 			FREN:"Lectures Psychiques",
 			ESP:"Lecturas psíquicas"
 			},

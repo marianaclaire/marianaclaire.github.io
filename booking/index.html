@@ -233,6 +233,7 @@
                 <h2 class="text-left">2. {{ data.subtitles.reservationForm[languageOpt] }}</h2>
                 <div class="content">
                     <p ng-bind-html="data.bookingNotes[languageOpt] | to_trusted"></p>
+                    <p ng-bind-html="data.shipping[languageOpt] | to_trusted"></p>
                     <div style="margin:5%"> </div>
                     <center><button type="button" class="btn btn-trans btn-trans-default book-toggle-btn all-cap"><strong>
                         {{ data.subtitles.begin[languageOpt] }}

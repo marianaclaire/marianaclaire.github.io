@@ -84,6 +84,17 @@
             h3 i.fa{
                 color:#aaa;
             }
+            body {
+                counter-reset: section;
+            }
+
+            h3.enumerate:before {
+                counter-increment: section;
+                content: counter(section) ". ";
+            }
+            .faq-container{
+                padding:5%;
+            }
         </style>
     </head>
     <body>
@@ -98,24 +109,23 @@
                     <span class="lang-FREN">Retourner</span>
                     <span class="lang-ESP">Atrás</span>
                 </a>
-                <div class="row">
-                    <div class="col-md-8">
-                        <div class="service-icon-sub"><i class="fa {{service.faIconBase}}" style="color:{{service.color}};opacity:0.5;"></i></div>
-                        <div class="service-icon"><i class="fa {{service.faIcon}}" style="color:{{service.color}};"></i></div>
 
-                        <div id="title" ng-bind-html="service.name[languageOpt] | to_trusted"></div>
-                        <p ng-repeat="d in service.description[languageOpt]" ng-bind-html="d | to_trusted"></p>
-                    </div>
-                    <div class="col-md-4">
-                        <div style="margin:5%"> </div>
-                        <div class="backlight" ng-repeat="s in services" data-color="{{s.color}}" ng-init="$last ? refresh() : null" >
-                            <div ng-click="changeService(s.slug[languageOpt])" style="cursor:pointer;">
-                                <i class="fa {{s.faIcon}}"></i> {{s.name[languageOpt]}}
-                            </div>
-                        </div>
+                <div class="faq-container">
+                    <div id="title" ng-bind-html="data.title[languageOpt] | to_trusted"></div>
+
+                    <div ng-repeat="q in data.questions[languageOpt]">
+                        <h3 class="enumerate">{{q.Q}}</h3>
+                        <p ng-repeat="a in q.A" ng-bind-html="a | to_trusted"></p>
                     </div>
                 </div>
+
                 <div style="margin:5%"> </div>
+                <a href="../#{{languageOpt}}" class="subtle">
+                    <i class="fa fa-chevron-left"></i> <span class="lang-ENG">Back</span>
+                    <span class="lang-FREN">Retourner</span>
+                    <span class="lang-ESP">Atrás</span>
+                </a>
+                <i ng-init="refresh()"></i>
             </div>
             <div style="margin:10%"> </div>
             <div class="container" style="margin-bottom:0;">
@@ -130,13 +140,49 @@
             </div>
         </div>
     </body>
-    <script type="text/javascript" src="../assets/scripts/services.js"></script>
-    <script type="text/javascript" src="../assets/scripts/package/servicesFull.js"></script>
-    <script type="text/javascript" src="../assets/scripts/backlight.js"></script>
+    <script type="text/javascript" src="../assets/scripts/package/faq.js"></script>
     <script>
-        $(function(){
-            $('#splash-content-container').fadeIn('slow');
-        });
+        var validLangs = ["ENG", "FREN", "ESP"]
+        function parseURL(){
+            var args = window.location.href.split('#');
+            if (args.length > 1 && validLangs.indexOf(args[1]) > 0){
+                return args[1];
+            }
+            return "ENG";
+        }
+        var currentLang = parseURL();
+
+        var app = angular.module('app', []);
+        angular.module('app')
+            .filter('to_trusted', ['$sce', function($sce){
+                return function(text) {
+                    return $sce.trustAsHtml(text);
+                };
+            }]);
+
+        function viewCtrl($scope) {
+            $scope.languageOpt = currentLang;
+            $scope.data = data;
+
+            $scope.refresh = function() {
+                window.setTimeout(function(){
+                    $('.lang-'+currentLang).css({
+                        'display': 'inline-block'
+                    });
+                    $('#splash-content-container').fadeIn('slow', function(){
+                        // $(".lazy").lazyload({
+                        //  effect : "fadeIn"
+                        // });
+                    });
+                }, 500);
+            };
+        }
+        (function(){
+            $div = $('.splash-bg');
+            $div.hide();
+            $div.css('background-image','url("../assets/images/4.jpg")');
+            $div.fadeIn('fast');
+         }());
 
         // GA
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

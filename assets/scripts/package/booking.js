@@ -92,6 +92,11 @@ var data = {
         FREN:"S.V.P. faire click sur <strong>COMMENCER</strong> pour soumettre votre information de contact. Prenez note que si vous visitez le siteweb sur un cellulaire, cela va vous amener sur une autre page. Après avoir fini avec le formulaire, s.v.p. procéder au <a class='inline-menu-btn' role='button' data-id='payment'>paiement</a> dans la section suivante.",
         ESP:"Llenar su información de contacto para reservar: Haga click en <strong>Empezar</strong> para llenar su información de contacto. Note que si esta utilizando el sitioweb desde un telefono lo llebara a otra pagina. Una vez que termine con el formulario porfavor continuar con el <a class='inline-menu-btn' role='button' data-id='payment'>pago</a> en la siguiente sección."
     },
+    shipping:{
+        ENG:"If you have chosen any type of Soul Drawing, please enter the address where you would like me to ship it to you. The shipping fee is included. Also send me a picture through email of the person for whom the drawing is for. Take note that it will take around 2-3 weeks to receive the drawing after the day you made the payment.",
+        FREN:"Si usted escogió un dibujo espiritual, por favor escribir la dirección donde deba enviarlo. El precio incluye el costo de transporte. Por favor también envíenme una foto de la persona para la cual es el dibujo por email. Tomar nota que el dibujo le llegara dos o tres semanas después de haber efectuado el pago.",
+        ESP:"Si vous voulez achèter un dessin spirituel S.V.P. me fournir l'adresse où je dois l'envoyer. Le prix du transport est inclus. S.V.P. envoyez-moi une photo de la personne pour laquelle le dessin est fait par email. Prenez note que vous allez recevoir le dessin 2 à 3 semaines après avoir effectué le paiement."
+    },
     progress:{
         ENG:'STEP 1: Time & Date > STEP 2: Fill Form > STEP 3: Checkout',
         FREN:'',

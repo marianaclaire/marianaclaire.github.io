@@ -164,7 +164,7 @@ var servicesFull = {
 			ENG:[
 			"This process is a combination of Pamela Aaralyn’s Aura Alchemy Process with Amber Flavia’s Integration Process.",
 			"The first part of this process is the integration of the fragmented aspects.",
-			"<h3><i class='fa fa-hashtag'></i> Amber’s Flavia Inner Healing Integration Process</h3>",
+			"<h3><i class='fa fa-hashtag'></i> Amber Flavia's Inner Healing Integration Process</h3>",
 			"To begin this process we guide clients/ourselves to visualize a safe environment, we go into detail about what is surrounding them in their safe space. We then delve into the core imprints, issues, triggers or concerns they may have. From here we go on to discuss the feelings that are coming up for them, and any feelings and sensations that may be present within the body and any other sensations.",
 			"After they have sat with the feeling, we then go into the memories or feelings together and gently find out what is truly needed.",
 			"An alternative to this is to be present with current feelings or trigger/s and be completely present with the feelings that arise.",

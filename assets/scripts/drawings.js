@@ -8,6 +8,22 @@ var drawingsDB = [
 		data: [
 			{
 				name:{
+					ENG:"Acturian, andromedan, hyadian, fairy, tiger and dog",
+					FREN:"Acturian, andromedan, hyadian, fairy, tiger and dog",
+					ESP:"Acturian, andromedan, hyadian, fairy, tiger and dog"
+				},
+				description:"",
+				image:"assets/images/drawings/acturian-andromedan-hyadian-fairy-tiger-dog.jpg",
+			},{
+				name:{
+					ENG:"Hyadian, sirian, tau cetian, andromedan source aspects, cobra, cat guides",
+					FREN:"Hyadian, sirian, tau cetian, andromedan source aspects, cobra, cat guides",
+					ESP:"Hyadian, sirian, tau cetian, andromedan source aspects, cobra, cat guides"
+				},
+				description:"",
+				image:"assets/images/drawings/hyadian-sirian-tau-cetian-andromedan-cobra-cat.jpg",
+			},{
+				name:{
 					ENG:"Hyadian, Venusian, Sirian and Lemurian source aspects, animal guided zebra, spider and blue heron",
 					FREN:"Hyadian, Venusian, Sirian and Lemurian source aspects, animal guided zebra, spider and blue heron",
 					ESP:"Hyadian, Venusian, Sirian and Lemurian source aspects, animal guided zebra, spider and blue heron"

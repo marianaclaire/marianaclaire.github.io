@@ -65,9 +65,9 @@ var servicesFull = {
 	},
 	drawings: {
 		name: {
-			ENG:"Aura Field/Intuitive Drawings",
-			FREN:"Dessins de l'aura/intuitive",
-			ESP:"Dibujos del aura/intuitiva"
+			ENG:"Soul Drawing",
+			FREN:"Dessins spirituels",
+			ESP:"Dibujos espirituales"
 			},
 		slug: {
 			ENG:"drawings",

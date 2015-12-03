@@ -260,7 +260,7 @@ var contact = {
 						ESP: "Mariana Claire (Inglés)"
 					},
 					desc: {
-						ENG: "English YouTube chanel",
+						ENG: "English YouTube channel",
 						FREN: "",
 						ESP: ""
 					},
@@ -272,7 +272,7 @@ var contact = {
 						ESP: "Mariana Claire (Español)"
 					},
 					desc: {
-						ENG: "Spanish YouTube chanel",
+						ENG: "Spanish YouTube channel",
 						FREN: "",
 						ESP: ""
 					},

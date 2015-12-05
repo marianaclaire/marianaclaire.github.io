@@ -108,12 +108,12 @@ var drawingsDB = [
 		data: [
 			{
 				name:{
-					ENG:"Kaguya, the moon priestess",
-					FREN:"Kaguya, la prêtresse de la lune",
-					ESP:"Kaguya, la sacerdotisa de la luna"
+					ENG:"Hilda",
+					FREN:"Hildae",
+					ESP:"Hilda"
 				},
 				description:"",
-				image:"assets/images/drawings/Kaguya-the-moon-goddess.jpg",
+				image:"assets/images/drawings/Hilda.jpg",
 			},{
 				name:{
 					ENG:"Elsa the warrior fairy",
@@ -130,6 +130,14 @@ var drawingsDB = [
 				},
 				description:"",
 				image:"assets/images/drawings/Kim-the-flower-fairy.jpg",
+			},{
+				name:{
+					ENG:"Kaguya, the moon priestess",
+					FREN:"Kaguya, la prêtresse de la lune",
+					ESP:"Kaguya, la sacerdotisa de la luna"
+				},
+				description:"",
+				image:"assets/images/drawings/Kaguya-the-moon-goddess.jpg",
 			},{
 				name:{
 					ENG:"Arene the lemurian and water priestess",

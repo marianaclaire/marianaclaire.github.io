@@ -243,7 +243,7 @@
 							<div class="portfolio-image-description">{{drawings.auraField.title[languageOpt]}}</div>
 						</div>
 					</div>
-					<div class="portfolio-image lazy" ng-repeat="d in drawings[2].data" data-original="{{d.image}}" >
+					<div class="portfolio-image lazy" ng-repeat="d in drawings[2].data" data-original="{{d.image}}" ng-if="$index < 4" >
 						<div class="portfolio-image-toggle">
 							<div class="portfolio-image-title">{{d.name[languageOpt]}}</div>
 							<div class="portfolio-image-description">{{drawings.intuitive.title[languageOpt]}}</div>

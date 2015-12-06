@@ -8,6 +8,14 @@ var drawingsDB = [
 		data: [
 			{
 				name:{
+					ENG:"Acturian, pleidian, sirian, tau cetian source aspects, whale and grouse guides",
+					FREN:"Acturian, pleidian, sirian, tau cetian source aspects, whale and grouse guides",
+					ESP:"Acturian, pleidian, sirian, tau cetian source aspects, whale and grouse guides"
+				},
+				description:"",
+				image:"assets/images/drawings/acturian-pleidian-sirian-tau-cetian-whale-grouse.jpg",
+			},{
+				name:{
 					ENG:"Acturian, andromedan, hyadian, fairy source aspects, tiger and dog guides",
 					FREN:"Acturian, andromedan, hyadian, fairy source aspects, tiger and dog guides",
 					ESP:"Acturian, andromedan, hyadian, fairy source aspects, tiger and dog guides"

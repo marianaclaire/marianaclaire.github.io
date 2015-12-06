@@ -8,6 +8,22 @@ var drawingsDB = [
 		data: [
 			{
 				name:{
+					ENG:"Prosaonyan, andromedan, atlantean aspects, leopard guide",
+					FREN:"Prosaonyan, andromedan, atlantean aspects, leopard guide",
+					ESP:"Prosaonyan, andromedan, atlantean aspects, leopard guide"
+				},
+				description:"",
+				image:"assets/images/drawings/Prosaonyan-andromedan-atlantean-leopard.jpg",
+			},{
+				name:{
+					ENG:"Pleidian, atlantean, hyadian aspects, elk and whale guides",
+					FREN:"Pleidian, atlantean, hyadian aspects, elk and whale guides",
+					ESP:"Pleidian, atlantean, hyadian aspects, elk and whale guides"
+				},
+				description:"",
+				image:"assets/images/drawings/Pleidian-atlantean-hyadian-elk-whale.jpg",
+			},{
+				name:{
 					ENG:"Acturian, pleidian, sirian, tau cetian source aspects, whale and grouse guides",
 					FREN:"Acturian, pleidian, sirian, tau cetian source aspects, whale and grouse guides",
 					ESP:"Acturian, pleidian, sirian, tau cetian source aspects, whale and grouse guides"

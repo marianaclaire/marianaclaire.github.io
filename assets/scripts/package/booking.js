@@ -175,13 +175,13 @@ var prices =
             ENG: "Aura Field drawing $95 USD",
             FREN: "Illustration du champ de l'aura 95$ USD",
             ESP: "Ilustración del campo del Aura 95$ USD",
-            value: "Aura field illustration"
+            value: "Aura Field illustration"
         },
         {
             ENG: "Couple Aura Field drawing $189 USD",
             FREN: "un dessin du champ de l’aura d’un couple 189$ USD",
             ESP: "Ilustración del campo del Aura para parejas 189$ USD",
-            value: "Couple Aura field illustration"
+            value: "Couple Aura Field illustration"
         },
         {
             ENG: "Past Life Comic Book $189 USD",

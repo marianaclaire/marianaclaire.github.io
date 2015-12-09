@@ -3,13 +3,21 @@ var testimonials = {
 	length: 0,
 	data: [
 	{
+		user:"Natacha Simpson",
+		message:"I had some stresses but I had so much calm & peace after Mariana did my intuitive reading. She let me know that I am on the right path & that I have much to look forward too. I recommend her to friends & family. She seeks to explain the path for the highest good for whomever she is giving a reading to.",
+		date:"12/5/2015"
+	},{
+		user:'Joshua Hasselbring',
+		message:'Mariana Claire is an amazing pure souled claircognizant, clairaudient clairvoyant. She is down to earth and told me things that are very real, things I can work on NOW, no matter what I\'m feeling. She made sure I understood WHAT I was hearing, WHY it\'s important and HOW to use the information. She told me my higher guides names, where they are from and why I am associated with them for expansion. It\'s refreshing to hear that my problems are NOT complicated, and naming my negative core beliefs reminded me of how manageable ALL of my triggers are. Her voice is very healing. I couldn\'t believe how OLD she acts. I was astonished by how calm, collected, direct, SINCERE, enthusiastic and positive she was. I think shes like that ALL the time. Also, she does drawings. I didn\'t get one but you should check this all out. Talk with her if you are interested in receiving guidance.',
+		date:'12/5/2015'
+	},{
 		user:'Amber Flavia',
 		message:'I can not express how absolutely amazing Mariana is at what she does. I can not recommend her highly enough. Her energy, love and true compassion is incredibly healing and empowering.',
-		date:'17/11/2015'
+		date:'11/17/2015'
 	},{
 		user:'Ajok Adiang',
 		message:' had a reading with Mariana Claire and it went really great! She told me and taught me things about myself that I never could never have imagined which helped me a lot! I loved every moment of it! She is awesome!',
-		date:'16/11/2015'
+		date:'11/16/2015'
 	},{
 		user:'Liam Gall',
 		message:'I had the most wonderful soul origins / guides session with Mariana the other day! Her heart is so full of gentleness! She spoke with my guides, asked their names and told me all about their purpose in my life and their negative imprint. Everything she said vibrated inside me - it really was an eye-opening experience! Even with our 8-hour time zone difference, she found a way to schedule our Skype session and a few days later I\'m still buzzing with butterflies inside me :) Thank you so much Mariana for a wonderful experience that has knocked me way out of my usually safe little mindspace - my heart feels soothed, my body feels more alive and my soul is dancing!',
@@ -17,11 +25,11 @@ var testimonials = {
 	},{
 		user:'Jodie Lynne',
 		message:'I had a reading and drawing done by Mariana. Both her gifts and talent in art make an amazing and inspirational combination. She was able to connect with my guides in a detailed way and help facilitate their messages accurately. Since meeting Mariana my inner flame has been stoked in a way that inspires and motivates me to do my best. Even though much younger in physical age, her gifts and wisdom are ancient. I am grateful to call her my friend and so blessed to receive her wisdom',
-		date:'07/11/2015'
+		date:'11/07/2015'
 	},{
 		user: 'Rebecca Elizabeth Anne',
 		message: 'Within my reading with Mariana, she proved herself to be a truly gifted extrasensory reader. Mariana was spot on with everything she intuited and provided a safe place for me to express my emotions and to clarify helpful insight that would assist me in processing them and in moving forwards. I highly recommend Mariana to all!',
-		date: '26/10/2015'
+		date: '10/26/2015'
 	},{
 		user: 'Nicole Estrella',
 		message:'I just had my first appointment with Mariana and it was incredible. I am speechless. It truly was amazing and I am so grateful. Thank you so much and I promise I will keep practicing and put myself out there. <3 highly suggest scheduling time with her. Try out some Aura Alchemy and get a reading!',

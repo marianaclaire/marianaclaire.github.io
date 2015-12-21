@@ -213,9 +213,9 @@ var contact = {
 			links: [
 				{
 					name: {
-						ENG: "Mariana Claire",
-						FREN: "Mariana Claire",
-						ESP: "Mariana Claire"
+						ENG: "Mariana Claire (English)",
+						FREN: "Mariana Claire (Anglais)",
+						ESP: "Mariana Claire (Inglés)"
 					},
 					desc: {
 						ENG: "Facebook fan page, the previous online headquarter, the start of everything",
@@ -223,6 +223,19 @@ var contact = {
 						ESP: ""
 					},
 					url: "https://www.facebook.com/Mariana-Claire-1484113901885029/"
+				},
+				{
+					name: {
+						ENG: "Mariana Claire (Spanish)",
+						FREN: "Mariana Claire (Espagnol)",
+						ESP: "Mariana Claire (Español)"
+					},
+					desc: {
+						ENG: "Facebook fan page",
+						FREN: "",
+						ESP: ""
+					},
+					url: "ttps://www.facebook.com/marianaclairesp"
 				},{
 					name: {
 						ENG: "Mariana Claire, Spiritual Family (English)",

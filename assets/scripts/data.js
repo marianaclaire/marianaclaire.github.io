@@ -222,7 +222,7 @@ var contact = {
 						FREN: "",
 						ESP: ""
 					},
-					url: "https://www.facebook.com/Mariana-Claire-1484113901885029/"
+					url: "https://www.facebook.com/MarianaClaireOfficial/"
 				},
 				{
 					name: {
@@ -235,7 +235,7 @@ var contact = {
 						FREN: "",
 						ESP: ""
 					},
-					url: "ttps://www.facebook.com/marianaclairesp"
+					url: "https://www.facebook.com/marianaclairesp"
 				},{
 					name: {
 						ENG: "Mariana Claire, Spiritual Family (English)",

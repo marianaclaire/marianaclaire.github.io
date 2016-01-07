@@ -323,6 +323,24 @@ var contact = {
 					url: "https://medium.com/@marianaclairesp"
 				}
 			]
+		},{
+			category: "Instagram",
+			faIcon: "fa-instagram",
+			links: [
+				{
+					name: {
+						ENG: "the_akashic_alchemist",
+						FREN: "the_akashic_alchemist",
+						ESP: "the_akashic_alchemist"
+					},
+					desc: {
+						ENG: "",
+						FREN: "",
+						ESP: ""
+					},
+					url: "https://www.instagram.com/the_akashic_alchemist/"
+				}
+			]
 		}
 	],
 	pictures: [

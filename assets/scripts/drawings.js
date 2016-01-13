@@ -8,6 +8,14 @@ var drawingsDB = [
 		data: [
 			{
 				name:{
+					ENG:"Hyadian, lemurian, sirian and acturian aspects, owl guide",
+					FREN:"Hyadian, lemurian, sirian and acturian aspects, owl guide",
+					ESP:"Hyadian, lemurian, sirian and acturian aspects, owl guide"
+				},
+				desc:"",
+				image:"assets/images/drawings/hyadian-lemurian-sirian-and-acturian-aspects-owl-guide.jpg"
+			},{
+				name:{
 					ENG:"Prosaonyan, andromedan, atlantean aspects, leopard guide",
 					FREN:"Prosaonyan, andromedan, atlantean aspects, leopard guide",
 					ESP:"Prosaonyan, andromedan, atlantean aspects, leopard guide"

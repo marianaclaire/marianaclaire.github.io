@@ -3,10 +3,18 @@ var drawingsDB = [
 		title: {
 			ENG:"Aura field drawing",
 			FREN:"Dessins de spécifiques de l'aura",
-			ESP:"Dibujos específicos del aura"
+			ESP:"Ilustración del campo del Aura"
 		},
 		data: [
 			{
+				name:{
+					ENG:"Hyadian, tau cetian, sirian, acturian and Isis",
+					FREN:"Hyadian, tau cetian, sirian, acturian and Isis",
+					ESP:"Hyadian, tau cetian, sirian, acturian and Isis",
+				},
+				desc:"",
+				image:"assets/images/drawings/hyadian-tau-cetian-sirian-acturian-and-isis.jpg"
+			},{
 				name:{
 					ENG:"Hyadian, lemurian, sirian and acturian aspects, owl guide",
 					FREN:"Hyadian, lemurian, sirian and acturian aspects, owl guide",

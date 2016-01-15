@@ -8,6 +8,14 @@ var drawingsDB = [
 		data: [
 			{
 				name:{
+					ENG:"Annunaki, centaurian, tau cetian, sirian, pleidian and draconian",
+					FREN:"Annunaki, centaurian, tau cetian, sirian, pleidian and draconian",
+					ESP:"Annunaki, centaurian, tau cetian, sirian, pleidian and draconian"
+				},
+				desc:"",
+				image:"assets/images/drawings/annunaki-centaurian-tau-cetian-sirian-pleidian-and-draconian.jpg"
+			},{
+				name:{
 					ENG:"Hyadian, tau cetian, sirian, acturian and Isis",
 					FREN:"Hyadian, tau cetian, sirian, acturian and Isis",
 					ESP:"Hyadian, tau cetian, sirian, acturian and Isis",

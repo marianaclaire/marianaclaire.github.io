@@ -3,6 +3,14 @@ var testimonials = {
 	length: 0,
 	data: [
 	{
+		user:"Jared Ciofalo",
+		message:"Mariana is an amazing medium and healer. She was extremely insightful during my one hour session. I learned about aspects of myself I wasn't previously aware of, and in learning about them, it led me to curiously research these aspects of myself more in depth. I highly recommend booking a session with this incredibly gifted and talented young woman who is far wise beyond her years. You will leave satisfied and more than likely feel the need to book another session to discover even more about yourself as together you dig deeper.",
+		date:"1/13/2016"
+	},{
+		user:"Karina Voroshilova",
+		message:"Thank YOU - so much for such an interesting channeling.",
+		date:"1/2/2016"
+	},{
 		user:"Natacha Simpson",
 		message:"I had some stresses but I had so much calm & peace after Mariana did my intuitive reading. She let me know that I am on the right path & that I have much to look forward too. I recommend her to friends & family. She seeks to explain the path for the highest good for whomever she is giving a reading to.",
 		date:"12/5/2015"

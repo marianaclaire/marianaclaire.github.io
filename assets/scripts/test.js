@@ -3,6 +3,10 @@ var testimonials = {
 	length: 0,
 	data: [
 	{
+		user:"Joshua Hasselbring",
+		message:"Mariana Claire is an amazing pure souled claircognizant, clairaudient and clairvoyant. She is down to earth and told me things that are very real, things I can work on NOW, no matter what I'm feeling. She made sure I understood WHAT I was hearing, WHY it's important and HOW to use the information. She told me my higher guides names, where they are from and why I am associated with them for expansion. It's refreshing to hear that my problems are NOT complicated, and naming my negative core beliefs reminded me of how manageable ALL of my triggers are. Her voice is very healing. I couldn't believe how OLD she acts. I was astonished by how calm, collected, direct, SINCERE, enthusiastic and positive she was. I think shes like that ALL the time. Also, she does drawings. I didn't get one but you should check this all out. Talk with her if you are interested in receiving guidance.",
+		date:"1/19/2016"
+	},{
 		user:"Jared Ciofalo",
 		message:"Mariana is an amazing medium and healer. She was extremely insightful during my one hour session. I learned about aspects of myself I wasn't previously aware of, and in learning about them, it led me to curiously research these aspects of myself more in depth. I highly recommend booking a session with this incredibly gifted and talented young woman who is far wise beyond her years. You will leave satisfied and more than likely feel the need to book another session to discover even more about yourself as together you dig deeper.",
 		date:"1/13/2016"

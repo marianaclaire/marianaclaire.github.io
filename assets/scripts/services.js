@@ -77,7 +77,7 @@ var services = [
 		},
 		slug:{
 			ENG:"activation",
-			FREN:"activation",
+			FREN:"activation-f",
 			ESP:"activationes"
 		},
 		color: "#3366FF",

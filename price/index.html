@@ -117,11 +117,15 @@
                         <h3 class="enumerate">{{ paymentType.title[languageOpt] }}</h3>
                         <ul>
                             <li ng-repeat="p in paymentType.price[languageOpt]" ng-bind-html="p | to_trusted"></li>
-                        </ul
+                        </ul>
                     </div>
                 </div>
 
-
+                <a href="../#{{languageOpt}}" class="subtle">
+                    <i class="fa fa-chevron-left"></i> <span class="lang-ENG">Back</span>
+                    <span class="lang-FREN">Retourner</span>
+                    <span class="lang-ESP">Atrás</span>
+                </a>
                 <i ng-init="refresh()"></i>
             </div>
             <div style="margin:10%"> </div>

@@ -251,7 +251,7 @@ var servicesFull = {
 		},
 		slug:{
 			ENG:"activation",
-			FREN:"activation",
+			FREN:"activation-f",
 			ESP:"activationes"
 		},
 		description: {
@@ -385,20 +385,20 @@ var servicesFull = {
 var validLangsServices = {
 	FREN:{
 		entrainement:"coaching",
-		alchimie:"alchemy",
+		rapports:"report",
 		peintures:"paintings",
 		dessins:"drawings",
 		lectures:"readings",
-		'reiki-f':"reiki",
+		"activation-f":"activation",
 		'guérison':"healing"
 	},
 	ESP:{
 		entrenamiento:"coaching",
-		alquimista:"alchemy",
+		reportes:"report",
 		pinturas:"paintings",
 		dibujos:"drawings",
 		lecturas:"readings",
-		'reiki-e':"reiki",
+		'activationes':"activation",
 		'sanación':"healing"
 	}
 }

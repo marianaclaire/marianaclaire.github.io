@@ -101,9 +101,9 @@ var titles = {
 		ESP: "Testimonios",
 	},
 	book :{
-		ENG: "Book Service",
-		FREN: "Réservez une session",
-		ESP: "Reserve una sesión",
+		ENG: "Purchasing a service",
+		FREN: "Acquérir un service",
+		ESP: "Adquirir un servicio",
 	}
 }
 

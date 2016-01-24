@@ -29,18 +29,18 @@ var services = [
 		faIconBase: "fa-sun-o",
 	},{
 		name: {
-			ENG:"Alchemical Integration Process",
-			FREN:"Processus d’intégration alchimique",
-			ESP:"Proceso alquimico de integración"
+			ENG: "Healing",
+			FREN:"Guérisons",
+			ESP:"Sanaciones"
 			},
 		slug: {
-			ENG:"alchemy",
-			FREN:"alchimie",
-			ESP:"alquimista"
+			ENG:"healing",
+			FREN:"guérison",
+			ESP:"sanación"
 			},
 		color: "#FF9933",
-		faIcon: "fa-diamond",
-		faIconBase: "fa-sun-o",
+		faIcon: "fa-heartbeat",
+		faIconBase: "fa-hand-paper-o"
 	},{
 		name: {
 			ENG:"Soul Drawing",
@@ -70,32 +70,32 @@ var services = [
 	// 	faIcon: "fa-paint-brush ",
 	// 	faIconBase: "fa-user",
 	},{
-		name: {
-			ENG:"Reiki",
-			FREN:"Reiki",
-			ESP:"Reiki"
-			},
-		slug: {
-			ENG:"reiki",
-			FREN:"reiki-f",
-			ESP:"reiki-e"
-			},
+		name:{
+			ENG:"Activation",
+			FREN:"Activation",
+			ESP:"Activationes"
+		},
+		slug:{
+			ENG:"activation",
+			FREN:"activation",
+			ESP:"activationes"
+		},
 		color: "#3366FF",
-		faIcon: "fa-hand-paper-o",
+		faIcon: "fa-diamond",
 		faIconBase: "fa-sun-o",
 	},{
-		name: {
-			ENG:"Sound Healing",
-			FREN:"Guérison avec les sons",
-			ESP:"Sanación de sonido",
-			},
-		slug: {
-			ENG:"healing",
-			FREN:"guérison",
-			ESP:"sanación",
-			},
+		name:{
+			ENG:"Channeled Report",
+			FREN:"Rapoorts Canadlisés",
+			ESP:"Reportes Canalizados"
+		},
+		slug:{
+			ENG:"report",
+			FREN:"rapports",
+			ESP:"reportes"
+		},
 		color: "#9966FF",
-		faIcon: "fa-music",
-		faIconBase: "fa-heartbeat",
+		faIcon: "fa-file-o",
+		faIconBase: "fa-eye",
 	}
 ];

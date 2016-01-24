@@ -3,6 +3,66 @@ var testimonials = {
 	length: 0,
 	data: [
 	{
+		user:"Christopher Frechette",
+		message:"Working with Mariana was an absolute pleasure! She is the REAL DEAL! Immediately she was able to connect with my spirit guides and angels, giving me detailed descriptions, names, and messages from them that have incredible profound insight on my life at the moment and the major challenges I am facing. She has helped me to find clarity with my life purpose and to see the specific blockages and traumatic wounds that are at the root of my current challenges. I highly recommend Mariana if you are in need of some guidance, healing, and deep spiritual insight! Thank you Mariana, you are a very talented, beautiful lightworker and I am so grateful for your help <3",
+		date:"1/23/2016"
+	},{
+		user:"Paula A Blanco",
+		message:"Just finished my session with Mariana and quite frankly I'm astounded. I'd heard she was good and her reading did not dissapoint. She really did just reach into my deepest depths and reveal so many things to me. A truly gifted and very beautiful soul. Highly recommend if you are looking for some guidance in life!!",
+		date:"1/23/2016"
+	},{
+		user:"William Adley",
+		message:"She's very good, and a joy to talk with. She is going to go on to do great things.",
+		date:"1/23/2016"
+	},{
+		user:"Erin Aslan",
+		message:"Mariana is a wonderful healer with unbelievably accurate channeling abilities. The messages she gave me from my guides and past lives literally put me on the path to healing my deep parental wounds. I am looking forward to having my own house so I can get her paint me a soul drawing for my wall. Because she is also a wonderful artist/ painter. Did I also say that she is beautiful soul that deeply cares for people and does her work for the sake of helping people? She is the wounded healer that inspired me to follow my path. She is just awesome. The information she gives is precious! i recommend everyone to book a session and learn about their souls calling",
+		date:"1/21/2016"
+	},{
+		user:"Nanda Nanda",
+		message:"Gracias por contribuir a todo esto. Que lo bueno siempre sea bienvenido",
+		date:"1/21/2016"
+	},{
+		user:"Ajok Adiang",
+		message:"Mariana is awesome! When I had my session with her she taught me some things about myself and it was really cool! I am really excited for her up coming YouTube videos Keep up the great work Mariana!",
+		date:"1/21/2016"
+	},{
+		user:"Helena Horvat",
+		message:"She's a real diamond in the rough! Her skills are on point and she's a real sweetheart If you want to know about your many past lives, she's your girl! She will help you put the puzzle together",
+		date:"1/21/2016"
+	},{
+		user:"Jodie Lynne",
+		message:"I had a aura drawing and reading done by Mariana and was impressed by the accuracy and detail she puts into her work. She truly touched my soul. I also had my one guide come through and ask to be drawn, I was amazed with how she could draw him exactly how he appears to me, and I'm so grateful I would highly recommend a reading if you want to reconnect with who you really are on a soul level. So much love and care goes into her work.",
+		date:"1/21/2016"
+	},{
+		user:"Petal Cabral",
+		message:"Mariana is amazing. She did my first reading ever and It was crazy how true what she said was.She guided me and put my mind at ease. She also does some amazing drawings which I'm hoping to buy soon. Love you Mariana",
+		date:"1/21/2016"
+	},{
+		user:"Elisabeth Noel-Major",
+		message:"Marianna est géniale, la session fut une expérience que je n'oublierai jamais!! Je la recommande sans hésiter!!",
+		date:"1/21/2016"
+	},{
+		user:"Daniela Duque",
+		message:"When I first booked a session with Mariana I was so scared and skeptic about the whole thing, I was still very new to this spiritual movement. However, had been mediating for about year and through that I had managed to contact my main spirit guide. Therefore when Mariana spoke to me about my guide, I was able to confirm that she was the real deal and my walls came down. For the rest of the session we spoke about my other guides and my life purpose which brought me into this state of realisation. I like her honesty and the gentle way she approach me cause I was quite nervous. I think she incredibly gifted and would recommend her to all of you who are looking for answers and are to feel empowered. Mariana has a beautiful ability to empower people with her gift, which is what I personally took from the session. Thank you so much Mariana, you're an angel on earth",
+		date:"1/21/2016"
+	},{
+		user:"Temka",
+		message:"She and her workings are so amazing. I believe that she will do very great thing. Success!!",
+		date:"1/21/2016"
+	},{
+		user:"Joel JB Corr",
+		message:"Congratulations for your page. Her drawings are very good, intuitive full of energy and life. She is very professional in what she does, I recommend her services. They have her personal touch on everything. Highly recommended, you will not regret it",
+		date:"1/21/2016"
+	},{
+		user:"Joel JB Corr",
+		message:"Congratulations for your page. Her drawings are very good, intuitive full of energy and life. She is very professional in what she does, I recommend her services. They have her personal touch on everything. Highly recommended, you will not regret it",
+		date:"1/21/2016"
+	},{
+		user:"Thomas Etchebarne",
+		message:"Mariana helped me a lot with finding my way back into empowerment ! I highly recommend her ! Thank you Mariana :)",
+		date:"1/21/2016"
+	},{
 		user:"Joshua Hasselbring",
 		message:"Mariana Claire is an amazing pure souled claircognizant, clairaudient and clairvoyant. She is down to earth and told me things that are very real, things I can work on NOW, no matter what I'm feeling. She made sure I understood WHAT I was hearing, WHY it's important and HOW to use the information. She told me my higher guides names, where they are from and why I am associated with them for expansion. It's refreshing to hear that my problems are NOT complicated, and naming my negative core beliefs reminded me of how manageable ALL of my triggers are. Her voice is very healing. I couldn't believe how OLD she acts. I was astonished by how calm, collected, direct, SINCERE, enthusiastic and positive she was. I think shes like that ALL the time. Also, she does drawings. I didn't get one but you should check this all out. Talk with her if you are interested in receiving guidance.",
 		date:"1/19/2016"

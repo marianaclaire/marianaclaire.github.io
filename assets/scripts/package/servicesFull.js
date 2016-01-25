@@ -247,12 +247,12 @@ var servicesFull = {
 		name:{
 			ENG:"Activation",
 			FREN:"Activation",
-			ESP:"Activationes"
+			ESP:"Activaciones"
 		},
 		slug:{
 			ENG:"activation",
 			FREN:"activation-f",
-			ESP:"activationes"
+			ESP:"activaciones"
 		},
 		description: {
 			ENG:[
@@ -279,7 +279,7 @@ var servicesFull = {
 	report:{
 		name:{
 			ENG:"Channeled Report",
-			FREN:"Rapoorts Canadlisés",
+			FREN:"Rapoorts Canalisés",
 			ESP:"Reportes Canalizados"
 		},
 		slug:{
@@ -398,7 +398,7 @@ var validLangsServices = {
 		pinturas:"paintings",
 		dibujos:"drawings",
 		lecturas:"readings",
-		'activationes':"activation",
+		'activaciones':"activation",
 		'sanación':"healing"
 	}
 }

@@ -73,12 +73,12 @@ var services = [
 		name:{
 			ENG:"Activation",
 			FREN:"Activation",
-			ESP:"Activationes"
+			ESP:"Activaciones"
 		},
 		slug:{
 			ENG:"activation",
 			FREN:"activation-f",
-			ESP:"activationes"
+			ESP:"activaciones"
 		},
 		color: "#3366FF",
 		faIcon: "fa-diamond",

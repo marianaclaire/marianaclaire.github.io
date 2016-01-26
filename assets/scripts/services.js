@@ -86,7 +86,7 @@ var services = [
 	},{
 		name:{
 			ENG:"Channeled Report",
-			FREN:"Rapoorts Canadlisés",
+			FREN:"Rapoorts Canalisés",
 			ESP:"Reportes Canalizados"
 		},
 		slug:{

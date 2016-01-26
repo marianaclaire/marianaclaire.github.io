@@ -263,7 +263,7 @@ var contact = {
 	},
 	contact:{
 		ENG: "Contact",
-		FREN: "Contacte",
+		FREN: "Contact",
 		ESP: "Contacto"
 	}
 }

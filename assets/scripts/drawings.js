@@ -2,11 +2,19 @@ var drawingsDB = [
 	{
 		title: {
 			ENG:"Aura field drawing",
-			FREN:"Dessins de spécifiques de l'aura",
+			FREN:"Illustration du Champs Aurique",
 			ESP:"Ilustración del campo del Aura"
 		},
 		data: [
 			{
+				name:{
+					ENG:"Hyadian, sirian mermaid, andromedan, pleiadian and unicorn guide",
+					FREN:"Hyadian, sirian mermaid, andromedan, pleiadian and unicorn guide",
+					ESP:"Hyadian, sirian mermaid, andromedan, pleiadian and unicorn guide"
+				},
+				desc:"",
+				image:"assets/images/drawings/hyadian-sirian-mermaid-andromedan-pleiadian-and-unicorn-guide.jpg"
+			},{
 				name:{
 					ENG:"Annunaki, centaurian, tau cetian, sirian, pleidian and draconian",
 					FREN:"Annunaki, centaurian, tau cetian, sirian, pleidian and draconian",
@@ -116,7 +124,7 @@ var drawingsDB = [
 	},{
 		title: {
 			ENG:"Intuitive drawing",
-			FREN: "Dessins intuitive",
+			FREN: "Dessins intuitives",
 			ESP: "Dibujos intuitivos"
 		},
 		data:[
@@ -150,11 +158,19 @@ var drawingsDB = [
 	},{
 		title: {
 			ENG:"Soul Portrait",
-			FREN:"Illustration de ton âme",
+			FREN:"Illustration de votre âme",
 			ESP:"Ilustración de su alma"
 		},
 		data: [
 			{
+				name:{
+					ENG:"Silvia",
+					FREN:"Silviae",
+					ESP:"Silvia"
+				},
+				description:"",
+				image:"assets/images/drawings/Silvia.jpg",
+			},{
 				name:{
 					ENG:"Hilda",
 					FREN:"Hildae",
@@ -199,11 +215,27 @@ var drawingsDB = [
 	},{
 		title: {
 			ENG:"Spirit Guide Illustration",
-			FREN:"Illustration de ton guide",
+			FREN:"Illustration de votre guide",
 			ESP:"Ilustración de su espíritu guía"
 		},
 		data: [
 			{
+				name:{
+					ENG:"Pleiadian",
+					FREN:"Pleiadian",
+					ESP:"Pleiadian"
+				},
+				description:"",
+				image:"assets/images/drawings/Pleiadian.jpg",
+			},{
+				name:{
+					ENG:"Allana",
+					FREN:"Allana",
+					ESP:"Allana"
+				},
+				description:"",
+				image:"assets/images/drawings/allana.jpg",
+			},{
 				name:{
 					ENG:"Sirius",
 					FREN:"Sirius",
@@ -242,7 +274,7 @@ var drawingsDB = [
 
 var sampleDrawing = {
 	ENG:"Soul drawings are empowering for people. They contain specific light frequencies that facilitate their connection to the vibration of their origin, source aspects, life purposes and abilities. Stepping into the vibration of your higher self or source aspects is very empowering because it helps people remember who they are and why they incarnated at this time. It is important to keep the drawing close to the place where you meditate and meditate with it. The report explains in detail what the drawing means. I ship the original copy of all the drawings. The shipping and report fee are included in all the prices. Take note that it will take around 2 or 3 weeks for you to receive the drawing after the day you made the payment.",
-	FREN:"Les dessins spirituels ont des fréquences de lumière spécifiques qui ont pour but de donner les moyens au gens pour se connecter avec la vibration de leur origine, aspects de source, objectifs de vie et leurs habilités. Donner un pas vers la vibration de ton âme et aspects de source est très libérateur parce que ça aide les gens à se rappeler qui ils sont et pourquoi ils se sont incarnés sur terre. C’est important de mettre le dessin près d’où vous faites vos méditations et de méditer avec lui. Le rapport explique en détail les images du dessin. Je vous envoi la copie originelle de votre dessin. Le prix de l’envoi et du rapport sont déjà inclus dans le prix total du dessin. Prenez note que ça prendra environ 2 à 3 semaines pour recevoir votre dessin après avoir fait le paiement.",
+	FREN:"Les dessins spirituels ont des fréquences de lumière spécifiques qui ont pour but de donner les moyens au gens pour se connecter avec la vibration de leur origine, aspects de source, objectifs de vie et leurs habilités. Donner un pas vers la vibration de votre âme et aspects de source est très libérateur parce que ça aide les gens à se rappeler qui ils sont et pourquoi ils se sont incarnés sur terre. C’est important de mettre le dessin près d’où vous faites vos méditations et de méditer avec lui. Le rapport explique en détail les images du dessin. Je vous envoi la copie originelle de votre dessin. Le prix de l’envoi et du rapport sont déjà inclus dans le prix total du dessin. Prenez note que ça prendra environ 2 à 3 semaines pour recevoir votre dessin après avoir fait le paiement.",
 	ESP:"Mis dibujos espirituales fortalecen a las personas. Contienen frecuencias de luz específicas que facilitan su conexión con la vibración de su origen, aspectos, guías, propósitos de vida y habilidades. Dar un paso hacia la vibración de su “yo” superior en otras palabras de su alma es bastante fortalecedor  y liberador para la personas porque les ayuda a recordar quienes son y para que se reincarnaron en esta vida. Es importante colocar el dibujo cerca del lugar donde se medita y meditar con él. El reporte explica en detalle lo que el dibujo significa. Enviare la copia original del dibujo. El precio del dibujo ya incluye el precio del reporte y del envío. Tomar nota que tomara 2 a 3 semanas para que usted reciba el dibujo después de haber efectuado el pago.",
 	shortDesc:{
 		ENG:"Soul drawings are empowering for people. They contain specific light frequencies that facilitate their connection to the vibration of their origin, source aspects, life purposes and abilities.",

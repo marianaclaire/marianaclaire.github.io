@@ -94,18 +94,18 @@ var servicesFull = {
 				// "<center><img src='../assets/images/drawings/1.jpg'></center>"
 			],
 			FREN:[
-				"Les dessins spirituels ont des fréquences de lumière spécifiques qui ont pour but de donner les moyens au gens pour se connecter avec la vibration de leur origine, aspects de source, objectifs de vie et leurs habilités. Donner un pas vers la vibration de ton âme et aspects de source est très libérateur parce que ça aide les gens à se rappeler qui ils sont et pourquoi ils se sont incarnés sur terre. C’est important de mettre le dessin près d’où vous faites vos méditations et de méditer avec lui.",
+				"Les dessins spirituels ont des fréquences de lumière spécifiques qui ont pour but de donner les moyens au gens pour se connecter avec la vibration de leur origine, aspects de source, objectifs de vie et leurs habilités. Donner un pas vers la vibration de votre âme et aspects de source est très libérateur parce que ça aide les gens à se rappeler qui ils sont et pourquoi ils se sont incarnés sur terre. C’est important de mettre le dessin près d’où vous faites vos méditations et de méditer avec lui.",
 				"Si vous avez choisi un dessin spirituel de quelque sorte que ce soit, s’il-vous-plaît envoyez moi un message par courriel avec l’adresse à laquelle vous voulez que j’envoie le dessin. Joigniez y également la photo de la personne pour qui le dessin est destiné. <b>marianaclaireinfo@gmail.com</b>",
 				"Vous pouvez aussi choisir d’acheter votre dessin avec un rapport pour un prix spécial. Pour regarder la liste des rapports canalisés regarder la section des rapports. ",
 				"Je vous envoi la copie originelle de votre dessin. Prenez note que ça prendra environ 2 à 3 semaines pour recevoir votre dessin après avoir fait le paiement. Le prix de l’envoi est écrit dans la section du Paiement.",
 				"<h3>1. Illustration de votre Équipe Spirituelle (100$)</h3>Ceci est une illustration de votre Équipe Spirituelle : vos guides, aspects cosmiques, Moi Supérieur et esprit guide animal. Vous avez aussi l’option d’acheter ce dessin avec le rapport de votre Équipe Spirituelle. Pour faire ce dessin je vais utiliser mes habilités de canalisation et clairvoyance pour me communiquer avec vos guides. Le dessin mesure 14 x 17 pouces.",
 				// "<img width='100%' src='../assets/images/drawings/Sirian-Hyadian-Lemurian-and-Pleidian-source-aspects.jpg'>",
 				"<h3>2. Illustration de votre Relation (90$)</h3>Ceci c’est une illustration d’une relation entre deux personnes. Ce dessin peut être fait pour n’importe quel type de relation. Vous avez deux choix : soit je dessine les deux personnes avec la forme de leur Moi Supérieur ou soit je les dessine avec la forme de leurs Origines Cosmiques. Vous avez aussi l’option d’acheter ce dessin avec le rapport de votre Relation. Pour faire ce dessin je vais utiliser mes habilités de canalisation et clairvoyance pour me communiquer avec vos guides. Le dessin mesure 14 x 17 pouces.",
-				"<h3>3. Illustration de ton Moi Supérieur (65$)</h3>Ceci est une illustration de votre “Moi supérieur”. Votre Moi Supérieur est la partie éternelle, omnipotente, consciente et authentique de votre âme. C’est le vrai vous. Je vais utiliser mes habilités de canalisation et clairvoyance pour me communiquer avec votre âme. Le dessin mesure 10 x 15 pouces. ",
-				"<h3>4. Illustration de ton Esprit Guide (65$)</h3>Ceci est une illustration d’un de vos esprits guides. Je vais dessiner l’esprit guide qui est le plus signifiant pour vous à ce moment où le esprit guide que vous me demanderez de dessiner. N’oubliez pas que vos esprits guides dominants son vos aspects cosmiques. Je vais utiliser mes habilités de canalisation et clairvoyance pour me communiquer avec votre guide. Le dessin mesure 10 x 15 pouces.",
+				"<h3>3. Illustration de votre Moi Supérieur (65$)</h3>Ceci est une illustration de votre “Moi supérieur”. Votre Moi Supérieur est la partie éternelle, omnipotente, consciente et authentique de votre âme. C’est le vrai vous. Je vais utiliser mes habilités de canalisation et clairvoyance pour me communiquer avec votre âme. Le dessin mesure 10 x 15 pouces. ",
+				"<h3>4. Illustration de votre Esprit Guide (65$)</h3>Ceci est une illustration d’un de vos esprits guides. Je vais dessiner l’esprit guide qui est le plus signifiant pour vous à ce moment où le esprit guide que vous me demanderez de dessiner. N’oubliez pas que vos esprits guides dominants son vos aspects cosmiques. Je vais utiliser mes habilités de canalisation et clairvoyance pour me communiquer avec votre guide. Le dessin mesure 10 x 15 pouces.",
 				// "<center><img src='../assets/images/drawings/Elsa-the-warrior-light-fairy.jpg'></center>",
 				"<h3>5. Dessin intuitif (75$)</h3>Les dessins intuitifs sont toujours une surprise. Pour ce dessin intuitif je vais demander directement à votre âme et à vos guides de me faire canaliser les symboles, images, messages et couleurs qui sont les plus thérapeutiques pour vous à ce moment. La plupart du temps ce dessin est une activation du troisième œil ou de votre ADN. Ce dessin dépend des besoins de la personne à un moment précis de leur vie. Je vais utiliser mes habilités de canalisation et clairvoyance pour me communiquer avec vos guides. Le dessin mesure 10 x 15 pouces.",
-				"<h3>6. Illustration du Champs Aurique (120$)</h3>Ce dessin illustre la vibration de tout ce qui est dans le champ de ton aura. Je vais dessiner votre âme au milieu entourée de ton aura, aspects de source, esprits guides, tes guides animaux, maîtres ascensionnés, archanges et symboles canalisés. Je vais utiliser mes habilités de canalisation et clairvoyance pour accéder à vos Archives Akashiques. Vous avec l’option d’acheter ce dessin avec le rapport du Champs Aurique. Le dessin mesure 14 x 17 pouces. ",
+				"<h3>6. Illustration du Champs Aurique (120$)</h3>Ce dessin illustre la vibration de tout ce qui est dans le champ de votre aura. Je vais dessiner votre âme au milieu entourée de votre aura, aspects de source, esprits guides, tes guides animaux, maîtres ascensionnés, archanges et symboles canalisés. Je vais utiliser mes habilités de canalisation et clairvoyance pour accéder à vos Archives Akashiques. Vous avec l’option d’acheter ce dessin avec le rapport du Champs Aurique. Le dessin mesure 14 x 17 pouces. ",
 				"<h3>7. Illustration du Champs Aurique de votre Relation (200$)</h3>Ce dessin illustre la vibration de tout ce qui est dans le champ de l’aura du couple. Je vais dessiner leurs âmes au milieu entourées de l’aura du couple, aspects de source, esprits guides, tes guides animaux, maîtres ascensionnés, archanges et symboles canalisés. Je vais utiliser mes habilités de canalisation et clairvoyance pour accéder à vos Archives Akashiques. Ce dessin peut être fait pour n’importe quel type de relation avec deux personnes. Vous avez aussi l’option d’acheter ce dessin avec le rapport du Champs Aurique de votre Relation. Le dessin mesure 18 x 24 pouces.",
 				"<h3>8. Bande-dessinée sur une vie passée (280$)</h3>Ceci est une illustration d’une de vos vies passées. Je vais illustrer la vie passée qui est le plus signifiante pour vous à ce moment-ci ou la vie que vous me demanderez d’illustrer. Je vais utiliser mes habilités de canalisation et clairvoyance pour accéder à vos Archives Akashiques. La vie passée sera illustré avec une bande-dessinée de 3 pages.  Chaque page mesure 10 x 15 pouces. Vous avez aussi l’option d’acheter cette BD avec une Histoire Courte de votre Vie passée."
 				// "<center><img src='../assets/images/drawings/1.jpg'></center>"
@@ -243,15 +243,15 @@ var servicesFull = {
 		faIconBase: "fa-hand-paper-o",
 		image:"y.jpg"
 	},
-	activation:{
+	activations:{
 		name:{
-			ENG:"Activation",
-			FREN:"Activation",
+			ENG:"Activations",
+			FREN:"Activations",
 			ESP:"Activaciones"
 		},
 		slug:{
-			ENG:"activation",
-			FREN:"activation-f",
+			ENG:"activations",
+			FREN:"activations-f",
 			ESP:"activaciones"
 		},
 		description: {
@@ -279,7 +279,7 @@ var servicesFull = {
 	report:{
 		name:{
 			ENG:"Channeled Report",
-			FREN:"Rapoorts Canalisés",
+			FREN:"Rapports Canalisés",
 			ESP:"Reportes Canalizados"
 		},
 		slug:{
@@ -389,7 +389,7 @@ var validLangsServices = {
 		peintures:"paintings",
 		dessins:"drawings",
 		lectures:"readings",
-		"activation-f":"activation",
+		"activations-f":"activations",
 		'guérison':"healing"
 	},
 	ESP:{
@@ -398,7 +398,7 @@ var validLangsServices = {
 		pinturas:"paintings",
 		dibujos:"drawings",
 		lecturas:"readings",
-		'activaciones':"activation",
+		'activaciones':"activations",
 		'sanación':"healing"
 	}
 }

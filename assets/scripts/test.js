@@ -3,6 +3,10 @@ var testimonials = {
 	length: 0,
 	data: [
 	{
+		user:"Guada Tagalog",
+		message:"I love Mariana's intuitive gifts and her beautiful art. She shows genuine sincerity and always gives more than what you expect. She knows a lot about what she does and because of that, you'll know a lot about yourself too with her help.",
+		date:"1/24/2016"
+	},{
 		user:"Christopher Frechette",
 		message:"Working with Mariana was an absolute pleasure! She is the REAL DEAL! Immediately she was able to connect with my spirit guides and angels, giving me detailed descriptions, names, and messages from them that have incredible profound insight on my life at the moment and the major challenges I am facing. She has helped me to find clarity with my life purpose and to see the specific blockages and traumatic wounds that are at the root of my current challenges. I highly recommend Mariana if you are in need of some guidance, healing, and deep spiritual insight! Thank you Mariana, you are a very talented, beautiful lightworker and I am so grateful for your help <3",
 		date:"1/23/2016"
@@ -49,10 +53,6 @@ var testimonials = {
 	},{
 		user:"Temka",
 		message:"She and her workings are so amazing. I believe that she will do very great thing. Success!!",
-		date:"1/21/2016"
-	},{
-		user:"Joel JB Corr",
-		message:"Congratulations for your page. Her drawings are very good, intuitive full of energy and life. She is very professional in what she does, I recommend her services. They have her personal touch on everything. Highly recommended, you will not regret it",
 		date:"1/21/2016"
 	},{
 		user:"Joel JB Corr",

@@ -71,13 +71,13 @@ var services = [
 	// 	faIconBase: "fa-user",
 	},{
 		name:{
-			ENG:"Activation",
-			FREN:"Activation",
+			ENG:"Activations",
+			FREN:"Activations",
 			ESP:"Activaciones"
 		},
 		slug:{
-			ENG:"activation",
-			FREN:"activation-f",
+			ENG:"activations",
+			FREN:"activations-f",
 			ESP:"activaciones"
 		},
 		color: "#3366FF",
@@ -86,7 +86,7 @@ var services = [
 	},{
 		name:{
 			ENG:"Channeled Report",
-			FREN:"Rapoorts Canalisés",
+			FREN:"Rapports Canalisés",
 			ESP:"Reportes Canalizados"
 		},
 		slug:{

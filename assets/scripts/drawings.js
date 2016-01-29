@@ -157,9 +157,9 @@ var drawingsDB = [
 		],
 	},{
 		title: {
-			ENG:"Soul Portrait",
-			FREN:"Illustration de votre âme",
-			ESP:"Ilustración de su alma"
+			ENG:"Higher Self illustration",
+			FREN:"Illustration de votre Moi Supérieur",
+			ESP:"Ilustración de su Yo Superior"
 		},
 		data: [
 			{

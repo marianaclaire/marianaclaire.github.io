@@ -25,12 +25,12 @@ var data = {
 			},
 			desc:{
 				ENG:[
-					"<h3>Working Hour<h3>",
+					"<h3>Working Hours<h3>",
 					"<ul><li><b>Monday & Wed</b>: 7PM - 9PM</li><li><b>Thursday & Friday</b>: 10AM - 2PM & 7PM - 9PM</li><li><b>Saturday</b>: 1PM - 9PM</li><li><b>Sunday</b>: 10AM to 9PM</li></lu>",
 					"My time zone is Mountain from Calgary, Canada: UTC-07:00/ MDT. To find out the difference between your time and my time zone before scheduling please visit: <a href='http://www.timeanddate.com/worldclock/converter.html' target='_blank'>www.timeanddate.com/worldclock/converter.html</a>.",
 					"Please message or email me to schedule your session to <b>marianaclaireinfo@gmail.com</b>.",
 					"If this is a gift please let me know in the email and I will send you a gift certificate. The person for whom the gift certificate is for can redeem it at any time.",
-					"Once you have schedule the session please proceed to pay for the session through the Paypal link."
+					"Once you have scheduled the session please proceed to pay for the session through the Paypal link."
 				],
 				FREN:[
 					"<h3>Heures de disponibilité</h3>",
@@ -361,7 +361,7 @@ var data = {
 		},{
 			name:{
 				ENG:"Purchase a Package",
-				FREN:"Acheter un dessin spirituel + rapport canalisé",
+				FREN:"Acheter un dessin + rapport",
 				ESP:"Comprar el dibujo + el reporte"
 			},
 			desc:{

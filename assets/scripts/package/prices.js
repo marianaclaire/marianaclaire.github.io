@@ -42,9 +42,9 @@ var serviceText = {
 
 	payment: {
 		title: {
-			ENG: "Payment",
-			FREN: "Paiement",
-			ESP: "Pago"
+			ENG: "Prices",
+			FREN: "Prix",
+			ESP: "Precio"
 		},
 		paymentShortRedirect:{
 			ENG:"See full price list here.",
@@ -117,6 +117,44 @@ var serviceText = {
 							"$90 por un Reporte del Campo Áurico",
 							"$150 por un Reporte Áurico de su Relación",
 							"$100 por una Historia Corta sobre su vida pasada"
+					]
+				}
+			},{
+				title:{
+					ENG:"Soul Drawings",
+					FREN:"Dessins Spirituels",
+					ESP:"Dibujos Espirituales"
+				},
+				price:{
+					ENG:[
+						"$65 Higher Self Illustration",
+						"$65 Spirit Guide Illustration",
+						"$75 Intuitive Drawing",
+						"$90 Relationship Illustration",
+						"$100 Spiritual Team Illustration",
+						"$120 Aura Field Illustration",
+						"$200 Relationship Aura Field Illustration",
+						"$280 Past Life Comic Book"
+					],
+					FREN:[
+						"$65 Illustration de votre Moi Supérieur",
+						"$65 Illustration de votre Esprit Guide",
+						"$75 Dessin Intuitif",
+						"$90 Illustration de votre Relacion",
+						"$100 Illustration de votre Équipe Spirituelle",
+						"$120 Illustration du Champs Aurique",
+						"$200 Illustration du Champs Aurique de la Relation",
+						"$280 Bande-Dessinée sur votre Vie Passée"
+					],
+					ESP:[
+						"$65 Ilustración de su Yo Superior",
+						"$65 Ilustración de su Espíritu Guía",
+						"$75 Dibujo Intuitivo",
+						"$90 Ilustración de su Relación",
+						"$100 Ilustración de su Equipo Espiritual",
+						"$120 Ilustración de su Campo Aúrico",
+						"$200 Ilustración del Campo Aúrico de su Relación",
+						"$280 Comic de su Vida Pasada"
 					]
 				}
 			},{

@@ -1,7 +1,7 @@
 var servicesFull = {
 	readings: {
 		name: {
-			ENG:"Extra-sensory Reading",
+			ENG:"Extra-sensory Readings",
 			FREN:"Lectures Psychiques",
 			ESP:"Lecturas psíquicas"
 			},
@@ -65,7 +65,7 @@ var servicesFull = {
 	},
 	drawings: {
 		name: {
-			ENG:"Soul Drawing",
+			ENG:"Soul Drawings",
 			FREN:"Dessins spirituels",
 			ESP:"Dibujos espirituales"
 			},
@@ -169,7 +169,7 @@ var servicesFull = {
 	// },
 	healing: {
 		name: {
-			ENG: "Healing",
+			ENG: "Healings",
 			FREN:"Guérisons",
 			ESP:"Sanaciones"
 			},
@@ -278,7 +278,7 @@ var servicesFull = {
 	},
 	report:{
 		name:{
-			ENG:"Channeled Report",
+			ENG:"Channeled Reports",
 			FREN:"Rapports Canalisés",
 			ESP:"Reportes Canalizados"
 		},

@@ -246,19 +246,19 @@ var data = {
 			desc:{
 				ENG:[
 					"Please email or message me a picture of the person for whom the drawing is for to <b>marianaclaireinfo@gmail.com</b>",
-					"Please note that it will take around 3 to 5 days to receive your report.",
+					"Please note that it will take around 4 to 7 days to receive your report.",
 					"If this is a gift please let me know in the email and I will send you a gift certificate. The person for whom the gift certificate is for can redeem it at any time.",
 					"Please proceed to pay for the report through the Paypal link."
 				],
 				FREN:[
 					"S’il-vous-plaît envoyez moi une photo de la personne pour laquelle le rapport est destiné soit par message ou par courriel. <b>marianaclaireinfo@gmail.com</b>",
-					"Prenez note que cela peut prendre 3 à 5 jours avant de recevoir votre rapport par courriel.",
+					"Prenez note que cela peut prendre 4 à 7 jours avant de recevoir votre rapport par courriel.",
 					"Si vous désirez faire un cadeau s’il-vous-plaît faîtes le moi savoir par courriel et je vous enverrai un certificat cadeau. La personne qui le recevra pourra l’utiliser n’importe quand.",
 					"S’il-vous-plaît procédez au paiement du rapport par le lien PayPal.",
 				],
 				ESP:[
 					"Por favor envíenme un mensaje por correo electrónico y adjunte una foto de la persona a la que se le realizara el reporte a <b>marianaclaireinfo@gmail.com<\b>.",
-					"El reporte será enviado a su correo electrónico después de 3 a 5 días desde que se realizó el pago. ",
+					"El reporte será enviado a su correo electrónico después de 4 a 7 días desde que se realizó el pago. ",
 					"Si es para un regalo por favor hacérmelo saber en el email y les enviare un certificado de regalo. El certificado de regalo no expira y puede ser canjeado en cualquier momento.",
 					"Por favor procede a pagar mediante el link de Paypal."
 				]

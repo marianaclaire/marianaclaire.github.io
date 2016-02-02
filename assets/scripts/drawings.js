@@ -1,6 +1,23 @@
 var drawingsDB = [
 	{
 		title: {
+			ENG:"Spirit Team Illustration",
+			FREN:"Illustration de votre Équipe Spirituellee",
+			ESP:"Ilustración de su Equipo Espiritual"
+		},
+		data: [
+			{
+				name:{
+					ENG:"Lemurian mermaid, pleiadian, sirian and anunnaki aspects",
+					FREN:"Lemurian mermaid, pleiadian, sirian and anunnaki aspects",
+					ESP:"Lemurian mermaid, pleiadian, sirian and anunnaki aspects"
+				},
+				description:"",
+				image:"assets/images/drawings/lemurian-mermaid-pleiadian-sirian-anunnaki.jpg",
+			}
+		]
+	},{
+		title: {
 			ENG:"Aura field drawing",
 			FREN:"Illustration du Champs Aurique",
 			ESP:"Ilustración del campo del Aura"
@@ -267,23 +284,6 @@ var drawingsDB = [
 				},
 				description:"",
 				image:"assets/images/drawings/Gaia.jpg",
-			}
-		]
-	},{
-		title: {
-			ENG:"Spirit Team Illustration",
-			FREN:"Illustration de votre Équipe Spirituellee",
-			ESP:"Ilustración de su Equipo Espiritual"
-		},
-		data: [
-			{
-				name:{
-					ENG:"Lemurian mermaid, pleiadian, sirian and anunnaki aspects",
-					FREN:"Lemurian mermaid, pleiadian, sirian and anunnaki aspects",
-					ESP:"Lemurian mermaid, pleiadian, sirian and anunnaki aspects"
-				},
-				description:"",
-				image:"assets/images/drawings/lemurian-mermaid-pleiadian-sirian-anunnaki.jpg",
 			}
 		]
 	}

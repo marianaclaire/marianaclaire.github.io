@@ -3,6 +3,14 @@ var testimonials = {
 	length: 0,
 	data: [
 	{
+		user:"Janet Hope Horwitz",
+		message:"Mariana is an extremely gifted psychic. She was able to intuit a lot of things about me in a very short period of time, my current struggles, what would best serve me in terms of my life path and self care. She also was able to tell me about past lives. All of it resonated so well. She is very warm and authentic and it is easy to open up to her.",
+		date:"2/1/2016"
+	},{
+		user:"Chatmon Lee Hezekiah",
+		message:"She is so on point such a loving sentient being, who i highly recommend! She is always assisting me in tough times! Strongly gifted and Wise",
+		date:"2/1/2016"
+	},{
 		user:"Guada Tagalog",
 		message:"I love Mariana's intuitive gifts and her beautiful art. She shows genuine sincerity and always gives more than what you expect. She knows a lot about what she does and because of that, you'll know a lot about yourself too with her help.",
 		date:"1/24/2016"
